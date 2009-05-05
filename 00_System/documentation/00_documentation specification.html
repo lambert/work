@@ -1,0 +1,397 @@
+<html>
+<title>MyElectronics/work: documentation specification.</title>
+<body>
+<h1>Documentation.</h1>
+
+<hr>
+Revision:20090505
+<hr>
+
+<h2>Identification.</h2>
+All documents are to be uniquely numbered.
+<p>
+
+<h2>Correspondence.</h2>
+All correspondence documents to be stored/prepared in Microsoft Outlook Message (.msg) or plain ASCII text (.txt) format and to be uniquely numbered by the following numbering scheme:
+<b>"work/xx_${unit_name}/documentation/yyyymmdd_${description}.ext"</b><br>
+Where:
+<ul>
+  <li>xx  - unit number
+  <li>yyyy - year number
+  <li>mm - month number
+  <li>dd - day number
+  <li>ext - file extension
+</ul>
+<p>
+
+<h2>Specifications.</h2>
+All specification documents to be prepared in Hyper Text Markup Language format (.html), or plain ASCII text format (.txt), or Printable Document Format (.pdf), and to be uniquely numbered by the following numbering scheme:
+<b>"work/xx_${unit_name}/documentation/xx_${description}.ext"</b><br>
+Where:
+<ul>
+  <li>xx  - unit number
+  <li>ext - file extension
+</ul>
+<p>
+
+<h2>Schematics.</h2>
+All schematics to be prepared with gEDA gschem.<br>
+File name convention:
+<b>"work/xx_${unit_name}/electrical/gschem/xx.yyy.zz.aa.bb_${schematic_name}.sch"</b><br>
+Where:
+<ul>
+  <li>xx  - unit number
+  <li>yyy - part number
+  <li>zz  - revision number
+  <li>aa  - document number
+  <li>bb  - page number
+</ul>
+<p>
+
+<h2>PCB layouts.</h2>
+All printed circuit boards to be prepared with gPCB.<br>
+File name convention:
+<b>"work/xx_${unit_name}/electrical/pcb/xx.yyy.zz.aa.bb_${pcb_name}.pcb"</b><br>
+Where:
+<ul>
+  <li>xx  - unit number
+  <li>yyy - part number
+  <li>zz  - revision number
+  <li>aa  - document number
+  <li>bb  - page number
+</ul>
+<p>
+
+<h3>PCB Layer Configuration stack-up.</h3>
+All pcb layer configuration stack-ups to be according to <a href="00_PCB Layer Configurations.pdf">PCB Layer Configurations.</a>
+<p>
+
+<h3>Footprints.</h3>
+Naming of all footprint files and all embedded footprints to be in accordance
+with IPC standard IPC-7351A or any later version of the standard.<br>
+<p>
+
+<h2>PCA drawing specification.</h2>
+All drawings to be prepared with Autodesk AutoCAD.
+<ul>
+<li><u>Main system assembly shop drawings.</u><br>
+  File name convention:
+  <b>"work/00_System/mechanical/00.yyy.zz.aa.bb_${main_assembly_name}.dwg"</b><br>
+  Where:
+  <ul>
+    <li>xx  - unit number
+    <li>yyy - part number
+    <li>zz  - revision number
+    <li>aa  - document number
+    <li>bb  - page number
+  </ul>
+  Drawing objects:
+  <ul>
+    <li>Xref's: in modelspace
+    <ul>
+      <li>Layer:    All custom parts on layer "0"
+      <li>Linetype: "BYLAYER"
+      <li>Color:    "BYLAYER"
+    </ul>
+    <li>Dimensions: in paperspace
+    <ul>
+      <li>Layer:    "DIMENSIONS"
+      <li>Linetype: "BYLAYER"
+      <li>Color:    "BYLAYER"
+    </ul>
+    <li>Text: in paperspace
+    <ul>
+      <li>Layer:    "GENERAL"
+      <li>Linetype: "*"
+      <li>Color:    "*"
+    </ul>
+    <li>Other entities: in modelspace
+    <ul>
+      <li>Layer:    "0"
+      <li>Linetype: "*"
+      <li>Color:    "*"
+    </ul>
+  </ul>
+<br>
+
+<li><u>Assembly shop drawings.</u><br>
+  File name convention:
+  <b>"work/xx_${unit_name}/mechanical/xx.yyy.zz.aa.bb_${assembly_name}.dwg"</b><br>
+  Where:
+  <ul>
+    <li>xx  - unit number
+    <li>yyy - part number
+    <li>zz  - revision number
+    <li>aa  - document number
+    <li>bb  - page number
+  </ul>
+  Drawing objects:
+  <ul>
+    <li>Xref's: in modelspace
+    <ul>
+      <li>Layer:
+      <ul>
+        <li>All stock electrical parts on layer "0"
+        <li>All custom parts on layer "color_*"
+      </ul>
+      <li>Linetype: "BYLAYER"
+      <li>Color:    "BYLAYER"
+    </ul>
+    <li>Dimensions: in paperspace
+    <ul>
+      <li>Layer:    "DIMENSIONS"
+      <li>Linetype: "BYLAYER"
+      <li>Color:    "BYLAYER"
+    </ul>
+    <li>Text: in paperspace
+    <ul>
+      <li>Layer:    "GENERAL"
+      <li>Linetype: "*"
+      <li>Color:    "*"
+    </ul>
+    <li>Other entities: in modelspace
+    <ul>
+      <li>Layer:    "0"
+      <li>Linetype: "*"
+      <li>Color:    "*"
+    </ul>
+  </ul>
+<br>
+
+<li><u>Sub assembly shop drawings.</u><br>
+  File name convention:
+  <b>"work/xx_${unit_name}/mechanical/xx.yyy.zz.aa.bb_${sub_assembly_name}.dwg"</b><br>
+  Where:
+  <ul>
+    <li>xx  - unit number
+    <li>yyy - part number
+    <li>zz  - revision number
+    <li>aa  - document number
+    <li>bb  - page number
+  </ul>
+  Drawing objects:
+  <ul>
+    <li>Xref's: in modelspace
+    <ul>
+      <li>Layer:
+      <ul>
+        <li>All stock electrical parts on layer "0"
+        <li>All custom parts on layer "color_*"
+      </ul>
+      <li>Linetype: "BYLAYER"
+      <li>Color:    "BYLAYER"
+    </ul>
+    <li>Dimensions: in paperspace
+    <ul>
+      <li>Layer:    "DIMENSIONS"
+      <li>Linetype: "BYLAYER"
+      <li>Color:    "BYLAYER"
+    </ul>
+    <li>Text: in paperspace
+    <ul>
+      <li>Layer:    "GENERAL"
+      <li>Linetype: "*"
+      <li>Color:    "*"
+    </ul>
+    <li>Other entities: in modelspace
+    <ul>
+      <li>Layer:    "0"
+      <li>Linetype: "*"
+      <li>Color:    "*"
+    </ul>
+  </ul>
+<br>
+
+<li><u>Custom parts shop drawings / Special parts shop drawings.</u><br>
+  File name convention:
+  <b>"work/xx_${unit_name}/mechanical/xx.yyy.zz.aa.bb_${part_name}.dwg"</b><br>
+  Where:
+  <ul>
+    <li>xx  - unit number
+    <li>yyy - part number
+    <li>zz  - revision number
+    <li>aa  - document number
+    <li>bb  - page number
+  </ul>
+  Drawing objects:
+  <ul>
+    <li>Xref's: in modelspace
+    <ul>
+      <li>Layer:    "${part_name}"
+      <li>Color:    "GREEN"
+      <li>Linetype: "BYLAYER"
+    </ul>
+    <li>Dimensions: in paperspace
+    <ul>
+      <li>Layer:    "DIMENSIONS"
+      <li>Linetype: "BYLAYER"
+      <li>Color:    "BYLAYER"
+    </ul>
+    <li>Text: in paperspace
+    <ul>
+      <li>Layer:    "GENERAL"
+      <li>Linetype: "*"
+      <li>Color:    "*"
+    </ul>
+    <li>Other entities: in modelspace
+    <ul>
+      <li>Layer:    "0"
+      <li>Linetype: "*"
+      <li>Color:    "*"
+    </ul>
+  </ul>
+<br>
+
+<li><u>Main System assembly 3D-models.</u><br>
+  File name convention:
+  <b>"work/00_System/mechanical/parts/xx_${main_assembly_name}.dwg"</b><br>
+  Where:
+  <ul>
+    <li>xx  - unit number
+  </ul>
+  Drawing objects:<br>
+  <ul>
+    <li>Xref's: in modelspace
+    <ul>
+      <li>Layer:    "0"
+      <li>Linetype: "BYLAYER"
+      <li>Color:    "BYLAYER"
+    </ul>
+  </ul>
+<br>
+
+<li><u>Assembly 3D-models.</u><br>
+  File name convention:
+  <b>"work/xx_${unit_name}/mechanical/parts/xx_${assembly_name}.dwg"</b><br>
+  Where:
+  <ul>
+    <li>xx  - unit number
+  </ul>
+  Drawing objects:<br>
+  <ul>
+    <li>Xref's: in modelspace
+    <ul>
+      <li>Layer:    "0"
+      <li>Linetype: "BYLAYER"
+      <li>Color:    "BYLAYER"
+    </ul>
+  </ul>
+<br>
+
+<li><u>Sub assembly 3D-models.</u><br>
+  File name convention:
+  <b>"work/xx_${unit_name}/mechanical/parts/xx_${sub_assembly_name}.dwg"</b><br>
+  Where:<br>
+  <ul>
+    <li>xx  - unit number
+  </ul>
+  Drawing objects:<br>
+  <ul>
+    <li>Xref's: in modelspace
+    <ul>
+      <li>Layer:    "0"
+      <li>Linetype: "BYLAYER"
+      <li>Color:    "BYLAYER"
+    </ul>
+  </ul>
+<br>
+
+<li><u>Custom parts parts 3D-models.</u><br>
+  File name convention: for parts which are only mechanical significant.<br>
+  <b>"work/xx_${unit_name}/mechanical/parts/xx-${part_name}.dwg"</b><br>
+  Where:<br>
+  <ul>
+    <li>xx  - unit number
+  </ul>
+  Drawing objects:<br>
+  <ul>
+    <li>Xref's: in modelspace
+    <ul>
+      <li>Layer:    "0"
+      <li>Linetype: "BYLAYER"
+      <li>Color:    "BYLAYER"
+    </ul>
+    <li>Other entities: in modelspace
+    <ul>
+      <li>Layer:    "0"
+      <li>Linetype: "BYLAYER"
+      <li>Color:    "color_*"
+    </ul>
+  </ul>
+<br>
+
+<li><u>Stock electrical parts 3D-models.</u><br>
+  For parts which are significant for their electrical properties.<br>
+  File name convention:
+  <b>"pca-parts/${electrical_part_name}.dwg"</b><br>
+  Where:
+  <ul>
+    <li>${electrical_part_name}:
+    <b>"${IPC_footprint_name}_${manufacturer_name}_${manufacturer_part_number}_${type}_${finish}.dwg"</b>
+    <ul>
+      <li>${IPC_footprint_name}:
+      <li>${manufacturer_name}:
+      <li>${manufacturer_part_number}:
+      <li>${finish}:
+      <ul>
+        <li>"precut-leads"
+        <li>"gold-plated"
+        <li>"silver-plated",
+        <li>"nickel-plated",
+        <li>"A1C2",
+        <li>"C1A2",
+        <li>...
+      </ul>
+    </ul>
+  </ul>
+  Drawing objects:<br>
+  <ul>
+    <li>Xref's: in modelspace
+    <ul>
+      <li>Layer:    "0"
+      <li>Linetype: "BYLAYER"
+      <li>Color:    "BYLAYER"
+    </ul>
+    <li>Other entities: in modelspace
+    <ul>
+      <li>Layer:    "0"
+      <li>Linetype: "BYLAYER"
+      <li>Color:    "color_*"
+    </ul>
+  </ul>
+<br>
+    
+<li><u>Stock mechanical parts 3D-models.</u><br>
+  For parts conforming to an international standard and which are only significant for the mechanical assembly.<br>
+  For instance: screws, nuts, washers, spacers, housing parts, front panels, etc.<br>
+  File name convention:
+  <b>"pca-parts/MECH_${mechanical_part_name}.dwg"</b><br>
+  Where:
+  <ul>
+    <li>${mechanical_part_name}:<br>
+    <b>"${standard}_${type}_${size_or_dimensions}.dwg"</b>
+    <ul>
+      <li>${standard}: ["ISO *", "EN *", "DIN *", ... ]
+      <li>${type}:
+      <li>${size_or_dimensions}:
+    </ul>
+  </ul>
+  Drawing objects:<br>
+  <ul>
+    <li>Xref's: in modelspace
+    <ul>
+      <li>Layer:    "0"
+      <li>Linetype: "BYLAYER"
+      <li>Color:    "BYLAYER"
+    </ul>
+    <li>Other entities: in modelspace
+    <ul>
+      <li>Layer:    "0"
+      <li>Linetype: "BYLAYER"
+      <li>Color:    "color_*"
+    </ul>
+  </ul>
+</ul>
+
+</body>
+</html>
