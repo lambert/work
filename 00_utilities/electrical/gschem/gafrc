@@ -1,0 +1,11 @@
+(component-library "function_blocks")
+(component-library "sym")
+(component-library "sym/components")
+(component-library "sym/generic")
+(component-library "sym/mechanical")
+(component-library "sym/power")
+(component-library "sym/sheets")
+(component-library "sym/units")
+(component-library "sym/vhdl")
+(paper-size 16.54 11.69)
+lib-newlib = /users/users/bert/MyDocuments/MyElectronics/work/pcb-footprints/
