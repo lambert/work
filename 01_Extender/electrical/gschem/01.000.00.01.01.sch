@@ -171,7 +171,7 @@ device=EXTENDER
 T 26700 1400 5 10 1 1 0 0 1
 comment=Schematic
 T 26700 1600 5 10 1 1 0 0 1
-description=Rabulab DIN41617 31 pin Bus Extender
+description=19" rack DIN41617 31 pin Bus Extender
 }
 N 13600 9700 11100 9700 4
 {
