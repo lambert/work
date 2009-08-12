@@ -3,6 +3,7 @@
 *.log
 mechanical/eyecandy
 mechanical/plotfiles
+electrical/gschem/BOM
 electrical/gschem/plotfiles
 electrical/pcb/eyecandy
 electrical/pcb/fab
