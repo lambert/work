@@ -1,0 +1,6 @@
+use-files
+elements-dir ../../../pcb-footprints/04_released
+elements-dir ../../../pcb-footprints/03_stable
+elements-dir ../../../pcb-footprints/02_experimental
+schematics gschem/26.007.01.01.01.sch
+output-name pcb/26.007.01.01.01
