@@ -1,0 +1,124 @@
+v 20061020 1
+B 700 0 4300 2700 3 0 0 0 -1 -1 0 0 -1 -1 -1 -1
+T 700 3200 5 10 0 0 0 0 1
+device=BURST_GENERATOR
+T 700 3000 2 10 1 1 0 0 1
+refdes=U?
+T 700 2750 3 10 1 0 0 0 1
+Burst Generator
+P 5000 2400 5300 2400 1 0 1
+{
+T 5100 2450 5 8 1 1 0 0 1
+pinnumber=7
+T 5100 2450 5 8 0 0 0 0 1
+pinseq=9
+T 4900 2400 5 10 1 1 0 6 1
+pinlabel=Burst Gen Out
+T 5000 2400 5 10 0 0 0 0 1
+pintype=out
+}
+P 5000 2100 5300 2100 1 0 1
+{
+T 5100 2150 5 8 1 1 0 0 1
+pinnumber=13
+T 5100 2150 5 8 0 0 0 0 1
+pinseq=10
+T 5000 2100 5 10 0 0 0 0 1
+pintype=out
+T 4900 2100 5 10 1 1 0 6 1
+pinlabel=Burst Sync
+}
+P 700 1800 400 1800 1 0 1
+{
+T 600 1850 5 8 1 1 0 6 1
+pinnumber=29
+T 600 1850 5 8 0 0 0 6 1
+pinseq=3
+T 800 1800 5 10 1 1 0 0 1
+pinlabel=-15VDC
+T 700 1800 5 10 0 0 0 0 1
+pintype=pwr
+}
+P 700 2100 400 2100 1 0 1
+{
+T 600 2150 5 8 1 1 0 6 1
+pinnumber=30
+T 600 2150 5 8 0 0 0 6 1
+pinseq=2
+T 800 2100 5 10 1 1 0 0 1
+pinlabel=GND
+T 700 2100 5 10 0 0 0 0 1
+pintype=pwr
+}
+P 700 2400 400 2400 1 0 1
+{
+T 600 2450 5 8 1 1 0 6 1
+pinnumber=31
+T 600 2450 5 8 0 0 0 6 1
+pinseq=1
+T 800 2400 5 10 1 1 0 0 1
+pinlabel=+15VDC
+T 600 2400 5 10 0 1 0 0 1
+pintype=pwr
+}
+P 700 1500 400 1500 1 0 1
+{
+T 600 1550 5 8 1 1 0 6 1
+pinnumber=11
+T 600 1550 5 8 0 0 0 6 1
+pinseq=4
+T 500 1500 5 10 0 1 0 0 1
+pintype=in
+T 600 1500 5 10 0 1 0 0 1
+pintype=in
+T 800 1500 5 10 1 1 0 0 1
+pinlabel=Function Gen Zero Crossing
+}
+P 700 1200 400 1200 1 0 1
+{
+T 600 1250 5 8 1 1 0 6 1
+pinnumber=12
+T 600 1250 5 8 0 0 0 6 1
+pinseq=6
+T 800 1200 5 10 1 1 0 0 1
+pinlabel=Sweep Sync
+T 600 1200 5 10 0 1 0 0 1
+pintype=in
+}
+P 700 900 400 900 1 0 1
+{
+T 600 950 5 8 1 1 0 6 1
+pinnumber=17
+T 600 950 5 8 0 0 0 6 1
+pinseq=6
+T 800 900 5 10 1 1 0 0 1
+pinlabel=Mux Reset
+T 500 900 5 10 0 1 0 0 1
+pintype=in
+}
+P 700 600 400 600 1 0 1
+{
+T 600 650 5 8 1 1 0 6 1
+pinnumber=4
+T 600 650 5 8 0 0 0 6 1
+pinseq=7
+T 800 600 5 10 1 1 0 0 1
+pinlabel=Noise Gen Output
+}
+P 700 300 400 300 1 0 1
+{
+T 600 350 5 8 1 1 0 6 1
+pinnumber=9
+T 600 350 5 8 0 0 0 6 1
+pinseq=8
+T 800 300 5 10 1 1 0 0 1
+pinlabel=Function Gen Output
+}
+T 700 3400 5 10 0 0 0 0 1
+use-license=unlimited
+T 700 3600 5 10 0 0 0 0 1
+dist-license=GPL
+T 700 3800 5 10 0 0 0 0 1
+email=bert.timmerman@xs4all.nl
+T 700 4000 5 10 0 0 0 0 1
+author=Bert Timmerman
