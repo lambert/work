@@ -187,7 +187,7 @@ page=1
 T 28200 600 5 10 1 1 0 0 1
 pages=1
 T 30600 900 5 10 1 1 0 0 1
-revision=20090823
+revision=20090827
 T 30600 600 5 10 1 1 0 0 1
 author=Bert Timmerman
 T 26600 1200 5 10 1 1 0 0 1
@@ -318,6 +318,8 @@ T 2250 23300 5 10 0 0 0 0 1
 symversion=1.0
 T 2100 21000 5 10 0 1 0 0 1
 vendor=Stevab
+T 2300 23200 5 10 0 0 0 0 1
+footprint=none
 }
 C 1900 21900 1 0 0 input-1.sym
 {
