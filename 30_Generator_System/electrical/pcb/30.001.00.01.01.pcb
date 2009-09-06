@@ -1,5 +1,5 @@
 # release: pcb 20081128
-# date:    Thu Sep  3 16:53:31 2009
+# date:    Sun Sep  6 21:19:32 2009
 # user:    bert (L.J.H. Timmerman)
 # host:    steiger.localdomain
 
@@ -13,7 +13,7 @@ Cursor[10000 172500 6.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[1000 1000 1000 1000 1500 1000]
-Flags("rubberband,nameonpcb,snappin,showmask,orthomove")
+Flags("rubberband,nameonpcb,showmask")
 Groups("1,s:2,c:3:4:5:6:7:8")
 Styles["Signal,1000,4000,2000,1000:Power,2500,6000,3500,1000:Fat,4000,6000,3500,1000:Skinny,800,3600,2000,1000"]
 
@@ -878,25 +878,25 @@ Element["lock" "CON_DIN41617__Assmann_A-31-L2" "J102" "" 129527 251969 -1967 -19
 
 	)
 
-Element["lock" "JUMPER" "F" "" 59055 444882 3938 -1968 0 100 ""]
+Element["lock" "JUMPER" "F101_1" "" 59055 444882 -1555 22618 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "F" "" 59055 370079 3938 -1968 0 100 ""]
+Element["lock" "JUMPER" "F101_2" "" 59055 370079 -1555 -7579 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "F" "" 182677 370079 4329 -1968 0 100 ""]
+Element["lock" "JUMPER" "F103_2" "" 182677 370079 -2677 -5079 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "F" "" 182677 444882 4724 -1969 0 100 ""]
+Element["lock" "JUMPER" "F103_1" "" 182677 444882 -2677 25118 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
@@ -986,19 +986,19 @@ Element["lock" "CON_DIN41617__Assmann_A-31-L2" "J104" "" 329527 251969 -1967 -19
 
 	)
 
-Element["lock" "JUMPER" "N" "" 194488 454724 4331 -1969 0 100 ""]
+Element["lock" "JUMPER" "N103_1" "" 194488 454724 -1988 25276 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "N" "" 94488 360236 4329 -1969 0 100 ""]
+Element["lock" "JUMPER" "N102_2" "" 94488 360236 -1988 -7736 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "N" "" 94488 454724 4331 -1969 0 100 ""]
+Element["lock" "JUMPER" "N102_1" "" 94488 454724 -1988 22776 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
@@ -1046,25 +1046,25 @@ Element["lock" "CON_DIN41617__Assmann_A-31-L2" "J109" "" 829527 251969 -1967 -19
 
 	)
 
-Element["lock" "JUMPER" "F" "" 82677 444882 4724 -1969 0 100 ""]
+Element["lock" "JUMPER" "F102_1" "" 82677 444882 -2677 22618 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "F" "" 82677 370079 4329 -1968 0 100 ""]
+Element["lock" "JUMPER" "F102_2" "" 82677 370079 -2677 -7579 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "N" "" 71055 454730 3937 -1968 0 100 ""]
+Element["lock" "JUMPER" "N101_1" "" 71055 454730 -1055 22770 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "N" "" 70866 360236 3937 -1969 0 100 ""]
+Element["lock" "JUMPER" "N101_2" "" 70866 360236 -866 -7736 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
@@ -1238,37 +1238,37 @@ Element["lock" "CON_DIN41617__Assmann_A-31-L2" "J113" "" 1229527 251969 -1967 -1
 
 	)
 
-Element["lock" "JUMPER" "F" "" 282677 370079 4329 -1968 0 100 ""]
+Element["lock" "JUMPER" "F104_2" "" 282677 370079 -2677 -5079 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "N" "" 294488 360236 4329 -1969 0 100 ""]
+Element["lock" "JUMPER" "N104_2" "" 294488 360236 -1988 -5236 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "F" "" 282677 444882 4724 -1969 0 100 ""]
+Element["lock" "JUMPER" "F104_1" "" 282677 444882 -2677 22618 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "N" "" 394488 454724 4331 -1969 0 100 ""]
+Element["lock" "JUMPER" "N105_1" "" 394488 454724 -1988 22776 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "F" "" 382677 444882 4724 -1969 0 100 ""]
+Element["lock" "JUMPER" "F105_1" "" 382677 444882 -2677 22618 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "N" "" 394488 360236 4329 -1969 0 100 ""]
+Element["lock" "JUMPER" "N105_2" "" 394488 360236 -1988 -5236 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
@@ -1316,7 +1316,7 @@ Element["lock" "CON_DIN41617__Assmann_A-31-L2" "J108" "" 729527 251969 -1967 -19
 
 	)
 
-Element["lock" "JUMPER" "F" "" 382677 370079 4329 -1968 0 100 ""]
+Element["lock" "JUMPER" "F105_2" "" 382677 370079 -2677 -5079 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
@@ -1448,13 +1448,13 @@ Element["lock" "CON_DIN41617__Assmann_A-31-L2" "J112" "" 1129527 251969 -1967 -1
 
 	)
 
-Element["lock" "JUMPER" "N" "" 294488 454724 4331 -1969 0 100 ""]
+Element["lock" "JUMPER" "N104_1" "" 294488 454724 -1988 22776 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "N" "" 194488 360236 4329 -1969 0 100 ""]
+Element["lock" "JUMPER" "N103_2" "" 194488 360236 -1988 -5236 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
@@ -1628,289 +1628,289 @@ Element["lock" "CON_DIN41617__Assmann_A-31-L2" "J116" "" 1529527 251969 -1967 -1
 
 	)
 
-Element["lock" "JUMPER" "N" "" 494488 454724 4331 -1969 0 100 ""]
+Element["lock" "JUMPER" "N106_1" "" 494488 454724 -1988 22776 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "F" "" 482677 444882 4724 -1969 0 100 ""]
+Element["lock" "JUMPER" "F106_1" "" 482677 444882 -2677 22618 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "N" "" 494488 360236 4329 -1969 0 100 ""]
+Element["lock" "JUMPER" "N106_2" "" 494488 360236 -1988 -5236 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "F" "" 482677 370079 4329 -1968 0 100 ""]
+Element["lock" "JUMPER" "F106_2" "" 482677 370079 -2677 -5079 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "N" "" 594488 454724 4331 -1969 0 100 ""]
+Element["lock" "JUMPER" "N107_1" "" 594488 454724 -1988 22776 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "F" "" 582677 444882 4724 -1969 0 100 ""]
+Element["lock" "JUMPER" "F107_1" "" 582677 444882 -2677 22618 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "N" "" 594488 360236 4329 -1969 0 100 ""]
+Element["lock" "JUMPER" "N107_2" "" 594488 360236 -1988 -5236 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "F" "" 582677 370079 4329 -1968 0 100 ""]
+Element["lock" "JUMPER" "F107_2" "" 582677 370079 -2677 -5079 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "N" "" 694488 454724 4331 -1969 0 100 ""]
+Element["lock" "JUMPER" "N108_1" "" 694488 454724 -1988 22776 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "F" "" 682677 444882 4724 -1969 0 100 ""]
+Element["lock" "JUMPER" "F108_1" "" 682677 444882 -2677 22618 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "N" "" 694488 360236 4329 -1969 0 100 ""]
+Element["lock" "JUMPER" "N108_2" "" 694488 360236 -1988 -5236 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "F" "" 682677 370079 4329 -1968 0 100 ""]
+Element["lock" "JUMPER" "F108_2" "" 682677 370079 -2677 -5079 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "N" "" 794488 454724 4331 -1969 0 100 ""]
+Element["lock" "JUMPER" "N109_1" "" 794488 454724 -1988 22776 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "F" "" 782677 444882 4724 -1969 0 100 ""]
+Element["lock" "JUMPER" "F109_1" "" 782677 444882 -2677 22618 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "N" "" 794488 360236 4329 -1969 0 100 ""]
+Element["lock" "JUMPER" "N109_2" "" 794488 360236 -1988 -5236 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "F" "" 782677 370079 4329 -1968 0 100 ""]
+Element["lock" "JUMPER" "F109_2" "" 782677 370079 -2677 -5079 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "N" "" 894488 454724 4331 -1969 0 100 ""]
+Element["lock" "JUMPER" "N110_1" "" 894488 454724 -1988 22776 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "F" "" 882677 444882 4724 -1969 0 100 ""]
+Element["lock" "JUMPER" "F110_1" "" 882677 444882 -2677 22618 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "N" "" 894488 360236 4329 -1969 0 100 ""]
+Element["lock" "JUMPER" "N110_2" "" 894488 360236 -1988 -5236 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "F" "" 882677 370079 4329 -1968 0 100 ""]
+Element["lock" "JUMPER" "F110_2" "" 882677 370079 -2677 -5079 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "N" "" 994488 454724 4331 -1969 0 100 ""]
+Element["lock" "JUMPER" "N111_1" "" 994488 454724 -1988 22776 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "F" "" 982677 444882 4724 -1969 0 100 ""]
+Element["lock" "JUMPER" "F111_1" "" 982677 444882 -2677 22618 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "N" "" 994488 360236 4329 -1969 0 100 ""]
+Element["lock" "JUMPER" "N111_2" "" 994488 360236 -1988 -5236 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "F" "" 982677 370079 4329 -1968 0 100 ""]
+Element["lock" "JUMPER" "F111_2" "" 982677 370079 -2677 -5079 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "N" "" 1094488 454724 4331 -1969 0 100 ""]
+Element["lock" "JUMPER" "N112_1" "" 1094488 454724 -1988 22776 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "F" "" 1082677 444882 4724 -1969 0 100 ""]
+Element["lock" "JUMPER" "F112_1" "" 1082677 444882 -2677 22618 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "N" "" 1094488 360236 4329 -1969 0 100 ""]
+Element["lock" "JUMPER" "N112_2" "" 1094488 360236 -1988 -5236 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "F" "" 1082677 370079 4329 -1968 0 100 ""]
+Element["lock" "JUMPER" "F112_2" "" 1082677 370079 -2677 -5079 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "N" "" 1194488 454724 4331 -1969 0 100 ""]
+Element["lock" "JUMPER" "N113_1" "" 1194488 454724 -1988 22776 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "F" "" 1182677 444882 4724 -1969 0 100 ""]
+Element["lock" "JUMPER" "F113_1" "" 1182677 444882 -2677 22618 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "N" "" 1194488 360236 4329 -1969 0 100 ""]
+Element["lock" "JUMPER" "N113_2" "" 1194488 360236 -1988 -5236 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "F" "" 1182677 370079 4329 -1968 0 100 ""]
+Element["lock" "JUMPER" "F113_2" "" 1182677 370079 -2677 -5079 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "N" "" 1294488 454724 4331 -1969 0 100 ""]
+Element["lock" "JUMPER" "N114_1" "" 1294488 454724 -1988 22776 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "F" "" 1282677 444882 4724 -1969 0 100 ""]
+Element["lock" "JUMPER" "F114_1" "" 1282677 444882 -2677 22618 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "N" "" 1294488 360236 4329 -1969 0 100 ""]
+Element["lock" "JUMPER" "N114_2" "" 1294488 360236 -1988 -5236 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "F" "" 1282677 370079 4329 -1968 0 100 ""]
+Element["lock" "JUMPER" "F114_2" "" 1282677 370079 -2677 -5079 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "N" "" 1394488 454724 4331 -1969 0 100 ""]
+Element["lock" "JUMPER" "N115_1" "" 1394488 454724 -1988 22776 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "F" "" 1382677 444882 4724 -1969 0 100 ""]
+Element["lock" "JUMPER" "F115_1" "" 1382677 444882 -2677 22618 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "N" "" 1394488 360236 4329 -1969 0 100 ""]
+Element["lock" "JUMPER" "N115_2" "" 1394488 360236 -1988 -5236 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "F" "" 1382677 370079 4329 -1968 0 100 ""]
+Element["lock" "JUMPER" "F115_2" "" 1382677 370079 -2677 -5079 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "N" "" 1494488 454724 4331 -1969 0 100 ""]
+Element["lock" "JUMPER" "N116_1" "" 1494488 454724 -1988 22776 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "F" "" 1482677 444882 4724 -1969 0 100 ""]
+Element["lock" "JUMPER" "F116_1" "" 1482677 444882 -2677 22618 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "N" "" 1494488 360236 4329 -1969 0 100 ""]
+Element["lock" "JUMPER" "N116_2" "" 1494488 360236 -1988 -5236 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "F" "" 1482677 370079 4329 -1968 0 100 ""]
+Element["lock" "JUMPER" "F116_2" "" 1482677 370079 -2677 -5079 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "N" "" 1594488 454724 4331 -1969 0 100 ""]
+Element["lock" "JUMPER" "N117_1" "" 1594488 454724 -1988 22776 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "F" "" 1582677 444882 4724 -1969 0 100 ""]
+Element["lock" "JUMPER" "F117_1" "" 1582677 444882 -2677 22618 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "N" "" 1594488 360236 4329 -1969 0 100 ""]
+Element["lock" "JUMPER" "N117_2" "" 1594488 360236 -1988 -5236 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
 
-Element["lock" "JUMPER" "F" "" 1582677 370079 4329 -1968 0 100 ""]
+Element["lock" "JUMPER" "F117_2" "" 1582677 370079 -2677 -5079 1 100 ""]
 (
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
@@ -2231,7 +2231,7 @@ Layer(6 "signal2")
 Layer(7 "invisible")
 (
 	Line[70866 454541 71055 454730 1000 2000 ""]
-	Line[59055 444882 59055 370079 2500 2000 ""]
+	Line[59055 444882 59055 370079 2500 2000 "lock"]
 	Line[70866 360236 70866 454541 2500 2000 ""]
 )
 Layer(8 "outline")
@@ -2282,4 +2282,791 @@ Layer(10 "component_silk")
 	Line[1582677 375000 1582677 440000 1000 2000 ""]
 	Text[59055 490157 0 100 "230V AC" ""]
 	Text[66929 494094 0 100 "" ""]
+)
+NetList()
+(
+	Net("BUS_01" "(unknown)")
+	(
+		Connect("J101-1")
+		Connect("J102-1")
+		Connect("J103-1")
+		Connect("J104-1")
+		Connect("J105-1")
+		Connect("J106-1")
+		Connect("J107-1")
+		Connect("J108-1")
+		Connect("J109-1")
+		Connect("J110-1")
+		Connect("J111-1")
+		Connect("J112-1")
+		Connect("J113-1")
+		Connect("J114-1")
+		Connect("J115-1")
+		Connect("J116-1")
+		Connect("J117-1")
+	)
+	Net("BUS_02" "(unknown)")
+	(
+		Connect("J101-2")
+		Connect("J102-2")
+		Connect("J103-2")
+		Connect("J104-2")
+		Connect("J105-2")
+		Connect("J106-2")
+		Connect("J107-2")
+		Connect("J108-2")
+		Connect("J109-2")
+		Connect("J110-2")
+		Connect("J111-2")
+		Connect("J112-2")
+		Connect("J113-2")
+		Connect("J114-2")
+		Connect("J115-2")
+		Connect("J116-2")
+		Connect("J117-2")
+	)
+	Net("BUS_03" "(unknown)")
+	(
+		Connect("J101-3")
+		Connect("J102-3")
+		Connect("J103-3")
+		Connect("J104-3")
+		Connect("J105-3")
+		Connect("J106-3")
+		Connect("J107-3")
+		Connect("J108-3")
+		Connect("J109-3")
+		Connect("J110-3")
+		Connect("J111-3")
+		Connect("J112-3")
+		Connect("J113-3")
+		Connect("J114-3")
+		Connect("J115-3")
+		Connect("J116-3")
+		Connect("J117-3")
+	)
+	Net("BUS_04" "(unknown)")
+	(
+		Connect("J101-4")
+		Connect("J102-4")
+		Connect("J103-4")
+		Connect("J104-4")
+		Connect("J105-4")
+		Connect("J106-4")
+		Connect("J107-4")
+		Connect("J108-4")
+		Connect("J109-4")
+		Connect("J110-4")
+		Connect("J111-4")
+		Connect("J112-4")
+		Connect("J113-4")
+		Connect("J114-4")
+		Connect("J115-4")
+		Connect("J116-4")
+		Connect("J117-4")
+	)
+	Net("BUS_05" "(unknown)")
+	(
+		Connect("J101-5")
+		Connect("J102-5")
+		Connect("J103-5")
+		Connect("J104-5")
+		Connect("J105-5")
+		Connect("J106-5")
+		Connect("J107-5")
+		Connect("J108-5")
+		Connect("J109-5")
+		Connect("J110-5")
+		Connect("J111-5")
+		Connect("J112-5")
+		Connect("J113-5")
+		Connect("J114-5")
+		Connect("J115-5")
+		Connect("J116-5")
+		Connect("J117-5")
+	)
+	Net("BUS_06" "(unknown)")
+	(
+		Connect("J101-6")
+		Connect("J102-6")
+		Connect("J103-6")
+		Connect("J104-6")
+		Connect("J105-6")
+		Connect("J106-6")
+		Connect("J107-6")
+		Connect("J108-6")
+		Connect("J109-6")
+		Connect("J110-6")
+		Connect("J111-6")
+		Connect("J112-6")
+		Connect("J113-6")
+		Connect("J114-6")
+		Connect("J115-6")
+		Connect("J116-6")
+		Connect("J117-6")
+	)
+	Net("BUS_07" "(unknown)")
+	(
+		Connect("J101-7")
+		Connect("J102-7")
+		Connect("J103-7")
+		Connect("J104-7")
+		Connect("J105-7")
+		Connect("J106-7")
+		Connect("J107-7")
+		Connect("J108-7")
+		Connect("J109-7")
+		Connect("J110-7")
+		Connect("J111-7")
+		Connect("J112-7")
+		Connect("J113-7")
+		Connect("J114-7")
+		Connect("J115-7")
+		Connect("J116-7")
+		Connect("J117-7")
+	)
+	Net("BUS_08" "(unknown)")
+	(
+		Connect("J101-8")
+		Connect("J102-8")
+		Connect("J103-8")
+		Connect("J104-8")
+		Connect("J105-8")
+		Connect("J106-8")
+		Connect("J107-8")
+		Connect("J108-8")
+		Connect("J109-8")
+		Connect("J110-8")
+		Connect("J111-8")
+		Connect("J112-8")
+		Connect("J113-8")
+		Connect("J114-8")
+		Connect("J115-8")
+		Connect("J116-8")
+		Connect("J117-8")
+	)
+	Net("BUS_09" "(unknown)")
+	(
+		Connect("J101-9")
+		Connect("J102-9")
+		Connect("J103-9")
+		Connect("J104-9")
+		Connect("J105-9")
+		Connect("J106-9")
+		Connect("J107-9")
+		Connect("J108-9")
+		Connect("J109-9")
+		Connect("J110-9")
+		Connect("J111-9")
+		Connect("J112-9")
+		Connect("J113-9")
+		Connect("J114-9")
+		Connect("J115-9")
+		Connect("J116-9")
+		Connect("J117-9")
+	)
+	Net("BUS_10" "(unknown)")
+	(
+		Connect("J101-10")
+		Connect("J102-10")
+		Connect("J103-10")
+		Connect("J104-10")
+		Connect("J105-10")
+		Connect("J106-10")
+		Connect("J107-10")
+		Connect("J108-10")
+		Connect("J109-10")
+		Connect("J110-10")
+		Connect("J111-10")
+		Connect("J112-10")
+		Connect("J113-10")
+		Connect("J114-10")
+		Connect("J115-10")
+		Connect("J116-10")
+		Connect("J117-10")
+	)
+	Net("BUS_11" "(unknown)")
+	(
+		Connect("J101-11")
+		Connect("J102-11")
+		Connect("J103-11")
+		Connect("J104-11")
+		Connect("J105-11")
+		Connect("J106-11")
+		Connect("J107-11")
+		Connect("J108-11")
+		Connect("J109-11")
+		Connect("J110-11")
+		Connect("J111-11")
+		Connect("J112-11")
+		Connect("J113-11")
+		Connect("J114-11")
+		Connect("J115-11")
+		Connect("J116-11")
+		Connect("J117-11")
+	)
+	Net("BUS_12" "(unknown)")
+	(
+		Connect("J101-12")
+		Connect("J102-12")
+		Connect("J103-12")
+		Connect("J104-12")
+		Connect("J105-12")
+		Connect("J106-12")
+		Connect("J107-12")
+		Connect("J108-12")
+		Connect("J109-12")
+		Connect("J110-12")
+		Connect("J111-12")
+		Connect("J112-12")
+		Connect("J113-12")
+		Connect("J114-12")
+		Connect("J115-12")
+		Connect("J116-12")
+		Connect("J117-12")
+	)
+	Net("BUS_13" "(unknown)")
+	(
+		Connect("J101-13")
+		Connect("J102-13")
+		Connect("J103-13")
+		Connect("J104-13")
+		Connect("J105-13")
+		Connect("J106-13")
+		Connect("J107-13")
+		Connect("J108-13")
+		Connect("J109-13")
+		Connect("J110-13")
+		Connect("J111-13")
+		Connect("J112-13")
+		Connect("J113-13")
+		Connect("J114-13")
+		Connect("J115-13")
+		Connect("J116-13")
+		Connect("J117-13")
+	)
+	Net("BUS_14" "(unknown)")
+	(
+		Connect("J101-14")
+		Connect("J102-14")
+		Connect("J103-14")
+		Connect("J104-14")
+		Connect("J105-14")
+		Connect("J106-14")
+		Connect("J107-14")
+		Connect("J108-14")
+		Connect("J109-14")
+		Connect("J110-14")
+		Connect("J111-14")
+		Connect("J112-14")
+		Connect("J113-14")
+		Connect("J114-14")
+		Connect("J115-14")
+		Connect("J116-14")
+		Connect("J117-14")
+	)
+	Net("BUS_15" "(unknown)")
+	(
+		Connect("J101-15")
+		Connect("J102-15")
+		Connect("J103-15")
+		Connect("J104-15")
+		Connect("J105-15")
+		Connect("J106-15")
+		Connect("J107-15")
+		Connect("J108-15")
+		Connect("J109-15")
+		Connect("J110-15")
+		Connect("J111-15")
+		Connect("J112-15")
+		Connect("J113-15")
+		Connect("J114-15")
+		Connect("J115-15")
+		Connect("J116-15")
+		Connect("J117-15")
+	)
+	Net("BUS_16" "(unknown)")
+	(
+		Connect("J101-16")
+		Connect("J102-16")
+		Connect("J103-16")
+		Connect("J104-16")
+		Connect("J105-16")
+		Connect("J106-16")
+		Connect("J107-16")
+		Connect("J108-16")
+		Connect("J109-16")
+		Connect("J110-16")
+		Connect("J111-16")
+		Connect("J112-16")
+		Connect("J113-16")
+		Connect("J114-16")
+		Connect("J115-16")
+		Connect("J116-16")
+		Connect("J117-16")
+	)
+	Net("BUS_17" "(unknown)")
+	(
+		Connect("J101-17")
+		Connect("J102-17")
+		Connect("J103-17")
+		Connect("J104-17")
+		Connect("J105-17")
+		Connect("J106-17")
+		Connect("J107-17")
+		Connect("J108-17")
+		Connect("J109-17")
+		Connect("J110-17")
+		Connect("J111-17")
+		Connect("J112-17")
+		Connect("J113-17")
+		Connect("J114-17")
+		Connect("J115-17")
+		Connect("J116-17")
+		Connect("J117-17")
+	)
+	Net("BUS_18" "(unknown)")
+	(
+		Connect("J101-18")
+		Connect("J102-18")
+		Connect("J103-18")
+		Connect("J104-18")
+		Connect("J105-18")
+		Connect("J106-18")
+		Connect("J107-18")
+		Connect("J108-18")
+		Connect("J109-18")
+		Connect("J110-18")
+		Connect("J111-18")
+		Connect("J112-18")
+		Connect("J113-18")
+		Connect("J114-18")
+		Connect("J115-18")
+		Connect("J116-18")
+		Connect("J117-18")
+	)
+	Net("BUS_19" "(unknown)")
+	(
+		Connect("J101-19")
+		Connect("J102-19")
+		Connect("J103-19")
+		Connect("J104-19")
+		Connect("J105-19")
+		Connect("J106-19")
+		Connect("J107-19")
+		Connect("J108-19")
+		Connect("J109-19")
+		Connect("J110-19")
+		Connect("J111-19")
+		Connect("J112-19")
+		Connect("J113-19")
+		Connect("J114-19")
+		Connect("J115-19")
+		Connect("J116-19")
+		Connect("J117-19")
+	)
+	Net("BUS_20" "(unknown)")
+	(
+		Connect("J101-20")
+		Connect("J102-20")
+		Connect("J103-20")
+		Connect("J104-20")
+		Connect("J105-20")
+		Connect("J106-20")
+		Connect("J107-20")
+		Connect("J108-20")
+		Connect("J109-20")
+		Connect("J110-20")
+		Connect("J111-20")
+		Connect("J112-20")
+		Connect("J113-20")
+		Connect("J114-20")
+		Connect("J115-20")
+		Connect("J116-20")
+		Connect("J117-20")
+	)
+	Net("BUS_21" "(unknown)")
+	(
+		Connect("J101-21")
+		Connect("J102-21")
+		Connect("J103-21")
+		Connect("J104-21")
+		Connect("J105-21")
+		Connect("J106-21")
+		Connect("J107-21")
+		Connect("J108-21")
+		Connect("J109-21")
+		Connect("J110-21")
+		Connect("J111-21")
+		Connect("J112-21")
+		Connect("J113-21")
+		Connect("J114-21")
+		Connect("J115-21")
+		Connect("J116-21")
+		Connect("J117-21")
+	)
+	Net("BUS_22" "(unknown)")
+	(
+		Connect("J101-22")
+		Connect("J102-22")
+		Connect("J103-22")
+		Connect("J104-22")
+		Connect("J105-22")
+		Connect("J106-22")
+		Connect("J107-22")
+		Connect("J108-22")
+		Connect("J109-22")
+		Connect("J110-22")
+		Connect("J111-22")
+		Connect("J112-22")
+		Connect("J113-22")
+		Connect("J114-22")
+		Connect("J115-22")
+		Connect("J116-22")
+		Connect("J117-22")
+	)
+	Net("BUS_23" "(unknown)")
+	(
+		Connect("J101-23")
+		Connect("J102-23")
+		Connect("J103-23")
+		Connect("J104-23")
+		Connect("J105-23")
+		Connect("J106-23")
+		Connect("J107-23")
+		Connect("J108-23")
+		Connect("J109-23")
+		Connect("J110-23")
+		Connect("J111-23")
+		Connect("J112-23")
+		Connect("J113-23")
+		Connect("J114-23")
+		Connect("J115-23")
+		Connect("J116-23")
+		Connect("J117-23")
+	)
+	Net("BUS_24" "(unknown)")
+	(
+		Connect("J101-24")
+		Connect("J102-24")
+		Connect("J103-24")
+		Connect("J104-24")
+		Connect("J105-24")
+		Connect("J106-24")
+		Connect("J107-24")
+		Connect("J108-24")
+		Connect("J109-24")
+		Connect("J110-24")
+		Connect("J111-24")
+		Connect("J112-24")
+		Connect("J113-24")
+		Connect("J114-24")
+		Connect("J115-24")
+		Connect("J116-24")
+		Connect("J117-24")
+	)
+	Net("BUS_25" "(unknown)")
+	(
+		Connect("J101-25")
+		Connect("J102-25")
+		Connect("J103-25")
+		Connect("J104-25")
+		Connect("J105-25")
+		Connect("J106-25")
+		Connect("J107-25")
+		Connect("J108-25")
+		Connect("J109-25")
+		Connect("J110-25")
+		Connect("J111-25")
+		Connect("J112-25")
+		Connect("J113-25")
+		Connect("J114-25")
+		Connect("J115-25")
+		Connect("J116-25")
+		Connect("J117-25")
+	)
+	Net("BUS_26" "(unknown)")
+	(
+		Connect("J101-26")
+		Connect("J102-26")
+		Connect("J103-26")
+		Connect("J104-26")
+		Connect("J105-26")
+		Connect("J106-26")
+		Connect("J107-26")
+		Connect("J108-26")
+		Connect("J109-26")
+		Connect("J110-26")
+		Connect("J111-26")
+		Connect("J112-26")
+		Connect("J113-26")
+		Connect("J114-26")
+		Connect("J115-26")
+		Connect("J116-26")
+		Connect("J117-26")
+	)
+	Net("BUS_27" "(unknown)")
+	(
+		Connect("J101-27")
+		Connect("N101_1-1")
+		Connect("N101_2-1")
+		Connect("N102_1-1")
+		Connect("N103_1-1")
+		Connect("N104_1-1")
+		Connect("N105_1-1")
+		Connect("N106_1-1")
+		Connect("N107_1-1")
+		Connect("N108_1-1")
+		Connect("N109_1-1")
+		Connect("N110_1-1")
+		Connect("N111_1-1")
+		Connect("N112_1-1")
+		Connect("N113_1-1")
+		Connect("N114_1-1")
+		Connect("N115_1-1")
+		Connect("N116_1-1")
+		Connect("N117_1-1")
+	)
+	Net("BUS_28" "(unknown)")
+	(
+		Connect("F101_1-1")
+		Connect("F101_2-1")
+		Connect("F102_1-1")
+		Connect("F103_1-1")
+		Connect("F104_1-1")
+		Connect("F105_1-1")
+		Connect("F106_1-1")
+		Connect("F107_1-1")
+		Connect("F108_1-1")
+		Connect("F109_1-1")
+		Connect("F110_1-1")
+		Connect("F111_1-1")
+		Connect("F112_1-1")
+		Connect("F113_1-1")
+		Connect("F114_1-1")
+		Connect("F115_1-1")
+		Connect("F116_1-1")
+		Connect("F117_1-1")
+		Connect("J101-28")
+	)
+	Net("BUS_29" "(unknown)")
+	(
+		Connect("J101-29")
+		Connect("J102-29")
+		Connect("J103-29")
+		Connect("J104-29")
+		Connect("J105-29")
+		Connect("J106-29")
+		Connect("J107-29")
+		Connect("J108-29")
+		Connect("J109-29")
+		Connect("J110-29")
+		Connect("J111-29")
+		Connect("J112-29")
+		Connect("J113-29")
+		Connect("J114-29")
+		Connect("J115-29")
+		Connect("J116-29")
+		Connect("J117-29")
+	)
+	Net("BUS_30" "(unknown)")
+	(
+		Connect("J101-30")
+		Connect("J102-30")
+		Connect("J103-30")
+		Connect("J104-30")
+		Connect("J105-30")
+		Connect("J106-30")
+		Connect("J107-30")
+		Connect("J108-30")
+		Connect("J109-30")
+		Connect("J110-30")
+		Connect("J111-30")
+		Connect("J112-30")
+		Connect("J113-30")
+		Connect("J114-30")
+		Connect("J115-30")
+		Connect("J116-30")
+		Connect("J117-30")
+	)
+	Net("BUS_31" "(unknown)")
+	(
+		Connect("J101-31")
+		Connect("J102-31")
+		Connect("J103-31")
+		Connect("J104-31")
+		Connect("J105-31")
+		Connect("J106-31")
+		Connect("J107-31")
+		Connect("J108-31")
+		Connect("J109-31")
+		Connect("J110-31")
+		Connect("J111-31")
+		Connect("J112-31")
+		Connect("J113-31")
+		Connect("J114-31")
+		Connect("J115-31")
+		Connect("J116-31")
+		Connect("J117-31")
+	)
+	Net("unnamed_net1" "(unknown)")
+	(
+		Connect("J102-27")
+		Connect("N102_2-1")
+	)
+	Net("unnamed_net2" "(unknown)")
+	(
+		Connect("F102_2-1")
+		Connect("J102-28")
+	)
+	Net("unnamed_net3" "(unknown)")
+	(
+		Connect("J103-27")
+		Connect("N103_2-1")
+	)
+	Net("unnamed_net4" "(unknown)")
+	(
+		Connect("F103_2-1")
+		Connect("J103-28")
+	)
+	Net("unnamed_net5" "(unknown)")
+	(
+		Connect("J104-27")
+		Connect("N104_2-1")
+	)
+	Net("unnamed_net6" "(unknown)")
+	(
+		Connect("F104_2-1")
+		Connect("J104-28")
+	)
+	Net("unnamed_net7" "(unknown)")
+	(
+		Connect("J105-27")
+		Connect("N105_2-1")
+	)
+	Net("unnamed_net8" "(unknown)")
+	(
+		Connect("F105_2-1")
+		Connect("J105-28")
+	)
+	Net("unnamed_net9" "(unknown)")
+	(
+		Connect("J106-27")
+		Connect("N106_2-1")
+	)
+	Net("unnamed_net10" "(unknown)")
+	(
+		Connect("F106_2-1")
+		Connect("J106-28")
+	)
+	Net("unnamed_net11" "(unknown)")
+	(
+		Connect("J107-27")
+		Connect("N107_2-1")
+	)
+	Net("unnamed_net12" "(unknown)")
+	(
+		Connect("F107_2-1")
+		Connect("J107-28")
+	)
+	Net("unnamed_net13" "(unknown)")
+	(
+		Connect("J108-27")
+		Connect("N108_2-1")
+	)
+	Net("unnamed_net14" "(unknown)")
+	(
+		Connect("F108_2-1")
+		Connect("J108-28")
+	)
+	Net("unnamed_net15" "(unknown)")
+	(
+		Connect("J109-27")
+		Connect("N109_2-1")
+	)
+	Net("unnamed_net16" "(unknown)")
+	(
+		Connect("F109_2-1")
+		Connect("J109-28")
+	)
+	Net("unnamed_net17" "(unknown)")
+	(
+		Connect("J110-27")
+		Connect("N110_2-1")
+	)
+	Net("unnamed_net18" "(unknown)")
+	(
+		Connect("F110_2-1")
+		Connect("J110-28")
+	)
+	Net("unnamed_net19" "(unknown)")
+	(
+		Connect("J111-27")
+		Connect("N111_2-1")
+	)
+	Net("unnamed_net20" "(unknown)")
+	(
+		Connect("F111_2-1")
+		Connect("J111-28")
+	)
+	Net("unnamed_net21" "(unknown)")
+	(
+		Connect("J112-27")
+		Connect("N112_2-1")
+	)
+	Net("unnamed_net22" "(unknown)")
+	(
+		Connect("F112_2-1")
+		Connect("J112-28")
+	)
+	Net("unnamed_net23" "(unknown)")
+	(
+		Connect("J113-27")
+		Connect("N113_2-1")
+	)
+	Net("unnamed_net24" "(unknown)")
+	(
+		Connect("F113_2-1")
+		Connect("J113-28")
+	)
+	Net("unnamed_net25" "(unknown)")
+	(
+		Connect("J114-27")
+		Connect("N114_2-1")
+	)
+	Net("unnamed_net26" "(unknown)")
+	(
+		Connect("F114_2-1")
+		Connect("J114-28")
+	)
+	Net("unnamed_net27" "(unknown)")
+	(
+		Connect("J115-27")
+		Connect("N115_2-1")
+	)
+	Net("unnamed_net28" "(unknown)")
+	(
+		Connect("F115_2-1")
+		Connect("J115-28")
+	)
+	Net("unnamed_net29" "(unknown)")
+	(
+		Connect("J116-27")
+		Connect("N116_2-1")
+	)
+	Net("unnamed_net30" "(unknown)")
+	(
+		Connect("F116_2-1")
+		Connect("J116-28")
+	)
+	Net("unnamed_net31" "(unknown)")
+	(
+		Connect("J117-27")
+		Connect("N117_2-1")
+	)
+	Net("unnamed_net32" "(unknown)")
+	(
+		Connect("F117_2-1")
+		Connect("J117-28")
+	)
 )
