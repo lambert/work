@@ -16,7 +16,7 @@ device=REAR_PANEL
 T 26700 1600 5 10 1 1 0 0 1
 description=Generator System
 T 26700 1400 5 10 1 1 0 0 1
-comment=Schematic
+comment=Schematic rear panel (DFM)
 }
 C 6700 13500 1 0 0 CON-DIN41617-31p-female.sym
 {
