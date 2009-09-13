@@ -3,7 +3,7 @@
 <body>
 <h1>Generator System.</h1>
 <hr>
-Revision: 20090825
+Revision: 20090913
 <hr>
 <h1>Description:</h1>The generator system provides for a single 19"-rack.<br>
 <p>
@@ -11,10 +11,7 @@ Revision: 20090825
 <h2>Functions:</h2>
 <table border>
 <tr><td>Id</td><td>Description</td></tr>
-<tr><td>01</td><td>To supply a positive voltage of +15 V DC.</td></tr>
-<tr><td>02</td><td>To supply a negative voltage of -15 V DC.</td></tr>
-<tr><td>03</td><td>To supply a positive voltage of +U V DC.</td></tr>
-<tr><td>04</td><td>To supply a negative voltage of -U V DC.</td></tr>
+<tr><td>01</td><td>To supply a mains voltage of 230 V AC.</td></tr>
 </table>
 <p>
 <h2>Modes of operation:</h2>
@@ -26,14 +23,14 @@ Revision: 20090825
 <h2>Inputs:</h2>
 <table border>
 <tr><td>Id</td><td>Description</td><td>Location</td></tr>
-<tr><td>K001</td><td>Input voltage of 220..230 V AC on a mains connector</a></td><td>On the rear cover panel</td></tr>
+<tr><td>K001</td><td>Input voltage of 220..230 V AC on a mains connector</a></td><td>on the rear cover panel</td></tr>
 </table>
 <p>
 <h2>Controls:</h2>
 <table border>
 <tr><td>Id</td><td>Description</td><td>Location</td></tr>
-<tr><td>K001</td><td>On/OFF switch switches input voltage</td><td>On the rear cover panel</td></tr>
-<tr><td>S001</td><td>Switches system ground (GND) to protective earth (PE).</td><td>On the rear cover panel</td></tr>
+<tr><td>K001</td><td>On/OFF switch switches input voltage</td><td>on the rear cover panel</td></tr>
+<tr><td>S001</td><td>Switches system ground (GND) to protective earth (PE).</td><td>on the rear cover panel</td></tr>
 </table>
 <p>
 <h2>Outputs:</h2>
@@ -61,13 +58,13 @@ Revision: 20090825
 <h2>Connectors:</h2>
 <table border>
 <tr><td>Id</td><td>Description</td><td>Location</td></tr>
-<tr><td>K001</td><td>Mains connector with PE</a></td><td>On the rear cover panel</td></tr>
+<tr><td>K001</td><td>Mains connector with PE</a></td><td>on the rear cover panel</td></tr>
 </table>
 <p>
 <h2>Replaceble parts:</h2>
 <table border>
 <tr><td>Id</td><td>Description</td><td>Location</td></tr>
-<tr><td>F001</td><td>Fuse 200 mA slow</td><td>On the rear cover panel</td></tr>
+<tr><td>F001</td><td>Fuse 200 mA slow</td><td>on the rear cover panel</td></tr>
 </table>
 <p>
 <h2>Physical dimensions and format:</h2>
@@ -76,6 +73,68 @@ Revision: 20090825
 <tr><td>Main PCB</td><td>422 mm x 130 mm</td></tr>
 <tr><td>Front panel</td><td>Eurocard 3 HE x 84 TE form factor</td></tr>
 </table>
+<hr>
+<h2>Schematics:</h2>
+<table border>
+<tr><td>Id</td><td>Description</td></tr>
+<tr><td><a href="../electrical/gschem/30.000.00.01.01.sch">30.000.00.01.01.sch</a></td><td>Generator System schematic (top level)</td></tr>
+<tr><td><a href="../electrical/gschem/30.001.00.01.01.sch">30.001.00.01.01.sch</a></td><td>Generator System schematic rear panel (DFM)</td></tr>
+<tr><td><a href="../electrical/gschem/30.001.00.01.02.sch">30.001.00.01.02.sch</a></td><td>Generator System schematic rear panel (DFM)</td></tr>
+</table>
+<a href="../electrical/gschem/plotfiles/">Plotfiles.</a><br>
+<a href="../electrical/gschem/BOM/">Bill Of Materials.</a><br>
+<hr>
+<h2>Calculations:</h2>
+<table border>
+<tr><td>Id</td><td>Description</td></tr>
+</table>
+<hr>
+<h2>Simulations:</h2>
+<table border>
+<tr><td>Id</td><td>Description</td></tr>
+</table>
+<hr>
+<h2>Printed Circuit Boards:</h2>
+<table border>
+<tr><td>Id</td><td>Description</td></tr>
+<tr><td><a href="../electrical/pcb/30.001.00.01.01.pcb">30.001.00.01.01.pcb</a></td><td>rear panel pcb</td></tr>
+</table>
+<a href="../electrical/pcb/plotfiles/">Plotfiles.</a><br>
+<a href="../electrical/pcb/fab/">Gerbers, XY and CNC files.</a><br>
+<a href="../electrical/pcb/eyecandy/">Eyecandy.</a><br>
+<hr>
+<h2>Mechanical Drawings:</h2>
+<table border>
+<tr><td>Id</td><td>Description</td></tr>
+<tr><td><a href="../mechanical/30.000.00.01.00_assembly_SW_ISO_view.dwg">30.000.00.01.00_assembly_SW_ISO_view.dwg</a></td><td>generator system assembly SW isometric view</td></tr>
+<tr><td><a href="../mechanical/30.000.00.01.01_assembly_ISO_views.dwg">30.000.00.01.01_assembly_ISO_views.dwg</a></td><td>generator system assembly isometric views</td></tr>
+<tr><td><a href="../mechanical/30.000.00.01.02_assembly_top_view.dwg">30.000.00.01.02_assembly_top_view.dwg</a></td><td>generator system assembly top view</td></tr>
+<tr><td><a href="../mechanical/30.000.00.01.03_assembly_bottom_view.dwg">30.000.00.01.03_assembly_bottom_view.dwg</a></td><td>generator system assembly bottom view</td></tr>
+<tr><td><a href="../mechanical/30.000.00.01.04_assembly_front_view.dwg">30.000.00.01.04_assembly_front_view.dwg</a></td><td>generator system assembly front view</td></tr>
+<tr><td><a href="../mechanical/30.000.00.01.05_assembly_back_view.dwg">30.000.00.01.05_assembly_back_view.dwg</a></td><td>generator system assembly back view</td></tr>
+<tr><td><a href="../mechanical/30.000.00.01.06_assembly_left_view.dwg">30.000.00.01.06_assembly_left_view.dwg</a></td><td>generator system assembly left view</td></tr>
+<tr><td><a href="../mechanical/30.000.00.01.07_assembly_right_view.dwg">30.000.00.01.07_assembly_right_view.dwg</a></td><td>generator system assembly right view</td></tr>
+<tr><td><a href="../mechanical/30.001.00.01.01_rear_pcb_assembly.dwg">30.001.00.01.01_rear_pcb_assembly.dwg</a></td><td>rear pcb assembly</td></tr>
+<tr><td><a href="../mechanical/30.001.00.02.01_rear_pcb_fabrication_notes.dwg">30.001.00.02.01_rear_pcb_fabrication_notes.dwg</a></td><td>rear pcb fabrcation notes</td></tr>
+<tr><td><a href="../mechanical/30.001.00.02.02_rear_pcb_drill_info.dwg">30.001.00.02.02_rear_pcb_drill_info.dwg</a></td><td>rear pcb drill information</td></tr>
+<tr><td><a href="../mechanical/30.001.00.03.01_rear_pcb_assembly_mechanical.dwg">30.001.00.03.01_rear_pcb_assembly_mechanical.dwg</a></td><td>rear pcb assembly mechanical</td></tr>
+<tr><td><a href="../mechanical/30.001.00.03.01_rear_pcb_mechanical.dwg">30.001.00.03.01_rear_pcb_mechanical.dwg</a></td><td>rear pcb mechanical</td></tr>
+<tr><td><a href="../mechanical/30.100.00.01.01_19_inch_rack_assembly_ISO_views.dwg">30.100.00.01.01_19_inch_rack_assembly_ISO_views.dwg</a></td><td>19" rack assembly isometric views</td></tr>
+<tr><td><a href="../mechanical/30.100.00.01.02_19_inch_rack_assembly_top_view.dwg">30.100.00.01.02_19_inch_rack_assembly_top_view.dwg</a></td><td>19" rack assembly top view</td></tr>
+<tr><td><a href="../mechanical/30.100.00.01.03_19_inch_rack_assembly_bottom_view.dwg">30.100.00.01.03_19_inch_rack_assembly_bottom_view.dwg</a></td><td>19" rack assembly bottom view</td></tr>
+<tr><td><a href="../mechanical/30.100.00.01.04_19_inch_rack_assembly_front_view.dwg">30.100.00.01.04_19_inch_rack_assembly_front_view.dwg</a></td><td>19" rack assembly front view</td></tr>
+<tr><td><a href="../mechanical/30.100.00.01.05_19_inch_rack_assembly_back_view.dwg">30.100.00.01.05_19_inch_rack_assembly_back_view.dwg</a></td><td>19" rack assembly back view</td></tr>
+<tr><td><a href="../mechanical/30.100.00.01.06_19_inch_rack_assembly_left_view.dwg">30.100.00.01.06_19_inch_rack_assembly_left_view.dwg</a></td><td>19" rack assembly left view</td></tr>
+<tr><td><a href="../mechanical/30.100.00.01.07_19_inch_rack_assembly_right_view.dwg">30.100.00.01.07_19_inch_rack_assembly_right_view.dwg</a></td><td>19" rack assembly right view</td></tr>
+<tr><td><a href="../mechanical/30.101.00.03.01_19_inch_rack_side_panel_mechanical.dwg">30.100.00.01.07_19_inch_rack_side_panel_mechanical.dwg</a></td><td>19" rack side panel mechanical</td></tr>
+<tr><td><a href="../mechanical/30.102.00.03.01_19_inch_rack_rear_panel_mechanical.dwg">30.102.00.03.01_19_inch_rack_rear_panel_mechanical.dwg</a></td><td>19" rack side panel mechanical</td></tr>
+<tr><td><a href="../mechanical/30.104.00.03.01_19_inch_rack_front_profile_mechanical.dwg">30.104.00.03.01_19_inch_rack_front_profile_mechanical.dwg</a></td><td>19" rack front profile mechanical</td></tr>
+<tr><td><a href="../mechanical/30.107.00.03.01_19_inch_rack_rear_panel_mechanical.dwg">30.107.00.03.01_19_inch_rack_rear_panel_mechanical.dwg</a></td><td>19" rack side panel mechanical</td></tr>
+</table>
+<a href="../mechanical/plotfiles/">Plotfiles.</a><br>
+<a href="../mechanical/partslist/">Partslist.</a><br>
+<a href="../mechanical/eyecandy/">Eyecandy.</a><br>
+<a href="../mechanical/parts/">3D models of parts.</a><br>
 <hr>
 </body>
 </html>
