@@ -21,5 +21,5 @@ pcb -x png --ben-mode --ben-flip-x --outfile $1.solder-photo.png --dpi 600 $1.pc
 
 echo "creating postscript files of " $1".pcb"
 pcb -x ps --ps-color --outline --fill-page --media A4 --psfile $1.ps $1.pcb
-pcb -x ps --ps-color --media A2 --multi-file --scale 1.0 --drill-helper --psfile $1.ps $1.pcb
+pcb -x ps --ps-color --media A4 --multi-file --scale 1.0 --drill-helper --psfile $1.ps $1.pcb
 
