@@ -68,7 +68,7 @@ page=1
 T 27900 300 5 10 1 1 0 0 1
 pages=1
 T 30300 600 5 10 1 1 0 0 1
-revision=20090926
+revision=20091010
 T 30300 300 5 10 1 1 0 0 1
 author=Bert Timmerman
 T 26400 900 5 10 1 1 0 0 1
@@ -98,52 +98,6 @@ T 10900 9900 5 10 0 1 0 0 1
 mfr=Siemens
 T 10900 9900 5 10 0 1 0 0 1
 mfr_PN=UAA170
-}
-C 5500 19500 1 0 0 SW_Apem_5646M__.sym
-{
-T 5800 20500 5 10 1 1 0 0 1
-refdes=S101
-T 5900 19600 5 10 0 0 0 0 1
-device=SWITCH
-T 5500 19500 5 10 0 0 0 0 1
-vendor=Conrad
-T 5500 19500 5 10 0 0 0 0 1
-value=Apem 5547A
-T 5500 19500 5 10 0 1 0 0 1
-footprint=SW_Apem_5547A__.fp
-T 5500 19500 5 10 0 1 0 0 1
-documentation=doc/700391.pdf
-T 5500 19500 5 10 0 1 0 0 1
-vendor_PN=700391
-T 5500 19500 5 10 0 1 0 0 1
-price=4.65
-T 5500 19500 5 10 0 1 0 0 1
-mfr=Apem
-T 5500 19500 5 10 0 1 0 0 1
-mfr_PN=5547A
-}
-C 5500 14900 1 0 0 SW_Apem_5646M__.sym
-{
-T 5700 15900 5 10 1 1 0 0 1
-refdes=S102
-T 5900 15000 5 10 0 0 0 0 1
-device=SWITCH
-T 5500 14900 5 10 0 0 0 0 1
-vendor=Conrad
-T 5500 14900 5 10 0 0 0 0 1
-value=Apem 5546A
-T 5500 14900 5 10 0 1 0 6 1
-footprint=SW_Apem_5546A__.fp
-T 5500 14900 5 10 0 1 0 6 1
-documentation=doc/700378.pdf
-T 5500 14900 5 10 0 1 0 6 1
-vendor_PN=700378
-T 5500 14900 5 10 0 1 0 6 1
-price=4.41
-T 5500 14900 5 10 0 1 0 6 1
-mfr=Apem
-T 5500 14900 5 10 0 1 0 6 1
-mfr_PN=5546A
 }
 T 20850 14450 8 10 0 0 0 0 1
 device=LED
@@ -664,3 +618,103 @@ C 9700 9800 1 0 0 gnd-1.sym
 C 5200 10100 1 90 0 gnd-1.sym
 C 11900 14300 1 0 0 15V-plus.sym
 C 4900 11600 1 270 1 15V-plus.sym
+C 5500 19500 1 0 0 SW_Apem_5546__.sym
+{
+T 5800 19800 5 10 1 1 0 0 1
+refdes=S101
+T 5600 21500 5 10 0 0 0 0 1
+device=SWITCH
+T 5500 19500 5 10 0 1 0 0 1
+footprint=SW_Apem_5546A__.fp
+T 5500 19500 5 10 0 1 0 0 1
+value=Apem 5546A
+T 5500 19500 5 10 0 1 0 0 1
+documentation=doc/700378.pdf
+T 5500 19500 5 10 0 1 0 0 1
+mfr=Apem
+T 5500 19500 5 10 0 1 0 0 1
+mfr_PN=5546A
+T 5500 19500 5 10 0 1 0 0 1
+price=4.46
+T 5500 19500 5 10 0 1 0 0 1
+vendor=Conrad
+T 5500 19500 5 10 0 1 0 0 1
+vendor_PN=700378
+T 5500 19500 5 10 0 0 0 0 1
+slot=1
+}
+C 5500 20100 1 0 0 SW_Apem_5546__.sym
+{
+T 5800 20400 5 10 1 1 0 0 1
+refdes=S101
+T 5600 22100 5 10 0 0 0 0 1
+device=SWITCH
+T 5500 20100 5 10 0 0 0 0 1
+slot=2
+T 5500 20100 5 10 0 1 0 0 1
+footprint=SW_Apem_5546A__.fp
+T 5500 20100 5 10 0 1 0 0 1
+value=Apem 5546A
+T 5500 20100 5 10 0 1 0 0 1
+documentation=doc/700378.pdf
+T 5500 20100 5 10 0 1 0 0 1
+mfr=Apem
+T 5500 20100 5 10 0 1 0 0 1
+mfr_PN=5546A
+T 5500 20100 5 10 0 1 0 0 1
+price=4.46
+T 5500 20100 5 10 0 1 0 0 1
+vendor=Conrad
+T 5500 20100 5 10 0 1 0 0 1
+vendor_PN=700378
+}
+C 5500 14900 1 0 0 SW_Apem_5547__.sym
+{
+T 5800 15200 5 10 1 1 0 0 1
+refdes=S102
+T 5600 16900 5 10 0 0 0 0 1
+device=SWITCH
+T 5500 14900 5 10 0 1 0 0 1
+footprint=SW_Apem_5547A__.fp
+T 5500 14900 5 10 0 1 0 0 1
+value=Apem 5547A
+T 5500 14900 5 10 0 1 0 0 1
+documentation=doc/700391.pdf
+T 5500 14900 5 10 0 1 0 0 1
+mfr=Apem
+T 5500 14900 5 10 0 1 0 0 1
+mfr_PN=5547A
+T 5500 14900 5 10 0 1 0 0 1
+price=4.72
+T 5500 14900 5 10 0 1 0 0 1
+vendor=Conrad
+T 5500 14900 5 10 0 1 0 0 1
+vendor_PN=700391
+T 5500 14900 5 10 0 0 0 0 1
+slot=1
+}
+C 5500 15500 1 0 0 SW_Apem_5547__.sym
+{
+T 5800 15800 5 10 1 1 0 0 1
+refdes=S102
+T 5600 17500 5 10 0 0 0 0 1
+device=SWITCH
+T 5500 15500 5 10 0 0 0 0 1
+slot=2
+T 5500 15500 5 10 0 1 0 0 1
+footprint=SW_Apem_5547A__.fp
+T 5500 15500 5 10 0 1 0 0 1
+value=Apem 5547A
+T 5500 15500 5 10 0 1 0 0 1
+documentation=doc/700391.pdf
+T 5500 15500 5 10 0 1 0 0 1
+mfr=Apem
+T 5500 15500 5 10 0 1 0 0 1
+mfr_PN=5547A
+T 5500 15500 5 10 0 1 0 0 1
+price=4.72
+T 5500 15500 5 10 0 1 0 0 1
+vendor=Conrad
+T 5500 15500 5 10 0 1 0 0 1
+vendor_PN=700391
+}
