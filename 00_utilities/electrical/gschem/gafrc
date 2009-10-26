@@ -7,5 +7,6 @@
 (component-library "sym/sheets")
 (component-library "sym/units")
 (component-library "sym/vhdl")
+(component-library "sym/installation")
 (paper-size 16.54 11.69)
 lib-newlib = /users/users/bert/MyDocuments/MyElectronics/work/pcb-footprints/
