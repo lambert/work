@@ -1,5 +1,5 @@
 # release: pcb 20081128
-# date:    Sun Sep  6 21:19:32 2009
+# date:    Mon Nov  2 22:45:36 2009
 # user:    bert (L.J.H. Timmerman)
 # host:    steiger.localdomain
 
@@ -13,8 +13,8 @@ Cursor[10000 172500 6.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[1000 1000 1000 1000 1500 1000]
-Flags("rubberband,nameonpcb,showmask")
-Groups("1,s:2,c:3:4:5:6:7:8")
+Flags("rubberband,nameonpcb")
+Groups("1,c:2,s:3:4:5")
 Styles["Signal,1000,4000,2000,1000:Power,2500,6000,3500,1000:Fat,4000,6000,3500,1000:Skinny,800,3600,2000,1000"]
 
 Symbol(' ' 18)
@@ -1915,7 +1915,10 @@ Element["lock" "JUMPER" "F117_2" "" 1582677 370079 -2677 -5079 1 100 ""]
 	Pin[0 0 6000 2000 6000 4000 "" "1" "lock"]
 
 	)
-Layer(1 "solder")
+Layer(1 "component")
+(
+)
+Layer(2 "solder")
 (
 	Line[339367 114173 339368 114174 2500 2000 ""]
 	Line[319683 124016 319684 124017 2500 2000 ""]
@@ -2213,38 +2216,26 @@ Layer(1 "solder")
 		[70867 484252] [98426 484252] [98426 472441] [70867 472441] 
 	)
 )
-Layer(2 "component")
-(
-)
-Layer(3 "GND")
-(
-)
-Layer(4 "power")
-(
-)
-Layer(5 "signal1")
-(
-)
-Layer(6 "signal2")
-(
-)
-Layer(7 "invisible")
-(
-	Line[70866 454541 71055 454730 1000 2000 ""]
-	Line[59055 444882 59055 370079 2500 2000 "lock"]
-	Line[70866 360236 70866 454541 2500 2000 ""]
-)
-Layer(8 "outline")
+Layer(3 "outline")
 (
 	Line[0 1181 0 503937 800 2000 ""]
 	Line[394 503937 1730315 503937 1000 2000 ""]
 	Line[1730315 503543 1730315 0 1000 2000 ""]
 	Line[1730315 0 0 0 1000 2000 ""]
 )
-Layer(9 "solder_silk")
+Layer(4 "keepout")
 (
 )
-Layer(10 "component_silk")
+Layer(5 "invisible")
+(
+	Line[70866 454541 71055 454730 1000 2000 ""]
+	Line[59055 444882 59055 370079 2500 2000 "lock"]
+	Line[70866 360236 70866 454541 2500 2000 ""]
+)
+Layer(6 "solder_silk")
+(
+)
+Layer(7 "component_silk")
 (
 	Line[59055 375000 59055 440000 1000 2000 ""]
 	Line[294488 365000 294488 450000 1000 2000 ""]
