@@ -1,5 +1,5 @@
 # release: pcb 20081128
-# date:    Sun Apr 12 08:56:28 2009
+# date:    Mon Nov  2 22:38:37 2009
 # user:    bert (L.J.H. Timmerman)
 # host:    steiger.localdomain
 
@@ -14,7 +14,7 @@ PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[699 400 800 800 1500 1000]
 Flags("showdrc,rubberband,nameonpcb")
-Groups("1,s:2,c:3:4:5:6:7:8")
+Groups("1,c:2,s:3:4:5")
 Styles["Signal,1000,4000,2000,1000:Power,2500,6000,3500,1000:Fat,4000,6000,3500,1000:Skinny,800,3600,2000,1000"]
 
 Symbol(' ' 18)
@@ -1457,38 +1457,29 @@ Rat[100000 265000 0 45000 317500 0  ""]
 Rat[110000 265000 0 45000 327500 0  ""]
 Rat[100000 325000 0 45000 337500 0  ""]
 Rat[110000 325000 0 45000 347500 0  ""]
-Layer(1 "solder")
+Layer(1 "component")
 (
 )
-Layer(2 "component")
+Layer(2 "solder")
 (
 )
-Layer(3 "GND")
-(
-)
-Layer(4 "power")
-(
-)
-Layer(5 "signal1")
-(
-)
-Layer(6 "signal2")
-(
-)
-Layer(7 "invisible")
-(
-)
-Layer(8 "outline")
+Layer(3 "outline")
 (
 	Line[0 392500 0 0 1000 2000 ""]
 	Line[630000 0 0 0 800 2000 ""]
 	Line[630000 392500 630000 0 1000 2000 ""]
 	Line[630000 392500 0 392500 1000 2000 ""]
 )
-Layer(9 "silk")
+Layer(4 "keepout")
 (
 )
-Layer(10 "silk")
+Layer(5 "invisible")
+(
+)
+Layer(6 "silk")
+(
+)
+Layer(7 "silk")
 (
 	Line[222441 383858 222441 377559 1000 2000 ""]
 	Line[51181 383858 222441 383858 1000 2000 ""]
