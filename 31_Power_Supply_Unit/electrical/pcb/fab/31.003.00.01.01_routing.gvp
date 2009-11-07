@@ -8,5 +8,5 @@
 (define-layer! 2 (cons 'filename "31.003.00.01.01_routing.fab.gbr")(cons 'visible #t)(cons 'color #(49601 0 57568)))
 (define-layer! 1 (cons 'filename "31.003.00.01.01_routing.backmask.gbr")(cons 'visible #t)(cons 'color #(65535 32639 29555)))
 (define-layer! 0 (cons 'filename "31.003.00.01.01_routing.back.gbr")(cons 'visible #t)(cons 'color #(29555 29555 57054)))
-(define-layer! -1 (cons 'filename "C:/Documents and Settings/bert/Mijn documenten/work/31_Power_Supply_Unit/electrical/pcb/fab")(cons 'visible #f)(cons 'color #(0 0 0)))
+(define-layer! -1 (cons 'filename ".")(cons 'visible #f)(cons 'color #(0 0 0)))
 (set-render-type! 2)

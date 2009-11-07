@@ -8,5 +8,5 @@
 (define-layer! 2 (cons 'filename "31.002.00.01.01.fab.gbr")(cons 'visible #t)(cons 'color #(32639 0 32639)))
 (define-layer! 1 (cons 'filename "31.002.00.01.01.backmask.gbr")(cons 'visible #t)(cons 'color #(65535 32639 29555)))
 (define-layer! 0 (cons 'filename "31.002.00.01.01.back.gbr")(cons 'visible #t)(cons 'color #(29555 29555 57054)))
-(define-layer! -1 (cons 'filename "C:/Documents and Settings/bert/Mijn documenten/work/31_Power_Supply_Unit/electrical/pcb/fab")(cons 'visible #f)(cons 'color #(0 0 0)))
+(define-layer! -1 (cons 'filename ".")(cons 'visible #f)(cons 'color #(0 0 0)))
 (set-render-type! 3)
