@@ -1,0 +1,20 @@
+Partlist.;;;;;
+;;;;;
+Part:;31.000.00.01.01_assembly;;;;
+Drawn:;bert;;;;
+Date:;20091114;;;;
+;;;;;
+Identification;;;;;
+Part no.;Amount;Description;Value;Vendor;Vendor no. / Standard
+0;1;31 assembly;;;
+1;1;31 front panel assembly;;;
+2;1;31 front pcb assembly;;;
+3;1;31 main pcb assembly;;;
+4;1;31 shielding pcb;;;
+5;2;31 side panel;;;
+6;2;31 heatsink;;;
+101;4;Cilinder head screw;M3x10;;ISO 1580
+102;2;Cilinder head screw;M3x15;;ISO 1580
+103;6;Spacer;5x3.5x2;;
+104;8;Hexagon nut;M3;;ISO 4032
+;;;;;

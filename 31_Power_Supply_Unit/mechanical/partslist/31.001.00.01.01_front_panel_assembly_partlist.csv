@@ -1,0 +1,14 @@
+Partlist.;;;;;
+;;;;;
+Part:;31.001.00.01.01_front_panel_assembly;;;;
+Drawn:;bert;;;;
+Date:;20091115;;;;
+;;;;;
+Identification;;;;;
+Part no.;Amount;Description;Value;Vendor;Vendor no. / Standard
+1;1;31 front panel layout;;;
+2;1;31 front panel;128x50.5x1.6 mm;;
+101;2;Cilinder head screw;M3x25;;ISO 1580
+102;2;Spacer;5x3.5x15;;
+103;2;Hexagon nut;M3;;ISO 4032
+;;;;;
