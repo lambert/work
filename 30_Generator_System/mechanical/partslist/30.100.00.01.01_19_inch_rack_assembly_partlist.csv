@@ -1,0 +1,22 @@
+Partlist.;;;;;
+;;;;;
+Part:;30.100.00.01.01_19_inch_rack_assembly;;;;
+Drawn:;bert;;;;
+Date:;20091116;;;;
+;;;;;
+Identification;;;;;
+Part no.;Amount;Description;Value;Vendor;Vendor no. / Standard
+101;2;side panel;;;
+102;2;front module rail;;;
+103;2;rear module rail;;;
+104;2;front profile;;;
+105;2;handle;;;
+106;12;pcb guide rail;;;
+107;1;rear panel;;;
+108;1;top cover;;;
+109;1;bottom cover;;;
+151;4;cilinder head screw;M4x?;;ISO 1580
+152;40;hexagon nut;M4;;ISO 4032
+153;20;T-slot screw;M3x?;;ISO 1580
+154;40;spacer;5x3.5x2;;
+155;40;hexagon nut;M3;;ISO 4032

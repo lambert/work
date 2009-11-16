@@ -1,0 +1,13 @@
+Partlist.;;;;;
+;;;;;
+Part:;30.001.00.01.01_back_pcb_assembly;;;;
+Drawn:;bert;;;;
+Date:;20091116;;;;
+;;;;;
+Identification;;;;;
+Part no.;Amount;Description;Value;Vendor;Vendor no. / Standard
+1;1;pcb;30.001.00.01.01;;
+2;17;connector;DIN41617 31 pins;Assmann;A-31-L2
+3;34;cilinder head screw;M3x12;;ISO 1580
+4;34;hexagon nut;M3;;ISO 4032
+;;;;;
