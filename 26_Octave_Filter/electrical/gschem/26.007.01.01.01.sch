@@ -892,11 +892,11 @@ mfg=Harris
 T 10300 18000 5 10 0 1 0 0 1
 mfg_PN=CA3140M
 T 10300 18000 5 10 0 1 0 0 1
-price=0.92
+price=1.59
 T 10300 18000 5 10 0 1 0 0 1
 vendor=Conrad
 T 10300 18000 5 10 0 1 0 0 1
-vendor_PN=174785
+vendor_PN=142107
 T 10500 19300 5 10 0 0 0 0 1
 symversion=20090414
 }
@@ -915,11 +915,11 @@ mfg=Harris
 T 13200 17800 5 10 0 1 0 0 1
 mfg_PN=CA3140M
 T 13200 17800 5 10 0 1 0 0 1
-price=0.92
+price=1.59
 T 13200 17800 5 10 0 1 0 0 1
 vendor=Conrad
 T 13200 17800 5 10 0 1 0 0 1
-vendor_PN=174785
+vendor_PN=142107
 T 13400 19100 5 10 0 0 0 0 1
 symversion=20090414
 }
@@ -938,11 +938,11 @@ mfg=Harris
 T 20700 18000 5 10 0 1 0 0 1
 mfg_PN=CA3140M
 T 20700 18000 5 10 0 1 0 0 1
-price=0.92
+price=1.59
 T 20700 18000 5 10 0 1 0 0 1
 vendor=Conrad
 T 20700 18000 5 10 0 1 0 0 1
-vendor_PN=174785
+vendor_PN=142107
 T 20900 19300 5 10 0 0 0 0 1
 symversion=20090414
 }
@@ -961,11 +961,11 @@ mfg=Harris
 T 10300 7700 5 10 0 1 0 0 1
 mfg_PN=CA3140M
 T 10300 7700 5 10 0 1 0 0 1
-price=0.92
+price=1.59
 T 10300 7700 5 10 0 1 0 0 1
 vendor=Conrad
 T 10300 7700 5 10 0 1 0 0 1
-vendor_PN=174785
+vendor_PN=142107
 T 10500 9000 5 10 0 0 0 0 1
 symversion=20090414
 }
@@ -984,11 +984,11 @@ mfg=Harris
 T 13200 7500 5 10 0 1 0 0 1
 mfg_PN=CA3140M
 T 13200 7500 5 10 0 1 0 0 1
-price=0.92
+price=1.59
 T 13200 7500 5 10 0 1 0 0 1
 vendor=Conrad
 T 13200 7500 5 10 0 1 0 0 1
-vendor_PN=174785
+vendor_PN=142107
 T 13400 8800 5 10 0 0 0 0 1
 symversion=20090414
 }
@@ -1007,11 +1007,11 @@ mfg=Harris
 T 20700 7700 5 10 0 1 0 0 1
 mfg_PN=CA3140M
 T 20700 7700 5 10 0 1 0 0 1
-price=0.92
+price=1.59
 T 20700 7700 5 10 0 1 0 0 1
 vendor=Conrad
 T 20700 7700 5 10 0 1 0 0 1
-vendor_PN=174785
+vendor_PN=142107
 T 20900 9000 5 10 0 0 0 0 1
 symversion=20090414
 }
@@ -1039,11 +1039,11 @@ mfg=Harris
 T 10600 16500 5 10 0 1 0 0 1
 mfg_PN=CA3140M
 T 10600 16500 5 10 0 1 0 0 1
-price=0.92
+price=1.59
 T 10600 16500 5 10 0 1 0 0 1
 vendor=Conrad
 T 10600 16500 5 10 0 1 0 0 1
-vendor_PN=174785
+vendor_PN=142107
 T 10600 16500 5 10 0 0 0 0 1
 symversion=20090414
 }
@@ -1078,11 +1078,11 @@ mfg=Harris
 T 13700 16500 5 10 0 1 0 0 1
 mfg_PN=CA3140M
 T 13700 16500 5 10 0 1 0 0 1
-price=0.92
+price=1.59
 T 13700 16500 5 10 0 1 0 0 1
 vendor=Conrad
 T 13700 16500 5 10 0 1 0 0 1
-vendor_PN=174785
+vendor_PN=142107
 T 13700 16500 5 10 0 0 0 0 1
 symversion=20090414
 }
@@ -1103,11 +1103,11 @@ mfg=Harris
 T 21000 16500 5 10 0 1 0 0 1
 mfg_PN=CA3140M
 T 21000 16500 5 10 0 1 0 0 1
-price=0.92
+price=1.59
 T 21000 16500 5 10 0 1 0 0 1
 vendor=Conrad
 T 21000 16500 5 10 0 1 0 0 1
-vendor_PN=174785
+vendor_PN=142107
 T 21000 16500 5 10 0 0 0 0 1
 symversion=20090414
 }
@@ -1128,11 +1128,11 @@ mfg=Harris
 T 10600 6300 5 10 0 1 0 0 1
 mfg_PN=CA3140M
 T 10600 6300 5 10 0 1 0 0 1
-price=0.92
+price=1.59
 T 10600 6300 5 10 0 1 0 0 1
 vendor=Conrad
 T 10600 6300 5 10 0 1 0 0 1
-vendor_PN=174785
+vendor_PN=142107
 T 10600 6300 5 10 0 0 0 0 1
 symversion=20090414
 }
@@ -1153,11 +1153,11 @@ mfg=Harris
 T 13700 6300 5 10 0 1 0 0 1
 mfg_PN=CA3140M
 T 13700 6300 5 10 0 1 0 0 1
-price=0.92
+price=1.59
 T 13700 6300 5 10 0 1 0 0 1
 vendor=Conrad
 T 13700 6300 5 10 0 1 0 0 1
-vendor_PN=174785
+vendor_PN=142107
 T 13700 6300 5 10 0 0 0 0 1
 symversion=20090414
 }
@@ -1178,11 +1178,11 @@ mfg=Harris
 T 21000 6300 5 10 0 1 0 0 1
 mfg_PN=CA3140M
 T 21000 6300 5 10 0 1 0 0 1
-price=0.92
+price=1.59
 T 21000 6300 5 10 0 1 0 0 1
 vendor=Conrad
 T 21000 6300 5 10 0 1 0 0 1
-vendor_PN=174785
+vendor_PN=142107
 T 21000 6300 5 10 0 0 0 0 1
 symversion=20090414
 }
