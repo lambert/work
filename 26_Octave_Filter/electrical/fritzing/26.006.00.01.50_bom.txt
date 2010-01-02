@@ -1,0 +1,62 @@
+Fritzing Bill of Materials
+
+Sketch: 	26.006.00.01.50.fz
+Date: 	za 2. jan 19:42:42 2010
+
++15V DC       Screw terminal - 2 pins
+-15V DC       Screw terminal - 2 pins
+Breadboard1   Generic Bajillion Hole Breadboard
+Breadboard2   Generic Bajillion Hole Breadboard
+C201          MKT Capacitor
+C202          MKT Capacitor
+C203          Electrolytic Capacitor
+C204          Ceramic Capacitor
+C205          Ceramic Capacitor
+C206          Ceramic Capacitor
+C207          Ceramic Capacitor
+C208          Ceramic Capacitor
+C209          Ceramic Capacitor
+D201          Signal Diode
+D202          Signal Diode
+D203          Signal Diode
+D204          Signal Diode
+FOLLOW        Screw terminal - 2 pins
+GND           Screw terminal - 2 pins
+INPUT         Screw terminal - 2 pins
+OUTPUT        Screw terminal - 2 pins
+R201          12kΩ Resistor
+R202          2.2kΩ Resistor
+R203          2.2kΩ Resistor
+R204          Basic Potentiometer
+R205          120kΩ Resistor
+R206          22kΩ Resistor
+R207          10kΩ Resistor
+R208          15kΩ Resistor
+R209          1kΩ Resistor
+R210          1MΩ Resistor
+R211          Basic Potentiometer
+RESET         Screw terminal - 2 pins
+U201          CA3140E_DIP08300
+U202          CA3140E_DIP08300
+U203          CA3140E_DIP08300
+
+
+Shopping List
+
+Quantity	Part
+
+1		10kΩ Resistor
+1		120kΩ Resistor
+1		12kΩ Resistor
+1		15kΩ Resistor
+1		1MΩ Resistor
+1		1kΩ Resistor
+2		2.2kΩ Resistor
+1		22kΩ Resistor
+2		Basic Potentiometer
+3		CA3140E_DIP08300
+6		Ceramic Capacitor
+1		Electrolytic Capacitor
+2		Generic Bajillion Hole Breadboard
+2		MKT Capacitor
+7		Screw terminal - 2 pins
