@@ -713,6 +713,8 @@ T 19600 18600 5 10 0 1 0 0 1
 device=SUBCKT
 T 19600 18600 5 10 0 1 0 0 1
 footprint=26_sub_pcb
+T 26000 19200 5 10 1 1 0 6 1
+source=26.000.00.01.03.sch
 }
 C 19600 16300 1 0 0 26_Octave_Filter_100.sym
 {
@@ -724,6 +726,8 @@ T 19600 16300 5 10 0 1 0 0 1
 device=SUBCKT
 T 19600 16300 5 10 0 1 0 0 1
 footprint=26_sub_pcb
+T 26000 16900 5 10 1 1 0 6 1
+source=26.000.00.01.04.sch
 }
 C 19600 14000 1 0 0 26_Octave_Filter_100.sym
 {
@@ -1005,7 +1009,7 @@ pages=03
 T 26400 600 5 10 1 1 0 0 1
 file=26.000.00.01.02.sch
 T 30300 600 5 10 1 1 0 0 1
-revision=20091105
+revision=20100213
 T 30300 300 5 10 1 1 0 0 1
 author=Bert Timmerman
 T 26400 900 5 10 1 1 0 0 1
@@ -1013,7 +1017,7 @@ device=OCTAVE_FILTER
 T 26400 1100 5 10 1 1 0 0 1
 comment=schematic
 T 26400 1300 5 10 1 1 0 0 1
-description=Octave Filter (Power supply and pre-amplifier
+description=Octave Filter (Power supply and pre-amplifier)
 }
 C 14000 17400 1 0 0 SW_CK_7207__.sym
 {
