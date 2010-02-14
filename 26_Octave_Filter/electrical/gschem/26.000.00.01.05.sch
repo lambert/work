@@ -43,9 +43,9 @@ value=10nF MKT
 T 8100 19100 5 10 0 1 0 0 1
 device=CAPACITOR
 T 8100 19100 5 10 0 1 0 0 1
-Vendor=Conrad
+vendor=Conrad
 T 8100 19100 5 10 0 1 0 0 1
-Mfg=Epcos
+mfg=Epcos
 }
 C 8300 18500 1 0 0 capacitor-1.sym
 {
@@ -58,9 +58,9 @@ value=10nF MKT
 T 8300 18500 5 10 0 1 0 0 1
 device=CAPACITOR
 T 8300 18500 5 10 0 1 0 0 1
-Vendor=Conrad
+vendor=Conrad
 T 8300 18500 5 10 0 1 0 0 1
-Mfg=Epcos
+mfg=Epcos
 }
 C 9700 19100 1 90 0 resistor-2.sym
 {
@@ -118,9 +118,9 @@ device=RESISTOR
 T 7800 16100 5 10 0 1 0 0 1
 footprint=TRIM_Piher_PT-10LH
 T 7800 16100 5 10 0 1 0 0 1
-Vendor=Conrad
+vendor=Conrad
 T 7800 16100 5 10 0 1 0 0 1
-Mfg=Piher
+mfg=Piher
 }
 N 7900 17400 7900 17000 4
 N 8400 16600 8600 16600 4
@@ -150,9 +150,15 @@ refdes=D401
 T 15100 18800 5 10 1 1 90 0 1
 value=1N4148
 T 14900 18500 5 10 0 1 0 0 1
-footprint=DO-35
-T 14900 18500 5 10 0 1 0 0 1
 device=DIODE
+T 14900 18500 5 10 0 1 0 0 1
+vendor=Conrad
+T 14900 18500 5 10 0 1 0 0 1
+vendor_PN=162280
+T 14900 18500 5 10 1 1 0 0 1
+mfg=Philips
+T 14900 18500 5 10 1 1 0 0 1
+price=0.05
 }
 N 14700 19600 14700 19400 4
 N 14700 18500 14700 18300 4
@@ -163,9 +169,15 @@ refdes=D402
 T 15200 17900 5 10 1 1 0 0 1
 value=1N4148
 T 15800 18500 5 10 0 1 0 0 1
-footprint=DO-35
-T 15800 18500 5 10 0 1 0 0 1
 device=DIODE
+T 15800 18500 5 10 0 1 0 0 1
+vendor=Conrad
+T 15800 18500 5 10 0 1 0 0 1
+vendor_PN=162280
+T 15800 18500 5 10 1 1 0 0 1
+mfg=Philips
+T 15800 18500 5 10 1 1 0 0 1
+price=0.05
 }
 N 15800 18300 16200 18300 4
 C 16200 18200 1 0 0 resistor-2.sym
@@ -201,9 +213,15 @@ refdes=D404
 T 18700 16400 5 10 1 1 90 0 1
 value=1N4148
 T 18500 16100 5 10 0 1 0 0 1
-footprint=DO-35
-T 18500 16100 5 10 0 1 0 0 1
 device=DIODE
+T 18500 16100 5 10 0 1 0 0 1
+vendor=Conrad
+T 18500 16100 5 10 0 1 0 0 1
+vendor_PN=162280
+T 18500 16100 5 10 1 1 0 0 1
+mfg=Philips
+T 18500 16100 5 10 1 1 0 0 1
+price=0.05
 }
 C 19500 16100 1 90 0 diode-3.sym
 {
@@ -212,9 +230,15 @@ refdes=D403
 T 19700 16400 5 10 1 1 90 0 1
 value=1N4148
 T 19500 16100 5 10 0 1 0 0 1
-footprint=DO-35
-T 19500 16100 5 10 0 1 0 0 1
 device=DIODE
+T 19500 16100 5 10 0 1 0 0 1
+vendor=Conrad
+T 19500 16100 5 10 0 1 0 0 1
+vendor_PN=162280
+T 19500 16100 5 10 1 1 0 0 1
+mfg=Philips
+T 19500 16100 5 10 1 1 0 0 1
+price=0.05
 }
 N 2800 14200 18300 14200 4
 {
@@ -256,9 +280,9 @@ device=RESISTOR
 T 21700 17200 5 10 0 1 0 0 1
 footprint=TRIM_Piher_PT-10LH
 T 21700 17200 5 10 0 1 0 0 1
-Vendor=Conrad
+vendor=Conrad
 T 21700 17200 5 10 0 1 0 0 1
-Mfg=Piher
+mfg=Piher
 }
 N 21800 16300 21800 15600 4
 N 22300 16700 23200 16700 4
@@ -299,9 +323,15 @@ refdes=D451
 T 15100 8500 5 10 1 1 90 0 1
 value=1N4148
 T 14900 8200 5 10 0 1 0 0 1
-footprint=DO-35
-T 14900 8200 5 10 0 1 0 0 1
 device=DIODE
+T 14900 8200 5 10 0 1 0 0 1
+vendor=Conrad
+T 14900 8200 5 10 0 1 0 0 1
+vendor_PN=162280
+T 14900 8200 5 10 1 1 0 0 1
+mfg=Philips
+T 14900 8200 5 10 1 1 0 0 1
+price=0.05
 }
 N 14700 9300 14700 9100 4
 N 14700 8200 14700 8000 4
@@ -312,9 +342,15 @@ refdes=D452
 T 15200 7600 5 10 1 1 0 0 1
 value=1N4148
 T 15800 8200 5 10 0 1 0 0 1
-footprint=DO-35
-T 15800 8200 5 10 0 1 0 0 1
 device=DIODE
+T 15800 8200 5 10 0 1 0 0 1
+vendor=Conrad
+T 15800 8200 5 10 0 1 0 0 1
+vendor_PN=162280
+T 15800 8200 5 10 1 1 0 0 1
+mfg=Philips
+T 15800 8200 5 10 1 1 0 0 1
+price=0.05
 }
 N 15800 8000 16200 8000 4
 C 16200 7900 1 0 0 resistor-2.sym
@@ -350,9 +386,15 @@ refdes=D454
 T 18700 6100 5 10 1 1 90 0 1
 value=1N4148
 T 18500 5800 5 10 0 1 0 0 1
-footprint=DO-35
-T 18500 5800 5 10 0 1 0 0 1
 device=DIODE
+T 18500 5800 5 10 0 1 0 0 1
+vendor=Conrad
+T 18500 5800 5 10 0 1 0 0 1
+vendor_PN=162280
+T 18500 5800 5 10 1 1 0 0 1
+mfg=Philips
+T 18500 5800 5 10 1 1 0 0 1
+price=0.05
 }
 C 19500 5800 1 90 0 diode-3.sym
 {
@@ -361,9 +403,15 @@ refdes=D453
 T 19700 6100 5 10 1 1 90 0 1
 value=1N4148
 T 19500 5800 5 10 0 1 0 0 1
-footprint=DO-35
-T 19500 5800 5 10 0 1 0 0 1
 device=DIODE
+T 19500 5800 5 10 0 1 0 0 1
+vendor=Conrad
+T 19500 5800 5 10 0 1 0 0 1
+vendor_PN=162280
+T 19500 5800 5 10 1 1 0 0 1
+mfg=Philips
+T 19500 5800 5 10 1 1 0 0 1
+price=0.05
 }
 N 3600 3900 18300 3900 4
 N 3300 3400 19300 3400 4
@@ -397,9 +445,9 @@ device=RESISTOR
 T 21700 6900 5 10 0 1 0 0 1
 footprint=TRIM_Piher_PT-10LH
 T 21700 6900 5 10 0 1 0 0 1
-Vendor=Conrad
+vendor=Conrad
 T 21700 6900 5 10 0 1 0 0 1
-Mfg=Piher
+mfg=Piher
 }
 N 21800 6000 21800 5300 4
 N 22300 6400 23200 6400 4
@@ -420,7 +468,7 @@ device=POLARIZED_CAPACITOR
 T 17100 6700 5 10 0 1 0 0 1
 footprint=CAPPR200-500X1100
 T 17100 6700 5 10 0 1 0 0 1
-Vendor=Conrad
+vendor=Conrad
 }
 N 17300 6700 17300 8000 4
 N 17300 5800 17300 5300 4
@@ -437,7 +485,7 @@ device=POLARIZED_CAPACITOR
 T 17100 17000 5 10 0 1 0 0 1
 footprint=CAPPR200-500X1100
 T 17100 17000 5 10 0 1 0 0 1
-Vendor=Conrad
+vendor=Conrad
 }
 N 17300 17000 17300 18300 4
 N 17300 16100 17300 15600 4
@@ -481,11 +529,11 @@ device=CAPACITOR
 T 8100 8800 5 10 0 1 0 0 1
 footprint=CAPA750-320X610X900
 T 8100 8800 5 10 0 1 0 0 1
-Vendor=Conrad
+vendor=Conrad
 T 8100 8800 5 10 0 1 0 0 1
-Vendor_PN=501047
+vendor_PN=501047
 T 8100 8800 5 10 0 1 0 0 1
-Mfg=Epcos
+mfg=Epcos
 }
 C 8300 8200 1 0 0 capacitor-1.sym
 {
@@ -500,11 +548,11 @@ device=CAPACITOR
 T 8300 8200 5 10 0 1 0 0 1
 footprint=CAPA750-320X610X900
 T 8300 8200 5 10 0 1 0 0 1
-Vendor=Conrad
+vendor=Conrad
 T 8300 8200 5 10 0 1 0 0 1
-Vendor_PN=501047
+vendor_PN=501047
 T 8300 8200 5 10 0 1 0 0 1
-Mfg=Epcos
+mfg=Epcos
 }
 C 9700 8800 1 90 0 resistor-2.sym
 {
@@ -555,9 +603,9 @@ device=RESISTOR
 T 7800 5800 5 10 0 1 0 0 1
 footprint=TRIM_Piher_PT-10LH
 T 7800 5800 5 10 0 1 0 0 1
-Vendor=Conrad
+vendor=Conrad
 T 7800 5800 5 10 0 1 0 0 1
-Mfg=Piher
+mfg=Piher
 }
 N 7900 7100 7900 6700 4
 N 8400 6300 8600 6300 4
@@ -591,11 +639,11 @@ refdes=U401
 T 10300 18100 5 10 0 1 0 0 1
 footprint=DIP08300
 T 10300 18100 5 10 0 1 0 0 1
-Vendor=Conrad
+vendor=Conrad
 T 11100 18300 5 8 1 1 0 0 1
 value=CA3140E
 T 10300 18100 5 10 0 1 0 0 1
-Vendor_PN=174785
+vendor_PN=174785
 }
 C 13400 17900 1 0 0 CA3140.sym
 {
@@ -606,11 +654,11 @@ refdes=U402
 T 13400 17900 5 10 0 1 0 0 1
 footprint=DIP08300
 T 13400 17900 5 10 0 1 0 0 1
-Vendor=Conrad
+vendor=Conrad
 T 14200 18100 5 8 1 1 0 0 1
 value=CA3140E
 T 13400 17900 5 10 0 1 0 0 1
-Vendor_PN=174785
+vendor_PN=174785
 }
 C 20300 18100 1 0 0 CA3140.sym
 {
@@ -621,11 +669,11 @@ refdes=U403
 T 20300 18100 5 10 0 1 0 0 1
 footprint=DIP08300
 T 20300 18100 5 10 0 1 0 0 1
-Vendor=Conrad
+vendor=Conrad
 T 21100 18300 5 8 1 1 0 0 1
 value=CA3140E
 T 20300 18100 5 10 0 1 0 0 1
-Vendor_PN=174785
+vendor_PN=174785
 }
 C 10300 7800 1 0 0 CA3140.sym
 {
@@ -636,11 +684,11 @@ refdes=U451
 T 10300 7800 5 10 0 1 0 0 1
 footprint=DIP08300
 T 10300 7800 5 10 0 1 0 0 1
-Vendor=Conrad
+vendor=Conrad
 T 11100 8000 5 8 1 1 0 0 1
 value=CA3140E
 T 10300 7800 5 10 0 1 0 0 1
-Vendor_PN=174785
+vendor_PN=174785
 }
 C 13400 7600 1 0 0 CA3140.sym
 {
@@ -651,11 +699,11 @@ refdes=U452
 T 13400 7600 5 10 0 1 0 0 1
 footprint=DIP08300
 T 13400 7600 5 10 0 1 0 0 1
-Vendor=Conrad
+vendor=Conrad
 T 14200 7800 5 8 1 1 0 0 1
 value=CA3140E
 T 13400 7600 5 10 0 1 0 0 1
-Vendor_PN=174785
+vendor_PN=174785
 }
 C 20300 7800 1 0 0 CA3140.sym
 {
@@ -666,11 +714,11 @@ refdes=U453
 T 20300 7800 5 10 0 1 0 0 1
 footprint=DIP08300
 T 20300 7800 5 10 0 1 0 0 1
-Vendor=Conrad
+vendor=Conrad
 T 21100 8000 5 8 1 1 0 0 1
 value=CA3140E
 T 20300 7800 5 10 0 1 0 0 1
-Vendor_PN=174785
+vendor_PN=174785
 }
 C 2000 18600 1 0 0 input.sym
 {
