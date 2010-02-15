@@ -1,0 +1,43 @@
+refdes, device, footprint, value, mfg, mfg_PN, price, vendor, vendor_PN, symversion
+A., MTG, MTG370____.fp, , , , , , , 
+A101, CONNECTOR, CON-SIL-254P-8N____.fp, , Fisher, PFH 172038000, 2.63, Conrad, 734993, 
+A102, CONNECTOR, CON-SIL-254P-8N____.fp, , Fisher, PFH 172038000, 2.63, Conrad, 734993, 
+A103, CONNECTOR, CON-SIL-254P-8N____.fp, , Fisher, PFH 172038000, 2.63, Conrad, 734993, 
+A104, CONNECTOR, CON-SIL-254P-8N____.fp, , Fisher, PFH 172038000, 2.63, Conrad, 734993, 
+A105, CONNECTOR, CON-SIL-254P-8N____.fp, , Fisher, PFH 172038000, 2.63, Conrad, 734993, 
+B., MTG, MTG370____.fp, , , , , , , 
+C., MTG, MTG370____.fp, , , , , , , 
+C102., CAPACITOR, CAPR250-450X850____.fp, 100nF, Weltron, , 0.27, Conrad, 453099, 0.1
+C103., CAPACITOR, CAPR250-450X850____.fp, 100nF, Weltron, , 0.27, Conrad, 453099, 0.1
+C104., CAPACITOR, CAPR250-450X850____.fp, 100nF, Weltron, , 0.27, Conrad, 453099, 0.1
+C105., CAPACITOR, CAPR250-450X850____.fp, 100nF, Weltron, , 0.27, Conrad, 453099, 0.1
+C106., CAPACITOR, CAPR250-450X850____.fp, 100nF, Weltron, , 0.27, Conrad, 453099, 0.1
+C107., CAPACITOR, CAPR250-450X850____.fp, 100nF, Weltron, , 0.27, Conrad, 453099, 0.1
+C108., CAPACITOR, CAPR250-450X850____.fp, 100nF, Weltron, , 0.27, Conrad, 453099, 0.1
+C109., CAPACITOR, CAPR250-450X850____.fp, 100nF, Weltron, , 0.27, Conrad, 453099, 0.1
+C110., CAPACITOR, CAPR250-450X850____.fp, 100nF, Weltron, , 0.27, Conrad, 453099, 0.1
+C111., CAPACITOR, CAPR250-450X850____.fp, 100nF, Weltron, , 0.27, Conrad, 453099, 0.1
+C112., CAPACITOR, CAPPR500-1000X1300____.fp, 100uF/63V, CDE, , 0.30, Conrad, 472638, 0.1
+C113., CAPACITOR, CAPPR200-500X1100____.fp, 10uF/35V, CDE, , 0.18, Conrad, 472484, 0.1
+C114., CAPACITOR, CAPPR200-500X1100____.fp, 10uF/35V, CDE, , 0.18, Conrad, 472484, 0.1
+C115., CAPACITOR, CAPR250-450X850____.fp, 100nF, Weltron, , 0.27, Conrad, 453099, 0.1
+C116., CAPACITOR, CAPR250-450X850____.fp, 100nF, Weltron, , 0.27, Conrad, 453099, 0.1
+D101, DIODE, DIO1016-520X270_Diodes_1N4004_DO41_C1A2.fp, 1N4004, Diotec, , 0.08, Conrad, 162248, 
+D102, DIODE, DIO1016-425X185_Diotec_1N4148_DO35_C1A2, 1N4148, Philips, , 0.05, Conrad, 162280, 
+D103, DIODE, DIO1016-425X185_Diotec_1N4148_DO35_C1A2, 1N4148, Philips, , 0.05, Conrad, 162280, 
+GND, MTG, MTG370-700____.fp, , , , , , , 
+J101, CONNECTOR, CON-DIN41617-31N_Assmann_A-31-S1_DIN41617_male.fp, DIN41617 31p, Assmann, A-31-S1, 3.02, Conrad, 740560, 
+J102, CONNECTOR, CON-SIL-254P-31N____.fp, , Fisher, PFH 173638000, 4.13, Conrad, 735000, 
+p1, PIN, PIN____.fp, , , , , , , 20090220
+p2, PIN, PIN____.fp, , , , , , , 20090220
+p3, PIN, PIN____.fp, , , , , , , 20090220
+p4, PIN, PIN____.fp, , , , , , , 20090220
+R102, RESISTOR, RES1270-635X229____0.6W.fp, 10k, Beyschlag, MBB 0207-50 10k, 0.11, Conrad, 403377, 
+R103, RESISTOR, RES1270-635X229____0.6W.fp, 47k, Beyschlag, MBB 0207-50 47k, 0.11, Conrad, 403458, 
+R104, RESISTOR, RES1270-635X229____0.6W.fp, 4k7, Beyschlag, MBB 0207-50 4k7, 0.11, Conrad, 403334, 
+R105, RESISTOR, RES1270-635X229____0.6W.fp, 1M, Beyschlag, MBB 0207-50 1M, 0.11, Conrad, 403610, 
+R106, RESISTOR, RES1270-635X229____0.6W.fp, 1M, Beyschlag, MBB 0207-50 1M, 0.11, Conrad, 403610, 
+R108, RESISTOR, RES1270-635X229____0.6W.fp, 1k, Beyschlag, MBB 0207-50 1k, 0.11, Conrad, 405256, 
+R109, RESISTOR, RES1270-635X229____0.6W.fp, 1k, Beyschlag, MBB 0207-50 1k, 0.11, Conrad, 405256, 
+R110, ADJUSTABLE_RESISTOR, TRIM_Piher_PT-15LH01__.fp, 10k, Piher, PT-15LH01, 0.53, Conrad, 431230, 
+U101, OPAMP, DIPS08300____.fp, CA3140E, Harris, CA3140E, 0.92, Conrad, 174785, 
