@@ -469,7 +469,7 @@ C 29200 5200 1 0 0 PIN.sym
 T 29510 5850 5 10 0 0 0 0 1
 device=PIN
 T 29500 6100 5 10 0 0 0 0 1
-footprint=PIN____.fp
+footprint=PIN165X102____.fp
 T 29800 5300 5 10 1 1 0 0 1
 refdes=p2
 T 29500 5900 5 10 0 0 0 0 1
@@ -480,7 +480,7 @@ C 29200 5200 1 0 1 PIN.sym
 T 28890 5850 5 10 0 0 0 6 1
 device=PIN
 T 28900 6100 5 10 0 0 0 6 1
-footprint=PIN____.fp
+footprint=PIN165X102____.fp
 T 28500 5300 5 10 1 1 0 0 1
 refdes=p1
 T 29500 5900 5 10 0 0 0 0 1
@@ -492,7 +492,7 @@ C 29200 2200 1 0 0 PIN.sym
 T 29510 2850 5 10 0 0 0 0 1
 device=PIN
 T 29500 3100 5 10 0 0 0 0 1
-footprint=PIN____.fp
+footprint=PIN165X102____.fp
 T 29800 2500 5 10 1 1 0 0 1
 refdes=p4
 T 29500 2900 5 10 0 0 0 0 1
@@ -503,7 +503,7 @@ C 29200 2200 1 0 1 PIN.sym
 T 28890 2850 5 10 0 0 0 6 1
 device=PIN
 T 28900 3100 5 10 0 0 0 6 1
-footprint=PIN____.fp
+footprint=PIN165X102____.fp
 T 28500 2500 5 10 1 1 0 0 1
 refdes=p3
 T 29500 2900 5 10 0 0 0 0 1
