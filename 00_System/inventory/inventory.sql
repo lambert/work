@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Feb 28, 2010 at 09:31 PM
+-- Generation Time: Mar 07, 2010 at 02:51 PM
 -- Server version: 5.1.36
 -- PHP Version: 5.3.0
 
@@ -33,7 +33,7 @@ CREATE TABLE IF NOT EXISTS `inventory` (
   `Status` enum('Orderlist','Ordered','New','Programmed','Solder Fresh','Used') COLLATE utf8_bin NOT NULL,
   `Remarks` text COLLATE utf8_bin NOT NULL,
   UNIQUE KEY `Id` (`Id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=195 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=217 ;
 
 --
 -- Dumping data for table `inventory`
@@ -225,4 +225,26 @@ INSERT INTO `inventory` (`Id`, `Part`, `Amount`, `Location`, `Status`, `Remarks`
 (191, '47uF/6.3V', 3, 'tray PRINT ELCOs', 'Used', ''),
 (192, '47uF/16V', 1, 'tray PRINT ELCOs', 'Used', ''),
 (193, '4.7uF/50V', 1, 'tray PRINT ELCOs', 'Used', ''),
-(194, '1uF/50V', 1, 'tray PRINT ELCOs', 'Used', '');
+(194, '1uF/50V', 1, 'tray PRINT ELCOs', 'Used', ''),
+(195, 'TEA2017', 1, 'tray LINEAIRE ICs', 'Used', ''),
+(196, 'LM1203N', 1, 'tray LINEAIRE ICs', 'Used', ''),
+(197, 'TDA6200', 1, 'tray LINEAIRE ICs', 'Used', ''),
+(198, 'SAA5231', 1, 'tray LINEAIRE ICs', 'Used', ''),
+(199, 'SAA5243P/E', 1, 'tray LINEAIRE ICs', 'Used', ''),
+(200, 'TDA4601', 2, 'tray LINEAIRE ICs', 'Used', ''),
+(201, 'TDA3506', 1, 'tray LINEAIRE ICs', 'Used', ''),
+(202, 'CXK5864PN-15L', 1, 'tray RAM', 'Used', ''),
+(203, 'KA2131', 1, 'tray LINEAIRE ICs', 'Used', ''),
+(204, 'LM317SP', 1, 'tray LINEAIRE ICs', 'Used', 'TO220'),
+(205, 'TDA3654', 1, 'tray LINEAIRE ICs', 'Used', ''),
+(206, 'NE564N', 1, 'tray LINEAIRE ICs', 'Used', ''),
+(207, 'TDA8145', 1, 'tray LINEAIRE ICs', 'Used', ''),
+(208, 'TDA2579B', 1, 'tray LINEAIRE ICs', 'Used', ''),
+(209, 'TDA2595', 1, 'tray LINEAIRE ICs', 'Used', ''),
+(210, 'LF356N', 1, 'tray LINEAIRE ICs', 'Used', '--> tray OPAMP !'),
+(211, 'TCA830SM', 1, 'tray LINEAIRE ICs', 'Used', ''),
+(212, 'X2404P', 1, 'tray LINEAIRE ICs', 'Used', 'X24C04P --> tray EEPROM !'),
+(213, 'KM41256-15', 17, 'tray RAM', 'Used', ''),
+(214, 'HY51C4256S-10', 8, 'tray RAM', 'Used', ''),
+(215, '2114UCE', 4, 'tray RAM', 'Used', ''),
+(216, 'M3-6561-9', 2, 'tray RAM', 'Used', '');
