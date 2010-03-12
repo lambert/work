@@ -1,0 +1,9 @@
+.*~
+electrical/gschem/plotfiles
+electrical/gschem/*~
+electrical/gschem/#*#
+electrical/pcb/eyecandy
+electrical/pcb/fab
+electrical/pcb/plotfiles
+mechanical/eyecandy
+mechanical/plotfiles
