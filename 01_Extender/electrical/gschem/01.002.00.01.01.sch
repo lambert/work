@@ -1,4 +1,4 @@
-v 20070626 1
+v 20091004 2
 N 19600 14100 5900 14100 4
 {
 T 20900 14100 5 10 1 1 0 0 1
@@ -14,7 +14,7 @@ C 500 500 0 0 0 A1-sheet.sym
 T 30700 600 5 10 1 1 0 0 1
 author=Bert Timmerman
 T 30700 900 5 10 1 1 0 0 1
-revision=20091107
+revision=20100618
 T 26700 600 5 10 1 1 0 0 1
 page=1
 T 28200 600 5 10 1 1 0 0 1
@@ -53,7 +53,7 @@ device=CONNECTOR
 T 19900 18900 5 10 1 1 0 0 1
 refdes=J201
 T 19600 9400 5 10 0 1 0 0 1
-footprint=CON-DIN41617-31P_Assmann_A-31-L2_DIN41617_female.fp
+footprint=CON-DIN41617-31N_Assmann_A-31-L2_DIN41617_female.fp
 T 19600 9400 5 10 0 1 0 0 1
 mfg=Assmann
 T 19600 9400 5 10 0 1 0 0 1
@@ -262,7 +262,7 @@ C 17800 7600 1 90 0 glow-lamp-1.sym
 T 17200 7800 5 10 0 0 90 0 1
 device=GLOW_LAMP
 T 17400 8400 5 10 1 1 90 0 1
-refdes=?101
+refdes=LB101
 T 17000 7800 5 10 0 0 90 0 1
 symversion=0.1
 T 17800 7600 5 10 0 1 0 0 1
@@ -273,6 +273,8 @@ T 17800 7600 5 10 0 1 0 0 1
 vendor=Conrad
 T 17800 7600 5 10 0 1 0 0 1
 vendor_PN=725200
+T 17800 7600 5 10 0 0 0 0 1
+footprint=CON-HDR-254P-2C-1R-2N____.fp
 }
 C 17700 6300 1 90 0 resistor-2.sym
 {
