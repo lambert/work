@@ -1,4 +1,5 @@
 use-files
+skip-m4
 elements-dir ../../../pcb-footprints/04_released
 elements-dir ../../../pcb-footprints/03_stable
 elements-dir ../../../pcb-footprints/02_experimental
