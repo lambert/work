@@ -1,0 +1,14 @@
+Partlist.;;;;;
+;;;;;
+Part:;31.003.00.01.01_main_pcb_mechanical_assembly;;;;
+Drawn:;bert;;;;
+Date:;20100814;;;;
+;;;;;
+Identification;;;;;
+Part no.;Amount;Description;Value;Vendor;Vendor no. / Standard
+1;1;31 main pcb;160x100x1,6;;Eurocard
+2;2;Heatsink;88x35x37 (modified);Conrad;188751-02
+101;2;Cilinder head screw;M3x6;;ISO 1580
+102;2;Cilinder head screw;M3x10;;ISO 1580
+103;4;Hexagon nut;M3;;ISO 4032
+;;;;;
