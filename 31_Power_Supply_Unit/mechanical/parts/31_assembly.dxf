@@ -1,0 +1,7338 @@
+  0
+SECTION
+  2
+HEADER
+  9
+$ACADVER
+  1
+AC1018
+  9
+$ACADMAINTVER
+ 70
+     0
+  9
+$DWGCODEPAGE
+  3
+ANSI_1252
+  9
+$LASTSAVEDBY
+  1
+bert
+  9
+$INSBASE
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$EXTMIN
+ 10
+-24.55130294833443
+ 20
+-43.25
+ 30
+-14.5
+  9
+$EXTMAX
+ 10
+167.2
+ 20
+8.789999999999999
+ 30
+114.5
+  9
+$LIMMIN
+ 10
+0.0
+ 20
+0.0
+  9
+$LIMMAX
+ 10
+390.0
+ 20
+257.0
+  9
+$ORTHOMODE
+ 70
+     1
+  9
+$REGENMODE
+ 70
+     1
+  9
+$FILLMODE
+ 70
+     1
+  9
+$QTEXTMODE
+ 70
+     0
+  9
+$MIRRTEXT
+ 70
+     0
+  9
+$LTSCALE
+ 40
+10.0
+  9
+$ATTMODE
+ 70
+     1
+  9
+$TEXTSIZE
+ 40
+2.5
+  9
+$TRACEWID
+ 40
+0.05
+  9
+$TEXTSTYLE
+  7
+ISO
+  9
+$CLAYER
+  8
+0
+  9
+$CELTYPE
+  6
+BYLAYER
+  9
+$CECOLOR
+ 62
+   256
+  9
+$CELTSCALE
+ 40
+1.0
+  9
+$DISPSILH
+ 70
+     0
+  9
+$DIMSCALE
+ 40
+0.0
+  9
+$DIMASZ
+ 40
+3.0
+  9
+$DIMEXO
+ 40
+1.0
+  9
+$DIMDLI
+ 40
+10.0
+  9
+$DIMRND
+ 40
+0.0
+  9
+$DIMDLE
+ 40
+0.0
+  9
+$DIMEXE
+ 40
+1.0
+  9
+$DIMTP
+ 40
+0.0
+  9
+$DIMTM
+ 40
+0.0
+  9
+$DIMTXT
+ 40
+3.5
+  9
+$DIMCEN
+ 40
+1.0
+  9
+$DIMTSZ
+ 40
+0.0
+  9
+$DIMTOL
+ 70
+     0
+  9
+$DIMLIM
+ 70
+     0
+  9
+$DIMTIH
+ 70
+     0
+  9
+$DIMTOH
+ 70
+     0
+  9
+$DIMSE1
+ 70
+     0
+  9
+$DIMSE2
+ 70
+     0
+  9
+$DIMTAD
+ 70
+     1
+  9
+$DIMZIN
+ 70
+     8
+  9
+$DIMBLK
+  1
+
+  9
+$DIMASO
+ 70
+     1
+  9
+$DIMSHO
+ 70
+     0
+  9
+$DIMPOST
+  1
+
+  9
+$DIMAPOST
+  1
+
+  9
+$DIMALT
+ 70
+     0
+  9
+$DIMALTD
+ 70
+     2
+  9
+$DIMALTF
+ 40
+0.039
+  9
+$DIMLFAC
+ 40
+1.0
+  9
+$DIMTOFL
+ 70
+     1
+  9
+$DIMTVP
+ 40
+0.0
+  9
+$DIMTIX
+ 70
+     0
+  9
+$DIMSOXD
+ 70
+     0
+  9
+$DIMSAH
+ 70
+     0
+  9
+$DIMBLK1
+  1
+
+  9
+$DIMBLK2
+  1
+
+  9
+$DIMSTYLE
+  2
+STANDARD
+  9
+$DIMCLRD
+ 70
+     0
+  9
+$DIMCLRE
+ 70
+     0
+  9
+$DIMCLRT
+ 70
+     2
+  9
+$DIMTFAC
+ 40
+1.0
+  9
+$DIMGAP
+ 40
+1.0
+  9
+$DIMJUST
+ 70
+     0
+  9
+$DIMSD1
+ 70
+     0
+  9
+$DIMSD2
+ 70
+     0
+  9
+$DIMTOLJ
+ 70
+     1
+  9
+$DIMTZIN
+ 70
+     8
+  9
+$DIMALTZ
+ 70
+     8
+  9
+$DIMALTTZ
+ 70
+     8
+  9
+$DIMUPT
+ 70
+     0
+  9
+$DIMDEC
+ 70
+     2
+  9
+$DIMTDEC
+ 70
+     2
+  9
+$DIMALTU
+ 70
+     2
+  9
+$DIMALTTD
+ 70
+     2
+  9
+$DIMTXSTY
+  7
+ISO
+  9
+$DIMAUNIT
+ 70
+     0
+  9
+$DIMADEC
+ 70
+     0
+  9
+$DIMALTRND
+ 40
+0.0
+  9
+$DIMAZIN
+ 70
+     0
+  9
+$DIMDSEP
+ 70
+    46
+  9
+$DIMATFIT
+ 70
+     0
+  9
+$DIMFRAC
+ 70
+     0
+  9
+$DIMLDRBLK
+  1
+
+  9
+$DIMLUNIT
+ 70
+     2
+  9
+$DIMLWD
+ 70
+    -2
+  9
+$DIMLWE
+ 70
+    -2
+  9
+$DIMTMOVE
+ 70
+     2
+  9
+$LUNITS
+ 70
+     2
+  9
+$LUPREC
+ 70
+     3
+  9
+$SKETCHINC
+ 40
+0.1
+  9
+$FILLETRAD
+ 40
+0.0
+  9
+$AUNITS
+ 70
+     0
+  9
+$AUPREC
+ 70
+     3
+  9
+$MENU
+  1
+acad
+  9
+$ELEVATION
+ 40
+0.0
+  9
+$PELEVATION
+ 40
+0.0
+  9
+$THICKNESS
+ 40
+0.0
+  9
+$LIMCHECK
+ 70
+     1
+  9
+$CHAMFERA
+ 40
+10.0
+  9
+$CHAMFERB
+ 40
+10.0
+  9
+$CHAMFERC
+ 40
+0.0
+  9
+$CHAMFERD
+ 40
+0.0
+  9
+$SKPOLY
+ 70
+     0
+  9
+$TDCREATE
+ 40
+2449581.556956713
+  9
+$TDUCREATE
+ 40
+2449581.473623380
+  9
+$TDUPDATE
+ 40
+2455424.448387304
+  9
+$TDUUPDATE
+ 40
+2455424.365053970
+  9
+$TDINDWG
+ 40
+0.6207772222
+  9
+$TDUSRTIMER
+ 40
+0.6207772222
+  9
+$USRTIMER
+ 70
+     1
+  9
+$ANGBASE
+ 50
+0.0
+  9
+$ANGDIR
+ 70
+     0
+  9
+$PDMODE
+ 70
+    98
+  9
+$PDSIZE
+ 40
+-3.0
+  9
+$PLINEWID
+ 40
+0.0
+  9
+$SPLFRAME
+ 70
+     0
+  9
+$SPLINETYPE
+ 70
+     6
+  9
+$SPLINESEGS
+ 70
+     8
+  9
+$HANDSEED
+  5
+1A5B
+  9
+$SURFTAB1
+ 70
+     6
+  9
+$SURFTAB2
+ 70
+     6
+  9
+$SURFTYPE
+ 70
+     6
+  9
+$SURFU
+ 70
+     6
+  9
+$SURFV
+ 70
+     6
+  9
+$UCSBASE
+  2
+
+  9
+$UCSNAME
+  2
+
+  9
+$UCSORG
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$UCSXDIR
+ 10
+1.0
+ 20
+0.0
+ 30
+0.0
+  9
+$UCSYDIR
+ 10
+0.0
+ 20
+1.0
+ 30
+0.0
+  9
+$UCSORTHOREF
+  2
+
+  9
+$UCSORTHOVIEW
+ 70
+     1
+  9
+$UCSORGTOP
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$UCSORGBOTTOM
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$UCSORGLEFT
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$UCSORGRIGHT
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$UCSORGFRONT
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$UCSORGBACK
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PUCSBASE
+  2
+
+  9
+$PUCSNAME
+  2
+
+  9
+$PUCSORG
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PUCSXDIR
+ 10
+1.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PUCSYDIR
+ 10
+0.0
+ 20
+1.0
+ 30
+0.0
+  9
+$PUCSORTHOREF
+  2
+
+  9
+$PUCSORTHOVIEW
+ 70
+     0
+  9
+$PUCSORGTOP
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PUCSORGBOTTOM
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PUCSORGLEFT
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PUCSORGRIGHT
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PUCSORGFRONT
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PUCSORGBACK
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$USERI1
+ 70
+     0
+  9
+$USERI2
+ 70
+     0
+  9
+$USERI3
+ 70
+     0
+  9
+$USERI4
+ 70
+     0
+  9
+$USERI5
+ 70
+     0
+  9
+$USERR1
+ 40
+0.0
+  9
+$USERR2
+ 40
+0.0
+  9
+$USERR3
+ 40
+0.0
+  9
+$USERR4
+ 40
+0.0
+  9
+$USERR5
+ 40
+0.0
+  9
+$WORLDVIEW
+ 70
+     1
+  9
+$SHADEDGE
+ 70
+     3
+  9
+$SHADEDIF
+ 70
+    70
+  9
+$TILEMODE
+ 70
+     1
+  9
+$MAXACTVP
+ 70
+    16
+  9
+$PINSBASE
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PLIMCHECK
+ 70
+     0
+  9
+$PEXTMIN
+ 10
+-0.0159772987475435
+ 20
+-0.0091219043246156
+ 30
+0.0
+  9
+$PEXTMAX
+ 10
+431.8406519458834
+ 20
+297.0151581231087
+ 30
+0.0
+  9
+$PLIMMIN
+ 10
+-10.89213219721279
+ 20
+-10.88529495209399
+  9
+$PLIMMAX
+ 10
+441.2344116112568
+ 20
+308.7936325375025
+  9
+$UNITMODE
+ 70
+     0
+  9
+$VISRETAIN
+ 70
+     0
+  9
+$PLINEGEN
+ 70
+     1
+  9
+$PSLTSCALE
+ 70
+     0
+  9
+$TREEDEPTH
+ 70
+  3020
+  9
+$CMLSTYLE
+  2
+STANDARD
+  9
+$CMLJUST
+ 70
+     0
+  9
+$CMLSCALE
+ 40
+1.0
+  9
+$PROXYGRAPHICS
+ 70
+     1
+  9
+$MEASUREMENT
+ 70
+     0
+  9
+$CELWEIGHT
+370
+    -1
+  9
+$ENDCAPS
+280
+     0
+  9
+$JOINSTYLE
+280
+     0
+  9
+$LWDISPLAY
+290
+     0
+  9
+$INSUNITS
+ 70
+     0
+  9
+$HYPERLINKBASE
+  1
+
+  9
+$STYLESHEET
+  1
+
+  9
+$XEDIT
+290
+     1
+  9
+$CEPSNTYPE
+380
+     0
+  9
+$PSTYLEMODE
+290
+     1
+  9
+$FINGERPRINTGUID
+  2
+{3A0ABC15-6C0B-43F7-8539-FBB07E7CA257}
+  9
+$VERSIONGUID
+  2
+{3ACD4E3D-1736-4967-9F2D-34472BB21B8F}
+  9
+$EXTNAMES
+290
+     1
+  9
+$PSVPSCALE
+ 40
+0.0
+  9
+$OLESTARTUP
+290
+     0
+  9
+$SORTENTS
+280
+   127
+  9
+$INDEXCTL
+280
+     0
+  9
+$HIDETEXT
+280
+     0
+  9
+$XCLIPFRAME
+290
+     0
+  9
+$HALOGAP
+280
+     0
+  9
+$OBSCOLOR
+ 70
+   257
+  9
+$OBSLTYPE
+280
+     0
+  9
+$INTERSECTIONDISPLAY
+280
+     0
+  9
+$INTERSECTIONCOLOR
+ 70
+   257
+  9
+$DIMASSOC
+280
+     1
+  9
+$PROJECTNAME
+  1
+
+  0
+ENDSEC
+  0
+SECTION
+  2
+CLASSES
+  0
+CLASS
+  1
+ACDBDICTIONARYWDFLT
+  2
+AcDbDictionaryWithDefault
+  3
+ObjectDBX Classes
+ 90
+        0
+ 91
+        1
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+SORTENTSTABLE
+  2
+AcDbSortentsTable
+  3
+ObjectDBX Classes
+ 90
+        0
+ 91
+        0
+280
+     0
+281
+     0
+  0
+ENDSEC
+  0
+SECTION
+  2
+TABLES
+  0
+TABLE
+  2
+VPORT
+  5
+8
+330
+0
+100
+AcDbSymbolTable
+ 70
+     2
+  0
+VPORT
+  5
+1A5A
+330
+8
+100
+AcDbSymbolTableRecord
+100
+AcDbViewportTableRecord
+  2
+*Active
+ 70
+     0
+ 10
+0.0
+ 20
+0.0
+ 11
+1.0
+ 21
+1.0
+ 12
+-12.72010309997819
+ 22
+48.04273478998458
+ 13
+0.0
+ 23
+0.0
+ 14
+0.5
+ 24
+0.5
+ 15
+5.0
+ 25
+5.0
+ 16
+-1.0
+ 26
+-1.0
+ 36
+1.0
+ 17
+42.84827317678057
+ 27
+-63.85095143593876
+ 37
+28.78638723489227
+ 40
+206.4108191046511
+ 41
+1.618655692729766
+ 42
+50.0
+ 43
+0.0
+ 44
+0.0
+ 50
+0.0
+ 51
+0.0
+ 71
+     0
+ 72
+   100
+ 73
+     1
+ 74
+     3
+ 75
+     0
+ 76
+     0
+ 77
+     0
+ 78
+     1
+281
+     2
+ 65
+     1
+110
+0.0
+120
+0.0
+130
+0.0
+111
+1.0
+121
+0.0
+131
+0.0
+112
+0.0
+122
+1.0
+132
+0.0
+ 79
+     1
+146
+0.0
+  0
+ENDTAB
+  0
+TABLE
+  2
+LTYPE
+  5
+5
+330
+0
+100
+AcDbSymbolTable
+ 70
+     1
+  0
+LTYPE
+  5
+11
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+BYBLOCK
+ 70
+     0
+  3
+
+ 72
+    65
+ 73
+     0
+ 40
+0.0
+  0
+LTYPE
+  5
+12
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+BYLAYER
+ 70
+     0
+  3
+
+ 72
+    65
+ 73
+     0
+ 40
+0.0
+  0
+LTYPE
+  5
+13
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+CONTINUOUS
+ 70
+     0
+  3
+Solid line
+ 72
+    65
+ 73
+     0
+ 40
+0.0
+  0
+ENDTAB
+  0
+TABLE
+  2
+LAYER
+  5
+2
+330
+0
+100
+AcDbSymbolTable
+ 70
+    42
+  0
+LAYER
+  5
+E
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+0
+ 70
+     0
+ 62
+     7
+  6
+CONTINUOUS
+370
+    -3
+390
+375
+  0
+LAYER
+  5
+2F
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+DEFPOINTS
+ 70
+     0
+ 62
+     6
+  6
+CONTINUOUS
+290
+     0
+370
+    -3
+390
+375
+  0
+LAYER
+  5
+3A6
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+ASHADE
+ 70
+     4
+ 62
+     7
+  6
+CONTINUOUS
+370
+    -3
+390
+375
+  0
+LAYER
+  5
+B0E
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+color_52
+ 70
+     0
+ 62
+    52
+  6
+CONTINUOUS
+370
+    -3
+390
+375
+  0
+LAYER
+  5
+19D6
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+31_side_panel|ASHADE
+ 70
+    52
+ 62
+     7
+  6
+Continuous
+370
+    -3
+390
+375
+  0
+LAYER
+  5
+19D7
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+31_shielding_pcb|ASHADE
+ 70
+    52
+ 62
+     7
+  6
+Continuous
+370
+    -3
+390
+375
+  0
+LAYER
+  5
+19E7
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+31_front_panel_assembly|ASHADE
+ 70
+    52
+ 62
+     7
+  6
+Continuous
+370
+    -3
+390
+375
+  0
+LAYER
+  5
+19E8
+102
+{ACAD_XDICTIONARY
+360
+19E9
+102
+}
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+31_front_panel_layout|ASHADE
+ 70
+    52
+ 62
+     7
+  6
+Continuous
+370
+    -3
+390
+375
+  0
+LAYER
+  5
+19EB
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+31_front_panel|ASHADE
+ 70
+    52
+ 62
+     7
+  6
+Continuous
+370
+    -3
+390
+375
+  0
+LAYER
+  5
+19EC
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+spacer_5x3.5x15|ASHADE
+ 70
+    52
+ 62
+     7
+  6
+Continuous
+370
+    -3
+390
+375
+  0
+LAYER
+  5
+19ED
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+MECH_ISO1580_M3x25__|ASHADE
+ 70
+    52
+ 62
+     7
+  6
+Continuous
+370
+    -3
+390
+375
+  0
+LAYER
+  5
+19EE
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+SW_Apem_5546__|ASHADE
+ 70
+    52
+ 62
+     7
+  6
+Continuous
+370
+    -3
+390
+375
+  0
+LAYER
+  5
+1A11
+102
+{ACAD_XDICTIONARY
+360
+1A12
+102
+}
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+31_main_pcb_assembly|ASHADE
+ 70
+    52
+ 62
+     7
+  6
+Continuous
+370
+    -3
+390
+375
+  0
+LAYER
+  5
+1A14
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+____MIN-XY|ASHADE
+ 70
+    52
+ 62
+     7
+  6
+Continuous
+370
+    -3
+390
+375
+  0
+LAYER
+  5
+1A15
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+____MAX-XY|ASHADE
+ 70
+    52
+ 62
+     7
+  6
+Continuous
+370
+    -3
+390
+375
+  0
+LAYER
+  5
+1A16
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+XFMR_ERA_BV039-5314.0L_UI39-21_30VA-2x115VAC-2x18VAC-833mA|ASHADE
+ 70
+    48
+ 62
+     7
+  6
+Continuous
+370
+    -3
+390
+375
+  0
+LAYER
+  5
+1A18
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+CON-DIN41617_Assmann_A-31-S1_DIN41617_gold-plated-contacts|ASHADE
+ 70
+    52
+ 62
+     7
+  6
+Continuous
+370
+    -3
+390
+375
+  0
+LAYER
+  5
+1A19
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+DIO1016-520X270_Diodes_1N4001__|ASHADE
+ 70
+    52
+ 62
+     7
+  6
+Continuous
+370
+    -3
+390
+375
+  0
+LAYER
+  5
+1A1A
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+CAPPR200-500X1100_CDE__SK_|ASHADE
+ 70
+    52
+ 62
+     7
+  6
+Continuous
+370
+    -3
+390
+375
+  0
+LAYER
+  5
+1A1B
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+CAPPR500-1000X1200_CDE__SK_|ASHADE
+ 70
+    52
+ 62
+     7
+  6
+Continuous
+370
+    -3
+390
+375
+  0
+LAYER
+  5
+1A1C
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+CAPPR750-1600X2500_CDE__SK_|ASHADE
+ 70
+    52
+ 62
+     7
+  6
+Continuous
+370
+    -3
+390
+375
+  0
+LAYER
+  5
+1A1D
+102
+{ACAD_XDICTIONARY
+360
+1A1E
+102
+}
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RES1016-635X229____0.25W|ASHADE
+ 70
+    52
+ 62
+     7
+  6
+Continuous
+370
+    -3
+390
+375
+  0
+LAYER
+  5
+1A20
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+DIPS08300_Aries_08-3518-10T__|ASHADE
+ 70
+    52
+ 62
+     7
+  6
+Continuous
+370
+    -3
+390
+375
+  0
+LAYER
+  5
+1A33
+102
+{ACAD_XDICTIONARY
+360
+1A34
+102
+}
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+31_main_pcb_assembly_mechanical|ASHADE
+ 70
+    52
+ 62
+     7
+  6
+Continuous
+370
+    -3
+390
+375
+  0
+LAYER
+  5
+1A36
+102
+{ACAD_XDICTIONARY
+360
+1A37
+102
+}
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+31_main_pcb_assembly_mechanical|color_90
+ 70
+    48
+ 62
+    90
+  6
+Continuous
+370
+    -3
+390
+375
+  0
+LAYER
+  5
+1A39
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+31_main_pcb|ASHADE
+ 70
+    52
+ 62
+     7
+  6
+Continuous
+370
+    -3
+390
+375
+  0
+LAYER
+  5
+1A3A
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+TO-220__LM7815CT__standing|ASHADE
+ 70
+    48
+ 62
+     7
+  6
+Continuous
+370
+    -3
+390
+375
+  0
+LAYER
+  5
+1A3B
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+TO-220__LM7815CT__standing|TO-220$0$ASHADE
+ 70
+    52
+ 62
+     7
+  6
+Continuous
+370
+    -3
+390
+375
+  0
+LAYER
+  5
+1A3C
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+TO-220_National_LM7915CT__standing|ASHADE
+ 70
+    48
+ 62
+     7
+  6
+Continuous
+370
+    -3
+390
+375
+  0
+LAYER
+  5
+1A3D
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+TO-220_National_LM7915CT__standing|TO-220$0$ASHADE
+ 70
+    52
+ 62
+     7
+  6
+Continuous
+370
+    -3
+390
+375
+  0
+LAYER
+  5
+1A3E
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+31_HSINK_Conrad_188751-02_88x35x37_modified|ASHADE
+ 70
+    52
+ 62
+     7
+  6
+Continuous
+370
+    -3
+390
+375
+  0
+LAYER
+  5
+1A3F
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+MECH_ISO1580_M3x06__|ASHADE
+ 70
+    52
+ 62
+     7
+  6
+Continuous
+370
+    -3
+390
+375
+  0
+LAYER
+  5
+1A40
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+MECH_ISO1580_M3x10__|ASHADE
+ 70
+    52
+ 62
+     7
+  6
+Continuous
+370
+    -3
+390
+375
+  0
+LAYER
+  5
+1A4D
+102
+{ACAD_XDICTIONARY
+360
+1A4E
+102
+}
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+31_front_pcb_assembly|ASHADE
+ 70
+    52
+ 62
+     7
+  6
+Continuous
+370
+    -3
+390
+375
+  0
+LAYER
+  5
+1A50
+102
+{ACAD_XDICTIONARY
+360
+1A51
+102
+}
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+31_front_pcb_assembly|color_90
+ 70
+    48
+ 62
+    90
+  6
+Continuous
+370
+    -3
+390
+375
+  0
+LAYER
+  5
+1A53
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+31_front_pcb|ASHADE
+ 70
+    52
+ 62
+     7
+  6
+Continuous
+370
+    -3
+390
+375
+  0
+LAYER
+  5
+1A54
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+LED____5x2.5mm-red|ASHADE
+ 70
+    52
+ 62
+     7
+  6
+Continuous
+370
+    -3
+390
+375
+  0
+LAYER
+  5
+1A55
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+DIP16300_TexasInstruments___|ASHADE
+ 70
+    52
+ 62
+     7
+  6
+Continuous
+370
+    -3
+390
+375
+  0
+LAYER
+  5
+1A56
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+DIPS16300_Aries_16-3518-10T__|ASHADE
+ 70
+    52
+ 62
+     7
+  6
+Continuous
+370
+    -3
+390
+375
+  0
+LAYER
+  5
+1A57
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+MECH_ISO4032_M3__|ASHADE
+ 70
+    52
+ 62
+     7
+  6
+Continuous
+370
+    -3
+390
+375
+  0
+LAYER
+  5
+1A58
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+MECH_ISO1580_M3x12__|ASHADE
+ 70
+    52
+ 62
+     7
+  6
+Continuous
+370
+    -3
+390
+375
+  0
+LAYER
+  5
+1A59
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+MECH_ISO1580_M3x08__|ASHADE
+ 70
+    52
+ 62
+     7
+  6
+Continuous
+370
+    -3
+390
+375
+  0
+ENDTAB
+  0
+TABLE
+  2
+STYLE
+  5
+3
+330
+0
+100
+AcDbSymbolTable
+ 70
+    58
+  0
+STYLE
+  5
+F
+330
+3
+100
+AcDbSymbolTableRecord
+100
+AcDbTextStyleTableRecord
+  2
+STANDARD
+ 70
+     0
+ 40
+0.0
+ 41
+1.0
+ 50
+0.0
+ 71
+     0
+ 42
+3.5
+  3
+TXT
+  4
+
+  0
+STYLE
+  5
+22
+330
+3
+100
+AcDbSymbolTableRecord
+100
+AcDbTextStyleTableRecord
+  2
+ISO
+ 70
+     0
+ 40
+0.0
+ 41
+1.0
+ 50
+0.0
+ 71
+     0
+ 42
+2.5
+  3
+isocpeur.ttf
+  4
+
+1001
+ACAD
+1000
+ISOCPEUR
+1071
+       34
+  0
+STYLE
+  5
+11ED
+330
+3
+100
+AcDbSymbolTableRecord
+100
+AcDbTextStyleTableRecord
+  2
+ASHADE
+ 70
+     0
+ 40
+0.2
+ 41
+1.0
+ 50
+0.0
+ 71
+     0
+ 42
+2.5
+  3
+simplex
+  4
+
+  0
+ENDTAB
+  0
+TABLE
+  2
+VIEW
+  5
+6
+330
+0
+100
+AcDbSymbolTable
+ 70
+     0
+  0
+ENDTAB
+  0
+TABLE
+  2
+UCS
+  5
+7
+330
+0
+100
+AcDbSymbolTable
+ 70
+     0
+  0
+ENDTAB
+  0
+TABLE
+  2
+APPID
+  5
+9
+330
+0
+100
+AcDbSymbolTable
+ 70
+     7
+  0
+APPID
+  5
+10
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+ACAD
+ 70
+     0
+  0
+APPID
+  5
+3A4
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+AVE_RENDER
+ 70
+     0
+  0
+APPID
+  5
+3A5
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+AVE_ENTITY_MATERIAL
+ 70
+     0
+  0
+APPID
+  5
+3B2
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+AVE_FINISH
+ 70
+     0
+  0
+APPID
+  5
+3B3
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+AVE_MATERIAL
+ 70
+     0
+  0
+APPID
+  5
+3B4
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+AVE_GLOBAL
+ 70
+     0
+  0
+APPID
+  5
+1637
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+ACAD_MLEADERVER
+ 70
+     0
+  0
+ENDTAB
+  0
+TABLE
+  2
+DIMSTYLE
+  5
+A
+330
+0
+100
+AcDbSymbolTable
+ 70
+    36
+100
+AcDbDimStyleTable
+ 71
+     1
+340
+11D
+  0
+DIMSTYLE
+105
+11D
+330
+A
+100
+AcDbSymbolTableRecord
+100
+AcDbDimStyleTableRecord
+  2
+STANDARD
+ 70
+     0
+ 40
+0.0
+ 41
+3.0
+ 42
+1.0
+ 43
+10.0
+ 44
+1.0
+ 73
+     0
+ 74
+     0
+ 77
+     1
+ 78
+     8
+140
+3.5
+141
+1.0
+143
+0.039
+147
+1.0
+172
+     1
+178
+     2
+271
+     2
+272
+     2
+279
+     2
+284
+     8
+285
+     8
+286
+     8
+289
+     0
+340
+22
+  0
+ENDTAB
+  0
+TABLE
+  2
+BLOCK_RECORD
+  5
+1
+330
+0
+100
+AcDbSymbolTable
+ 70
+   132
+  0
+BLOCK_RECORD
+  5
+17
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+*MODEL_SPACE
+340
+37A
+  0
+BLOCK_RECORD
+  5
+14
+102
+{ACAD_XDICTIONARY
+360
+496
+102
+}
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+*PAPER_SPACE
+340
+37B
+  0
+BLOCK_RECORD
+  5
+3A7
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+AVE_RENDER
+340
+0
+102
+{BLKREFS
+331
+3AA
+331
+3AB
+331
+3AC
+331
+3AD
+331
+3AE
+331
+3AF
+331
+3B0
+331
+3B1
+102
+}
+  0
+BLOCK_RECORD
+  5
+3B5
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+AVE_GLOBAL
+340
+0
+102
+{BLKREFS
+331
+3B8
+102
+}
+  0
+BLOCK_RECORD
+  5
+96F
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+31_side_panel
+340
+0
+102
+{BLKREFS
+331
+973
+331
+98C
+102
+}
+  0
+BLOCK_RECORD
+  5
+978
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+31_shielding_pcb
+340
+0
+102
+{BLKREFS
+331
+97B
+102
+}
+  0
+BLOCK_RECORD
+  5
+BB6
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+31_front_panel_assembly
+340
+0
+102
+{BLKREFS
+331
+BBE
+332
+16B6
+332
+19D8
+332
+19DB
+332
+19DE
+332
+19E1
+332
+19E4
+102
+}
+  0
+BLOCK_RECORD
+  5
+C0D
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+31_main_pcb_assembly
+340
+0
+102
+{BLKREFS
+331
+E19
+332
+19F0
+332
+19F3
+332
+19F6
+332
+19F9
+332
+19FC
+332
+19FF
+332
+1A02
+332
+1A05
+332
+1A08
+332
+1A0B
+332
+1A0E
+102
+}
+  0
+BLOCK_RECORD
+  5
+C21
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+31_front_pcb_assembly
+340
+0
+102
+{BLKREFS
+331
+C30
+332
+1A08
+332
+1A41
+332
+1A44
+332
+1A47
+332
+1A4A
+102
+}
+  0
+BLOCK_RECORD
+  5
+16B6
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+MECH_ISO4032_M3__
+340
+0
+102
+{BLKREFS
+331
+1726
+331
+17AC
+331
+17B0
+331
+17BA
+331
+17C0
+331
+17C4
+331
+17C7
+331
+17C8
+102
+}
+  0
+BLOCK_RECORD
+  5
+171B
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+MECH_ISO1580_M3x12__
+340
+0
+102
+{BLKREFS
+331
+171F
+331
+17C3
+102
+}
+  0
+BLOCK_RECORD
+  5
+1722
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+MECH____spacer-5x3.5x02
+340
+0
+102
+{BLKREFS
+331
+1725
+331
+17AB
+331
+17AE
+331
+17B9
+331
+17BF
+331
+17C2
+102
+}
+  0
+BLOCK_RECORD
+  5
+17A6
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+MECH_ISO1580_M3x08__
+340
+0
+102
+{BLKREFS
+331
+17AA
+331
+17AF
+331
+17B8
+331
+17BE
+102
+}
+  0
+BLOCK_RECORD
+  5
+19D8
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+31_front_panel_layout
+340
+0
+  0
+BLOCK_RECORD
+  5
+19DB
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+31_front_panel
+340
+0
+  0
+BLOCK_RECORD
+  5
+19DE
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+spacer_5x3.5x15
+340
+0
+  0
+BLOCK_RECORD
+  5
+19E1
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+MECH_ISO1580_M3x25__
+340
+0
+  0
+BLOCK_RECORD
+  5
+19E4
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+SW_Apem_5546__
+340
+0
+  0
+BLOCK_RECORD
+  5
+19F0
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+____MIN-XY
+340
+0
+  0
+BLOCK_RECORD
+  5
+19F3
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+____MAX-XY
+340
+0
+  0
+BLOCK_RECORD
+  5
+19F6
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+XFMR_ERA_BV039-5314.0L_UI39-21_30VA-2x115VAC-2x18VAC-833mA
+340
+0
+  0
+BLOCK_RECORD
+  5
+19F9
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+CON-DIN41617_Assmann_A-31-S1_DIN41617_gold-plated-contacts
+340
+0
+  0
+BLOCK_RECORD
+  5
+19FC
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+DIO1016-520X270_Diodes_1N4001__
+340
+0
+  0
+BLOCK_RECORD
+  5
+19FF
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+CAPPR200-500X1100_CDE__SK_
+340
+0
+  0
+BLOCK_RECORD
+  5
+1A02
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+CAPPR500-1000X1200_CDE__SK_
+340
+0
+  0
+BLOCK_RECORD
+  5
+1A05
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+CAPPR750-1600X2500_CDE__SK_
+340
+0
+  0
+BLOCK_RECORD
+  5
+1A08
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+RES1016-635X229____0.25W
+340
+0
+  0
+BLOCK_RECORD
+  5
+1A0B
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+DIPS08300_Aries_08-3518-10T__
+340
+0
+  0
+BLOCK_RECORD
+  5
+1A0E
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+31_main_pcb_assembly_mechanical
+340
+0
+102
+{BLKREFS
+332
+16B6
+332
+19F0
+332
+19F3
+332
+1A21
+332
+1A24
+332
+1A27
+332
+1A2A
+332
+1A2D
+332
+1A30
+102
+}
+  0
+BLOCK_RECORD
+  5
+1A21
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+31_main_pcb
+340
+0
+  0
+BLOCK_RECORD
+  5
+1A24
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+TO-220__LM7815CT__standing
+340
+0
+  0
+BLOCK_RECORD
+  5
+1A27
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+TO-220_National_LM7915CT__standing
+340
+0
+  0
+BLOCK_RECORD
+  5
+1A2A
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+31_HSINK_Conrad_188751-02_88x35x37_modified
+340
+0
+  0
+BLOCK_RECORD
+  5
+1A2D
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+MECH_ISO1580_M3x06__
+340
+0
+  0
+BLOCK_RECORD
+  5
+1A30
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+MECH_ISO1580_M3x10__
+340
+0
+  0
+BLOCK_RECORD
+  5
+1A41
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+31_front_pcb
+340
+0
+  0
+BLOCK_RECORD
+  5
+1A44
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+LED____5x2.5mm-red
+340
+0
+  0
+BLOCK_RECORD
+  5
+1A47
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+DIP16300_TexasInstruments___
+340
+0
+  0
+BLOCK_RECORD
+  5
+1A4A
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+DIPS16300_Aries_16-3518-10T__
+340
+0
+  0
+ENDTAB
+  0
+ENDSEC
+  0
+SECTION
+  2
+BLOCKS
+  0
+BLOCK
+  5
+32
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+*MODEL_SPACE
+ 70
+     0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+*MODEL_SPACE
+  1
+
+  0
+ENDBLK
+  5
+33
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+30
+330
+14
+100
+AcDbEntity
+ 67
+     1
+  8
+0
+100
+AcDbBlockBegin
+  2
+*PAPER_SPACE
+ 70
+     0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+*PAPER_SPACE
+  1
+
+  0
+ENDBLK
+  5
+31
+330
+14
+100
+AcDbEntity
+ 67
+     1
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+3A8
+330
+3A7
+100
+AcDbEntity
+  8
+ASHADE
+100
+AcDbBlockBegin
+  2
+AVE_RENDER
+ 70
+     0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+AVE_RENDER
+  1
+AVE_RENDER
+  0
+ENDBLK
+  5
+3A9
+330
+3A7
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+3B6
+330
+3B5
+100
+AcDbEntity
+  8
+ASHADE
+100
+AcDbBlockBegin
+  2
+AVE_GLOBAL
+ 70
+     0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+AVE_GLOBAL
+  1
+AVE_GLOBAL
+  0
+ENDBLK
+  5
+3B7
+330
+3B5
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+970
+330
+96F
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+31_side_panel
+ 70
+    36
+ 10
+174.75
+ 20
+70.0
+ 30
+0.0
+  3
+31_side_panel
+  1
+..\..\..\31_Power_Supply_Unit\mechanical\parts\31_side_panel.dwg
+  0
+ENDBLK
+  5
+971
+330
+96F
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+979
+330
+978
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+31_shielding_pcb
+ 70
+    36
+ 10
+0.0
+ 20
+5.0
+ 30
+-2.0
+  3
+31_shielding_pcb
+  1
+..\..\..\31_Power_Supply_Unit\mechanical\parts\31_shielding_pcb.dwg
+  0
+ENDBLK
+  5
+97A
+330
+978
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+BB7
+330
+BB6
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+31_front_panel_assembly
+ 70
+    36
+ 10
+174.75
+ 20
+70.0
+ 30
+0.0
+  3
+31_front_panel_assembly
+  1
+..\..\..\31_Power_Supply_Unit\mechanical\parts\31_front_panel_assembly.dwg
+  0
+ENDBLK
+  5
+BB8
+330
+BB6
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+C0E
+330
+C0D
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+31_main_pcb_assembly
+ 70
+    36
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+31_main_pcb_assembly
+  1
+..\..\..\31_Power_Supply_Unit\mechanical\parts\31_main_pcb_assembly.dwg
+  0
+ENDBLK
+  5
+C0F
+330
+C0D
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+C22
+330
+C21
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+31_front_pcb_assembly
+ 70
+    36
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+31_front_pcb_assembly
+  1
+..\..\..\31_Power_Supply_Unit\mechanical\parts\31_front_pcb_assembly.dwg
+  0
+ENDBLK
+  5
+C23
+330
+C21
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+16B7
+330
+16B6
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+MECH_ISO4032_M3__
+ 70
+    36
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+MECH_ISO4032_M3__
+  1
+..\..\..\..\pca-parts\MECH_ISO4032_M3__.dwg
+  0
+ENDBLK
+  5
+16B8
+330
+16B6
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+171C
+330
+171B
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+MECH_ISO1580_M3x12__
+ 70
+    36
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+MECH_ISO1580_M3x12__
+  1
+..\..\..\..\pca-parts\MECH_ISO1580_M3x12__.dwg
+  0
+ENDBLK
+  5
+171D
+330
+171B
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+1723
+330
+1722
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+MECH____spacer-5x3.5x02
+ 70
+    36
+ 10
+80.0
+ 20
+92.5
+ 30
+0.000000000000017
+  3
+MECH____spacer-5x3.5x02
+  1
+..\..\..\..\pca-parts\MECH____spacer-5x3.5x02.dwg
+  0
+ENDBLK
+  5
+1724
+330
+1722
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+17A7
+330
+17A6
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+MECH_ISO1580_M3x08__
+ 70
+    36
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+MECH_ISO1580_M3x08__
+  1
+..\..\..\..\pca-parts\MECH_ISO1580_M3x08__.dwg
+  0
+ENDBLK
+  5
+17A8
+330
+17A6
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+19D9
+330
+19D8
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+31_front_panel_layout
+ 70
+    36
+ 10
+174.75
+ 20
+70.0
+ 30
+0.0
+  3
+31_front_panel_layout
+  1
+..\..\..\31_Power_Supply_Unit\mechanical\parts\31_front_panel_layout.dwg
+  0
+ENDBLK
+  5
+19DA
+330
+19D8
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+19DC
+330
+19DB
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+31_front_panel
+ 70
+    36
+ 10
+174.75
+ 20
+70.0
+ 30
+0.0
+  3
+31_front_panel
+  1
+.\31_front_panel.dwg
+  0
+ENDBLK
+  5
+19DD
+330
+19DB
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+19DF
+330
+19DE
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+spacer_5x3.5x15
+ 70
+    36
+ 10
+80.0
+ 20
+92.5
+ 30
+0.000000000000017
+  3
+spacer_5x3.5x15
+  1
+..\..\..\..\pca-parts\MECH____spacer-5x3.5x15.dwg
+  0
+ENDBLK
+  5
+19E0
+330
+19DE
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+19E2
+330
+19E1
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+MECH_ISO1580_M3x25__
+ 70
+    36
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+MECH_ISO1580_M3x25__
+  1
+..\..\..\..\pca-parts\MECH_ISO1580_M3x25__.dwg
+  0
+ENDBLK
+  5
+19E3
+330
+19E1
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+19E5
+330
+19E4
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+SW_Apem_5546__
+ 70
+    36
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+SW_Apem_5546__
+  1
+..\..\..\..\pca-parts\SW_Apem_5546__.dwg
+  0
+ENDBLK
+  5
+19E6
+330
+19E4
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+19F1
+330
+19F0
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+____MIN-XY
+ 70
+    36
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+____MIN-XY
+  1
+..\..\..\..\pca-parts\____MIN-XY.dwg
+  0
+ENDBLK
+  5
+19F2
+330
+19F0
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+19F4
+330
+19F3
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+____MAX-XY
+ 70
+    36
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+____MAX-XY
+  1
+..\..\..\..\pca-parts\____MAX-XY.dwg
+  0
+ENDBLK
+  5
+19F5
+330
+19F3
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+19F7
+330
+19F6
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+XFMR_ERA_BV039-5314.0L_UI39-21_30VA-2x115VAC-2x18VAC-833mA
+ 70
+    36
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+XFMR_ERA_BV039-5314.0L_UI39-21_30VA-2x115VAC-2x18VAC-833mA
+  1
+..\..\..\..\pca-parts\XFMR_ERA_BV039-5314.0L_UI39-21_30VA-2x115VAC-2x18VAC-833mA.dwg
+  0
+ENDBLK
+  5
+19F8
+330
+19F6
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+19FA
+330
+19F9
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+CON-DIN41617_Assmann_A-31-S1_DIN41617_gold-plated-contacts
+ 70
+    36
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+CON-DIN41617_Assmann_A-31-S1_DIN41617_gold-plated-contacts
+  1
+..\..\..\..\pca-parts\CON-DIN41617_Assmann_A-31-S1_DIN41617_gold-plated-contacts.dwg
+  0
+ENDBLK
+  5
+19FB
+330
+19F9
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+19FD
+330
+19FC
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+DIO1016-520X270_Diodes_1N4001__
+ 70
+    36
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+DIO1016-520X270_Diodes_1N4001__
+  1
+..\..\..\..\pca-parts\DIO1016-520X270_Diodes_1N4001__.dwg
+  0
+ENDBLK
+  5
+19FE
+330
+19FC
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+1A00
+330
+19FF
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+CAPPR200-500X1100_CDE__SK_
+ 70
+    36
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+CAPPR200-500X1100_CDE__SK_
+  1
+..\..\..\..\pca-parts\CAPPR200-500X1100_CDE__SK_.dwg
+  0
+ENDBLK
+  5
+1A01
+330
+19FF
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+1A03
+330
+1A02
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+CAPPR500-1000X1200_CDE__SK_
+ 70
+    36
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+CAPPR500-1000X1200_CDE__SK_
+  1
+..\..\..\..\pca-parts\CAPPR500-1000X1200_CDE__SK_.dwg
+  0
+ENDBLK
+  5
+1A04
+330
+1A02
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+1A06
+330
+1A05
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+CAPPR750-1600X2500_CDE__SK_
+ 70
+    36
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+CAPPR750-1600X2500_CDE__SK_
+  1
+..\..\..\..\pca-parts\CAPPR750-1600X2500_CDE__SK_.dwg
+  0
+ENDBLK
+  5
+1A07
+330
+1A05
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+1A09
+330
+1A08
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+RES1016-635X229____0.25W
+ 70
+    36
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+RES1016-635X229____0.25W
+  1
+..\..\..\..\pca-parts\RES1016-635X229____0.25W.dwg
+  0
+ENDBLK
+  5
+1A0A
+330
+1A08
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+1A0C
+330
+1A0B
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+DIPS08300_Aries_08-3518-10T__
+ 70
+    36
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+DIPS08300_Aries_08-3518-10T__
+  1
+..\..\..\..\pca-parts\DIPS08300_Aries_08-3518-10T__.dwg
+  0
+ENDBLK
+  5
+1A0D
+330
+1A0B
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+1A0F
+330
+1A0E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+31_main_pcb_assembly_mechanical
+ 70
+    36
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+31_main_pcb_assembly_mechanical
+  1
+.\31_main_pcb_assembly_mechanical.dwg
+  0
+ENDBLK
+  5
+1A10
+330
+1A0E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+1A22
+330
+1A21
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+31_main_pcb
+ 70
+    36
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+31_main_pcb
+  1
+..\..\..\31_Power_Supply_Unit\mechanical\parts\31_main_pcb.dwg
+  0
+ENDBLK
+  5
+1A23
+330
+1A21
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+1A25
+330
+1A24
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+TO-220__LM7815CT__standing
+ 70
+    36
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+TO-220__LM7815CT__standing
+  1
+..\..\..\..\pca-parts\TO-220__LM7815CT__standing.dwg
+  0
+ENDBLK
+  5
+1A26
+330
+1A24
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+1A28
+330
+1A27
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+TO-220_National_LM7915CT__standing
+ 70
+    36
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+TO-220_National_LM7915CT__standing
+  1
+..\..\..\..\pca-parts\TO-220_National_LM7915CT__standing.dwg
+  0
+ENDBLK
+  5
+1A29
+330
+1A27
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+1A2B
+330
+1A2A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+31_HSINK_Conrad_188751-02_88x35x37_modified
+ 70
+    36
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+31_HSINK_Conrad_188751-02_88x35x37_modified
+  1
+.\31_HSINK_Conrad_188751-02_88x35x37_modified.dwg
+  0
+ENDBLK
+  5
+1A2C
+330
+1A2A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+1A2E
+330
+1A2D
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+MECH_ISO1580_M3x06__
+ 70
+    36
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+MECH_ISO1580_M3x06__
+  1
+..\..\..\..\pca-parts\MECH_ISO1580_M3x06__.dwg
+  0
+ENDBLK
+  5
+1A2F
+330
+1A2D
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+1A31
+330
+1A30
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+MECH_ISO1580_M3x10__
+ 70
+    36
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+MECH_ISO1580_M3x10__
+  1
+..\..\..\..\pca-parts\MECH_ISO1580_M3x10__.dwg
+  0
+ENDBLK
+  5
+1A32
+330
+1A30
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+1A42
+330
+1A41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+31_front_pcb
+ 70
+    36
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+31_front_pcb
+  1
+..\..\..\31_Power_Supply_Unit\mechanical\parts\31_front_pcb.dwg
+  0
+ENDBLK
+  5
+1A43
+330
+1A41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+1A45
+330
+1A44
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+LED____5x2.5mm-red
+ 70
+    36
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+LED____5x2.5mm-red
+  1
+..\..\..\..\pca-parts\LED____5x2.5mm-red.dwg
+  0
+ENDBLK
+  5
+1A46
+330
+1A44
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+1A48
+330
+1A47
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+DIP16300_TexasInstruments___
+ 70
+    36
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+DIP16300_TexasInstruments___
+  1
+..\..\..\..\pca-parts\DIP16300_TexasInstruments___.dwg
+  0
+ENDBLK
+  5
+1A49
+330
+1A47
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+1A4B
+330
+1A4A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+DIPS16300_Aries_16-3518-10T__
+ 70
+    36
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+DIPS16300_Aries_16-3518-10T__
+  1
+..\..\..\..\pca-parts\DIPS16300_Aries_16-3518-10T__.dwg
+  0
+ENDBLK
+  5
+1A4C
+330
+1A4A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+ENDSEC
+  0
+SECTION
+  2
+ENTITIES
+  0
+INSERT
+  5
+3AA
+330
+17
+100
+AcDbEntity
+  8
+ASHADE
+ 62
+     1
+100
+AcDbBlockReference
+  2
+AVE_RENDER
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+1001
+AVE_RENDER
+1002
+{
+1070
+     7
+1000
+Pref
+1070
+    50
+1070
+    20
+1070
+     1
+1070
+     0
+1000
+
+1070
+    10
+1070
+     1
+1070
+    10
+1040
+1.0
+1070
+     1
+1040
+0.7
+1040
+1.0
+1040
+0.0
+1040
+10.0
+1010
+-1.0
+1020
+-1.0
+1030
+-1.0
+1040
+0.3
+1070
+    49
+1070
+     0
+1070
+     0
+1010
+1.0
+1020
+1.0
+1030
+1.0
+1040
+45.0
+1070
+     1
+1070
+     0
+1000
+WCS
+1040
+0.0
+1070
+     0
+1040
+10.0
+1002
+}
+  0
+INSERT
+  5
+3AB
+330
+17
+100
+AcDbEntity
+  8
+ASHADE
+ 62
+     3
+100
+AcDbBlockReference
+  2
+AVE_RENDER
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+1001
+AVE_RENDER
+1002
+{
+1070
+     0
+1000
+Full Opt
+1070
+     0
+1070
+     1
+1070
+     1
+1070
+     1
+1070
+     0
+1070
+     0
+1070
+     0
+1070
+     1
+1070
+     1
+1040
+0.0001
+1040
+0.0001
+1002
+}
+  0
+INSERT
+  5
+3AC
+330
+17
+100
+AcDbEntity
+  8
+ASHADE
+ 62
+     4
+100
+AcDbBlockReference
+  2
+AVE_RENDER
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+1001
+AVE_RENDER
+1002
+{
+1070
+     0
+1000
+Quick Opt
+1070
+     0
+1070
+     1
+1070
+     1
+1070
+     1
+1070
+     0
+1070
+     0
+1070
+     1
+1002
+}
+  0
+INSERT
+  5
+3AD
+330
+17
+100
+AcDbEntity
+  8
+ASHADE
+ 62
+     5
+100
+AcDbBlockReference
+  2
+AVE_RENDER
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+1001
+AVE_RENDER
+1002
+{
+1070
+     1
+1000
+Scanl Opt
+1070
+     2
+1070
+     0
+1070
+     2
+1040
+2.0
+1040
+4.0
+1070
+     0
+1070
+     1
+1070
+     0
+1040
+0.03
+1002
+}
+  0
+INSERT
+  5
+3AE
+330
+17
+100
+AcDbEntity
+  8
+ASHADE
+ 62
+     6
+100
+AcDbBlockReference
+  2
+AVE_RENDER
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+1001
+AVE_RENDER
+1002
+{
+1070
+     2
+1000
+Raytr Opt
+1070
+     2
+1070
+     0
+1070
+     2
+1040
+2.0
+1040
+4.0
+1070
+     0
+1070
+     1
+1070
+     1
+1040
+0.03
+1070
+     3
+1040
+0.03
+1002
+}
+  0
+INSERT
+  5
+3AF
+330
+17
+100
+AcDbEntity
+  8
+ASHADE
+ 62
+     7
+100
+AcDbBlockReference
+  2
+AVE_RENDER
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+1001
+AVE_RENDER
+1002
+{
+1070
+     0
+1000
+RFile Opt
+1070
+     1
+1070
+   640
+1070
+   480
+1070
+ 10000
+1070
+     1
+1070
+     8
+1070
+     8
+1070
+     0
+1070
+     0
+1070
+     0
+1070
+     0
+1070
+     0
+1070
+     0
+1070
+     0
+1002
+}
+  0
+INSERT
+  5
+3B0
+330
+17
+100
+AcDbEntity
+  8
+ASHADE
+ 62
+     8
+100
+AcDbBlockReference
+  2
+AVE_RENDER
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+1001
+AVE_RENDER
+1002
+{
+1070
+     0
+1000
+Fog Opt
+1070
+     0
+1070
+     0
+1040
+0.0
+1040
+1.0
+1040
+0.0
+1040
+1.0
+1010
+0.5
+1020
+0.5
+1030
+0.5
+1002
+}
+  0
+INSERT
+  5
+3B1
+330
+17
+100
+AcDbEntity
+  8
+ASHADE
+ 62
+     9
+100
+AcDbBlockReference
+  2
+AVE_RENDER
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+1001
+AVE_RENDER
+1002
+{
+1070
+     0
+1000
+BG Opt
+1070
+     0
+1070
+     1
+1010
+0.0
+1020
+0.0
+1030
+0.0
+1010
+1.0
+1020
+0.0
+1030
+0.0
+1010
+0.0
+1020
+1.0
+1030
+0.0
+1010
+0.0
+1020
+0.0
+1030
+1.0
+1040
+0.5
+1040
+0.33
+1040
+0.0
+1000
+
+1070
+     1
+1000
+
+1070
+     1
+1070
+     1
+1040
+1.0
+1040
+1.0
+1040
+0.0
+1040
+0.0
+1070
+     0
+1002
+}
+  0
+INSERT
+  5
+3B8
+330
+17
+100
+AcDbEntity
+  8
+ASHADE
+ 62
+     1
+100
+AcDbBlockReference
+  2
+AVE_GLOBAL
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+1001
+AVE_MATERIAL
+1002
+{
+1000
+*GLOBAL*
+1000
+2
+1000
+Global finish.
+1002
+{
+1002
+}
+1002
+{
+1070
+    63
+1002
+{
+1002
+{
+1010
+-1.0
+1020
+-1.0
+1030
+-1.0
+1002
+}
+1040
+0.6999999880790711
+1000
+
+1040
+0.0
+1002
+{
+1002
+}
+1040
+0.0
+1002
+{
+1002
+}
+1040
+0.0
+1002
+}
+1002
+{
+1002
+{
+1010
+-1.0
+1020
+-1.0
+1030
+-1.0
+1002
+}
+1040
+1.0
+1000
+
+1040
+0.0
+1002
+{
+1002
+}
+1040
+0.0
+1002
+{
+1002
+}
+1040
+0.0
+1002
+}
+1002
+{
+1002
+{
+1010
+-1.0
+1020
+-1.0
+1030
+-1.0
+1002
+}
+1040
+0.2000000029802322
+1000
+
+1040
+0.0
+1002
+{
+1002
+}
+1040
+0.0
+1002
+{
+1002
+}
+1040
+0.0
+1002
+}
+1002
+{
+1070
+     0
+1002
+{
+1070
+     1
+1002
+{
+1040
+1.0
+1040
+1.0
+1000
+
+1040
+0.0
+1002
+{
+1002
+}
+1040
+0.0
+1002
+{
+1002
+}
+1040
+0.0
+1002
+}
+1002
+}
+1040
+1.0
+1040
+0.0
+1040
+0.0
+1002
+}
+1002
+{
+1040
+1.0
+1040
+1.0
+1000
+
+1040
+0.0
+1002
+{
+1002
+}
+1040
+0.0
+1002
+{
+1002
+}
+1040
+0.0
+1002
+}
+1002
+{
+1040
+0.5
+1040
+1.0
+1000
+
+1040
+0.0
+1002
+{
+1002
+}
+1040
+0.0
+1002
+{
+1002
+}
+1040
+0.0
+1002
+}
+1002
+{
+1070
+     0
+1040
+0.0
+1002
+{
+1002
+}
+1040
+1.0
+1002
+{
+1002
+}
+1040
+0.0
+1002
+}
+1002
+{
+1040
+0.0
+1002
+{
+1002
+{
+1010
+0.0
+1020
+0.0
+1030
+0.0
+1002
+}
+1040
+1.0
+1000
+
+1040
+0.0
+1002
+{
+1002
+}
+1040
+0.0
+1002
+{
+1002
+}
+1040
+0.0
+1002
+}
+1002
+}
+1002
+{
+1002
+{
+1070
+     1
+1002
+{
+1040
+0.0
+1040
+1.0
+1000
+
+1040
+0.0
+1002
+{
+1002
+}
+1040
+0.0
+1002
+{
+1002
+}
+1040
+0.0
+1002
+}
+1002
+}
+1040
+0.0
+1002
+{
+1002
+}
+1010
+1.0
+1020
+0.0
+1030
+0.0
+1010
+0.0
+1020
+1.0
+1030
+0.0
+1010
+0.0
+1020
+0.0
+1030
+1.0
+1070
+     0
+1002
+}
+1002
+{
+1002
+{
+1040
+1.0
+1040
+1.0
+1002
+{
+1070
+     1
+1002
+{
+1040
+1.0
+1040
+1.0
+1000
+
+1040
+0.0
+1002
+{
+1002
+}
+1040
+0.0
+1002
+{
+1002
+}
+1040
+0.0
+1002
+}
+1002
+}
+1002
+}
+1070
+     0
+1040
+0.0
+1002
+{
+1002
+}
+1002
+}
+1002
+{
+1002
+}
+1002
+}
+1002
+{
+1071
+        3
+1070
+     3
+1070
+     0
+1002
+{
+1070
+     2
+1070
+     0
+1070
+     0
+1040
+0.0
+1002
+}
+1070
+     0
+1070
+     2
+1002
+{
+1002
+}
+1002
+}
+1002
+{
+1040
+8030.0
+1040
+190.3000030517578
+1040
+0.3050000071525574
+1040
+228.0
+1040
+545.0
+1040
+14.0
+1040
+17.39999961853027
+1040
+0.4560000002384186
+1002
+}
+1000
+
+1002
+}
+  0
+INSERT
+  5
+973
+330
+17
+100
+AcDbEntity
+  8
+color_52
+100
+AcDbBlockReference
+  2
+31_side_panel
+ 10
+84.39999999999997
+ 20
+-174.75
+ 30
+2.5
+ 50
+270.0
+  0
+INSERT
+  5
+97B
+330
+17
+100
+AcDbEntity
+  8
+color_52
+100
+AcDbBlockReference
+  2
+31_shielding_pcb
+ 10
+0.0
+ 20
+10.0
+ 30
+-5.599999999999998
+210
+0.0
+220
+-1.0
+230
+0.0
+  0
+INSERT
+  5
+98C
+330
+17
+100
+AcDbEntity
+  8
+color_52
+100
+AcDbBlockReference
+  2
+31_side_panel
+ 10
+84.39999999999997
+ 20
+-174.75
+ 30
+95.90000000000001
+ 50
+270.0
+  0
+INSERT
+  5
+BBE
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+31_front_panel_assembly
+ 10
+167.5
+ 20
+55.5
+ 30
+5.599999999999994
+210
+-1.0
+220
+0.0
+230
+0.0
+  0
+INSERT
+  5
+C30
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+31_front_pcb_assembly
+ 10
+-0.0000000000000053
+ 20
+2.5
+ 30
+-12.80000000000001
+210
+-1.0
+220
+0.0
+230
+0.0
+  0
+INSERT
+  5
+E19
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+31_main_pcb_assembly
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+210
+0.0
+220
+-1.0
+230
+0.0
+  0
+INSERT
+  5
+171F
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+MECH_ISO1580_M3x12__
+ 10
+-155.5
+ 20
+92.5
+ 30
+5.199999999999999
+210
+0.0
+220
+1.0
+230
+0.0
+  0
+INSERT
+  5
+1725
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+MECH____spacer-5x3.5x02
+ 10
+-155.5
+ 20
+92.5
+ 30
+1.599999999999994
+210
+0.0
+220
+1.0
+230
+0.0
+  0
+INSERT
+  5
+1726
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+MECH_ISO4032_M3__
+ 10
+155.5
+ 20
+92.5
+ 30
+4.200000000000001
+210
+0.0
+220
+-1.0
+230
+0.0
+  0
+INSERT
+  5
+17AA
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+MECH_ISO1580_M3x08__
+ 10
+-80.0
+ 20
+92.5
+ 30
+5.199999999999999
+210
+0.0
+220
+1.0
+230
+0.0
+  0
+INSERT
+  5
+17AB
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+MECH____spacer-5x3.5x02
+ 10
+-80.0
+ 20
+92.5
+ 30
+1.599999999999994
+210
+0.0
+220
+1.0
+230
+0.0
+  0
+INSERT
+  5
+17AC
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+MECH_ISO4032_M3__
+ 10
+80.0
+ 20
+92.5
+ 30
+0.0000000000000058
+210
+0.0
+220
+-1.0
+230
+0.0
+  0
+INSERT
+  5
+17AE
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+MECH____spacer-5x3.5x02
+ 10
+-4.5
+ 20
+92.5
+ 30
+1.599999999999994
+210
+0.0
+220
+1.0
+230
+0.0
+  0
+INSERT
+  5
+17AF
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+MECH_ISO1580_M3x08__
+ 10
+-4.5
+ 20
+92.5
+ 30
+5.199999999999999
+210
+0.0
+220
+1.0
+230
+0.0
+  0
+INSERT
+  5
+17B0
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+MECH_ISO4032_M3__
+ 10
+4.5
+ 20
+92.5
+ 30
+0.0000000000000053
+210
+0.0
+220
+-1.0
+230
+0.0
+  0
+INSERT
+  5
+17B8
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+MECH_ISO1580_M3x08__
+ 10
+-80.0
+ 20
+7.5
+ 30
+5.199999999999999
+210
+0.0
+220
+1.0
+230
+0.0
+  0
+INSERT
+  5
+17B9
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+MECH____spacer-5x3.5x02
+ 10
+-80.0
+ 20
+7.5
+ 30
+1.599999999999994
+210
+0.0
+220
+1.0
+230
+0.0
+  0
+INSERT
+  5
+17BA
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+MECH_ISO4032_M3__
+ 10
+80.0
+ 20
+7.5
+ 30
+0.0000000000000053
+210
+0.0
+220
+-1.0
+230
+0.0
+  0
+INSERT
+  5
+17BE
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+MECH_ISO1580_M3x08__
+ 10
+-4.5
+ 20
+7.5
+ 30
+5.199999999999999
+210
+0.0
+220
+1.0
+230
+0.0
+  0
+INSERT
+  5
+17BF
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+MECH____spacer-5x3.5x02
+ 10
+-4.5
+ 20
+7.5
+ 30
+1.599999999999994
+210
+0.0
+220
+1.0
+230
+0.0
+  0
+INSERT
+  5
+17C0
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+MECH_ISO4032_M3__
+ 10
+4.5
+ 20
+7.5
+ 30
+0.0000000000000053
+210
+0.0
+220
+-1.0
+230
+0.0
+  0
+INSERT
+  5
+17C2
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+MECH____spacer-5x3.5x02
+ 10
+-155.5
+ 20
+7.5
+ 30
+1.599999999999994
+210
+0.0
+220
+1.0
+230
+0.0
+  0
+INSERT
+  5
+17C3
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+MECH_ISO1580_M3x12__
+ 10
+-155.5
+ 20
+7.5
+ 30
+5.199999999999999
+210
+0.0
+220
+1.0
+230
+0.0
+  0
+INSERT
+  5
+17C4
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+MECH_ISO4032_M3__
+ 10
+155.5
+ 20
+7.5
+ 30
+4.200000000000001
+210
+0.0
+220
+-1.0
+230
+0.0
+  0
+INSERT
+  5
+17C7
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+MECH_ISO4032_M3__
+ 10
+-17.99999999999999
+ 20
+9.0
+ 30
+14.4
+210
+1.0
+220
+0.0
+230
+0.0
+  0
+INSERT
+  5
+17C8
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+MECH_ISO4032_M3__
+ 10
+-17.99999999999999
+ 20
+91.0
+ 30
+14.4
+210
+1.0
+220
+0.0
+230
+0.0
+  0
+VIEWPORT
+  5
+D8
+330
+14
+100
+AcDbEntity
+ 67
+     1
+  8
+0
+100
+AcDbViewport
+ 10
+263.990051002
+ 20
+148.9541687927042
+ 30
+0.0
+ 40
+577.3273139075151
+ 41
+322.0946372691148
+ 68
+     1
+ 69
+     1
+ 12
+263.990051002
+ 22
+148.9541687927042
+ 13
+0.0
+ 23
+0.0
+ 14
+0.5
+ 24
+0.5
+ 15
+10.0
+ 25
+10.0
+ 16
+0.0
+ 26
+0.0
+ 36
+1.0
+ 17
+0.0
+ 27
+0.0
+ 37
+0.0
+ 42
+50.0
+ 43
+0.0
+ 44
+0.0
+ 45
+322.0946372691148
+ 50
+0.0
+ 51
+0.0
+ 72
+   100
+ 90
+    36896
+  1
+
+281
+     0
+ 71
+     1
+ 74
+     0
+110
+0.0
+120
+0.0
+130
+0.0
+111
+1.0
+121
+0.0
+131
+0.0
+112
+0.0
+122
+1.0
+132
+0.0
+ 79
+     0
+146
+0.0
+170
+     0
+  0
+VIEWPORT
+  5
+1251
+330
+14
+100
+AcDbEntity
+ 67
+     1
+  8
+0
+100
+AcDbViewport
+ 10
+215.9123373235679
+ 20
+148.503018109392
+ 30
+0.0
+ 40
+431.856629244631
+ 41
+297.0242800274333
+ 68
+     2
+ 69
+     2
+ 12
+28.90891353563309
+ 22
+-32.04206573187015
+ 13
+0.0
+ 23
+0.0
+ 14
+0.5
+ 24
+0.5
+ 15
+5.0
+ 25
+5.0
+ 16
+-1.0
+ 26
+-1.0
+ 36
+1.0
+ 17
+77.47345568105508
+ 27
+20.44683327661852
+ 37
+71.23821119506337
+ 42
+50.0
+ 43
+0.0
+ 44
+0.0
+ 45
+198.9728133974485
+ 50
+0.0
+ 51
+0.0
+ 72
+   100
+ 90
+    36960
+  1
+
+281
+     2
+ 71
+     1
+ 74
+     0
+110
+0.0
+120
+0.0
+130
+0.0
+111
+1.0
+121
+0.0
+131
+0.0
+112
+0.0
+122
+1.0
+132
+0.0
+ 79
+     0
+146
+0.0
+170
+     0
+  0
+ENDSEC
+  0
+SECTION
+  2
+OBJECTS
+  0
+DICTIONARY
+  5
+C
+330
+0
+100
+AcDbDictionary
+281
+     1
+  3
+ACAD_COLOR
+350
+377
+  3
+ACAD_GROUP
+350
+D
+  3
+ACAD_LAYOUT
+350
+378
+  3
+ACAD_MATERIAL
+350
+376
+  3
+ACAD_MLINESTYLE
+350
+1A
+  3
+ACAD_PLOTSETTINGS
+350
+379
+  3
+ACAD_PLOTSTYLENAME
+350
+374
+  3
+AVE_ACITABLE
+350
+3B9
+  0
+DICTIONARY
+  5
+19E9
+330
+19E8
+100
+AcDbDictionary
+280
+     1
+281
+     1
+  3
+ADSK_XREC_LAYER_RECONCILED
+360
+19EA
+  0
+DICTIONARY
+  5
+1A12
+330
+1A11
+100
+AcDbDictionary
+280
+     1
+281
+     1
+  3
+ADSK_XREC_LAYER_RECONCILED
+360
+1A13
+  0
+DICTIONARY
+  5
+1A1E
+330
+1A1D
+100
+AcDbDictionary
+280
+     1
+281
+     1
+  3
+ADSK_XREC_LAYER_RECONCILED
+360
+1A1F
+  0
+DICTIONARY
+  5
+1A34
+330
+1A33
+100
+AcDbDictionary
+280
+     1
+281
+     1
+  3
+ADSK_XREC_LAYER_RECONCILED
+360
+1A35
+  0
+DICTIONARY
+  5
+1A37
+330
+1A36
+100
+AcDbDictionary
+280
+     1
+281
+     1
+  3
+ADSK_XREC_LAYER_RECONCILED
+360
+1A38
+  0
+DICTIONARY
+  5
+1A4E
+330
+1A4D
+100
+AcDbDictionary
+280
+     1
+281
+     1
+  3
+ADSK_XREC_LAYER_RECONCILED
+360
+1A4F
+  0
+DICTIONARY
+  5
+1A51
+330
+1A50
+100
+AcDbDictionary
+280
+     1
+281
+     1
+  3
+ADSK_XREC_LAYER_RECONCILED
+360
+1A52
+  0
+DICTIONARY
+  5
+496
+330
+14
+100
+AcDbDictionary
+280
+     1
+281
+     1
+  0
+DICTIONARY
+  5
+377
+102
+{ACAD_REACTORS
+330
+C
+102
+}
+330
+C
+100
+AcDbDictionary
+281
+     1
+  0
+DICTIONARY
+  5
+D
+102
+{ACAD_REACTORS
+330
+C
+102
+}
+330
+C
+100
+AcDbDictionary
+281
+     1
+  0
+DICTIONARY
+  5
+378
+102
+{ACAD_REACTORS
+330
+C
+102
+}
+330
+C
+100
+AcDbDictionary
+281
+     1
+  3
+Layout1
+350
+37B
+  3
+Model
+350
+37A
+  0
+DICTIONARY
+  5
+376
+102
+{ACAD_REACTORS
+330
+C
+102
+}
+330
+C
+100
+AcDbDictionary
+281
+     1
+  0
+DICTIONARY
+  5
+1A
+102
+{ACAD_REACTORS
+330
+C
+102
+}
+330
+C
+100
+AcDbDictionary
+281
+     1
+  3
+STANDARD
+350
+1B
+  0
+DICTIONARY
+  5
+379
+102
+{ACAD_REACTORS
+330
+C
+102
+}
+330
+C
+100
+AcDbDictionary
+281
+     1
+  0
+ACDBDICTIONARYWDFLT
+  5
+374
+102
+{ACAD_REACTORS
+330
+C
+102
+}
+330
+C
+100
+AcDbDictionary
+281
+     1
+  3
+Normal
+350
+375
+100
+AcDbDictionaryWithDefault
+340
+375
+  0
+DICTIONARY
+  5
+3B9
+102
+{ACAD_REACTORS
+330
+C
+102
+}
+330
+C
+100
+AcDbDictionary
+281
+     1
+  0
+XRECORD
+  5
+19EA
+102
+{ACAD_REACTORS
+330
+19E9
+102
+}
+330
+19E9
+100
+AcDbXrecord
+280
+     1
+290
+     1
+  0
+XRECORD
+  5
+1A13
+102
+{ACAD_REACTORS
+330
+1A12
+102
+}
+330
+1A12
+100
+AcDbXrecord
+280
+     1
+290
+     1
+  0
+XRECORD
+  5
+1A1F
+102
+{ACAD_REACTORS
+330
+1A1E
+102
+}
+330
+1A1E
+100
+AcDbXrecord
+280
+     1
+290
+     1
+  0
+XRECORD
+  5
+1A35
+102
+{ACAD_REACTORS
+330
+1A34
+102
+}
+330
+1A34
+100
+AcDbXrecord
+280
+     1
+290
+     1
+  0
+XRECORD
+  5
+1A38
+102
+{ACAD_REACTORS
+330
+1A37
+102
+}
+330
+1A37
+100
+AcDbXrecord
+280
+     1
+290
+     1
+  0
+XRECORD
+  5
+1A4F
+102
+{ACAD_REACTORS
+330
+1A4E
+102
+}
+330
+1A4E
+100
+AcDbXrecord
+280
+     1
+290
+     1
+  0
+XRECORD
+  5
+1A52
+102
+{ACAD_REACTORS
+330
+1A51
+102
+}
+330
+1A51
+100
+AcDbXrecord
+280
+     1
+290
+     1
+  0
+LAYOUT
+  5
+37B
+102
+{ACAD_REACTORS
+330
+378
+102
+}
+330
+378
+100
+AcDbPlotSettings
+  1
+
+  2
+\\IJMPR00\PR11016
+  4
+A4
+  6
+
+ 40
+7.143749713897705
+ 41
+6.170062541961669
+ 42
+7.736404418945312
+ 43
+7.14373779296875
+ 44
+209.9733276367187
+ 45
+296.9683227539062
+ 46
+0.0
+ 47
+0.0
+ 48
+0.0
+ 49
+0.0
+140
+0.0
+141
+0.0
+142
+1.0
+143
+1.522473978422072
+ 70
+   688
+ 72
+     1
+ 73
+     1
+ 74
+     1
+  7
+Lineweight_50%.ctb
+ 75
+     0
+147
+0.6568256759543592
+ 76
+     1
+ 77
+     2
+ 78
+   300
+148
+0.0159772987475435
+149
+0.0091219043246156
+100
+AcDbLayout
+  1
+Layout1
+ 70
+     0
+ 71
+     1
+ 10
+-10.89213219721279
+ 20
+-10.88529495209399
+ 11
+441.2344116112568
+ 21
+308.7936325375025
+ 12
+0.0
+ 22
+0.0
+ 32
+0.0
+ 14
+-0.0159772987475435
+ 24
+-0.0091219043246156
+ 34
+0.0
+ 15
+431.8406519458834
+ 25
+297.0151581231087
+ 35
+0.0
+146
+0.0
+ 13
+0.0
+ 23
+0.0
+ 33
+0.0
+ 16
+1.0
+ 26
+0.0
+ 36
+0.0
+ 17
+0.0
+ 27
+1.0
+ 37
+0.0
+ 76
+     0
+330
+14
+331
+D8
+  0
+LAYOUT
+  5
+37A
+102
+{ACAD_REACTORS
+330
+378
+102
+}
+330
+378
+100
+AcDbPlotSettings
+  1
+
+  2
+\\ELAN02\HTEEPR
+  4
+
+  6
+
+ 40
+0.0
+ 41
+0.0
+ 42
+0.0
+ 43
+0.0
+ 44
+0.0
+ 45
+0.0
+ 46
+0.0
+ 47
+0.0
+ 48
+0.0
+ 49
+0.0
+140
+0.0
+141
+0.0
+142
+1.0
+143
+1.0
+ 70
+  1712
+ 72
+     0
+ 73
+     0
+ 74
+     0
+  7
+
+ 75
+     0
+147
+1.0
+ 76
+     0
+ 77
+     2
+ 78
+   300
+148
+0.0
+149
+0.0
+100
+AcDbLayout
+  1
+Model
+ 70
+     1
+ 71
+     0
+ 10
+0.0
+ 20
+0.0
+ 11
+12.0
+ 21
+9.0
+ 12
+0.0
+ 22
+0.0
+ 32
+0.0
+ 14
+0.0
+ 24
+0.0
+ 34
+0.0
+ 15
+0.0
+ 25
+0.0
+ 35
+0.0
+146
+0.0
+ 13
+0.0
+ 23
+0.0
+ 33
+0.0
+ 16
+1.0
+ 26
+0.0
+ 36
+0.0
+ 17
+0.0
+ 27
+1.0
+ 37
+0.0
+ 76
+     0
+330
+17
+  0
+MLINESTYLE
+  5
+1B
+102
+{ACAD_REACTORS
+330
+1A
+102
+}
+330
+1A
+100
+AcDbMlineStyle
+  2
+STANDARD
+ 70
+     0
+  3
+
+ 62
+   256
+ 51
+90.0
+ 52
+90.0
+ 71
+     2
+ 49
+0.5
+ 62
+   256
+  6
+BYLAYER
+ 49
+-0.5
+ 62
+   256
+  6
+BYLAYER
+  0
+ACDBPLACEHOLDER
+  5
+375
+102
+{ACAD_REACTORS
+330
+374
+102
+}
+330
+374
+  0
+ENDSEC
+  0
+EOF
