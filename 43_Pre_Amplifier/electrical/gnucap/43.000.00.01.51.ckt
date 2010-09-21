@@ -1,0 +1,10 @@
+43.000.00.01.51.ckt
+
+.include ./models/LM358_ON.mod
+
+.include ./data/43.000.00.01.51.net
+
+.option gmin 1u
+.print transient v(Vout) i(R6)
+.transient 0 1 0.0001 > ./data/43.000.00.01.51.data
+.end
