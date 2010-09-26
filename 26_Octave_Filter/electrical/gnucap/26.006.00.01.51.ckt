@@ -1,0 +1,21 @@
+26.006.00.01.51.ckt
+
+.include ./models/1N4148.mod
+.include ./models/CA3140.mod
+
+.include ./data/26.006.00.01.51.net
+
+.option gmin 1u
+.print tran v(V201)
+.tran 0 1 0.01 > ./data/26.006.00.01.51.V201_transient.data
+.print fourier v(V201)
+.fourier 1 100 1 > ./data/26.006.00.01.51.V201_fourier.data
+.print tran v(V202)
+.tran 0 1 0.01 > ./data/26.006.00.01.51.V202_transient.data
+.print fourier v(V202)
+.fourier 1 100 1 > ./data/26.006.00.01.51.V202_fourier.data
+.print tran v(V203)
+.tran 0 1 0.01 > ./data/26.006.00.01.51.V203_transient.data
+.print fourier v(V203)
+.fourier 1 100 1 > ./data/26.006.00.01.51.V203_fourier.data
+.end
