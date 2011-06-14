@@ -6,7 +6,7 @@
 # To read pcb files, the pcb version (or the cvs source date) must be >= the file version
 FileVersion[20070407]
 
-PCB["36.007.01.01.01" 260000 115000]
+PCB["26.007.01.01.01" 260000 115000]
 
 Grid[2500.000000 0 0 1]
 Cursor[0 115000 6.000000]
