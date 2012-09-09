@@ -1,10 +1,10 @@
-# release: pcb 20081128
-# date:    Mon Nov  2 22:12:20 2009
-# user:    bert (L.J.H. Timmerman)
-# host:    steiger.localdomain
+# release: pcb 20100929
+# date:    Sun Sep  9 12:04:57 2012
+# user:    bert (Bert Timmerman)
+# host:    draaikolk
 
-# To read pcb files, the pcb version (or the cvs source date) must be >= the file version
-FileVersion[20070407]
+# To read pcb files, the pcb version (or the git source date) must be >= the file version
+FileVersion[20100606]
 
 PCB["31_front_pcb.pcb" 196850 393701]
 
@@ -938,4 +938,5 @@ Layer(7 "silk")
 	Line[175197 9843 165355 9843 800 2000 ""]
 	Line[175197 9843 175197 19686 800 2000 ""]
 	Line[9843 383859 9843 374016 800 2000 ""]
+	Text[151575 320867 0 100 "GND" "clearline"]
 )
