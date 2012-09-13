@@ -7,3 +7,4 @@
 (component-library "sym/vhdl")
 (component-library "sym/installation")
 (paper-size 16.54 11.69) ; A3
+(magnetic-net-mode "disabled")
