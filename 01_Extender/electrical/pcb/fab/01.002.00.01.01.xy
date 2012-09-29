@@ -1,0 +1,11 @@
+# $Id$
+# PcbXY Version 1.0
+# Date: Sat Sep 29 18:10:15 2012 UTC
+# Author: Bert Timmerman
+# Title: 31_front_pcb.pcb - PCB X-Y
+# RefDes, Description, Value, X, Y, rotation, top/bottom
+# X,Y in mm.  rotation in degrees.
+# --------------------------------------------
+TP102,"CON_TP_Keystone_5000","Keystone 5000",40.00,15.00,0,top
+U101,"01_front_pcb_assembly","01_front_pcb_assembly",4.00,50.00,90,top
+K102,"CON_DIN41617-31N__Assmann_A-31-L2","(unknown)",25.42,50.00,90,top

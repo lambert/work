@@ -1,0 +1,15 @@
+# $Id$
+# PcbBOM Version 1.0
+# Date: Sat Sep 29 18:10:15 2012 UTC
+# Author: Bert Timmerman
+# Title: 01.003.00.01.01_main_pcb_layout.pcb - PCB BOM
+# Quantity, Description, Value, RefDes
+# --------------------------------------------
+1,"01_front_pcb_assembly","01_front_pcb_assembly",U101 
+31,"CON_HDR-254P-2C-1R-2N","(unknown)",K130 K128 K126 K124 K122 K120 K118 K116 K114 K112 K110 K108 K106 K104 K102 K131 K129 K127 K125 K123 K121 K119 K117 K115 K113 K111 K109 K107 K105 K103 K101 
+1,"CON_TP_Keystone_5000","Keystone 5000",TP101 
+2,"MTG320","(unknown)",(unknown) (unknown) 
+1,"CON_DIN41617-31N__Assmann_A-31-S1","A-31-S1",K101 
+1,"____MAX-XY","MAX-XY",(unknown) 
+1,"____MIN-XY","MIN-XY",(unknown) 
+2,"MTG320_500","(unknown)",(unknown) (unknown) 

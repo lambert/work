@@ -1,0 +1,46 @@
+# $Id$
+# PcbXY Version 1.0
+# Date: Sat Sep 29 18:10:15 2012 UTC
+# Author: Bert Timmerman
+# Title: 01.003.00.01.01_main_pcb_layout.pcb - PCB X-Y
+# RefDes, Description, Value, X, Y, rotation, top/bottom
+# X,Y in mm.  rotation in degrees.
+# --------------------------------------------
+U101,"01_front_pcb_assembly","01_front_pcb_assembly",12.00,50.00,90,top
+K130,"CON_HDR-254P-2C-1R-2N","(unknown)",110.00,15.00,0,top
+K128,"CON_HDR-254P-2C-1R-2N","(unknown)",110.00,20.00,0,top
+K126,"CON_HDR-254P-2C-1R-2N","(unknown)",110.00,25.00,0,top
+K124,"CON_HDR-254P-2C-1R-2N","(unknown)",110.00,30.00,0,top
+K122,"CON_HDR-254P-2C-1R-2N","(unknown)",110.00,35.00,0,top
+K120,"CON_HDR-254P-2C-1R-2N","(unknown)",110.00,40.00,0,top
+K118,"CON_HDR-254P-2C-1R-2N","(unknown)",110.00,45.00,0,top
+K116,"CON_HDR-254P-2C-1R-2N","(unknown)",110.00,50.00,0,top
+K114,"CON_HDR-254P-2C-1R-2N","(unknown)",110.00,55.00,0,top
+K112,"CON_HDR-254P-2C-1R-2N","(unknown)",110.00,60.00,0,top
+K110,"CON_HDR-254P-2C-1R-2N","(unknown)",110.00,65.00,0,top
+K108,"CON_HDR-254P-2C-1R-2N","(unknown)",110.00,70.00,0,top
+K106,"CON_HDR-254P-2C-1R-2N","(unknown)",110.00,75.00,0,top
+K104,"CON_HDR-254P-2C-1R-2N","(unknown)",110.00,80.00,0,top
+K102,"CON_HDR-254P-2C-1R-2N","(unknown)",110.00,85.00,0,top
+K131,"CON_HDR-254P-2C-1R-2N","(unknown)",95.00,12.50,0,top
+K129,"CON_HDR-254P-2C-1R-2N","(unknown)",95.00,17.50,0,top
+K127,"CON_HDR-254P-2C-1R-2N","(unknown)",95.00,22.50,0,top
+K125,"CON_HDR-254P-2C-1R-2N","(unknown)",95.00,27.50,0,top
+K123,"CON_HDR-254P-2C-1R-2N","(unknown)",95.00,32.50,0,top
+K121,"CON_HDR-254P-2C-1R-2N","(unknown)",95.00,37.50,0,top
+K119,"CON_HDR-254P-2C-1R-2N","(unknown)",95.00,42.50,0,top
+K117,"CON_HDR-254P-2C-1R-2N","(unknown)",95.00,47.50,0,top
+K115,"CON_HDR-254P-2C-1R-2N","(unknown)",95.00,52.50,0,top
+K113,"CON_HDR-254P-2C-1R-2N","(unknown)",95.00,57.50,0,top
+K111,"CON_HDR-254P-2C-1R-2N","(unknown)",95.00,62.50,0,top
+K109,"CON_HDR-254P-2C-1R-2N","(unknown)",95.00,67.50,0,top
+K107,"CON_HDR-254P-2C-1R-2N","(unknown)",95.00,72.50,0,top
+K105,"CON_HDR-254P-2C-1R-2N","(unknown)",95.00,77.50,0,top
+K103,"CON_HDR-254P-2C-1R-2N","(unknown)",95.00,82.50,0,top
+K101,"CON_HDR-254P-2C-1R-2N","(unknown)",95.00,87.50,0,top
+TP101,"CON_TP_Keystone_5000","Keystone 5000",67.00,7.50,0,top
+(unknown),"MTG320","(unknown)",4.50,7.50,0,top
+(unknown),"MTG320","(unknown)",4.50,92.50,0,top
+K101,"CON_DIN41617-31N__Assmann_A-31-S1","A-31-S1",152.21,50.00,180,top
+(unknown),"MTG320_500","(unknown)",80.00,7.50,0,top
+(unknown),"MTG320_500","(unknown)",80.00,92.50,0,top

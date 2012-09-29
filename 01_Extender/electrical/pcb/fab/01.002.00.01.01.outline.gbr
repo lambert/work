@@ -1,0 +1,17 @@
+G04 start of page 4 for group 2 idx 2 *
+G04 Title: 31_front_pcb.pcb, outline *
+G04 Creator: pcb 20100929 *
+G04 CreationDate: Sat Sep 29 18:10:19 2012 UTC *
+G04 For: bert *
+G04 Format: Gerber/RS-274X *
+G04 PCB-Dimensions: 196850 393701 *
+G04 PCB-Coordinate-Origin: lower left *
+%MOIN*%
+%FSLAX25Y25*%
+%LNOUTLINE*%
+%ADD19C,0.0080*%
+G54D19*X9843Y383858D02*X175197D01*
+X9843Y9842D02*Y383858D01*
+X175197Y9842D02*X9843D01*
+X175197Y383858D02*Y9843D01*
+M02*
