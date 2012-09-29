@@ -1,0 +1,110 @@
+# Pin name action command file
+
+# Start of element J202
+ChangePinName(J202, 31, 31)
+ChangePinName(J202, 30, 30)
+ChangePinName(J202, 29, 29)
+ChangePinName(J202, 28, 28)
+ChangePinName(J202, 27, 27)
+ChangePinName(J202, 26, 26)
+ChangePinName(J202, 25, 25)
+ChangePinName(J202, 24, 24)
+ChangePinName(J202, 23, 23)
+ChangePinName(J202, 22, 22)
+ChangePinName(J202, 21, 21)
+ChangePinName(J202, 20, 20)
+ChangePinName(J202, 19, 19)
+ChangePinName(J202, 18, 18)
+ChangePinName(J202, 17, 17)
+ChangePinName(J202, 16, 16)
+ChangePinName(J202, 15, 15)
+ChangePinName(J202, 14, 14)
+ChangePinName(J202, 13, 13)
+ChangePinName(J202, 12, 12)
+ChangePinName(J202, 11, 11)
+ChangePinName(J202, 10, 10)
+ChangePinName(J202, 9, 9)
+ChangePinName(J202, 8, 8)
+ChangePinName(J202, 7, 7)
+ChangePinName(J202, 6, 6)
+ChangePinName(J202, 5, 5)
+ChangePinName(J202, 4, 4)
+ChangePinName(J202, 3, 3)
+ChangePinName(J202, 2, 2)
+ChangePinName(J202, 1, 1)
+
+# Start of element R105
+ChangePinName(R105, 1, 1)
+ChangePinName(R105, 2, 2)
+
+# Start of element LB101
+ChangePinName(LB101, 2, 2)
+ChangePinName(LB101, 1, 1)
+
+# Start of element R104
+ChangePinName(R104, 1, 1)
+ChangePinName(R104, 2, 2)
+
+# Start of element R103
+ChangePinName(R103, 1, 1)
+ChangePinName(R103, 2, 2)
+
+# Start of element D104
+ChangePinName(D104, 2, ANODE)
+ChangePinName(D104, 1, CATHODE)
+
+# Start of element D103
+ChangePinName(D103, 2, ANODE)
+ChangePinName(D103, 1, CATHODE)
+
+# Start of element R102
+ChangePinName(R102, 1, 1)
+ChangePinName(R102, 2, 2)
+
+# Start of element R101
+ChangePinName(R101, 1, 1)
+ChangePinName(R101, 2, 2)
+
+# Start of element D102
+ChangePinName(D102, 2, ANODE)
+ChangePinName(D102, 1, CATHODE)
+
+# Start of element D101
+ChangePinName(D101, 2, ANODE)
+ChangePinName(D101, 1, CATHODE)
+
+# Start of element J201
+ChangePinName(J201, 15, 15)
+ChangePinName(J201, 17, 17)
+ChangePinName(J201, 1, 1)
+ChangePinName(J201, 3, 3)
+ChangePinName(J201, 5, 5)
+ChangePinName(J201, 7, 7)
+ChangePinName(J201, 9, 9)
+ChangePinName(J201, 11, 11)
+ChangePinName(J201, 13, 13)
+ChangePinName(J201, 2, 2)
+ChangePinName(J201, 4, 4)
+ChangePinName(J201, 6, 6)
+ChangePinName(J201, 8, 8)
+ChangePinName(J201, 10, 10)
+ChangePinName(J201, 12, 12)
+ChangePinName(J201, 14, 14)
+ChangePinName(J201, 16, 16)
+ChangePinName(J201, 18, 18)
+ChangePinName(J201, 20, 20)
+ChangePinName(J201, 22, 22)
+ChangePinName(J201, 24, 24)
+ChangePinName(J201, 26, 26)
+ChangePinName(J201, 28, 28)
+ChangePinName(J201, 30, 30)
+ChangePinName(J201, 19, 19)
+ChangePinName(J201, 21, 21)
+ChangePinName(J201, 23, 23)
+ChangePinName(J201, 25, 25)
+ChangePinName(J201, 27, 27)
+ChangePinName(J201, 29, 29)
+ChangePinName(J201, 31, 31)
+
+# Start of element TP102
+ChangePinName(TP102, 1, terminal)
