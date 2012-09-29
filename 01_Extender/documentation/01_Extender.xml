@@ -463,10 +463,10 @@
       </section>
 
       <section>
-        <title>Connectivity.</title>
+        <title>Connectivity for pcb layout.</title>
 
         <para><table>
-            <title>Netlist.</title>
+            <title>Netlist and pin renaming.</title>
 
             <tgroup cols="2">
               <tbody>
