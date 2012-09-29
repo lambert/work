@@ -1,4 +1,4 @@
-v 20070626 1
+v 20110115 2
 C 9700 14400 1 0 0 amp.sym
 {
 T 9900 15300 5 10 1 1 0 0 1
@@ -251,7 +251,7 @@ page=01
 T 27600 300 5 10 1 1 0 0 1
 pages=07
 T 26200 600 5 10 1 1 0 0 1
-file=26.000.00.01.01.sch
+file=26.001.00.01.01.sch
 T 26200 900 5 10 1 1 0 0 1
 device=OCTAVE_FILTER
 T 26200 1100 5 10 1 1 0 0 1
@@ -259,7 +259,7 @@ comment=block diagram
 T 26200 1300 5 10 1 1 0 0 1
 description=Octave Filter
 T 30100 600 5 10 1 1 0 0 1
-revision=20100214
+revision=20120929
 T 30100 300 5 10 1 1 0 0 1
 author=Bert Timmerman
 }
