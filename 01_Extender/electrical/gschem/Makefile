@@ -1,6 +1,7 @@
 PROJNAME = EXTENDER
 SHEETS = \
 	01.000.00.01.01.sch \
+	01.001.00.01.01.sch \
 	01.002.00.01.01.sch \
 	01.003.00.01.01.sch
 
@@ -50,7 +51,8 @@ net-tango: $(SHEETS)
 	gnetlist -g tango -o $(PROJNAME)_tango.net $(SHEETS)
 
 printpdf: $(PROJNAME).ps
-	ps2pdf -dOptimize=true -dUseFlateCompression=true -sPAPERSIZE=a4 $< $(PROJNAME).pdf
+	ps2pdf -dOptimize=true -dUseFlateCompression=true -sPAPERSIZE=a4 $< $(PROJNAME)-schematics.pdf
+	rm -f $(PROJNAME).ps
 
 $(PROJNAME).ps: printps
 
@@ -59,6 +61,6 @@ printps: $(SHEETS)
 	rm -f $(PROJNAME).ps
 	for S in $(SHEETS); \
 	do \
-	gschem -q -o ONEPAGE.ps -s$(HOME)/geda/share/gEDA/scheme/print.scm $$S; \
+	gschem -q -o ONEPAGE.ps -s/usr/share/gEDA/scheme/print.scm $$S; \
 	cat ONEPAGE.ps; done > $(PROJNAME).ps
 	rm -f ONEPAGE.ps
