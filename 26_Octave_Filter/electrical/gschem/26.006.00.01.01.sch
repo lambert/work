@@ -1,4 +1,4 @@
-v 20070626 1
+v 20110115 2
 N 1800 16100 3900 16100 4
 {
 T 2000 16200 5 10 1 1 0 0 1
@@ -845,7 +845,7 @@ N 7900 9700 7900 11400 4
 C 100 100 0 0 0 A1-sheet.sym
 {
 T 30200 500 5 10 1 1 0 0 1
-revision=20090430
+revision=20120929
 T 30200 200 5 10 1 1 0 0 1
 author=Bert Timmerman
 T 26300 200 5 10 1 1 0 0 1
@@ -857,7 +857,7 @@ pages=01
 T 26300 800 5 10 1 1 0 0 1
 device=OCTAVE_FILTER
 T 26300 1000 5 10 1 1 0 0 1
-comment=dual band pass filter pcb schematic (DFM - PTH parts only)
+comment=schematic (DFM - PTH)
 T 26300 1200 5 10 1 1 0 0 1
 description=Octave Filter (31.5 Hz and 63 Hz module)
 }
@@ -881,6 +881,8 @@ T 10300 18100 5 10 0 1 0 0 1
 vendor=Conrad
 T 10300 18100 5 10 0 1 0 0 1
 vendor_PN=174785
+T 12000 19200 5 10 0 0 0 0 1
+symversion=20110522
 }
 C 13200 17900 1 0 0 CA3140_np.sym
 {
@@ -902,6 +904,8 @@ T 13200 17900 5 10 0 1 0 0 1
 vendor=Conrad
 T 13200 17900 5 10 0 1 0 0 1
 vendor_PN=174785
+T 14900 19000 5 10 0 0 0 0 1
+symversion=20110522
 }
 C 20700 18100 1 0 0 CA3140_np.sym
 {
@@ -923,6 +927,8 @@ T 20700 18100 5 10 0 1 0 0 1
 vendor=Conrad
 T 20700 18100 5 10 0 1 0 0 1
 vendor_PN=174785
+T 22400 19200 5 10 0 0 0 0 1
+symversion=20110522
 }
 C 10300 7800 1 0 0 CA3140_np.sym
 {
@@ -944,6 +950,8 @@ T 10300 7800 5 10 0 1 0 0 1
 vendor=Conrad
 T 10300 7800 5 10 0 1 0 0 1
 vendor_PN=174785
+T 12000 8900 5 10 0 0 0 0 1
+symversion=20110522
 }
 C 13200 7600 1 0 0 CA3140_np.sym
 {
@@ -965,6 +973,8 @@ T 13200 7600 5 10 0 1 0 0 1
 vendor=Conrad
 T 13200 7600 5 10 0 1 0 0 1
 vendor_PN=174785
+T 14900 8700 5 10 0 0 0 0 1
+symversion=20110522
 }
 C 20700 7800 1 0 0 CA3140_np.sym
 {
@@ -986,6 +996,8 @@ T 20700 7800 5 10 0 1 0 0 1
 vendor=Conrad
 T 20700 7800 5 10 0 1 0 0 1
 vendor_PN=174785
+T 22400 8900 5 10 0 0 0 0 1
+symversion=20110522
 }
 N 23400 16700 23900 16700 4
 N 4200 12000 23900 12000 4
