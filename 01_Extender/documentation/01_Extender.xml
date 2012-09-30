@@ -15,7 +15,7 @@
       </affiliation>
     </author>
 
-    <pubdate>20120929</pubdate>
+    <pubdate>20120930</pubdate>
   </bookinfo>
 
   <chapter>
@@ -552,6 +552,30 @@
       <title>PCB layout.</title>
 
       <para><table>
+          <title>Project files.</title>
+
+          <tgroup cols="2">
+            <tbody>
+              <row>
+                <entry>ID</entry>
+
+                <entry>Description</entry>
+              </row>
+
+              <row>
+                <entry>01.002.00.01.01</entry>
+
+                <entry>Front pcb layout (gsch2pcb).</entry>
+              </row>
+
+              <row>
+                <entry>01.003.00.01.01</entry>
+
+                <entry>Main pcb layout (gsch2pcb).</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table><table>
           <title>Printed circuit boards.</title>
 
           <tgroup cols="2">
@@ -565,13 +589,13 @@
               <row>
                 <entry>01.002.00.01.01</entry>
 
-                <entry>Front pcb layout.</entry>
+                <entry>Front pcb layout (pcb).</entry>
               </row>
 
               <row>
                 <entry>01.003.00.01.01</entry>
 
-                <entry>Main pcb layout.</entry>
+                <entry>Main pcb layout (pcb).</entry>
               </row>
             </tbody>
           </tgroup>
