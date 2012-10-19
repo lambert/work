@@ -1,0 +1,2634 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+"http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<book>
+  <bookinfo>
+    <title>[26] Octave Filter.</title>
+
+    <author>
+      <firstname>Bert</firstname>
+
+      <surname>Timmerman</surname>
+
+      <affiliation>
+        <orgname>Me Organized ??</orgname>
+      </affiliation>
+    </author>
+
+    <pubdate>20120930</pubdate>
+  </bookinfo>
+
+  <chapter>
+    <title>Specification.</title>
+
+    <section>
+      <title>Description.</title>
+
+      <para>The octave filter is to separate a pre-amplified signal into 10
+      frequency bands.</para>
+
+      <para>This is done by using band pass filter and detector
+      modules.</para>
+
+      <para>The modules are paired on a pcb, which is plugged into a socket
+      (female header).</para>
+    </section>
+
+    <section>
+      <title>Functions.</title>
+
+      <table>
+        <title>Functions.</title>
+
+        <tgroup cols="2">
+          <tbody>
+            <row>
+              <entry>ID</entry>
+
+              <entry>Description</entry>
+            </row>
+
+            <row>
+              <entry>001</entry>
+
+              <entry>Pre-amplifier.</entry>
+            </row>
+
+            <row>
+              <entry>002</entry>
+
+              <entry>31.5 Hz band pass filter.</entry>
+            </row>
+
+            <row>
+              <entry>003</entry>
+
+              <entry>Detector.</entry>
+            </row>
+
+            <row>
+              <entry>004</entry>
+
+              <entry>63 Hz band pass filter.</entry>
+            </row>
+
+            <row>
+              <entry>005</entry>
+
+              <entry>Detector.</entry>
+            </row>
+
+            <row>
+              <entry>006</entry>
+
+              <entry>125 Hz band pass filter.</entry>
+            </row>
+
+            <row>
+              <entry>007</entry>
+
+              <entry>Detector.</entry>
+            </row>
+
+            <row>
+              <entry>008</entry>
+
+              <entry>250 Hz band pass filter.</entry>
+            </row>
+
+            <row>
+              <entry>009</entry>
+
+              <entry>Detector.</entry>
+            </row>
+
+            <row>
+              <entry>010</entry>
+
+              <entry>500 Hz band pass filter.</entry>
+            </row>
+
+            <row>
+              <entry>011</entry>
+
+              <entry>Detector.</entry>
+            </row>
+
+            <row>
+              <entry>012</entry>
+
+              <entry>1 kHz band pass filter.</entry>
+            </row>
+
+            <row>
+              <entry>013</entry>
+
+              <entry>Detector.</entry>
+            </row>
+
+            <row>
+              <entry>014</entry>
+
+              <entry>2 kHz band pass filter.</entry>
+            </row>
+
+            <row>
+              <entry>015</entry>
+
+              <entry>Detector.</entry>
+            </row>
+
+            <row>
+              <entry>016</entry>
+
+              <entry>4 Hz band pass filter.</entry>
+            </row>
+
+            <row>
+              <entry>017</entry>
+
+              <entry>Detector.</entry>
+            </row>
+
+            <row>
+              <entry>018</entry>
+
+              <entry>8 Hz band pass filter.</entry>
+            </row>
+
+            <row>
+              <entry>019</entry>
+
+              <entry>Detector.</entry>
+            </row>
+
+            <row>
+              <entry>020</entry>
+
+              <entry>16 Hz band pass filter.</entry>
+            </row>
+
+            <row>
+              <entry>021</entry>
+
+              <entry>Detector.</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+
+    <section>
+      <title>Modes of operation.</title>
+
+      <para><table>
+          <title>Modes of operation.</title>
+
+          <tgroup cols="2">
+            <tbody>
+              <row>
+                <entry>ID</entry>
+
+                <entry>Description</entry>
+              </row>
+
+              <row>
+                <entry>001</entry>
+
+                <entry>Reset: resets all filter modules.</entry>
+              </row>
+
+              <row>
+                <entry>002</entry>
+
+                <entry>Follow: all filters follow the input signal.</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table></para>
+    </section>
+
+    <section>
+      <title>Inputs.</title>
+
+      <para><table>
+          <title>Inputs.</title>
+
+          <tgroup cols="3">
+            <tbody>
+              <row>
+                <entry>ID</entry>
+
+                <entry>Description</entry>
+
+                <entry>Location</entry>
+              </row>
+
+              <row>
+                <entry>J101</entry>
+
+                <entry>DIN 41617 31-pin connector (male).</entry>
+
+                <entry>main pcb.</entry>
+              </row>
+
+              <row>
+                <entry>J102</entry>
+
+                <entry>BNC connector (male).</entry>
+
+                <entry>front pcb.</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table></para>
+    </section>
+
+    <section>
+      <title>Controls.</title>
+
+      <para><table>
+          <title>Controls.</title>
+
+          <tgroup cols="3">
+            <tbody>
+              <row>
+                <entry>ID</entry>
+
+                <entry>Description</entry>
+
+                <entry>Location</entry>
+              </row>
+
+              <row>
+                <entry>S101</entry>
+
+                <entry>Power on/off switch.</entry>
+
+                <entry>front pcb.</entry>
+              </row>
+
+              <row>
+                <entry>S102</entry>
+
+                <entry>Follow/Reset switch.</entry>
+
+                <entry>front pcb.</entry>
+              </row>
+
+              <row>
+                <entry>R110</entry>
+
+                <entry>Reference voltage level control.</entry>
+
+                <entry>front pcb.</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table></para>
+    </section>
+
+    <section>
+      <title>Outputs.</title>
+
+      <para><table>
+          <title>Outputs.</title>
+
+          <tgroup cols="3">
+            <tbody>
+              <row>
+                <entry>ID</entry>
+
+                <entry>Description</entry>
+
+                <entry>Location</entry>
+              </row>
+
+              <row>
+                <entry>J002</entry>
+
+                <entry>10-pin connector (female).</entry>
+
+                <entry>front pcb.</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table></para>
+    </section>
+
+    <section>
+      <title>Indicators.</title>
+
+      <para><table>
+          <title>Indicators.</title>
+
+          <tgroup cols="3">
+            <tbody>
+              <row>
+                <entry>ID</entry>
+
+                <entry>Description</entry>
+
+                <entry>Location</entry>
+              </row>
+
+              <row>
+                <entry>D104</entry>
+
+                <entry>LED indicates the power on status.</entry>
+
+                <entry>front pcb.</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table></para>
+    </section>
+
+    <section>
+      <title>Power supply.</title>
+
+      <para>Power (+15 V DC/- 15 V DC) is obtained from the back panel
+      bus.</para>
+    </section>
+
+    <section>
+      <title>Protection, fail-safes and replaceable parts.</title>
+
+      <para><table>
+          <title>Protection, fail-safes and replaceable parts.</title>
+
+          <tgroup cols="3">
+            <tbody>
+              <row>
+                <entry>ID</entry>
+
+                <entry>Description</entry>
+
+                <entry>Location</entry>
+              </row>
+
+              <row>
+                <entry>U101</entry>
+
+                <entry>CA3140E operational amplifier in 8 pin DIP 300 mil wide
+                socket.</entry>
+
+                <entry>main pcb.</entry>
+              </row>
+
+              <row>
+                <entry>A101</entry>
+
+                <entry>Filter module in 8 pin SIL socket.</entry>
+
+                <entry>main pcb.</entry>
+              </row>
+
+              <row>
+                <entry>A102</entry>
+
+                <entry>Filter module in 8 pin SIL socket.</entry>
+
+                <entry>main pcb.</entry>
+              </row>
+
+              <row>
+                <entry>A103</entry>
+
+                <entry>Filter module in 8 pin SIL socket.</entry>
+
+                <entry>main pcb.</entry>
+              </row>
+
+              <row>
+                <entry>A104</entry>
+
+                <entry>Filter module in 8 pin SIL socket.</entry>
+
+                <entry>main pcb.</entry>
+              </row>
+
+              <row>
+                <entry>A105</entry>
+
+                <entry>Filter module in 8 pin SIL socket.</entry>
+
+                <entry>main pcb.</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table></para>
+    </section>
+
+    <section>
+      <title>Connectors.</title>
+
+      <para><table>
+          <title>Connectors.</title>
+
+          <tgroup cols="3">
+            <tbody>
+              <row>
+                <entry>ID</entry>
+
+                <entry>Description</entry>
+
+                <entry>Location</entry>
+              </row>
+
+              <row>
+                <entry>J001</entry>
+
+                <entry>DIN 41617 31-pin connector (male).</entry>
+
+                <entry>main pcb.</entry>
+              </row>
+
+              <row>
+                <entry>J002</entry>
+
+                <entry>10-pin connector (female).</entry>
+
+                <entry>front pcb.</entry>
+              </row>
+
+              <row>
+                <entry>TP101</entry>
+
+                <entry>Test point for GND.</entry>
+
+                <entry>main pcb.</entry>
+              </row>
+
+              <row>
+                <entry>TP102</entry>
+
+                <entry>Test point for GND.</entry>
+
+                <entry>front pcb.</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table></para>
+    </section>
+
+    <section>
+      <title>Physical dimensions and form factors.</title>
+
+      <para><table>
+          <title>Physical dimensions and form factors.</title>
+
+          <tgroup cols="2">
+            <tbody>
+              <row>
+                <entry>ID</entry>
+
+                <entry>Description</entry>
+              </row>
+
+              <row>
+                <entry>Main pcb form factor</entry>
+
+                <entry>Eurocard 3 HE: 160 mm x 100 mm.</entry>
+              </row>
+
+              <row>
+                <entry>Front pcb form factor</entry>
+
+                <entry>Eurocard 3 HE x 10 TE.</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table></para>
+    </section>
+  </chapter>
+
+  <chapter>
+    <title>Fabrication.</title>
+
+    <section>
+      <title>Schematic entry.</title>
+
+      <para><table>
+          <title>Schematics.</title>
+
+          <tgroup cols="2">
+            <tbody>
+              <row>
+                <entry>ID</entry>
+
+                <entry>Description</entry>
+              </row>
+
+              <row>
+                <entry>26.000.00.01.01</entry>
+
+                <entry>Front page (cover sheet).</entry>
+              </row>
+
+              <row>
+                <entry>26.001.00.01.01</entry>
+
+                <entry>Octave Filter - Block diagram.</entry>
+              </row>
+
+              <row>
+                <entry>26.001.00.01.02</entry>
+
+                <entry>Octave Filter (Power supply and pre-amplifier) -
+                schematic.</entry>
+              </row>
+
+              <row>
+                <entry>26.001.00.01.03</entry>
+
+                <entry>Octave Filter (31.5 Hz and 63 Hz module) - Dual band
+                pass filter schematic.</entry>
+              </row>
+
+              <row>
+                <entry>26.001.00.01.04</entry>
+
+                <entry>Octave Filter (125 Hz and 250 Hz module) - Dual band
+                pass filter schematic.</entry>
+              </row>
+
+              <row>
+                <entry>26.001.00.01.05</entry>
+
+                <entry>Octave Filter (500 Hz and 1 kHz module) - Dual band
+                pass filter schematic.</entry>
+              </row>
+
+              <row>
+                <entry>26.001.00.01.06</entry>
+
+                <entry>Octave Filter (2 kHz and 4 kHz module) - Dual band pass
+                filter schematic.</entry>
+              </row>
+
+              <row>
+                <entry>26.001.00.01.07</entry>
+
+                <entry>Octave Filter (8 kHz and 16 kHz module)- Dual band pass
+                filter schematic.</entry>
+              </row>
+
+              <row>
+                <entry>26.002.00.01.01</entry>
+
+                <entry>Octave Filter - Front pcb schematic (DFM).</entry>
+              </row>
+
+              <row>
+                <entry>26.003.00.01.01</entry>
+
+                <entry>Octave Filter (Power supply and pre-amplifier) - Main
+                pcb schematic (DFM).</entry>
+              </row>
+
+              <row>
+                <entry>26.006.00.01.01</entry>
+
+                <entry>Octave Filter (31.5 Hz and 63 Hz module) - schematic
+                (DFM - PTH).</entry>
+              </row>
+
+              <row>
+                <entry>26.006.00.01.51</entry>
+
+                <entry>Octave Filter (31.5 Hz module) - schematic (for
+                simulation).</entry>
+              </row>
+
+              <row>
+                <entry>26.006.00.01.52</entry>
+
+                <entry>Octave Filter (31.5 Hz module) - schematic (for
+                simulation).</entry>
+              </row>
+
+              <row>
+                <entry>26.006.01.01.01</entry>
+
+                <entry>Octave Filter (31.5 Hz and 63 Hz module) - schematic
+                (DFM - SMT).</entry>
+              </row>
+
+              <row>
+                <entry>26.007.01.01.01</entry>
+
+                <entry>Octave Filter (125 Hz and 250 Hz module) - schematic
+                (DFM - SMT).</entry>
+              </row>
+
+              <row>
+                <entry>26.008.01.01.01</entry>
+
+                <entry>Octave Filter (500 Hz and 1 kHz module) - schematic
+                (DFM - SMT).</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table></para>
+    </section>
+
+    <section>
+      <title>Netlist.</title>
+
+      <section>
+        <title>Design Rule Check.</title>
+
+        <para><table>
+            <title>Schematics.</title>
+
+            <tgroup cols="2">
+              <tbody>
+                <row>
+                  <entry>ID</entry>
+
+                  <entry>Description</entry>
+                </row>
+
+                <row>
+                  <entry>26.001.00.01.01</entry>
+
+                  <entry>Top level schematic DRC report.</entry>
+                </row>
+
+                <row>
+                  <entry>26.002.00.01.01</entry>
+
+                  <entry>Front pcb schematic DRC report.</entry>
+                </row>
+
+                <row>
+                  <entry>26.003.00.01.01</entry>
+
+                  <entry>Main pcb schematic DRC report.</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table></para>
+      </section>
+
+      <section>
+        <title>Connectivity for pcb layout.</title>
+
+        <para><table>
+            <title>Netlist and pin renaming.</title>
+
+            <tgroup cols="2">
+              <tbody>
+                <row>
+                  <entry>ID</entry>
+
+                  <entry>Description</entry>
+                </row>
+
+                <row>
+                  <entry>26.002.00.01.01</entry>
+
+                  <entry>Front pcb layout netlist (net).</entry>
+                </row>
+
+                <row>
+                  <entry>26.002.00.01.01</entry>
+
+                  <entry>Front pcb layout netlist pin renaming script
+                  (pins).</entry>
+                </row>
+
+                <row>
+                  <entry>26.003.00.01.01</entry>
+
+                  <entry>Main pcb layout netlist (net).</entry>
+                </row>
+
+                <row>
+                  <entry>26.003.00.01.01</entry>
+
+                  <entry>Main pcb layout pin renaming script (pins).</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table></para>
+      </section>
+
+      <section>
+        <title>Bill Of Materials.</title>
+
+        <para><table>
+            <title>Bill Of Materials.</title>
+
+            <tgroup cols="2">
+              <tbody>
+                <row>
+                  <entry>ID</entry>
+
+                  <entry>Description</entry>
+                </row>
+
+                <row>
+                  <entry>26.001.00.01.01</entry>
+
+                  <entry>Top level schematic BOM (csv).</entry>
+                </row>
+
+                <row>
+                  <entry>26.002.00.01.01</entry>
+
+                  <entry>Front pcb schematic (DFM) BOM (csv).</entry>
+                </row>
+
+                <row>
+                  <entry>26.003.00.01.01</entry>
+
+                  <entry>Main pcb schematic (DFM) BOM (csv).</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table></para>
+      </section>
+    </section>
+
+    <section>
+      <title>Simulation.</title>
+
+      <para>.</para>
+    </section>
+
+    <section>
+      <title>PCB layout.</title>
+
+      <para><table>
+          <title>Project files.</title>
+
+          <tgroup cols="2">
+            <tbody>
+              <row>
+                <entry>ID</entry>
+
+                <entry>Description</entry>
+              </row>
+
+              <row>
+                <entry>26.002.00.01.01</entry>
+
+                <entry>Front pcb layout (gsch2pcb).</entry>
+              </row>
+
+              <row>
+                <entry>26.003.00.01.01</entry>
+
+                <entry>Main pcb layout (gsch2pcb).</entry>
+              </row>
+
+              <row>
+                <entry>26.006.00.01.01</entry>
+
+                <entry>31.5 Hz + 63 Hz Filter module pcb layout PTH
+                (gsch2pcb).</entry>
+              </row>
+
+              <row>
+                <entry>26.006.01.01.01</entry>
+
+                <entry>31.5 Hz + 63 Hz Filter module pcb layout SMT
+                (gsch2pcb).</entry>
+              </row>
+
+              <row>
+                <entry>26.007.01.01.01</entry>
+
+                <entry>125 Hz + 250 Hz Filter module pcb layout SMT
+                (gsch2pcb).</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table><table>
+          <title>Printed circuit boards.</title>
+
+          <tgroup cols="2">
+            <tbody>
+              <row>
+                <entry>ID</entry>
+
+                <entry>Description</entry>
+              </row>
+
+              <row>
+                <entry>26.002.00.01.01</entry>
+
+                <entry>Front pcb layout (pcb).</entry>
+              </row>
+
+              <row>
+                <entry>26.003.00.01.01</entry>
+
+                <entry>Main pcb layout (pcb).</entry>
+              </row>
+
+              <row>
+                <entry>26.006.00.01.01</entry>
+
+                <entry>31.5 Hz + 63 Hz Filter module pcb layout PTH
+                (pcb).</entry>
+              </row>
+
+              <row>
+                <entry>26.006.01.01.01</entry>
+
+                <entry>31.5 Hz + 63 Hz Filter module pcb layout SMT
+                (pcb).</entry>
+              </row>
+
+              <row>
+                <entry>26.007.01.01.01</entry>
+
+                <entry>125 Hz + 250 Hz Filter module pcb layout SMT
+                (pcb).</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table></para>
+
+      <section>
+        <title>Gerber files.</title>
+
+        <para><table>
+            <title>Gerber files.</title>
+
+            <tgroup cols="2">
+              <tbody>
+                <row>
+                  <entry>ID</entry>
+
+                  <entry>Description</entry>
+                </row>
+
+                <row>
+                  <entry>26.002.00.01.01.back</entry>
+
+                  <entry>Front pcb layout back copper (gbr).</entry>
+                </row>
+
+                <row>
+                  <entry>26.002.00.01.01.backmask</entry>
+
+                  <entry>Front pcb layout back soldermask (gbr).</entry>
+                </row>
+
+                <row>
+                  <entry>26.002.00.01.01.fab</entry>
+
+                  <entry>Front pcb layout fabrication drawing (gbr).</entry>
+                </row>
+
+                <row>
+                  <entry>26.002.00.01.01.front</entry>
+
+                  <entry>Front pcb layout front copper (gbr).</entry>
+                </row>
+
+                <row>
+                  <entry>26.002.00.01.01.frontsilk</entry>
+
+                  <entry>Front pcb layout front silkscreen (gbr).</entry>
+                </row>
+
+                <row>
+                  <entry>26.002.00.01.01.outline</entry>
+
+                  <entry>Front pcb layout board outline (gbr).</entry>
+                </row>
+
+                <row>
+                  <entry>26.002.00.01.01.plated-drill</entry>
+
+                  <entry>Front pcb layout plated throuh holes (cnc).</entry>
+                </row>
+
+                <row>
+                  <entry>26.002.00.01.01.unplated-drill</entry>
+
+                  <entry>Front pcb layout non plated holes (cnc).</entry>
+                </row>
+
+                <row>
+                  <entry>26.003.00.01.01.back</entry>
+
+                  <entry>Main pcb layout back copper (gbr).</entry>
+                </row>
+
+                <row>
+                  <entry>26.003.00.01.01.backmask</entry>
+
+                  <entry>Main pcb layout back soldermask (gbr).</entry>
+                </row>
+
+                <row>
+                  <entry>26.003.00.01.01.fab</entry>
+
+                  <entry>Main pcb layout fabrication drawing (gbr).</entry>
+                </row>
+
+                <row>
+                  <entry>26.003.00.01.01.front</entry>
+
+                  <entry>Main pcb layout front copper (gbr).</entry>
+                </row>
+
+                <row>
+                  <entry>26.003.00.01.01.frontsilk</entry>
+
+                  <entry>Main pcb layout front silkscreen (gbr).</entry>
+                </row>
+
+                <row>
+                  <entry>26.003.00.01.01.outline</entry>
+
+                  <entry>Main pcb layout board outline (gbr).</entry>
+                </row>
+
+                <row>
+                  <entry>26.003.00.01.01.plated-drill</entry>
+
+                  <entry>Main pcb layout plated throuh holes (cnc).</entry>
+                </row>
+
+                <row>
+                  <entry>26.003.00.01.01.unplated-drill</entry>
+
+                  <entry>Main pcb layout non plated holes (cnc).</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table></para>
+      </section>
+
+      <section>
+        <title>Pick-and-Place.</title>
+
+        <para><table>
+            <title>Pick-and-Place.</title>
+
+            <tgroup cols="2">
+              <tbody>
+                <row>
+                  <entry>ID</entry>
+
+                  <entry>Description</entry>
+                </row>
+
+                <row>
+                  <entry>26.002.00.01.01</entry>
+
+                  <entry>Front pcb layout (xy).</entry>
+                </row>
+
+                <row>
+                  <entry>26.003.00.01.01</entry>
+
+                  <entry>Main pcb layout (xy).</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table></para>
+      </section>
+
+      <section>
+        <title>Eye-candy.</title>
+
+        <para><table>
+            <title>Pictures.</title>
+
+            <tgroup cols="2">
+              <tbody>
+                <row>
+                  <entry>ID</entry>
+
+                  <entry>Description</entry>
+                </row>
+
+                <row>
+                  <entry>26.002.00.01.01</entry>
+
+                  <entry>Front pcb layout 300 DPI rendered (png).</entry>
+                </row>
+
+                <row>
+                  <entry>26.003.00.01.01</entry>
+
+                  <entry>Main pcb layout 300 DPI rendered (png).</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table></para>
+      </section>
+    </section>
+
+    <section>
+      <title>Board manufacturing.</title>
+
+      <para/>
+
+      <section>
+        <title>Quotations.</title>
+
+        <para/>
+      </section>
+
+      <section>
+        <title>Order.</title>
+
+        <para/>
+      </section>
+    </section>
+
+    <section>
+      <title>Board assembly.</title>
+
+      <para/>
+    </section>
+  </chapter>
+
+  <chapter>
+    <title>Testing.</title>
+
+    <para/>
+  </chapter>
+
+  <appendix>
+    <title>Pinout DIN 41617 31-pin connector.</title>
+
+    <para><table>
+        <title>Pinout DIN 41617 31-pin connector.</title>
+
+        <tgroup cols="3">
+          <tbody>
+            <row>
+              <entry>Pin</entry>
+
+              <entry>Netname</entry>
+
+              <entry>Description</entry>
+            </row>
+
+            <row>
+              <entry>1</entry>
+
+              <entry>MUX_OUT</entry>
+
+              <entry>Multiplexer output.</entry>
+            </row>
+
+            <row>
+              <entry>2</entry>
+
+              <entry>REG_OUT</entry>
+
+              <entry>Storage register output.</entry>
+            </row>
+
+            <row>
+              <entry>3</entry>
+
+              <entry>DB_OUT</entry>
+
+              <entry>dB output.</entry>
+            </row>
+
+            <row>
+              <entry>4</entry>
+
+              <entry>NOISE_OUT</entry>
+
+              <entry>Noise Generator output</entry>
+            </row>
+
+            <row>
+              <entry>5</entry>
+
+              <entry>RFUNCGEN_OUT</entry>
+
+              <entry>Random Function Generator output.</entry>
+            </row>
+
+            <row>
+              <entry>6</entry>
+
+              <entry>AM_OUT</entry>
+
+              <entry>AM output.</entry>
+            </row>
+
+            <row>
+              <entry>7</entry>
+
+              <entry>BURST_OUT</entry>
+
+              <entry>Burst Generator output.</entry>
+            </row>
+
+            <row>
+              <entry>8</entry>
+
+              <entry>SWEEP_OUT</entry>
+
+              <entry>Sweep Generator output.</entry>
+            </row>
+
+            <row>
+              <entry>9</entry>
+
+              <entry>FUNC_OUT</entry>
+
+              <entry>Function Generator output.</entry>
+            </row>
+
+            <row>
+              <entry>10</entry>
+
+              <entry>AMPL_OUT</entry>
+
+              <entry>Amplitude output.</entry>
+            </row>
+
+            <row>
+              <entry>11</entry>
+
+              <entry>FUNC_0CR</entry>
+
+              <entry>Function Generator zero crossing.</entry>
+            </row>
+
+            <row>
+              <entry>12</entry>
+
+              <entry>SWEEP_SYNC</entry>
+
+              <entry>Sweep synchronisation.</entry>
+            </row>
+
+            <row>
+              <entry>13</entry>
+
+              <entry>BURST_OUT</entry>
+
+              <entry>Burst synchronisation.</entry>
+            </row>
+
+            <row>
+              <entry>14</entry>
+
+              <entry>DP_CODE</entry>
+
+              <entry>Decimal Point code.</entry>
+            </row>
+
+            <row>
+              <entry>15</entry>
+
+              <entry>CH_DBL</entry>
+
+              <entry>Channel doubleing.</entry>
+            </row>
+
+            <row>
+              <entry>16</entry>
+
+              <entry>MUX_CLOCK</entry>
+
+              <entry>Multiplexer clock.</entry>
+            </row>
+
+            <row>
+              <entry>17</entry>
+
+              <entry>MUX_RESET</entry>
+
+              <entry>Multiplexer reset.</entry>
+            </row>
+
+            <row>
+              <entry>18</entry>
+
+              <entry>INHIBIT</entry>
+
+              <entry>+/- inhibit.</entry>
+            </row>
+
+            <row>
+              <entry>19</entry>
+
+              <entry>DM_IN</entry>
+
+              <entry>Digital Meter input.</entry>
+            </row>
+
+            <row>
+              <entry>20</entry>
+
+              <entry>DM_COMMON</entry>
+
+              <entry>Digital Meter common.</entry>
+            </row>
+
+            <row>
+              <entry>21</entry>
+
+              <entry>LM_IN</entry>
+
+              <entry>LED Meter input.</entry>
+            </row>
+
+            <row>
+              <entry>22</entry>
+
+              <entry>LM_COMMON</entry>
+
+              <entry>LED Meter common.</entry>
+            </row>
+
+            <row>
+              <entry>23</entry>
+
+              <entry>NEG_UVAR</entry>
+
+              <entry>-Uvar.</entry>
+            </row>
+
+            <row>
+              <entry>24</entry>
+
+              <entry>POS_UVAR</entry>
+
+              <entry>+Uvar.</entry>
+            </row>
+
+            <row>
+              <entry>25</entry>
+
+              <entry>POS_U</entry>
+
+              <entry>+U.</entry>
+            </row>
+
+            <row>
+              <entry>26</entry>
+
+              <entry>NEG_U</entry>
+
+              <entry>-U.</entry>
+            </row>
+
+            <row>
+              <entry>27</entry>
+
+              <entry>MAINS_230VAC_F</entry>
+
+              <entry>Mains supply 230 V AC phase.</entry>
+            </row>
+
+            <row>
+              <entry>28</entry>
+
+              <entry>MAINS_230VAC_N</entry>
+
+              <entry>Mains supply 230 V AC neutral.</entry>
+            </row>
+
+            <row>
+              <entry>29</entry>
+
+              <entry>NEG_15VDC</entry>
+
+              <entry>-15 V DC</entry>
+            </row>
+
+            <row>
+              <entry>30</entry>
+
+              <entry>GND</entry>
+
+              <entry>Ground</entry>
+            </row>
+
+            <row>
+              <entry>31</entry>
+
+              <entry>POS_15VDC</entry>
+
+              <entry>+15 V DC</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table></para>
+  </appendix>
+
+  <appendix>
+    <title>Operational amplifiers.</title>
+
+    <section>
+      <title>Operational Amplifier basics.</title>
+
+      <para>Operational amplifiers are one of the workhorses of the analogue
+      electronics scene.</para>
+
+      <para>Op-amps, as they are also known are widely available in the form
+      of integrated circuits, many costing only a few cents or a few pence for
+      the standard versions.</para>
+
+      <para>High performance op amp integrated circuits still offer excellent
+      value for money, but obviously cost a little more. In view of their ease
+      of use and low cost, these integrated circuits are used in vast
+      quantities enabling high performance electronics circuits to be
+      developed and designed with a minimum of electronics components.</para>
+
+      <para>Operational amplifiers, op amps are virtually the ideal
+      amplifier.</para>
+
+      <para>They provide a combination of parameters that are of great
+      use:</para>
+
+      <itemizedlist>
+        <listitem>
+          <para>Very high gain</para>
+        </listitem>
+
+        <listitem>
+          <para>Very high input impedance</para>
+        </listitem>
+
+        <listitem>
+          <para>Very low output impedance</para>
+        </listitem>
+      </itemizedlist>
+
+      <para>The operational amplifier is what is known as a differential
+      amplifier.</para>
+
+      <para>The differential amplifier has two inputs and this enables it to
+      be used in a wide number of circuit configurations.</para>
+
+      <para>The circuit symbol for an operational amplifier consists simply of
+      a triangle as shown below.</para>
+
+      <para>The two inputs are designated by "+" and "-" symbols, and the
+      output of the operational amplifier is at the opposite end of the
+      triangle.</para>
+
+      <para>Inputs from the "+" input appear at the output in the same phase,
+      whereas signals present at the "-" input appear at the output inverted
+      or 180 degrees out of phase.</para>
+
+      <para>This gives rise to the names for the inputs.</para>
+
+      <para>The "+" input is known as the non-inverting input, while the "-"
+      input is the inverting input of the operational amplifier.</para>
+
+      <para>As the output from the amplifier is dependent upon the difference
+      in voltage between the two inputs, it is known as a differential
+      amplifier.</para>
+
+      <figure>
+        <title>Op amp circuit symbol.</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="pics/op-amp_circuit_symbol.gif"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>Often the power supply rails for the operational amplifier are not
+      shown in circuit diagrams and there is no connection for a ground
+      line.</para>
+
+      <para>The power rails for the operational amplifier are assumed to be
+      connected.</para>
+
+      <para>The power for the operational amplifier is generally supplied as a
+      positive rail and also a negative rail.</para>
+
+      <para>Often voltages of +15V and -15 V are used, although this will vary
+      according to the application and the actual chip used.</para>
+
+      <para>The gain of the operational amplifier is very high.</para>
+
+      <para>Figures for the levels of gain provided by an operational
+      amplifier on its own are very high.</para>
+
+      <para>Typically they may be upwards of 10 000.</para>
+
+      <para>While levels of gain may be too high for use on their own, the
+      application of feedback around the operational amplifier enables the
+      circuit to be used in a wide variety of applications, from very flat
+      amplifiers, to filters, oscillators, switches, and much more.</para>
+
+      <section>
+        <title>Op-amp open loop gain.</title>
+
+        <para>The gain of an operational amplifier is exceedingly high.</para>
+
+        <para>Normally feedback is applied around the op-amp so that the gain
+        of the overall circuit is defined and kept to a figure which is more
+        usable.</para>
+
+        <para>However the very high level of gain of the op-amp enables
+        considerable levels of feedback to be applied to enable the required
+        performance to be achieved.</para>
+
+        <para>When measured the open loop gain of an operational amplifier
+        falls very rapidly with increasing frequency.</para>
+
+        <para>Typically an op-amp may have an open loop gain of around 100
+        000, but this usually starts to fall very quickly.</para>
+
+        <para>For the famous 741 operational amplifier, it starts to fall at a
+        frequency of only 10 Hz.</para>
+      </section>
+
+      <section>
+        <title>Op-amp slew rate.</title>
+
+        <para>With very high gains the operational amplifiers have what is
+        termed compensation capacitance to prevent oscillation.</para>
+
+        <para>This capacitance combined with the limited drive currents mean
+        that the output of the amplifier is only able to change at a limited
+        rate, even when a large or rapid change occurs at the input.</para>
+
+        <para>This maximum speed is known as the slew rate.</para>
+
+        <para>A typical general purpose device may have a slew rate of 10 V /
+        microsecond.</para>
+
+        <para>This means that when a large step change is placed on the input,
+        the device would be able to provide an output 10 volt change in one
+        microsecond.</para>
+
+        <para>The figures for slew rate change are dependent upon the type of
+        operational amplifier being used.</para>
+
+        <para>Low power op-amps may only have a slew rate of a volt per
+        microsecond, whereas there are fast operational amplifiers capable to
+        providing slew rates of 1000 V / microsecond.</para>
+
+        <para>The slew rate can introduce distortion onto a signal by limiting
+        the frequency of a large signal that can be accommodated.</para>
+
+        <para>It is possible to find the maximum frequency or voltage that can
+        be accommodated.</para>
+
+        <para>A sine wave with a frequency of f Hertz and amplitude V volts
+        requires an operational amplifier with a slew rate of 2 x pi x V x V
+        volts per second.</para>
+      </section>
+
+      <section>
+        <title>Offset null.</title>
+
+        <para>One of the minor problems with an operational amplifier is that
+        they have a small offset.</para>
+
+        <para>Normally this is small, but it is quoted in the datasheets for
+        the particular operational amplifier in question.</para>
+
+        <para>It is possible to null this using an external potentiometer
+        connected to the three offset null pins.</para>
+
+        <para>In most applications no provision is made for the offset
+        null.</para>
+
+        <para>This is because it is normally not a problem and it adds further
+        components and an adjustment.</para>
+
+        <para>However it can be a problem where large levels of DC gain are
+        required.</para>
+
+        <para>Here the offset voltage is amplified by the gain and could
+        appear as a significant voltage at the output.</para>
+      </section>
+
+      <section>
+        <title>Op-amp circuits.</title>
+
+        <para>There is a huge variety of electronics circuits that can be
+        designed using operational amplifiers.</para>
+
+        <para>These opamp circuits range from amplifiers to multivibrators,
+        integrators to comparators and oscillators to timers.</para>
+
+        <para>It shows how versatile these op-amp integrated circuits
+        are.</para>
+
+        <para>All these different circuits tend to use the high input
+        impedance, low output impedance and high gain of the op-amp, combined
+        with the fact that the operational amplifier is a differential
+        amplifier.</para>
+
+        <para>In most circuits, feedback (usually negative feedback) is placed
+        around the op-amp and the way this is done provides the required
+        function.</para>
+
+        <para>Only in very few applications is no feedback applied.</para>
+      </section>
+
+      <section>
+        <title>Operational amplifier packages.</title>
+
+        <para>The packages in which electronics components are available is
+        very important.</para>
+
+        <para>Many electronics components are available in a wide variety of
+        package styles, and the operational amplifier is not exception.</para>
+
+        <para>Like many other electronics components, a vast number are used
+        as surface mount components in mass produced electronics
+        products.</para>
+
+        <para>They are available in the SOIC (small outline integrated
+        circuit) package as well as many others.</para>
+
+        <para>Some are even available in five leaded versions of transistor
+        packages and this makes them ideal to drop into a circuit without
+        using up much board space.</para>
+
+        <para>However the more traditional style of electronics component
+        packages are also available.</para>
+
+        <para>They are available in the DIL (dual in line) package, often as a
+        single operational amplifier in an eight pin DIL, or duals in eight
+        pin packages (with no offset null connections) or fourteen or sixteen
+        pin DILs.</para>
+
+        <para>Operational amplifiers are in widespread use in analogue
+        electronics design and production.</para>
+
+        <para>These op amps provide a particularly useful combination of
+        circuit parameters that make them an indispensable tool for the
+        electronics design engineer.</para>
+
+        <para>While digital electronics is growing, the use of op-amps will
+        nevertheless remain in vast quantities as a result of their cost,
+        performance and ease of use.</para>
+
+        <para>These electronics components will therefore remain very cheap
+        for many years to come.</para>
+      </section>
+    </section>
+
+    <section>
+      <title>Operational Amplifier Gain</title>
+
+      <para>The gain of an operational amplifier or op-amp (opamp) circuit
+      depends upon a variety of factors including the circuit configuration as
+      well as the components around the operational amplifier chip
+      itself.</para>
+
+      <para>This section gives a summary or overview of the gain of the
+      different operational amplifier circuits available.</para>
+
+      <section>
+        <title>Inverting op-amp gain.</title>
+
+        <para>The circuit for the inverting op-amp circuit is shown
+        below.</para>
+
+        <para>This circuit has the output 180 degrees out of phase with the
+        input and also provides a virtual earth input.</para>
+
+        <figure>
+          <title>Basic inverting operational amplifier circuit.</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="pics/op-amp_basic_inv.gif" width="250"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>It is easy to derive the calculation for the op-amp gain.</para>
+
+        <para>The input to the op-amp itself draws no current and this means
+        that the current flowing in the resistors R1 and R2 is the
+        same.</para>
+
+        <para>Using ohms law Vout /R2 = -Vin/R1.</para>
+
+        <para>Hence the voltage gain of the circuit Av can be taken as:</para>
+
+        <para>Av = - R2 / R1</para>
+
+        <para>As an example, an amplifier requiring a gain of ten could be
+        built by making R2 = 47 k ohms and R1 = 4.7 k ohms.</para>
+      </section>
+
+      <section>
+        <title>Non-Inverting Op-Amp gain.</title>
+
+        <para>The circuit for the non-inverting op-amp is shown below.</para>
+
+        <para>It offers a higher input impedance than the inverting opamp
+        circuit.</para>
+
+        <figure>
+          <title>Basic non-inverting operational amplifier circuit.</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="pics/op-amp_basic_non_inv.gif" width="250"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>The gain of the non-inverting circuit for the operational
+        amplifier is easy to determine.</para>
+
+        <para>The calculation hinges around the fact that the voltage at both
+        inputs is the same.</para>
+
+        <para>This arises from the fact that the gain of the amplifier is
+        exceedingly high. If the output of the circuit remains within the
+        supply rails of the amplifier, then the output voltage divided by the
+        gain means that there is virtually no difference between the two
+        inputs.</para>
+
+        <para>As the input to the op-amp draws no current this means that the
+        current flowing in the resistors R1 and R2 is the same.</para>
+
+        <para>The voltage at the inverting input is formed from a potential
+        divider consisting of R1 and R2, and as the voltage at both inputs is
+        the same, the voltage at the inverting input must be the same as that
+        at the non-inverting input.</para>
+
+        <para>This means that Vin = Vout x R1 / (R1 + R2)</para>
+
+        <para>ence the voltage gain of the circuit Av can be taken as:</para>
+
+        <para>Av = 1 + R2 / R1</para>
+
+        <para>As an example, an amplifier requiring a gain of eleven could be
+        built by making R2 = 47 k ohms and R1 = 4.7 k ohms.</para>
+
+        <para>Op-amp gain or op-amp gain is very easy to determine.</para>
+
+        <para>The gain calculations for the different circuits is slightly
+        different, but essentially both circuits are able to offer similar
+        levels of gain, although the resistor values will not be the same for
+        the same levels of op amp gain.</para>
+      </section>
+    </section>
+
+    <section>
+      <title>Inverting operational amplifier.</title>
+
+      <para>Operational amplifiers can be used in a wide variety of circuit
+      configurations.</para>
+
+      <para>One of the most widely used is the inverting amplifier
+      configuration.</para>
+
+      <para>It offers many advantages from being very simple to use, requiring
+      just the operational amplifier integrated circuit and a few other
+      components.</para>
+
+      <para>Circuits are available for an inverting amplifier, and a
+      non-inverting amplifier.</para>
+
+      <para>This version details the inverting amplifier, where the output is
+      the mirror image of the input.</para>
+
+      <section>
+        <title>Basic inverting circuit.</title>
+
+        <para>The basic circuit for the inverting operational amplifier
+        circuit is shown below.</para>
+
+        <para>It consists of a resistor from the input terminal to the
+        inverting input of the circuit, and another resistor connected from
+        the output to the inverting input of the op-amp.</para>
+
+        <para>The non inverting input is connected to ground.</para>
+
+        <figure>
+          <title>Basic inverting operational amplifier circuit.</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="pics/op-amp_basic_inv.gif" width="250"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>In this circuit the non inverting input of the operational
+        amplifier is connected to ground.</para>
+
+        <para>As the gain of the operational amplifier itself is very very
+        high and the output from the amplifier is a matter of a few volts,
+        this means that the difference between the two input terminals is
+        exceedingly small and can be ignored.</para>
+
+        <para>As the non-inverting input of the operational amplifier is held
+        at ground potential this means that the inverting input must be
+        virtually at earth potential (i.e. a virtual earth).</para>
+
+        <para>As the input to the op-amp itself draws no virtually current
+        this means that the current flowing in the resistors R1 and R2 is the
+        same.</para>
+
+        <para>Using Ohms law: Vout /R2 = -Vin/R1.</para>
+
+        <para>Hence the voltage gain of the circuit Av can be taken as:</para>
+
+        <para>Av = - R2 / R1</para>
+
+        <para>As an example, an amplifier requiring a gain of ten could be
+        built by making R2 = 47 k ohms and R1 = 4.7 k ohms.</para>
+
+        <para>Reminder:</para>
+
+        <para>It is worth mentioning at this point that for high levels of
+        gain, the gain bandwidth product of the basic op amp itself may become
+        a problem.</para>
+
+        <para>With levels of gain of 100, the bandwidth of some operational
+        amplifier ICs may only be around 3 kHz.</para>
+
+        <para>Check the data sheet for the given chip being used before
+        settling on the level of gain.</para>
+      </section>
+    </section>
+
+    <section>
+      <title>Non-inverting operational amplifier.</title>
+
+      <para>Operational amplifiers can be used in two basic configurations to
+      create amplifier circuits.</para>
+
+      <para>One is the inverting amplifier where the output is the inverse or
+      180 degrees out of phase with the input, and the other is the
+      non-inverting amplifier where the output is in the same sense or in
+      phase with the input.</para>
+
+      <para>Both operational amplifier circuits are widely used and they find
+      applications in different areas.</para>
+
+      <para>When an operational amplifier or op-amp is used as a non-inverting
+      amplifier it only requires a few additional components to create a
+      working amplifier circuit.</para>
+
+      <section>
+        <title>Basic non-inverting op-amp circuit.</title>
+
+        <para>The basic non-inverting operational amplifier circuit is shown
+        below.</para>
+
+        <para>In this circuit the signal is applied to the non-inverting input
+        of the op-amp.</para>
+
+        <para>However the feedback is taken from the output of the op-amp via
+        a resistor to the inverting input of the operational amplifier where
+        another resistor is taken to ground.</para>
+
+        <para>It is the value of these two resistors that govern the gain of
+        the operational amplifier circuit.</para>
+
+        <figure>
+          <title>Basic non-inverting operational amplifier circuit.</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="pics/op-amp_basic_non_inv.gif" width="250"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>The gain of the non-inverting circuit for the operational
+        amplifier is easy to determine.</para>
+
+        <para>The calculation hinges around the fact that the voltage at both
+        inputs is the same.</para>
+
+        <para>This arises from the fact that the gain of the amplifier is
+        exceedingly high.</para>
+
+        <para>If the output of the circuit remains within the supply rails of
+        the amplifier, then the output voltage divided by the gain means that
+        there is virtually no difference between the two inputs.</para>
+
+        <para>As the input to the op-amp draws no current this means that the
+        current flowing in the resistors R1 and R2 is the same.</para>
+
+        <para>The voltage at the inverting input is formed from a potential
+        divider consisting of R1 and R2, and as the voltage at both inputs is
+        the same, the voltage at the inverting input must be the same as that
+        at the non-inverting input.</para>
+
+        <para>This means that Vin = Vout x R1 / (R1 + R2)</para>
+
+        <para>Hence the voltage gain of the circuit Av can be taken as:</para>
+
+        <para>Av = 1 + R2 / R1</para>
+
+        <para>As an example, an amplifier requiring a gain of eleven could be
+        built by making R2 = 47 k ohms and R1 = 4.7 k ohms.</para>
+      </section>
+
+      <section>
+        <title>Input impedance of non-inverting amplifier.</title>
+
+        <para>It is often necessary to know the input impedance of a
+        circuit.</para>
+
+        <para>The input impedance of this operational amplifier circuit is
+        very high, and may typically be well in excess of 10^7 ohms.</para>
+
+        <para>For most circuit applications this can be completely
+        ignored.</para>
+
+        <para>This is a significant difference to the inverting configuration
+        of an operational amplifier circuit which provided only a relatively
+        low impedance dependent upon the value of the input resistor.</para>
+      </section>
+
+      <section>
+        <title>AC coupling the non-inverting op-amp circuit.</title>
+
+        <para>In most cases it is possible to DC couple the circuit.</para>
+
+        <para>However in this case it is necessary to ensure that the
+        non-inverting has a DC path to earth for the very small input current
+        that is needed.</para>
+
+        <para>This can be achieved by inserting a high value resistor, R3 in
+        the diagram, to ground as shown below.</para>
+
+        <para>The value of this may typically be 100 k ohms or more.</para>
+
+        <para>If this resistor is not inserted the output of the operational
+        amplifier will be driven into one of the voltage rails.</para>
+
+        <figure>
+          <title>Basic non-inverting operational amplifier circuit with
+          capacitor coupled input.</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="pics/op-amp_non_inv_with_capinput.gif"
+                         width="250"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>When inserting a resistor in this manner it should be remembered
+        that the capacitor-resistor combination forms a high pass filter with
+        a cut-off frequency.</para>
+
+        <para>The cut off point occurs at a frequency where the capacitive
+        reactance is equal to the resistance.</para>
+      </section>
+    </section>
+
+    <section>
+      <title>Operational amplifier high pass filter.</title>
+
+      <para>Operational amplifiers lend themselves to being used for active
+      filter circuits, including a high pass filter circuit.</para>
+
+      <para>Using a few components they are able to provide high levels of
+      performance.</para>
+
+      <para>The simplest circuit high pass filter circuit using an operational
+      amplifier can be achieved by placing a capacitor in series with one of
+      the resistors in the amplifier circuit as shown.</para>
+
+      <para>The capacitor reactance increases as the frequency falls, and as a
+      result this forms a CR low pass filter providing a roll off of 6 dB per
+      octave.</para>
+
+      <para>The cut off frequency or break point of the filter can be
+      calculated very easily by working out the frequency at which the
+      reactance of the capacitor equals the resistance of the resistor.</para>
+
+      <para>This can be achieved using the formula:</para>
+
+      <para>Xc = 1 / 2 pi f C</para>
+
+      <para>where:</para>
+
+      <para>Xc is the capacitive reactance in ohms</para>
+
+      <para>pi is the greek letter and equal to 3.142</para>
+
+      <para>f is the frequency in Hertz</para>
+
+      <para>C is the capacitance in Farads</para>
+
+      <figure>
+        <title>Operational amplifier circuits with low frequency roll
+        off.</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="pics/op-amp_with_lf_rolloff.gif" width="250"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <section>
+        <title>Two pole high pass filter.</title>
+
+        <para>Although it is possible to design a wide variety of filters with
+        different levels of gain and different roll off patterns using
+        operational amplifiers, the filter described on this page will give a
+        good sure-fire solution.</para>
+
+        <para>It offers unity gain and a Butterworth response (the flattest
+        response in band, but not the fastest to achieve ultimate roll off out
+        of band).</para>
+
+        <figure>
+          <title>Operational amplifier two pole high pass filter.</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="pics/op-amp_highpassfilter.gif" width="250"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>The calculations for the circuit values are very straightforward
+        for the Butterworth response and unity gain scenario (simple sure fire
+        design in the figure above, with Butterworth response and unity
+        gain).</para>
+
+        <para>Critical damping is required for the circuit and the ratio of
+        the resistor vales determines this.</para>
+
+        <figure>
+          <title>High Pass Filter equations.</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="pics/op-amp_highpassfilter_equations.gif"
+                         width="250"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>When choosing the values, ensure that the resistor values fall
+        in the region between 10 k ohms and 100 k ohms.</para>
+
+        <para>This is advisable because the output impedance of the circuit
+        rises with increasing frequency and values outside this region may
+        affect he performance.</para>
+      </section>
+    </section>
+
+    <section>
+      <title>Operational amplifier low pass filter.</title>
+
+      <para>Operational amplifiers lend themselves to being used for active
+      filter circuits, including a low pass filter circuit.</para>
+
+      <para>Using a few components they are able to provide high levels of
+      performance.</para>
+
+      <para>The simplest circuit low pass filter circuit using an operational
+      amplifier simply places a capacitor across the feedback resistor.</para>
+
+      <para>This has the effect as the frequency rises of increasing the level
+      of feedback as the reactive impedance of the capacitor falls.</para>
+
+      <para>The break point for this simple type of filter can be calculated
+      very easily by working out the frequency at which the reactance of the
+      capacitor equals the resistance of the resistor.</para>
+
+      <para>This can be achieved using the formula:</para>
+
+      <para>Xc = 1 / 2 pi f C</para>
+
+      <para>where:</para>
+
+      <para>Xc is the capacitive reactance in ohms</para>
+
+      <para>pi is the greek letter and equal to 3.142</para>
+
+      <para>f is the frequency in Hertz</para>
+
+      <para>C is the capacitance in Farads</para>
+
+      <figure>
+        <title>Operational amplifier circuits with high frequency roll
+        off.</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="pics/op-amp_non_inv_withrolloff.gif"
+                       width="250"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>While these operational amplifier circuits are useful to provide a
+      reduction in gain at high frequencies, they only provide an ultimate
+      rate of roll off of 6 dB per octave, i.e. the output voltage halves for
+      every doubling in frequency.</para>
+
+      <para>This type of filter is known as a one pole filter.</para>
+
+      <para>Often a much grater rate of rejection is required, and to achieve
+      this it is possible to incorporate a higher performance filter into the
+      feedback circuitry.</para>
+
+      <section>
+        <title>Two pole low pass filter circuit.</title>
+
+        <para>Although it is possible to design a wide variety of filters with
+        different levels of gain and different roll off patterns using
+        operational amplifiers, the filter described on this page will give a
+        good sure-fire solution.</para>
+
+        <para>It offers unity gain and a Butterworth response (the flattest
+        response in band, but not the fastest to achieve ultimate roll off out
+        of band).</para>
+
+        <figure>
+          <title>Operational amplifier two pole low pass filter.</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="pics/op-amp_lowpassfilter.gif" width="250"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>The calculations for the circuit values are very straightforward
+        for the Butterworth response and unity gain scenario.</para>
+
+        <para>Critical damping is required for the circuit and the ratio of
+        the resistor and capacitor values determines this.</para>
+
+        <figure>
+          <title>Low Pass Filter equations.</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="pics/op-amp_lowpassfilter_equations.gif"
+                         width="250"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>When choosing the values, ensure that the resistor values fall
+        in the region between 10 k ohms and 100 k ohms.</para>
+
+        <para>This is advisable because the output impedance of the circuit
+        rises with increasing frequency and values outside this region may
+        affect he performance.</para>
+      </section>
+    </section>
+
+    <section>
+      <title>Operational amplifier active band pass filter.</title>
+
+      <para>The design of band pass filters can become very involved even when
+      using operational amplifiers.</para>
+
+      <para>However it is possible to simplify the design equations while
+      still being able to retain an acceptable level of performance of the
+      operational amplifier filter for many applications.</para>
+
+      <para><figure>
+          <title>Circuit of the operational amplifier active band pass
+          filter.</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="pics/op-amp_bandpassfilter.gif" width="250"/>
+            </imageobject>
+          </mediaobject>
+        </figure>As only one operational amplifier is used in the filter
+      circuit, the gain should be limited to five or less, and the Q to less
+      than ten.</para>
+
+      <para>In order to improve the shape factor of the operational amplifier
+      filter one or more stages can be cascaded.</para>
+
+      <para>A final point to note is that high stability and tolerance
+      components should be used for both the resistors and the
+      capacitors.</para>
+
+      <para>In this way the performance of the operational amplifier filter
+      will be obtained.</para>
+
+      <para><figure>
+          <title>Band Pass Filter equations.</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="pics/op-amp_bandpassfilter_equations.gif"
+                         width="300"/>
+            </imageobject>
+          </mediaobject>
+        </figure></para>
+    </section>
+
+    <section>
+      <title>Operational amplifier variable gain amplifier.</title>
+
+      <para>Most operational amplifier or op-amp circuits have a fixed level
+      of gain.</para>
+
+      <para>However it is often useful to be able to vary the gain.</para>
+
+      <para>This can be done simply by using a potentiometer on the output of
+      a fixed gain op-amp circuit, but sometimes it may be more useful to vary
+      the actual gain of the amplifier circuit itself.</para>
+
+      <para>This can be achieved very simply by using the variable gain
+      operational amplifier circuit shown below.</para>
+
+      <para>The circuit is very simple, and only uses one additional component
+      over that of a basic operational amplifier circuit.</para>
+
+      <para>The circuit simply uses a single variable gain amplifier.</para>
+
+      <para>The circuit uses a single operational amplifier, two resistors and
+      a variable resistor.</para>
+
+      <para>Additionally not only is the gain varied but also the sign.</para>
+
+      <figure>
+        <title>Variable gain operational amplifier circuit.</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="pics/op-amp_variablegain.gif" width="250"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>Using this circuit the gain can be calculated from the formula
+      given above.</para>
+
+      <para>In this the variable "a" represents the percentage of travel of
+      the potentiometer, and it varies between "0" and "1".</para>
+
+      <para>It is also worth noting that the input impedance is practically
+      independent of the position of the potentiometer, and hence the
+      gain.</para>
+    </section>
+
+    <section>
+      <title>Operational amplifier notch filter.</title>
+
+      <para>Operational amplifiers can be used to make notch filter
+      circuits.</para>
+
+      <para>Here we show two, a standard notch filter circuit, and another for
+      a twin T notch filter circuit.</para>
+
+      <para>A notch filter is used to remove a particular frequency, having a
+      notch where signals are rejected.</para>
+
+      <para>Often they are fixed frequency, but some are able to tune the
+      notch frequency.</para>
+
+      <para>Having a fixed frequency, this operational amplifier, op amp,
+      notch filter circuit may find applications such as removing fixed
+      frequency interference like mains hum, from audio circuits.</para>
+
+      <section>
+        <title>Circuit.</title>
+
+        <para>The diagram below shows a notch filter circuit using a single op
+        amp.</para>
+
+        <para>The notch filter circuit is quite straightforward and the
+        calculations for the component values are also easy.</para>
+
+        <figure>
+          <title>Active operational amplifier notch filter circuit.</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="pics/op-amp_notch_filter.gif" width="250"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>The circuit is quite straightforward to build.</para>
+
+        <para>It employs both negative and positive feedback around the
+        operational amplifier chip and in this way it is able to provide a
+        high degree of performance.</para>
+
+        <para>Calculation of the value for the circuit is very
+        straightforward.</para>
+
+        <para>The formula to calculate the resistor and capacitor values for
+        the notch filter circuit is:</para>
+
+        <para>fnotch = 1 / (2 pi R C)</para>
+
+        <para>R = R3 = R4</para>
+
+        <para>C = C1 = C2</para>
+
+        <para>Where:</para>
+
+        <para>fnotch = centre frequency of the notch in Hertz</para>
+
+        <para>pi = 3.142</para>
+
+        <para>R and C are the values of the resistors and capacitors in Ohms
+        and Farads</para>
+
+        <para>When building the circuit, high tolerance components must be
+        used to obtain the best performance.</para>
+
+        <para>Typically they should be 1% or better.</para>
+
+        <para>A notch depth of 45 dB can be obtained using 1% components,
+        although in theory it is possible for the notch to be of the order of
+        60 dB using ideal components.</para>
+
+        <para>R1 and R2 should be matched to within 0.5% or they may be
+        trimmed using parallel resistors.</para>
+
+        <para>A further item to ensure the optimum operation of the circuit is
+        to ensure that the source impedance is less than about 100
+        ohms.</para>
+
+        <para>Additionally the load impedance should be greater than about 2 M
+        Ohms.</para>
+
+        <para>The circuit is often used to remove unwanted hum from
+        circuits.</para>
+
+        <para>Values for a 50 Hz notch would be:</para>
+
+        <para>C1, C2 = 47 nF,</para>
+
+        <para>R1, R2 = 10 k,</para>
+
+        <para>R3, R4 = 68 k.</para>
+      </section>
+
+      <section>
+        <title>Op amp twin T notch filter circuit with variable Q.</title>
+
+        <para>The twin T notch filter with variable Q is a simple circuit that
+        can provide a good level of rejection at the "notch" frequency.</para>
+
+        <para>It uses two operational amplifiers in the circuit, and the twin
+        "T" section can be seen between the two operational amplifiers.</para>
+
+        <para>The variable Q function for the twin T notch filter is provided
+        by the potentiometer placed on the non-inverting input of the lower
+        operational amplifier in the diagram.</para>
+
+        <figure>
+          <title>Active twin T notch filter circuit with variable Q.</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="pics/op-amp_twin_t_varq.gif" width="350"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>Calculation of the value for the circuit is very
+        straightforward.</para>
+
+        <para>The formula is the same as that used for the passive version of
+        the twin T notch filter.</para>
+
+        <para>fc = 1 / (2 pi R C)</para>
+
+        <para>Where:</para>
+
+        <para>fc = cut off frequency in Hertz</para>
+
+        <para>pi = 3.142</para>
+
+        <para>R and C are the values of the resistors and capacitors as in the
+        circuit</para>
+
+        <para>The notch filter circuit can be very useful, and the adjustment
+        facility for the Q can also be very handy.</para>
+
+        <para>The main drawback of the notch filter circuit is that as the
+        level of Q is increased, the depth of the null reduces.</para>
+
+        <para>Despite this the notch filter circuit can be successfully
+        incorporated into many circuit applications.</para>
+
+        <para>The two op amp notch filter circuits are very easy to use and
+        provide a good level of performance without being excessively
+        complicated.</para>
+
+        <para>They are a useful tool in the armoury of the analogue
+        development engineer.</para>
+      </section>
+    </section>
+
+    <section>
+      <title>Operational amplifier multivibrator oscillator.</title>
+
+      <para>Multivibrator oscillators are used in many electronics circuits
+      and they are simple to construct.</para>
+
+      <para>It is possible to construct them using a couple of transistors,
+      but it is also possible to construct a very simple multivibrator
+      oscillator circuit using an operational amplifier.</para>
+
+      <para>The circuit can be used in a variety of applications where a
+      simple square wave oscillator circuit is required.</para>
+
+      <para>The use of an operational amplifier integrated circuit is ideal
+      from many viewpoints.</para>
+
+      <para>Although circuits can be made using just two transistors,
+      operational amplifiers are also very cheap these days, and there is
+      often little to choose in terms of cost.</para>
+
+      <section>
+        <title>Opperational amplifier multivibrator circuit.</title>
+
+        <para>The operational amplifier multivibrator circuit comprises two
+        sections.</para>
+
+        <para>The feedback to the capacitor is provided by the resistor R1,
+        whereas hysterisis is provided by the two resistors R2 and R3.</para>
+
+        <figure>
+          <title>Operational amplifier multivibrator oscillator
+          circuit.</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="pics/op-amp_multivibrator_osc.gif"
+                         width="250"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>The time period for the oscillation is provided by the
+        formula:</para>
+
+        <para>T = 2 C R1 loge (1 + 2 R2 / R3)</para>
+
+        <para>Although many multivibrator circuits may be provided using
+        simple logic gates, this operational amplifier multivibrator circuit
+        has the advantage that it can be used to provide an oscillator that
+        will generate a much higher output than that which could come from a
+        logic circuit running from a 5 volt supply.</para>
+
+        <para>In addition to this the multivibrator oscillator circuit is very
+        simple, requiring just one operational amplifier, op amp, three
+        resistors, and a single capacitor.</para>
+      </section>
+    </section>
+
+    <section>
+      <title>Operational amplifier bistable multivibrator.</title>
+
+      <para>It is easy to use an operational amplifier as a bistable
+      multivibrator.</para>
+
+      <para>An incoming waveform is converted into short pulses and these are
+      used to trigger the operational amplifier to change between its two
+      saturation states.</para>
+
+      <para>To prevent small levels of noise triggering the circuit,
+      hysteresis is introduced into the circuit, the level being dependent
+      upon the application required.</para>
+
+      <para>The operational amplifier bistable multivibrator uses just five
+      components, the operational amplifier, a capacitor and three
+      resistors.</para>
+
+      <figure>
+        <title>Bistable multivibrator operational amplifier circuit.</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="pics/op-amp_bistable_multivibrator.gif"
+                       width="250"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>The bistable circuit has two stable states.</para>
+
+      <para>These are the positive and negative saturation voltages of the
+      operational amplifier operating with the given supply voltages.</para>
+
+      <para>The circuit can then be switched between them by applying
+      pulses.</para>
+
+      <para>A negative going pulse will switch the circuit into the positive
+      saturation voltage, and a positive going pulse will switch it into the
+      negative state.</para>
+
+      <figure>
+        <title>Waveforms for the bistable multivibrator operational amplifier
+        circuit.</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="pics/op-amp_bistable_waveforms.gif"
+                       width="250"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>It is very easy to calculate the points at which the circuit will
+      trigger.</para>
+
+      <para>The positive going pulses need to be greater than Vo-Sat through
+      the potential divider, i.e. Vo-Sat x R3 / (R2 + R3), and similarly the
+      negative going pulses will need to be greater than Vo+Sat through the
+      potential divider, i.e. Vo+Sat x R3 / (R2 + R3).</para>
+
+      <para>If they are not sufficiently large then the bistable will not
+      change state.</para>
+    </section>
+
+    <section>
+      <title>Operational amplifier comparator.</title>
+
+      <para>Comparator circuits find a number of applications in
+      electronics.</para>
+
+      <para>As the name implies they are used to compare two voltages.</para>
+
+      <para>When one is higher than the other the comparator circuit output is
+      in one state, and when the input conditions are reversed, then the
+      comparator output switches.</para>
+
+      <para>These circuits find many uses as detectors.</para>
+
+      <para>They are often used to sense voltages.</para>
+
+      <para>For example they could have a reference voltage on one input, and
+      a voltage that is being detected on another.</para>
+
+      <para>While the detected voltage is above the reference the output of
+      the comparator will be in one state.</para>
+
+      <para>If the detected voltage falls below the reference then it will
+      change the state of the comparator, and this could be used to flag the
+      condition.</para>
+
+      <para>This is but one example of many for which comparators can be used.
+      In operation the op amp goes into positive or negative saturation
+      dependent upon the input voltages.</para>
+
+      <para>As the gain of the operational amplifier will generally exceed 100
+      000 the output will run into saturation when the inputs are only
+      fractions of a millivolt apart.</para>
+
+      <para>Although op amps are widely used as comparator, special comparator
+      chips are often used.</para>
+
+      <para>These integrated circuits offer very fast switching times, well
+      above those offered by most op-amps that are intended for more linear
+      applications.</para>
+
+      <para>Typical slew rates are in the region of several thousand volts per
+      microsecond, although more often figures of propagation delay are
+      quoted.</para>
+
+      <para>A typical comparator circuit will have one of the inputs held at a
+      given voltage.</para>
+
+      <para>This may often be a potential divider from a supply or reference
+      source.</para>
+
+      <para>The other input is taken to the point to be sensed.</para>
+
+      <figure>
+        <title>Circuit for a basic operational amplifier comparator.</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="pics/op-amp_comparator.gif" width="250"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>There are a number of points to remember when using comparator
+      circuits.</para>
+
+      <para>As there is no feedback the two inputs to the circuit will be at
+      different voltages.</para>
+
+      <para>Accordingly it is necessary to ensure that the maximum
+      differential input is not exceeded.</para>
+
+      <para>Again as a result of the lack of feedback the load will
+      change.</para>
+
+      <para>Particularly as the circuit changes there will be a small increase
+      in the input current.</para>
+
+      <para>For most circuits this will not be a problem, but if the source
+      impedance is high it may lead to a few unusual responses.</para>
+
+      <para>The main problem with this circuit is that new the changeover
+      point, even small amounts of noise will cause the output to switch back
+      and forth.</para>
+
+      <para>Thus near the changeover point there may be several transitions at
+      the output and this may give rise to problems elsewhere in the overall
+      circuit.</para>
+
+      <para>The solution to this is to use a Schmitt Trigger as described on
+      another page.</para>
+    </section>
+
+    <section>
+      <title>Operational amplifier Schmitt trigger.</title>
+
+      <para>Although the simple comparator circuit using either an ordinary
+      operational amplifier (op-amp) or a special comparator chip is often
+      adequate, if the input waveform is slow or has noise on it, then there
+      is the possibility that the output will switch back and forth several
+      times during the switch over phase as only small levels of noise on the
+      input will cause the output to change.</para>
+
+      <para>This may not be a problem in some circumstances, but if the output
+      from the operational amplifier comparator is being fed into fast logic
+      circuitry, then it can often give rise to problems.</para>
+
+      <para>The problem can be solved very easily by adding some positive
+      feedback to the operational amplifier or comparator circuit.</para>
+
+      <para>This is provided by the addition of R3 in the circuit below and
+      the circuit is known as a Schmitt trigger.</para>
+
+      <figure>
+        <title>Operational amplifier Schmitt trigger circuit.</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="pics/op-amp_schmitt_trigger.gif" width="250"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>The effect of the new resistor (R3) is to give the circuit
+      different switching thresholds dependent upon the output state of the
+      comparator or operational amplifier.</para>
+
+      <para>When the output of the comparator is high, this voltage is fed
+      back to the non-inverting input of the operational amplifier of
+      comparator.</para>
+
+      <para>As a result the switching threshold becomes higher.</para>
+
+      <para>When the output is switched in the opposite sense, the switching
+      threshold is lowered.</para>
+
+      <para>This gives the circuit what is termed hysteresis.</para>
+
+      <para>The fact that the positive feedback applied within the circuit
+      ensures that there is effectively a higher gain and hence the switching
+      is faster.</para>
+
+      <para>This is particularly useful when the input waveform may be
+      slow.</para>
+
+      <para>However a speed up capacitor can be applied within the Schmitt
+      trigger circuit to increase the switching speed still further.</para>
+
+      <para>By placing a capacitor across the positive feedback resistor R3,
+      the gain can be increased during the changeover, making the switching
+      even faster.</para>
+
+      <para>This capacitor , known as a speed up capacitor may be anywhere
+      between 10 and 100 pF dependent upon the circuit.</para>
+
+      <para>It is quite easy to calculate the resistors needed in the Schmitt
+      trigger circuit.</para>
+
+      <para>The centre voltage about which the circuit should switch is
+      determined by the potential divider chain consisting of R1 and
+      R2.</para>
+
+      <para>This should be chosen first.</para>
+
+      <para>Then the feedback resistor R3 can be calculated.</para>
+
+      <para>This will provide a level of hysteresis that is equal to the
+      output swing of the circuit reduced by the potential divide formed as a
+      result of R3 and the parallel combination of R1 and R2.</para>
+    </section>
+  </appendix>
+</book>
