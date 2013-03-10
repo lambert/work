@@ -47,13 +47,16 @@ update: $(SHEETS)
 	gschupdate $(SHEETS)
 
 bom: $(SHEETS) attribs
-	gnetlist -g bom -o $(PROJNAME)_bom.csv $(SHEETS);
+	gnetlist -g bom -o BOM/$(PROJNAME)_bom.csv $(SHEETS);
 
 bom2: $(SHEETS) attribs
-	gnetlist -g bom2 -o $(PROJNAME)_bom2.csv $(SHEETS)
+	gnetlist -g bom2 -o BOM/$(PROJNAME)_bom2.csv $(SHEETS)
 
-drc: $(SHEETS)
-	gnetlist -g drc2 -o $(PROJNAME).drc $(SHEETS)
+drc: $(SHEETS) attribs
+	for S in $(SHEETS); \
+	do \
+	gnetlist -g drc2 -o DRC/$$S.drc $$S; \
+	done;
 
 netlist: $(SHEETS)
 	gnetlist -g geda -o $(PROJNAME)_geda.net $(SHEETS)
