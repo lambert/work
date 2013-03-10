@@ -4,7 +4,10 @@
 mechanical/eyecandy
 mechanical/plotfiles
 electrical/gschem/BOM
+electrical/gschem/DRC
 electrical/gschem/plotfiles
-electrical/pcb/eyecandy
-electrical/pcb/fab
+electrical/pcb/fab/*.bom
+electrical/pcb/fab/*.cnc
+electrical/pcb/fab/*.gbr
+electrical/pcb/fab/*.xy
 electrical/pcb/plotfiles
