@@ -160,7 +160,7 @@ description=MODIFIED TITLES.
 C 500 7900 1 0 0 list_entry.sym
 {
 T 3400 8000 15 10 1 1 0 0 1
-description=Octave Filter 31.5 Hz module BPF (for simulation) | schematic
+description=Octave Filter 63 Hz module BPF (for simulation) | schematic
 T 600 8000 15 10 1 1 0 0 1
 source=26.006.00.01.53.sch
 }

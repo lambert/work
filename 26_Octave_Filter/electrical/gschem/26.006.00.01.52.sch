@@ -283,7 +283,7 @@ device=OCTAVE_FILTER
 T 26300 1000 5 10 1 1 0 0 1
 comment=schematic
 T 26300 1200 5 10 1 1 0 0 1
-description=Octave Filter 31.5 Hz module (for simulation)
+description=Octave Filter 63 Hz module (for simulation)
 }
 C 25500 11800 1 0 0 output.sym
 {
