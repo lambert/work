@@ -1017,7 +1017,7 @@ pages=07
 T 26400 600 5 10 1 1 0 0 1
 file=26.001.00.01.02.sch
 T 30300 600 5 10 1 1 0 0 1
-revision=20121002
+revision=20130310
 T 30300 300 5 10 1 1 0 0 1
 author=Bert Timmerman
 T 26400 900 5 10 1 1 0 0 1
@@ -1025,7 +1025,7 @@ device=OCTAVE_FILTER
 T 26400 1100 5 10 1 1 0 0 1
 comment=schematic
 T 26400 1300 5 10 1 1 0 0 1
-description=Octave Filter (Power supply and pre-amplifier)
+description=Octave Filter
 }
 C 13600 11100 1 0 0 CA3140_pwr.sym
 {

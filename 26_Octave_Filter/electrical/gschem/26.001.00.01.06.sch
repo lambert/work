@@ -614,7 +614,7 @@ N 7900 9700 7900 11400 4
 C 100 100 0 0 0 A1-sheet.sym
 {
 T 30200 500 5 10 1 1 0 0 1
-revision=20120929
+revision=20130310
 T 30200 200 5 10 1 1 0 0 1
 author=Bert Timmerman
 T 26300 200 5 10 1 1 0 0 1
@@ -626,9 +626,9 @@ pages=07
 T 26300 800 5 10 1 1 0 0 1
 device=OCTAVE_FILTER
 T 26300 1000 5 10 1 1 0 0 1
-comment=dual band pass schematic
+comment=schematic
 T 26300 1200 5 10 1 1 0 0 1
-description=Octave Filter (2 kHz and 4 kHz module)
+description=Octave Filter 2 kHz and 4 kHz module
 }
 C 10300 18100 1 0 0 CA3140.sym
 {

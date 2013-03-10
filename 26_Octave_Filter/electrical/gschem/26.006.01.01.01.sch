@@ -861,7 +861,7 @@ N 7900 9700 7900 11400 4
 C 100 100 0 0 0 A1-sheet.sym
 {
 T 30200 500 5 10 1 1 0 0 1
-revision=20120929
+revision=20130310
 T 30200 200 5 10 1 1 0 0 1
 author=Bert Timmerman
 T 26300 200 5 10 1 1 0 0 1
@@ -873,9 +873,9 @@ pages=01
 T 26300 800 5 10 1 1 0 0 1
 device=OCTAVE_FILTER
 T 26300 1000 5 10 1 1 0 0 1
-comment=schematic (DFM - PTH/SMT parts)
+comment=schematic
 T 26300 1200 5 10 1 1 0 0 1
-description=Octave Filter (31.5 Hz and 63 Hz module)
+description=Octave Filter 31.5 Hz and 63 Hz module (DFM - PTH+SMT)
 }
 C 10300 18000 1 0 0 CA3140M_np.sym
 {

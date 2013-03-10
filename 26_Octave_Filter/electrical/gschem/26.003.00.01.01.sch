@@ -573,15 +573,15 @@ pages=01
 T 26400 600 5 10 1 1 0 0 1
 file=26.003.00.01.01.sch
 T 30300 600 5 10 1 1 0 0 1
-revision=20120930
+revision=20130310
 T 30300 300 5 10 1 1 0 0 1
 author=Bert Timmerman
 T 26400 900 5 10 1 1 0 0 1
 device=OCTAVE_FILTER
 T 26400 1100 5 10 1 1 0 0 1
-comment=main pcb schematic (DFM)
+comment=schematic
 T 26400 1300 5 10 1 1 0 0 1
-description=Octave Filter (Power supply and pre-amplifier)
+description=Octave Filter main pcb (DFM)
 }
 N 27900 14800 29800 14800 4
 {

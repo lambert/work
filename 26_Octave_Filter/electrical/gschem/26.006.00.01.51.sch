@@ -218,7 +218,7 @@ N 19200 11000 19200 10500 4
 C 100 100 0 0 0 A1-sheet.sym
 {
 T 30200 500 5 10 1 1 0 0 1
-revision=20120930
+revision=20130310
 T 30200 200 5 10 1 1 0 0 1
 author=Bert Timmerman
 T 26300 200 5 10 1 1 0 0 1
@@ -230,9 +230,9 @@ pages=01
 T 26300 800 5 10 1 1 0 0 1
 device=OCTAVE_FILTER
 T 26300 1000 5 10 1 1 0 0 1
-comment=schematic (for simulation)
+comment=schematic
 T 26300 1200 5 10 1 1 0 0 1
-description=Octave Filter (31.5 Hz module)
+description=Octave Filter 31.5 Hz module (for simulation)
 }
 C 25500 11800 1 0 0 output.sym
 {
@@ -337,7 +337,7 @@ device=OPAMP
 T 12900 13100 5 10 1 1 0 0 1
 refdes=X201
 T 12200 14800 5 10 0 0 0 0 1
-symversion=0.1
+symversion=20110522
 T 12900 12900 5 10 1 1 0 0 1
 value=CA3140
 }
@@ -348,7 +348,7 @@ device=OPAMP
 T 16000 13300 5 10 1 1 0 0 1
 refdes=X202
 T 15300 15000 5 10 0 0 0 0 1
-symversion=0.1
+symversion=20110522
 T 16000 13100 5 10 1 1 0 0 1
 value=CA3140
 }
@@ -359,7 +359,7 @@ device=OPAMP
 T 22900 13100 5 10 1 1 0 0 1
 refdes=X203
 T 22200 14800 5 10 0 0 0 0 1
-symversion=0.1
+symversion=20110522
 T 22900 12900 5 10 1 1 0 0 1
 value=CA3140
 }
