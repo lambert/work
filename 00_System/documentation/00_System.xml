@@ -119,8 +119,9 @@
     <section>
       <title>Schematics.</title>
 
-      <para>All schematics to be prepared with gEDA gschem. File name
-      convention:</para>
+      <para>All schematics to be prepared with gEDA gschem.</para>
+
+      <para>File name convention:</para>
 
       <para>"work/xx_${unit_name}/electrical/gschem/xx.yyy.zz.aa.bb_${schematic_name}.sch"</para>
 
