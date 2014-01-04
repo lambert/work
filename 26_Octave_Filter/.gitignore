@@ -1,6 +1,7 @@
 *~
 *.bak
 *.log
+documentation/*.html
 mechanical/eyecandy
 mechanical/plotfiles
 electrical/gschem/BOM
