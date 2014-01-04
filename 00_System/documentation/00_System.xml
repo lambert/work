@@ -1,0 +1,1494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+"http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<book>
+  <bookinfo>
+    <title>[00] System.</title>
+
+    <author>
+      <firstname>Bert</firstname>
+
+      <surname>Timmerman</surname>
+
+      <affiliation>
+        <orgname>Me Organized ??</orgname>
+      </affiliation>
+    </author>
+
+    <pubdate>20140104</pubdate>
+  </bookinfo>
+
+  <chapter>
+    <title>Documentation.</title>
+
+    <section>
+      <title>Identification.</title>
+
+      <para>All documents are to be uniquely numbered.</para>
+    </section>
+
+    <section>
+      <title>Correspondence.</title>
+
+      <para>All correspondence documents to be stored/prepared in Microsoft
+      Outlook Message (.msg) or plain ASCII text (.txt) format and to be
+      uniquely numbered by the following numbering scheme:</para>
+
+      <para>"work/xx_${unit_name}/documentation/yyyymmdd_${description}.ext"</para>
+
+      <para>Where:</para>
+
+      <variablelist>
+        <varlistentry>
+          <term>xx</term>
+
+          <listitem>
+            <para>unit number.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>yyyy</term>
+
+          <listitem>
+            <para>year number.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>mm</term>
+
+          <listitem>
+            <para>month number.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>dd</term>
+
+          <listitem>
+            <para>day number.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>ext</term>
+
+          <listitem>
+            <para>file extension.</para>
+          </listitem>
+        </varlistentry>
+      </variablelist>
+    </section>
+
+    <section>
+      <title>Specifications.</title>
+
+      <para>All specification documents to be prepared in e<emphasis
+      role="bold">X</emphasis>tensible <emphasis role="bold">M</emphasis>arkup
+      <emphasis role="bold">L</emphasis>anguage format (.xml), and to be
+      uniquely numbered by the following numbering scheme:</para>
+
+      <para>"work/xx_${unit_name}/documentation/xx_${description}.ext"</para>
+
+      <para>Where:<variablelist>
+          <varlistentry>
+            <term>xx</term>
+
+            <listitem>
+              <para>unit number.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>ext</term>
+
+            <listitem>
+              <para>file extension.</para>
+            </listitem>
+          </varlistentry>
+        </variablelist></para>
+    </section>
+  </chapter>
+
+  <chapter>
+    <title>Electrical.</title>
+
+    <para>.</para>
+
+    <section>
+      <title>Schematics.</title>
+
+      <para>All schematics to be prepared with gEDA gschem. File name
+      convention:</para>
+
+      <para>"work/xx_${unit_name}/electrical/gschem/xx.yyy.zz.aa.bb_${schematic_name}.sch"</para>
+
+      <para>Where:</para>
+
+      <para><variablelist>
+          <varlistentry>
+            <term>xx</term>
+
+            <listitem>
+              <para>unit number.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>yyy</term>
+
+            <listitem>
+              <para>part number.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>zz</term>
+
+            <listitem>
+              <para>revision number.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>aa</term>
+
+            <listitem>
+              <para>document number.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>bb</term>
+
+            <listitem>
+              <para>page number.</para>
+            </listitem>
+          </varlistentry>
+        </variablelist></para>
+    </section>
+
+    <section>
+      <title>PCB layouts.</title>
+
+      <para>All printed circuit boards to be prepared with gPCB.</para>
+
+      <para>File name convention:</para>
+
+      <para>"work/xx_${unit_name}/electrical/pcb/xx.yyy.zz.aa.bb_${pcb_name}.pcb"</para>
+
+      <para>Where:<variablelist>
+          <varlistentry>
+            <term>xx</term>
+
+            <listitem>
+              <para>unit number.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>yyy</term>
+
+            <listitem>
+              <para>part number.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>zz</term>
+
+            <listitem>
+              <para>revision number.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>aa</term>
+
+            <listitem>
+              <para>document number.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>bb</term>
+
+            <listitem>
+              <para>page number.</para>
+            </listitem>
+          </varlistentry>
+        </variablelist></para>
+
+      <section>
+        <title>PCB Layer Configuration stack-up.</title>
+
+        <para>All pcb layer configuration stack-ups to be according to PCB
+        Layer Configurations (Appendix A).</para>
+      </section>
+
+      <section>
+        <title>PCB Footprints.</title>
+
+        <para>Naming of all footprint files and all embedded footprints to be
+        in accordance with IPC standard IPC-7351A or any later version of the
+        standard.</para>
+      </section>
+    </section>
+  </chapter>
+
+  <chapter>
+    <title>Mechanical.</title>
+
+    <para>.</para>
+
+    <section>
+      <title>Mechanical drawings specification.</title>
+
+      <para>All mechanical drawings to be prepared with Autodesk AutoCAD
+      R2004.</para>
+
+      <section>
+        <title>Main system assembly shop drawings.</title>
+
+        <para>File name convention:</para>
+
+        <para>"work/00_System/mechanical/00.yyy.zz.aa.bb_${main_assembly_name}.dwg"</para>
+
+        <para>Where:<variablelist>
+            <varlistentry>
+              <term>xx</term>
+
+              <listitem>
+                <para>unit number.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>yyy</term>
+
+              <listitem>
+                <para>part number.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>zz</term>
+
+              <listitem>
+                <para>revision number.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>aa</term>
+
+              <listitem>
+                <para>document number.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>bb</term>
+
+              <listitem>
+                <para>page number.</para>
+              </listitem>
+            </varlistentry>
+          </variablelist></para>
+
+        <para>Drawing objects:</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>Xref's: in modelspace.</para>
+
+            <itemizedlist>
+              <listitem>
+                <para>Layer: All custom parts on layer "0".</para>
+              </listitem>
+
+              <listitem>
+                <para>Linetype: "BYLAYER".</para>
+              </listitem>
+
+              <listitem>
+                <para>Color: "BYLAYER".</para>
+              </listitem>
+            </itemizedlist>
+          </listitem>
+
+          <listitem>
+            <para>Dimensions: in paperspace.</para>
+
+            <itemizedlist>
+              <listitem>
+                <para>Layer: "DIMENSIONS".</para>
+              </listitem>
+
+              <listitem>
+                <para>Linetype: "BYLAYER".</para>
+              </listitem>
+
+              <listitem>
+                <para>Color: "BYLAYER".</para>
+              </listitem>
+            </itemizedlist>
+          </listitem>
+
+          <listitem>
+            <para>Text: in paperspace.</para>
+
+            <itemizedlist>
+              <listitem>
+                <para>Layer: "GENERAL".</para>
+              </listitem>
+
+              <listitem>
+                <para>Linetype: "*".</para>
+              </listitem>
+
+              <listitem>
+                <para>Color: "*".</para>
+              </listitem>
+            </itemizedlist>
+          </listitem>
+
+          <listitem>
+            <para>Other entities: in modelspace.</para>
+
+            <itemizedlist>
+              <listitem>
+                <para>Layer: "0".</para>
+              </listitem>
+
+              <listitem>
+                <para>Linetype: "*".</para>
+              </listitem>
+
+              <listitem>
+                <para>Color: "*".</para>
+              </listitem>
+            </itemizedlist>
+          </listitem>
+        </itemizedlist>
+      </section>
+
+      <section>
+        <title>Assembly shop drawings.</title>
+
+        <para>File name convention:</para>
+
+        <para>"work/xx_${unit_name}/mechanical/xx.yyy.zz.aa.bb_${assembly_name}.dwg"</para>
+
+        <para>Where:<variablelist>
+            <varlistentry>
+              <term>xx</term>
+
+              <listitem>
+                <para>unit number.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>yyy</term>
+
+              <listitem>
+                <para>part number.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>zz</term>
+
+              <listitem>
+                <para>revision number.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>aa</term>
+
+              <listitem>
+                <para>document number.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>bb</term>
+
+              <listitem>
+                <para>page number.</para>
+              </listitem>
+            </varlistentry>
+          </variablelist></para>
+
+        <para>Drawing objects:</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>Xref's: in modelspace.</para>
+
+            <itemizedlist>
+              <listitem>
+                <para>Layer:</para>
+
+                <itemizedlist>
+                  <listitem>
+                    <para>All stock electrical parts on layer "0".</para>
+                  </listitem>
+
+                  <listitem>
+                    <para>All custom parts on layer "color_*".</para>
+                  </listitem>
+                </itemizedlist>
+              </listitem>
+
+              <listitem>
+                <para>Linetype: "BYLAYER".</para>
+              </listitem>
+
+              <listitem>
+                <para>Color: "BYLAYER".</para>
+              </listitem>
+            </itemizedlist>
+          </listitem>
+
+          <listitem>
+            <para>Dimensions: in paperspace.</para>
+
+            <itemizedlist>
+              <listitem>
+                <para>Layer: "DIMENSIONS".</para>
+              </listitem>
+
+              <listitem>
+                <para>Linetype: "BYLAYER".</para>
+              </listitem>
+
+              <listitem>
+                <para>Color: "BYLAYER".</para>
+              </listitem>
+            </itemizedlist>
+          </listitem>
+
+          <listitem>
+            <para>Text: in paperspace.</para>
+
+            <itemizedlist>
+              <listitem>
+                <para>Layer: "GENERAL".</para>
+              </listitem>
+
+              <listitem>
+                <para>Linetype: "*".</para>
+              </listitem>
+
+              <listitem>
+                <para>Color: "*".</para>
+              </listitem>
+            </itemizedlist>
+          </listitem>
+
+          <listitem>
+            <para>Other entities: in modelspace.</para>
+
+            <itemizedlist>
+              <listitem>
+                <para>Layer: "0".</para>
+              </listitem>
+
+              <listitem>
+                <para>Linetype: "*".</para>
+              </listitem>
+
+              <listitem>
+                <para>Color: "*".</para>
+              </listitem>
+            </itemizedlist>
+          </listitem>
+        </itemizedlist>
+      </section>
+
+      <section>
+        <title>Sub-assembly shop drawings.</title>
+
+        <para>File name convention:</para>
+
+        <para>"work/xx_${unit_name}/mechanical/xx.yyy.zz.aa.bb_${sub_assembly_name}.dwg"</para>
+
+        <para>Where:<variablelist>
+            <varlistentry>
+              <term>xx</term>
+
+              <listitem>
+                <para>unit number.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>yyy</term>
+
+              <listitem>
+                <para>part number.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>zz</term>
+
+              <listitem>
+                <para>revision number.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>aa</term>
+
+              <listitem>
+                <para>document number.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>bb</term>
+
+              <listitem>
+                <para>page number.</para>
+              </listitem>
+            </varlistentry>
+          </variablelist></para>
+
+        <para>Drawing objects:</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>Xref's: in modelspace.</para>
+
+            <itemizedlist>
+              <listitem>
+                <para>Layer:</para>
+
+                <itemizedlist>
+                  <listitem>
+                    <para>All stock electrical parts on layer "0".</para>
+                  </listitem>
+
+                  <listitem>
+                    <para>All custom parts on layer "color_*".</para>
+                  </listitem>
+                </itemizedlist>
+              </listitem>
+
+              <listitem>
+                <para>Linetype: "BYLAYER".</para>
+              </listitem>
+
+              <listitem>
+                <para>Color: "BYLAYER".</para>
+              </listitem>
+            </itemizedlist>
+          </listitem>
+
+          <listitem>
+            <para>Dimensions: in paperspace.</para>
+
+            <itemizedlist>
+              <listitem>
+                <para>Layer: "DIMENSIONS".</para>
+              </listitem>
+
+              <listitem>
+                <para>Linetype: "BYLAYER".</para>
+              </listitem>
+
+              <listitem>
+                <para>Color: "BYLAYER".</para>
+              </listitem>
+            </itemizedlist>
+          </listitem>
+
+          <listitem>
+            <para>Text: in paperspace.</para>
+
+            <itemizedlist>
+              <listitem>
+                <para>Layer: "GENERAL".</para>
+              </listitem>
+
+              <listitem>
+                <para>Linetype: "*".</para>
+              </listitem>
+
+              <listitem>
+                <para>Color: "*".</para>
+              </listitem>
+            </itemizedlist>
+          </listitem>
+
+          <listitem>
+            <para>Other entities: in modelspace.</para>
+
+            <itemizedlist>
+              <listitem>
+                <para>Layer: "0".</para>
+              </listitem>
+
+              <listitem>
+                <para>Linetype: "*".</para>
+              </listitem>
+
+              <listitem>
+                <para>Color: "*".</para>
+              </listitem>
+            </itemizedlist>
+          </listitem>
+        </itemizedlist>
+      </section>
+
+      <section>
+        <title>Custom parts shop drawings / Special parts shop
+        drawings.</title>
+
+        <para>File name convention:</para>
+
+        <para>"work/xx_${unit_name}/mechanical/xx.yyy.zz.aa.bb_${part_name}.dwg"</para>
+
+        <para>Where:<variablelist>
+            <varlistentry>
+              <term>xx</term>
+
+              <listitem>
+                <para>unit number.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>yyy</term>
+
+              <listitem>
+                <para>part number.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>zz</term>
+
+              <listitem>
+                <para>revision number.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>aa</term>
+
+              <listitem>
+                <para>document number.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>bb</term>
+
+              <listitem>
+                <para>page number.</para>
+              </listitem>
+            </varlistentry>
+          </variablelist></para>
+
+        <para>Drawing objects:</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>Xref's: in modelspace.</para>
+
+            <itemizedlist>
+              <listitem>
+                <para>Layer: "${part_name}".</para>
+              </listitem>
+
+              <listitem>
+                <para>Linetype: "BYLAYER".</para>
+              </listitem>
+
+              <listitem>
+                <para>Color: "GREEN".</para>
+              </listitem>
+            </itemizedlist>
+          </listitem>
+
+          <listitem>
+            <para>Dimensions: in paperspace.</para>
+
+            <itemizedlist>
+              <listitem>
+                <para>Layer: "DIMENSIONS".</para>
+              </listitem>
+
+              <listitem>
+                <para>Linetype: "BYLAYER".</para>
+              </listitem>
+
+              <listitem>
+                <para>Color: "BYLAYER".</para>
+              </listitem>
+            </itemizedlist>
+          </listitem>
+
+          <listitem>
+            <para>Text: in paperspace.</para>
+
+            <itemizedlist>
+              <listitem>
+                <para>Layer: "GENERAL".</para>
+              </listitem>
+
+              <listitem>
+                <para>Linetype: "*".</para>
+              </listitem>
+
+              <listitem>
+                <para>Color: "*".</para>
+              </listitem>
+            </itemizedlist>
+          </listitem>
+
+          <listitem>
+            <para>Other entities: in modelspace.</para>
+
+            <itemizedlist>
+              <listitem>
+                <para>Layer: "0".</para>
+              </listitem>
+
+              <listitem>
+                <para>Linetype: "*".</para>
+              </listitem>
+
+              <listitem>
+                <para>Color: "*".</para>
+              </listitem>
+            </itemizedlist>
+          </listitem>
+        </itemizedlist>
+      </section>
+
+      <section>
+        <title>Main System assembly 3D-models.</title>
+
+        <para>File name convention:</para>
+
+        <para>"work/00_System/mechanical/parts/xx_${main_assembly_name}.dwg"</para>
+
+        <para>Where:<variablelist>
+            <varlistentry>
+              <term>xx</term>
+
+              <listitem>
+                <para>unit number.</para>
+              </listitem>
+            </varlistentry>
+          </variablelist></para>
+
+        <para>Drawing objects:</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>Xref's: in modelspace.</para>
+
+            <itemizedlist>
+              <listitem>
+                <para>Layer: "0".</para>
+              </listitem>
+
+              <listitem>
+                <para>Linetype: "BYLAYER".</para>
+              </listitem>
+
+              <listitem>
+                <para>Color: "BYLAYER".</para>
+              </listitem>
+            </itemizedlist>
+          </listitem>
+        </itemizedlist>
+      </section>
+
+      <section>
+        <title>Assembly 3D-models.</title>
+
+        <para>File name convention:</para>
+
+        <para>"work/xx_${unit_name}/mechanical/parts/xx_${assembly_name}.dwg"</para>
+
+        <para>Where:<variablelist>
+            <varlistentry>
+              <term>xx</term>
+
+              <listitem>
+                <para>unit number.</para>
+              </listitem>
+            </varlistentry>
+          </variablelist></para>
+
+        <para>Drawing objects:</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>Xref's: in modelspace.</para>
+
+            <itemizedlist>
+              <listitem>
+                <para>Layer: "0".</para>
+              </listitem>
+
+              <listitem>
+                <para>Linetype: "BYLAYER".</para>
+              </listitem>
+
+              <listitem>
+                <para>Color: "BYLAYER".</para>
+              </listitem>
+            </itemizedlist>
+          </listitem>
+        </itemizedlist>
+      </section>
+
+      <section>
+        <title>Sub assembly 3D-models.</title>
+
+        <para>File name convention:</para>
+
+        <para>"work/xx_${unit_name}/mechanical/parts/xx_${sub_assembly_name}.dwg"</para>
+
+        <para>Where:<variablelist>
+            <varlistentry>
+              <term>xx</term>
+
+              <listitem>
+                <para>unit number.</para>
+              </listitem>
+            </varlistentry>
+          </variablelist></para>
+
+        <para>Drawing objects:</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>Xref's: in modelspace.</para>
+
+            <itemizedlist>
+              <listitem>
+                <para>Layer: "0".</para>
+              </listitem>
+
+              <listitem>
+                <para>Linetype: "BYLAYER".</para>
+              </listitem>
+
+              <listitem>
+                <para>Color: "BYLAYER".</para>
+              </listitem>
+            </itemizedlist>
+          </listitem>
+        </itemizedlist>
+      </section>
+
+      <section>
+        <title>Custom parts parts 3D-models.</title>
+
+        <para>File name convention:</para>
+
+        <para>"work/xx_${unit_name}/mechanical/parts/xx-${part_name}.dwg"</para>
+
+        <para>Where:<variablelist>
+            <varlistentry>
+              <term>xx</term>
+
+              <listitem>
+                <para>unit number.</para>
+              </listitem>
+            </varlistentry>
+          </variablelist></para>
+
+        <para>Drawing objects:</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>Xref's: in modelspace.</para>
+
+            <itemizedlist>
+              <listitem>
+                <para>Layer: "0".</para>
+              </listitem>
+
+              <listitem>
+                <para>Linetype: "BYLAYER".</para>
+              </listitem>
+
+              <listitem>
+                <para>Color: "BYLAYER".</para>
+              </listitem>
+            </itemizedlist>
+          </listitem>
+
+          <listitem>
+            <para>Other entities: in modelspace.</para>
+
+            <itemizedlist>
+              <listitem>
+                <para>Layer: "0".</para>
+              </listitem>
+
+              <listitem>
+                <para>Linetype: "BYLAYER".</para>
+              </listitem>
+
+              <listitem>
+                <para>Color: "color_*".</para>
+              </listitem>
+            </itemizedlist>
+          </listitem>
+        </itemizedlist>
+      </section>
+
+      <section>
+        <title>Stock electrical parts 3D-models.</title>
+
+        <para>For parts which are significant for their electrical
+        properties.</para>
+
+        <para>File name convention:</para>
+
+        <para>"${pca-parts}/${electrical_part_name}.dwg"</para>
+
+        <para>Where:</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>${pca-parts} is a symbolic link to the PCA parts
+            repository.</para>
+          </listitem>
+
+          <listitem>
+            <para>electrical_part_name}:
+            "${IPC_footprint_name}_${manufacturer_name}_${manufacturer_part_number}_${finish}.dwg"
+            where:</para>
+
+            <itemizedlist>
+              <listitem>
+                <para>${IPC_footprint_name}: name of the footprint in IPC
+                convention format.</para>
+              </listitem>
+
+              <listitem>
+                <para>${manufacturer_name}: .</para>
+              </listitem>
+
+              <listitem>
+                <para>${manufacturer_part_number}:</para>
+              </listitem>
+
+              <listitem>
+                <para>${finish}: one of the following:</para>
+
+                <itemizedlist>
+                  <listitem>
+                    <para>"precut-leads",</para>
+                  </listitem>
+
+                  <listitem>
+                    <para>"gold-plated",</para>
+                  </listitem>
+
+                  <listitem>
+                    <para>"silver-plated",</para>
+                  </listitem>
+
+                  <listitem>
+                    <para>"nickel-plated",</para>
+                  </listitem>
+
+                  <listitem>
+                    <para>"A1C2",</para>
+                  </listitem>
+
+                  <listitem>
+                    <para>"C1A2",</para>
+                  </listitem>
+
+                  <listitem>
+                    <para>...</para>
+                  </listitem>
+                </itemizedlist>
+              </listitem>
+            </itemizedlist>
+          </listitem>
+        </itemizedlist>
+
+        <para>Drawing objects:</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>Xref's: in modelspace.</para>
+
+            <itemizedlist>
+              <listitem>
+                <para>Layer: "0".</para>
+              </listitem>
+
+              <listitem>
+                <para>Linetype: "BYLAYER".</para>
+              </listitem>
+
+              <listitem>
+                <para>Color: "BYLAYER".</para>
+              </listitem>
+            </itemizedlist>
+          </listitem>
+
+          <listitem>
+            <para>Other entities: in modelspace.</para>
+
+            <itemizedlist>
+              <listitem>
+                <para>Layer: "0".</para>
+              </listitem>
+
+              <listitem>
+                <para>Linetype: "BYLAYER".</para>
+              </listitem>
+
+              <listitem>
+                <para>Color: "color_*".</para>
+              </listitem>
+            </itemizedlist>
+          </listitem>
+        </itemizedlist>
+      </section>
+
+      <section>
+        <title>Stock mechanical parts 3D-models.</title>
+
+        <para>For parts conforming to an international standard and which are
+        only significant for the mechanical assembly.</para>
+
+        <para>For instance: screws, nuts, washers, spacers, housing parts,
+        front panels, etc.</para>
+
+        <para>File name convention:</para>
+
+        <para>"${pca-parts}/MECH_${mechanical_part_name}.dwg"</para>
+
+        <para>Where:</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>${pca-parts} is a symbolic link to the PCA parts
+            repository.</para>
+          </listitem>
+
+          <listitem>
+            <para>mechanical_part_name}:
+            "${standard}_${type}_${size_or_dimensions}.dwg"</para>
+
+            <itemizedlist>
+              <listitem>
+                <para>${standard}: ["ISO *", "EN *", "DIN *", ... ].</para>
+              </listitem>
+
+              <listitem>
+                <para>${type}: .</para>
+              </listitem>
+
+              <listitem>
+                <para>${size_or_dimensions}: .</para>
+              </listitem>
+            </itemizedlist>
+          </listitem>
+        </itemizedlist>
+
+        <para>Drawing objects:</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>Xref's: in modelspace.</para>
+
+            <itemizedlist>
+              <listitem>
+                <para>Layer: "0".</para>
+              </listitem>
+
+              <listitem>
+                <para>Linetype: "BYLAYER".</para>
+              </listitem>
+
+              <listitem>
+                <para>Color: "BYLAYER".</para>
+              </listitem>
+            </itemizedlist>
+          </listitem>
+
+          <listitem>
+            <para>Other entities: in modelspace.</para>
+
+            <itemizedlist>
+              <listitem>
+                <para>Layer: "0".</para>
+              </listitem>
+
+              <listitem>
+                <para>Linetype: "BYLAYER".</para>
+              </listitem>
+
+              <listitem>
+                <para>Color: "color_*".</para>
+              </listitem>
+            </itemizedlist>
+          </listitem>
+        </itemizedlist>
+      </section>
+    </section>
+  </chapter>
+
+  <chapter>
+    <title>Software.</title>
+
+    <para>.</para>
+  </chapter>
+
+  <appendix>
+    <title>PCB Layer Configurations.</title>
+
+    <para><table>
+        <title>LAYUP_01A.</title>
+
+        <tgroup cols="2">
+          <tbody>
+            <row>
+              <entry>Description</entry>
+
+              <entry>1-Layer.</entry>
+            </row>
+
+            <row>
+              <entry>component types</entry>
+
+              <entry>PTH only.</entry>
+            </row>
+
+            <row>
+              <entry>component location</entry>
+
+              <entry>PTH on top.</entry>
+            </row>
+
+            <row>
+              <entry>silkmask top</entry>
+
+              <entry>yes.</entry>
+            </row>
+
+            <row>
+              <entry>soldermask top</entry>
+
+              <entry>no.</entry>
+            </row>
+
+            <row>
+              <entry>copper top</entry>
+
+              <entry>no.</entry>
+            </row>
+
+            <row>
+              <entry>laminate</entry>
+
+              <entry>FR4.</entry>
+            </row>
+
+            <row>
+              <entry>copper bottom.</entry>
+
+              <entry>yes.</entry>
+            </row>
+
+            <row>
+              <entry>soldermask bottom</entry>
+
+              <entry>yes.</entry>
+            </row>
+
+            <row>
+              <entry>silkmask bottom</entry>
+
+              <entry>no.</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table><table>
+        <title>LAYUP_01B.</title>
+
+        <tgroup cols="2">
+          <tbody>
+            <row>
+              <entry>Description.</entry>
+
+              <entry>1-Layer.</entry>
+            </row>
+
+            <row>
+              <entry>component types</entry>
+
+              <entry>SMT only.</entry>
+            </row>
+
+            <row>
+              <entry>component location</entry>
+
+              <entry>SMT on top.</entry>
+            </row>
+
+            <row>
+              <entry>silkmask top</entry>
+
+              <entry>yes.</entry>
+            </row>
+
+            <row>
+              <entry>soldermask top</entry>
+
+              <entry>yes.</entry>
+            </row>
+
+            <row>
+              <entry>copper top</entry>
+
+              <entry>yes.</entry>
+            </row>
+
+            <row>
+              <entry>laminate</entry>
+
+              <entry>FR4.</entry>
+            </row>
+
+            <row>
+              <entry>copper bottom.</entry>
+
+              <entry>no.</entry>
+            </row>
+
+            <row>
+              <entry>soldermask bottom</entry>
+
+              <entry>no.</entry>
+            </row>
+
+            <row>
+              <entry>silkmask bottom</entry>
+
+              <entry>no.</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table><table>
+        <title>LAYUP_01C.</title>
+
+        <tgroup cols="2">
+          <tbody>
+            <row>
+              <entry>Description.</entry>
+
+              <entry>1-Layer.</entry>
+            </row>
+
+            <row>
+              <entry>component types</entry>
+
+              <entry>PTH and SMT.</entry>
+            </row>
+
+            <row>
+              <entry>component location</entry>
+
+              <entry>PTH on top, SMT on bottom.</entry>
+            </row>
+
+            <row>
+              <entry>silkmask top</entry>
+
+              <entry>yes.</entry>
+            </row>
+
+            <row>
+              <entry>soldermask top</entry>
+
+              <entry>no.</entry>
+            </row>
+
+            <row>
+              <entry>copper top</entry>
+
+              <entry>no.</entry>
+            </row>
+
+            <row>
+              <entry>laminate</entry>
+
+              <entry>FR4.</entry>
+            </row>
+
+            <row>
+              <entry>copper bottom.</entry>
+
+              <entry>yes.</entry>
+            </row>
+
+            <row>
+              <entry>soldermask bottom</entry>
+
+              <entry>yes.</entry>
+            </row>
+
+            <row>
+              <entry>silkmask bottom</entry>
+
+              <entry>yes.</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table><table>
+        <title>LAYUP_02A.</title>
+
+        <tgroup cols="2">
+          <tbody>
+            <row>
+              <entry>Description.</entry>
+
+              <entry>2-Layer.</entry>
+            </row>
+
+            <row>
+              <entry>component types</entry>
+
+              <entry>PTH and SMT.</entry>
+            </row>
+
+            <row>
+              <entry>component location</entry>
+
+              <entry>PTH on top and bottom, SMT on top and bottom.</entry>
+            </row>
+
+            <row>
+              <entry>silkmask top</entry>
+
+              <entry>yes.</entry>
+            </row>
+
+            <row>
+              <entry>soldermask top</entry>
+
+              <entry>yes.</entry>
+            </row>
+
+            <row>
+              <entry>copper top</entry>
+
+              <entry>yes.</entry>
+            </row>
+
+            <row>
+              <entry>laminate</entry>
+
+              <entry>FR4.</entry>
+            </row>
+
+            <row>
+              <entry>copper bottom.</entry>
+
+              <entry>yes.</entry>
+            </row>
+
+            <row>
+              <entry>soldermask bottom</entry>
+
+              <entry>yes.</entry>
+            </row>
+
+            <row>
+              <entry>silkmask bottom</entry>
+
+              <entry>yes.</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table><table>
+        <title>LAYUP_02B.</title>
+
+        <tgroup cols="2">
+          <tbody>
+            <row>
+              <entry>Description.</entry>
+
+              <entry>2-Layer.</entry>
+            </row>
+
+            <row>
+              <entry>component types</entry>
+
+              <entry>PTH and SMT.</entry>
+            </row>
+
+            <row>
+              <entry>component location</entry>
+
+              <entry>PTH on top and bottom, SMT on top and bottom.</entry>
+            </row>
+
+            <row>
+              <entry>silkmask top</entry>
+
+              <entry>yes.</entry>
+            </row>
+
+            <row>
+              <entry>soldermask top</entry>
+
+              <entry>yes.</entry>
+            </row>
+
+            <row>
+              <entry>copper top</entry>
+
+              <entry>yes.</entry>
+            </row>
+
+            <row>
+              <entry>laminate</entry>
+
+              <entry>FR4.</entry>
+            </row>
+
+            <row>
+              <entry>copper bottom.</entry>
+
+              <entry>yes: GND plane.</entry>
+            </row>
+
+            <row>
+              <entry>soldermask bottom</entry>
+
+              <entry>yes.</entry>
+            </row>
+
+            <row>
+              <entry>silkmask bottom</entry>
+
+              <entry>yes.</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table></para>
+  </appendix>
+</book>
