@@ -1,4 +1,4 @@
-PROJNAME = OCTAVE_FILTER
+PROJNAME = 26_OCTAVE_FILTER
 
 SHEETS = \
 	26.000.00.00.01.sch \
@@ -32,7 +32,7 @@ notarget:
 	@echo "${MAKE} netlist        Generates a gEDA netlist"
 	@echo "${MAKE} pcb            Generates/updates the PCB file (options set in .proj file)"
 	@echo "${MAKE} net-tango      Generates a tango netlist"
-	@echo "${MAKE} pdf            Creates a PDF of the schematic(s)"
+	@echo "${MAKE} printpdf       Creates a PDF of the schematic(s)"
 
 open: $(SHEETS)
 	gschem $(SHEETS)
@@ -67,8 +67,9 @@ pcb: $(SHEETS)
 net-tango: $(SHEETS)
 	gnetlist -g tango -o $(PROJNAME)_tango.net $(SHEETS)
 
-pdf: $(PROJNAME).ps
-	ps2pdf -dOptimize=true -dUseFlateCompression=true -sPAPERSIZE=a4 $< plotfiles/$(PROJNAME)-schematics.pdf
+printpdf: $(PROJNAME).ps
+	ps2pdf -dOptimize=true -dUseFlateCompression=true -sPAPERSIZE=a4 $< $(PROJNAME)-schematics.pdf
+	mv $(PROJNAME)-schematics.pdf ../../documentation
 	rm -f $(PROJNAME).ps
 
 $(PROJNAME).ps: printps
@@ -81,3 +82,6 @@ printps: $(SHEETS)
 	gschem -q -o ONEPAGE.ps -s/usr/share/gEDA/scheme/print.scm $$S; \
 	cat ONEPAGE.ps; done > $(PROJNAME).ps
 	rm -f ONEPAGE.ps
+
+.DEFAULT_GOAL := printpdf
+
