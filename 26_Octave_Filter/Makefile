@@ -1,12 +1,6 @@
 DIRS = \
-	documentation
-
-xml_SOURCES := $(wildcard *.xml)
-
-html_TARGETS := $(patsubst %.xml,%.html,$(xml_SOURCES))
-
-%.html: %.xml
-	xmlto html-nochunks $<
+	documentation \
+	electrical
 
 .DEFAULT_GOAL := all
 
@@ -19,7 +13,4 @@ all: \
 		make; \
 		cd ..; \
 	done;
-
-clean:
-	rm -f *.html *~
 
