@@ -1,7 +1,8 @@
 DIRS = \
 	00_System \
 	01_Extender \
-	26_Octave_Filter
+	26_Octave_Filter \
+	44_Amplifier
 
 .DEFAULT_GOAL := all
 
