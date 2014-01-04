@@ -52,6 +52,7 @@ net-tango: $(SHEETS)
 
 printpdf: $(PROJNAME).ps
 	ps2pdf -dOptimize=true -dUseFlateCompression=true -sPAPERSIZE=a4 $< $(PROJNAME)-schematics.pdf
+	mv $(PROJNAME)-schematics.pdf ../../documentation
 	rm -f $(PROJNAME).ps
 
 $(PROJNAME).ps: printps
