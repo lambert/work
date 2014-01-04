@@ -1,4 +1,4 @@
-PROJNAME = EXTENDER
+PROJNAME = 01_EXTENDER
 SHEETS = \
 	01.000.00.01.01.sch \
 	01.001.00.01.01.sch \
@@ -64,3 +64,6 @@ printps: $(SHEETS)
 	gschem -q -o ONEPAGE.ps -s/usr/share/gEDA/scheme/print.scm $$S; \
 	cat ONEPAGE.ps; done > $(PROJNAME).ps
 	rm -f ONEPAGE.ps
+
+.DEFAULT_GOAL := printpdf
+
