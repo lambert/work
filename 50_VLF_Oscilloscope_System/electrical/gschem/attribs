@@ -1,8 +1,1 @@
-footprint
-value
-mfr
-mfr_PN
-vendor
-vendor_PN
-price
-documentation
+../../../00_utilities/electrical/gschem/attribs
