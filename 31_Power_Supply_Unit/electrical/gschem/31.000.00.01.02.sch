@@ -249,7 +249,7 @@ mfr=Vishay
 T 12200 8200 5 10 0 1 0 0 1
 mfr_PN=MBB0207
 T 12200 8200 5 10 0 1 0 0 1
-documentation=doc/418777.pdf
+documentation=doc/417777.pdf
 }
 C 12600 12600 1 0 0 resistor-2.sym
 {
@@ -272,7 +272,7 @@ mfr=Vishay
 T 12600 12600 5 10 0 1 0 0 1
 mfr_PN=MBB0207
 T 12600 12600 5 10 0 1 0 0 1
-documentation=doc/418777.pdf
+documentation=doc/417777.pdf
 }
 C 13900 12300 1 90 1 capacitor-2.sym
 {
