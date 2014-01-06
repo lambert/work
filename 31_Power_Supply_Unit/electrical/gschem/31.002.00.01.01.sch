@@ -68,7 +68,7 @@ page=1
 T 27900 300 5 10 1 1 0 0 1
 pages=1
 T 30300 600 5 10 1 1 0 0 1
-revision=20140105
+revision=20140106
 T 30300 300 5 10 1 1 0 0 1
 author=Bert Timmerman
 T 26400 900 5 10 1 1 0 0 1
@@ -78,7 +78,7 @@ comment=schematic
 T 26400 1300 5 10 1 1 0 0 1
 description=Power Supply Unit - Front PCB
 }
-C 10900 9900 1 0 0 UAA170.sym
+C 10900 9900 1 0 0 UAA170_pp.sym
 {
 T 11200 14100 5 10 1 1 0 0 1
 refdes=U105
@@ -98,6 +98,8 @@ T 10900 9900 5 10 0 1 0 0 1
 mfr=Siemens
 T 10900 9900 5 10 0 1 0 0 1
 mfr_PN=UAA170
+T 11200 14300 5 10 0 0 0 0 1
+symversion=20140106
 }
 T 20850 14450 8 10 0 0 0 0 1
 device=LED

@@ -799,7 +799,7 @@ page=1
 T 27900 300 5 10 1 1 0 0 1
 pages=1
 T 30300 600 5 10 1 1 0 0 1
-revision=20140105
+revision=20140106
 T 30300 300 5 10 1 1 0 0 1
 author=Bert Timmerman
 T 26400 900 5 10 1 1 0 0 1
@@ -834,7 +834,7 @@ documentation=doc/179248.pdf
 T 14600 13500 5 8 0 0 0 0 1
 symversion=20140104
 }
-C 27200 10600 1 0 0 UAA170.sym
+C 27200 10600 1 0 0 UAA170_pp.sym
 {
 T 27500 14800 5 10 1 1 0 0 1
 refdes=U105
@@ -854,6 +854,8 @@ T 27200 10600 5 10 0 1 0 0 1
 mfr=Siemens
 T 27200 10600 5 10 0 1 0 0 1
 mfr_PN=UAA170
+T 27500 15000 5 10 0 0 0 0 1
+symversion=20140106
 }
 C 30500 13500 1 0 0 led-3.sym
 {
