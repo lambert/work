@@ -2,7 +2,9 @@ DIRS = \
 	00_System \
 	01_Extender \
 	26_Octave_Filter \
-	44_Amplifier
+	30_Generator_System \
+	44_Amplifier \
+	50_VLF_Oscilloscope_System
 
 .DEFAULT_GOAL := all
 
