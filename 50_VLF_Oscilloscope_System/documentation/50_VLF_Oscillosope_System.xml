@@ -15,7 +15,7 @@
       </affiliation>
     </author>
 
-    <pubdate>20140105</pubdate>
+    <pubdate>20140106</pubdate>
   </bookinfo>
 
   <chapter>
@@ -442,7 +442,7 @@
               </row>
 
               <row>
-                <entry>01.002.00.01.01</entry>
+                <entry>50.001.00.01.01</entry>
 
                 <entry>Rear panel pcb layout (pcb).</entry>
               </row>
