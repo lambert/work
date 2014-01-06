@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+"http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<book>
+  <bookinfo>
+    <title>[30] Generator System.</title>
+
+    <author>
+      <firstname>Bert</firstname>
+
+      <surname>Timmerman</surname>
+
+      <affiliation>
+        <orgname>Me Organized ??</orgname>
+      </affiliation>
+    </author>
+
+    <pubdate>20140106</pubdate>
+  </bookinfo>
+
+  <chapter>
+    <title>Specification.</title>
+
+    <section>
+      <title>Description.</title>
+
+      <para>The Generator system provides an 19" rack rear panel bus and
+      enclosure.</para>
+    </section>
+
+    <section>
+      <title>Functions.</title>
+
+      <table>
+        <title>Functions.</title>
+
+        <tgroup cols="2">
+          <tbody>
+            <row>
+              <entry>ID</entry>
+
+              <entry>Description</entry>
+            </row>
+
+            <row>
+              <entry>001</entry>
+
+              <entry>Provide a 19" rack rear panel bus and enclosure.</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+
+    <section>
+      <title>Modes of operation.</title>
+
+      <para><table>
+          <title>Modes of operation.</title>
+
+          <tgroup cols="2">
+            <tbody>
+              <row>
+                <entry>ID</entry>
+
+                <entry>Description</entry>
+              </row>
+
+              <row>
+                <entry>001</entry>
+
+                <entry>Provide power by ON/OFF switch.</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table></para>
+    </section>
+
+    <section>
+      <title>Inputs.</title>
+
+      <para><table>
+          <title>Inputs.</title>
+
+          <tgroup cols="3">
+            <tbody>
+              <row>
+                <entry>ID</entry>
+
+                <entry>Description</entry>
+
+                <entry>Location</entry>
+              </row>
+
+              <row>
+                <entry>J001</entry>
+
+                <entry>3-pin socket (female).</entry>
+
+                <entry>enclosure.</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table></para>
+    </section>
+
+    <section>
+      <title>Controls.</title>
+
+      <para><table>
+          <title>Controls.</title>
+
+          <tgroup cols="3">
+            <tbody>
+              <row>
+                <entry>ID</entry>
+
+                <entry>Description</entry>
+
+                <entry>Location</entry>
+              </row>
+
+              <row>
+                <entry>S.</entry>
+
+                <entry>Power ON/OFF switch.</entry>
+
+                <entry>enclosure.</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table></para>
+    </section>
+
+    <section>
+      <title>Outputs.</title>
+
+      <para><table>
+          <title>Outputs.</title>
+
+          <tgroup cols="3">
+            <tbody>
+              <row>
+                <entry>ID</entry>
+
+                <entry>Description</entry>
+
+                <entry>Location</entry>
+              </row>
+
+              <row>
+                <entry>J101...J117</entry>
+
+                <entry>DIN 41617 31-pin connector (female).</entry>
+
+                <entry>rear panel pcb.</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table></para>
+    </section>
+
+    <section>
+      <title>Indicators.</title>
+
+      <para><table>
+          <title>Indicators.</title>
+
+          <tgroup cols="3">
+            <tbody>
+              <row>
+                <entry>ID</entry>
+
+                <entry>Description</entry>
+
+                <entry>Location</entry>
+              </row>
+
+              <row>
+                <entry>.</entry>
+
+                <entry>.</entry>
+
+                <entry>.</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table></para>
+    </section>
+
+    <section>
+      <title>Power supply.</title>
+
+      <para>220 ... 240 V AC from wall socket.</para>
+    </section>
+
+    <section>
+      <title>Protection, fail-safes and replaceble parts.</title>
+
+      <para><table>
+          <title>Protection, fail-safes and replaceble parts.</title>
+
+          <tgroup cols="3">
+            <tbody>
+              <row>
+                <entry>ID</entry>
+
+                <entry>Description</entry>
+
+                <entry>Location</entry>
+              </row>
+
+              <row>
+                <entry>F101.</entry>
+
+                <entry>Fuse.</entry>
+
+                <entry>Enclosure.</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table></para>
+    </section>
+
+    <section>
+      <title>Connectors.</title>
+
+      <para><table>
+          <title>Connectors.</title>
+
+          <tgroup cols="3">
+            <tbody>
+              <row>
+                <entry>ID</entry>
+
+                <entry>Description</entry>
+
+                <entry>Location</entry>
+              </row>
+
+              <row>
+                <entry>...</entry>
+
+                <entry>DIN 41617 31-pin connector (female).</entry>
+
+                <entry>rear panel pcb.</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table></para>
+    </section>
+
+    <section>
+      <title>Physical dimensions and form factors.</title>
+
+      <para><table>
+          <title>Physical dimensions and form factors.</title>
+
+          <tgroup cols="2">
+            <tbody>
+              <row>
+                <entry>ID</entry>
+
+                <entry>Description</entry>
+              </row>
+
+              <row>
+                <entry>Bus pcb form factor</entry>
+
+                <entry>Eurocard 3 HE: 160 mm x .. mm.</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table></para>
+    </section>
+  </chapter>
+
+  <chapter>
+    <title>Fabrication.</title>
+
+    <section>
+      <title>Schematic entry.</title>
+
+      <para><table>
+          <title>Schematics.</title>
+
+          <tgroup cols="2">
+            <tbody>
+              <row>
+                <entry>ID</entry>
+
+                <entry>Description</entry>
+              </row>
+
+              <row>
+                <entry>30.000.00.01.01</entry>
+
+                <entry>Front page (cover sheet).</entry>
+              </row>
+
+              <row>
+                <entry>30.000.00.01.01</entry>
+
+                <entry>Top level schematic.</entry>
+              </row>
+
+              <row>
+                <entry>30.001.00.01.01</entry>
+
+                <entry>Rear panel pcb schematic (DFM).</entry>
+              </row>
+
+              <row>
+                <entry>30.001.00.01.02</entry>
+
+                <entry>Rear panel pcb schematic (DFM).</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table></para>
+    </section>
+
+    <section>
+      <title>Netlist.</title>
+
+      <section>
+        <title>Design Rule Check.</title>
+
+        <para><table>
+            <title>Schematics.</title>
+
+            <tgroup cols="2">
+              <tbody>
+                <row>
+                  <entry>ID</entry>
+
+                  <entry>Description</entry>
+                </row>
+
+                <row>
+                  <entry>30.001.00.01.01</entry>
+
+                  <entry>Rear panel pcb schematic DRC report.</entry>
+                </row>
+
+                <row>
+                  <entry>30.001.00.01.02</entry>
+
+                  <entry>Rear panel pcb schematic DRC report.</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table></para>
+      </section>
+
+      <section>
+        <title>Connectivity for pcb layout.</title>
+
+        <para><table>
+            <title>Netlist and pin renaming.</title>
+
+            <tgroup cols="2">
+              <tbody>
+                <row>
+                  <entry>ID</entry>
+
+                  <entry>Description</entry>
+                </row>
+
+                <row>
+                  <entry>30.001.00.01.01</entry>
+
+                  <entry>Rear panel pcb layout netlist (net).</entry>
+                </row>
+
+                <row>
+                  <entry>30.001.00.01.01</entry>
+
+                  <entry>Rear panel pcb layout netlist pin renaming script
+                  (pins).</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table></para>
+      </section>
+
+      <section>
+        <title>Bill Of Materials.</title>
+
+        <para><table>
+            <title>Bill Of Materials.</title>
+
+            <tgroup cols="2">
+              <tbody>
+                <row>
+                  <entry>ID</entry>
+
+                  <entry>Description</entry>
+                </row>
+
+                <row>
+                  <entry>30.001.00.01.01</entry>
+
+                  <entry>Rear panel schematic BOM (csv).</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table></para>
+      </section>
+    </section>
+
+    <section>
+      <title>Simulation.</title>
+
+      <para>Not applicable.</para>
+    </section>
+
+    <section>
+      <title>PCB layout.</title>
+
+      <para><table>
+          <title>Project files.</title>
+
+          <tgroup cols="2">
+            <tbody>
+              <row>
+                <entry>ID</entry>
+
+                <entry>Description</entry>
+              </row>
+
+              <row>
+                <entry>30.001.00.01.01</entry>
+
+                <entry>Rear panel pcb layout (gsch2pcb).</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table><table>
+          <title>Printed circuit boards.</title>
+
+          <tgroup cols="2">
+            <tbody>
+              <row>
+                <entry>ID</entry>
+
+                <entry>Description</entry>
+              </row>
+
+              <row>
+                <entry>30.002.00.01.01</entry>
+
+                <entry>Rear panel pcb layout (pcb).</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table></para>
+
+      <section>
+        <title>Gerber files.</title>
+
+        <para><table>
+            <title>Gerber files.</title>
+
+            <tgroup cols="2">
+              <tbody>
+                <row>
+                  <entry>ID</entry>
+
+                  <entry>Description</entry>
+                </row>
+
+                <row>
+                  <entry>30.001.00.01.01.back</entry>
+
+                  <entry>Rear panel pcb layout back copper (gbr).</entry>
+                </row>
+
+                <row>
+                  <entry>30.001.00.01.01.backmask</entry>
+
+                  <entry>Rear panel pcb layout back soldermask (gbr).</entry>
+                </row>
+
+                <row>
+                  <entry>30.001.00.01.01.fab</entry>
+
+                  <entry>Rear panel pcb layout fabrication drawing
+                  (gbr).</entry>
+                </row>
+
+                <row>
+                  <entry>30.001.00.01.01.front</entry>
+
+                  <entry>Rear panel pcb layout front copper (gbr).</entry>
+                </row>
+
+                <row>
+                  <entry>30.001.00.01.01.frontsilk</entry>
+
+                  <entry>Rear panel pcb layout front silkscreen (gbr).</entry>
+                </row>
+
+                <row>
+                  <entry>30.001.00.01.01.outline</entry>
+
+                  <entry>Rear panel pcb layout board outline (gbr).</entry>
+                </row>
+
+                <row>
+                  <entry>30.001.00.01.01.plated-drill</entry>
+
+                  <entry>Rear panel pcb layout plated throuh holes
+                  (cnc).</entry>
+                </row>
+
+                <row>
+                  <entry>30.001.00.01.01.unplated-drill</entry>
+
+                  <entry>Rear panel pcb layout non plated holes (cnc).</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table></para>
+      </section>
+
+      <section>
+        <title>Pick-and-Place.</title>
+
+        <para><table>
+            <title>Pick-and-Place.</title>
+
+            <tgroup cols="2">
+              <tbody>
+                <row>
+                  <entry>ID</entry>
+
+                  <entry>Description</entry>
+                </row>
+
+                <row>
+                  <entry>30.001.00.01.01</entry>
+
+                  <entry>Rear panel pcb layout (xy).</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table></para>
+      </section>
+
+      <section>
+        <title>Eye-candy.</title>
+
+        <para><table>
+            <title>Pictures.</title>
+
+            <tgroup cols="2">
+              <tbody>
+                <row>
+                  <entry>ID</entry>
+
+                  <entry>Description</entry>
+                </row>
+
+                <row>
+                  <entry>30.001.00.01.01</entry>
+
+                  <entry>Rear panel pcb layout 300 DPI rendered (png).</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table></para>
+      </section>
+    </section>
+
+    <section>
+      <title>Board manufacturing.</title>
+
+      <para/>
+
+      <section>
+        <title>Quotations.</title>
+
+        <para/>
+      </section>
+
+      <section>
+        <title>Order.</title>
+
+        <para/>
+      </section>
+    </section>
+
+    <section>
+      <title>Board assembly.</title>
+
+      <para/>
+    </section>
+  </chapter>
+
+  <chapter>
+    <title>Testing.</title>
+
+    <para/>
+  </chapter>
+
+  <appendix>
+    <title>Pinout DIN 41617 31-pin connector.</title>
+
+    <para><table>
+        <title>Pinout DIN 41617 31-pin connector.</title>
+
+        <tgroup cols="3">
+          <tbody>
+            <row>
+              <entry>Pin</entry>
+
+              <entry>Netname</entry>
+
+              <entry>Description</entry>
+            </row>
+
+            <row>
+              <entry>1</entry>
+
+              <entry>MUX_OUT</entry>
+
+              <entry>Multiplexer output.</entry>
+            </row>
+
+            <row>
+              <entry>2</entry>
+
+              <entry>REG_OUT</entry>
+
+              <entry>Storage register output.</entry>
+            </row>
+
+            <row>
+              <entry>3</entry>
+
+              <entry>DB_OUT</entry>
+
+              <entry>dB output.</entry>
+            </row>
+
+            <row>
+              <entry>4</entry>
+
+              <entry>NOISE_OUT</entry>
+
+              <entry>Noise Generator output</entry>
+            </row>
+
+            <row>
+              <entry>5</entry>
+
+              <entry>RFUNCGEN_OUT</entry>
+
+              <entry>Random Function Generator output.</entry>
+            </row>
+
+            <row>
+              <entry>6</entry>
+
+              <entry>AM_OUT</entry>
+
+              <entry>AM output.</entry>
+            </row>
+
+            <row>
+              <entry>7</entry>
+
+              <entry>BURST_OUT</entry>
+
+              <entry>Burst Generator output.</entry>
+            </row>
+
+            <row>
+              <entry>8</entry>
+
+              <entry>SWEEP_OUT</entry>
+
+              <entry>Sweep Generator output.</entry>
+            </row>
+
+            <row>
+              <entry>9</entry>
+
+              <entry>FUNC_OUT</entry>
+
+              <entry>Function Generator output.</entry>
+            </row>
+
+            <row>
+              <entry>10</entry>
+
+              <entry>AMPL_OUT</entry>
+
+              <entry>Amplitude output.</entry>
+            </row>
+
+            <row>
+              <entry>11</entry>
+
+              <entry>FUNC_0CR</entry>
+
+              <entry>Function Generator zero crossing.</entry>
+            </row>
+
+            <row>
+              <entry>12</entry>
+
+              <entry>SWEEP_SYNC</entry>
+
+              <entry>Sweep synchronisation.</entry>
+            </row>
+
+            <row>
+              <entry>13</entry>
+
+              <entry>BURST_OUT</entry>
+
+              <entry>Burst synchronisation.</entry>
+            </row>
+
+            <row>
+              <entry>14</entry>
+
+              <entry>DP_CODE</entry>
+
+              <entry>Decimal Point code.</entry>
+            </row>
+
+            <row>
+              <entry>15</entry>
+
+              <entry>CH_DBL</entry>
+
+              <entry>Channel doubleing.</entry>
+            </row>
+
+            <row>
+              <entry>16</entry>
+
+              <entry>MUX_CLOCK</entry>
+
+              <entry>Multiplexer clock.</entry>
+            </row>
+
+            <row>
+              <entry>17</entry>
+
+              <entry>MUX_RESET</entry>
+
+              <entry>Multiplexer reset.</entry>
+            </row>
+
+            <row>
+              <entry>18</entry>
+
+              <entry>INHIBIT</entry>
+
+              <entry>+/- inhibit.</entry>
+            </row>
+
+            <row>
+              <entry>19</entry>
+
+              <entry>DM_IN</entry>
+
+              <entry>Digital Meter input.</entry>
+            </row>
+
+            <row>
+              <entry>20</entry>
+
+              <entry>DM_COMMON</entry>
+
+              <entry>Digital Meter common.</entry>
+            </row>
+
+            <row>
+              <entry>21</entry>
+
+              <entry>LM_IN</entry>
+
+              <entry>LED Meter input.</entry>
+            </row>
+
+            <row>
+              <entry>22</entry>
+
+              <entry>LM_COMMON</entry>
+
+              <entry>LED Meter common.</entry>
+            </row>
+
+            <row>
+              <entry>23</entry>
+
+              <entry>NEG_UVAR</entry>
+
+              <entry>-Uvar.</entry>
+            </row>
+
+            <row>
+              <entry>24</entry>
+
+              <entry>POS_UVAR</entry>
+
+              <entry>+Uvar.</entry>
+            </row>
+
+            <row>
+              <entry>25</entry>
+
+              <entry>POS_U</entry>
+
+              <entry>+U.</entry>
+            </row>
+
+            <row>
+              <entry>26</entry>
+
+              <entry>NEG_U</entry>
+
+              <entry>-U.</entry>
+            </row>
+
+            <row>
+              <entry>27</entry>
+
+              <entry>MAINS_230VAC_F</entry>
+
+              <entry>Mains supply 230 V AC phase.</entry>
+            </row>
+
+            <row>
+              <entry>28</entry>
+
+              <entry>MAINS_230VAC_N</entry>
+
+              <entry>Mains supply 230 V AC neutral.</entry>
+            </row>
+
+            <row>
+              <entry>29</entry>
+
+              <entry>NEG_15VDC</entry>
+
+              <entry>-15 V DC</entry>
+            </row>
+
+            <row>
+              <entry>30</entry>
+
+              <entry>GND</entry>
+
+              <entry>Ground</entry>
+            </row>
+
+            <row>
+              <entry>31</entry>
+
+              <entry>POS_15VDC</entry>
+
+              <entry>+15 V DC</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table></para>
+  </appendix>
+</book>
