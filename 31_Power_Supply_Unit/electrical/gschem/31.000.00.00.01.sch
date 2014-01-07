@@ -6,13 +6,13 @@ device=none
 T 10000 1200 5 10 1 1 0 0 1
 device=PSU
 T 10000 900 5 10 1 1 0 0 1
-file=01.000.00.00.01.sch
+file=31.000.00.00.01.sch
 T 10000 600 5 10 1 1 0 0 1
 page=01
 T 11500 600 5 10 1 1 0 0 1
 pages=01
 T 13900 900 5 10 1 1 0 0 1
-revision=20140105
+revision=20140107
 T 13900 600 5 10 1 1 0 0 1
 author=Bert Timmerman
 T 10000 1400 5 10 1 1 0 0 1
