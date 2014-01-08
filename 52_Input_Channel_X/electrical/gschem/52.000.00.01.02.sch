@@ -1330,7 +1330,7 @@ page=02
 T 28200 600 5 10 1 1 0 0 1
 pages=02
 T 30700 900 5 10 1 1 0 0 1
-revision=20140107
+revision=20140108
 T 30700 600 5 10 1 1 0 0 1
 author=Bert Timmerman
 T 26700 1200 5 10 1 1 0 0 1
@@ -1361,51 +1361,6 @@ value=NoConnection
 T 8000 12700 5 10 0 0 0 0 1
 device=DRC_Directive
 }
-B 26100 1900 7600 3100 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
-C 29400 4400 1 0 0 MTG_hole.sym
-{
-T 30200 4500 5 10 1 1 0 0 1
-refdes=A
-T 29710 5050 5 10 0 0 0 0 1
-device=MTG
-T 29700 5500 5 10 0 0 0 0 1
-footprint=MTG370____.fp
-}
-C 26100 2100 1 0 0 MTG_hole.sym
-{
-T 26410 2750 5 10 0 0 0 0 1
-device=MTG
-T 26900 2200 5 10 1 1 0 0 1
-refdes=B
-T 26400 3200 5 10 0 0 0 0 1
-footprint=MTG370____.fp
-}
-C 26100 4400 1 0 0 MTG_hole.sym
-{
-T 26410 5050 5 10 0 0 0 0 1
-device=MTG
-T 26900 4500 5 10 1 1 0 0 1
-refdes=C
-T 26400 5500 5 10 0 0 0 0 1
-footprint=MTG370____.fp
-}
-C 30400 2500 1 180 0 MTG_connect.sym
-{
-T 30200 2400 5 10 1 1 0 0 1
-refdes=GND
-T 30090 1850 5 10 0 0 180 0 1
-device=MTG
-T 30100 1400 5 10 0 0 180 0 1
-footprint=MTG370-700____.fp
-}
-C 30200 2000 1 0 0 gnd-1.sym
-N 30100 2300 30300 2300 4
-T 26200 5100 9 10 1 0 0 0 1
-Mounting holes:
-T 33500 2300 9 10 1 0 90 0 1
-DIN41617 CONNECTOR
-T 26600 2900 9 10 1 0 90 0 1
-FRONT PCB
 C 4400 21200 1 90 0 SW_Apem_5546__.sym
 {
 T 4000 21600 5 10 1 1 90 0 1
