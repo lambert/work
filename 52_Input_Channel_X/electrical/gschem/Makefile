@@ -3,8 +3,9 @@ PROJNAME = 52_INPUT_CHANNEL_X
 SHEETS = \
 	52.000.00.00.01.sch \
 	52.000.00.01.01.sch \
-	52.001.00.01.01.sch \
-	52.002.00.01.01.sch
+	52.000.00.01.02.sch \
+	52.002.00.01.01.sch \
+	52.003.00.01.01.sch
 
 notarget:
 	@echo "Targets:"
