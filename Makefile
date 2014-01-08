@@ -4,7 +4,8 @@ DIRS = \
 	26_Octave_Filter \
 	30_Generator_System \
 	44_Amplifier \
-	50_VLF_Oscilloscope_System
+	50_VLF_Oscilloscope_System \
+	52_Input_Channel_X
 
 .DEFAULT_GOAL := all
 
