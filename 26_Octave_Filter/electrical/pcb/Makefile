@@ -1,7 +1,7 @@
 PROJNAME = OCTAVE_FILTER
 
 LAYOUTS = \
-#	26.002.00.01.01.pcb \
+	26.002.00.01.01.pcb \
 	26.003.00.01.01.pcb \
 	26.006.00.01.01.pcb \
 	26.006.01.01.01.pcb \
@@ -16,7 +16,7 @@ notarget:
 bom: $(LAYOUTS)
 	for S in $(LAYOUTS); \
 	do \
-	pcb -x bom --xy-in-mm --bomfile $(PROJNAME).csv $$S; \
+	pcb -x bom --xy-in-mm --bomfile $$S.csv $$S; \
 	done;
 	mv -u *.xy fab/
 	mv -u *.csv fab/

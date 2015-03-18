@@ -1,0 +1,27 @@
+# $Id$
+# PcbBOM Version 1.0
+# Date: Wed Mar 18 07:51:49 2015 UTC
+# Author: Bert Timmerman
+# Title: 26.007.01.01.01 - PCB BOM
+# Quantity, Description, Value, RefDes
+# --------------------------------------------
+6,"SOIC127P600X155-8N____.fp","CA3140M",U353 U352 U301 U351 U302 U303 
+3,"CON-TP_Keystone_5000_compact_red","Keystone 5000 compact red",TP1 GND TP2 
+2,"TRIM_Panasonic_EVM1D__.fp","5k",R304 R354 
+2,"TRIM_Panasonic_EVM1D__.fp","10k",R311 R361 
+8,"DIOMELF3216X16N____.fp","LL4148",D301 D302 D304 D303 D351 D352 D354 D353 
+12,"CAPC3216N____.fp","100nF",C359 C304 C306 C305 C307 C358 C354 C356 C355 C357 C308 C309 
+1,"RESC3216N____.fp","6k8",R302 
+2,"RESC3216N____.fp","1M",R360 R310 
+2,"CAPC3216N____.fp","47nF",C301 C302 
+2,"RESC3216N____.fp","1k",R309 R359 
+2,"RESC3216N____.fp","2k2",R303 R353 
+2,"RESC3216N____.fp","100k",R305 R355 
+1,"RESC3216N____.fp","68k",R306 
+4,"RESC3216N____.fp","10k",R307 R301 R357 R351 
+2,"RESC3216N____.fp","15k",R308 R358 
+1,"CON-SIL-254P-8N____.fp","unknown",A301 
+2,"CAPC3216N____.fp","22nF",C352 C351 
+2,"CAPAE400X530N____.fp","1uF/50V",C353 C303 
+1,"RESC3216N____.fp","82k",R356 
+1,"RESC3216N____.fp","8k2",R352 
