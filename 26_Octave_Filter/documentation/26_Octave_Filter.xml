@@ -15,7 +15,7 @@
       </affiliation>
     </author>
 
-    <pubdate>20120930</pubdate>
+    <pubdate>20150318</pubdate>
   </bookinfo>
 
   <chapter>
@@ -172,6 +172,12 @@
               <entry>021</entry>
 
               <entry>Detector.</entry>
+            </row>
+
+            <row>
+              <entry>101</entry>
+
+              <entry>Power On/Off switch.</entry>
             </row>
           </tbody>
         </tgroup>
@@ -1074,36 +1080,71 @@
                 </row>
 
                 <row>
-                  <entry>26.002.00.01.01_rendered.png</entry>
+                  <entry>26.002.00.01.01.pcb.bottom.png</entry>
 
-                  <entry>Front pcb layout 300 DPI rendered.</entry>
+                  <entry>Front pcb layout 300 DPI rendered (bottom
+                  view).</entry>
                 </row>
 
                 <row>
-                  <entry>26.003.00.01.01_rendered.png</entry>
+                  <entry>26.002.00.01.01.pcb.top.png</entry>
 
-                  <entry>Main pcb layout 300 DPI rendered.</entry>
+                  <entry>Front pcb layout 300 DPI rendered (top view).</entry>
                 </row>
 
                 <row>
-                  <entry>26.006.00.01.01_rendered.png</entry>
+                  <entry>26.002.00.01.01.pcb.bottom.png</entry>
 
-                  <entry>31.5 Hz and 63 Hz module pcb layout 300 DPI
-                  rendered.</entry>
+                  <entry>Main pcb layout 300 DPI rendered (bottom
+                  view).</entry>
                 </row>
 
                 <row>
-                  <entry>26.006.01.01.01_rendered.png</entry>
+                  <entry>26.002.00.01.01.pcb.top.png</entry>
 
-                  <entry>31.5 Hz and 63 Hz module pcb layout 300 DPI
-                  rendered.</entry>
+                  <entry>Main pcb layout 300 DPI rendered (top view).</entry>
                 </row>
 
                 <row>
-                  <entry>26.007.01.01.01_rendered.png</entry>
+                  <entry>26.006.00.01.01.bottom.png</entry>
 
-                  <entry>125 Hz and 250 Hz module pcb layout 300 DPI
-                  rendered.</entry>
+                  <entry>31.5 Hz and 63 Hz module pcb layout 300 DPI rendered
+                  (bottom view).</entry>
+                </row>
+
+                <row>
+                  <entry>26.006.00.01.01.top.png</entry>
+
+                  <entry>31.5 Hz and 63 Hz module pcb layout 300 DPI rendered
+                  (top view).</entry>
+                </row>
+
+                <row>
+                  <entry>26.006.01.01.01.bottom.png</entry>
+
+                  <entry>31.5 Hz and 63 Hz module pcb layout 300 DPI rendered
+                  (bottom view).</entry>
+                </row>
+
+                <row>
+                  <entry>26.006.01.01.01.top.png</entry>
+
+                  <entry>31.5 Hz and 63 Hz module pcb layout 300 DPI rendered
+                  (top view).</entry>
+                </row>
+
+                <row>
+                  <entry>26.007.01.01.01.bottom.png</entry>
+
+                  <entry>125 Hz and 250 Hz module pcb layout 300 DPI rendered
+                  (bottom view).</entry>
+                </row>
+
+                <row>
+                  <entry>26.007.01.01.01.top.png</entry>
+
+                  <entry>125 Hz and 250 Hz module pcb layout 300 DPI rendered
+                  (top view).</entry>
                 </row>
               </tbody>
             </tgroup>
@@ -1469,15 +1510,36 @@
                 </row>
 
                 <row>
-                  <entry>26.002.00.01.01.bom</entry>
+                  <entry>26.002.00.01.01.pcb.csv</entry>
 
                   <entry>Front pcb layout BOM.</entry>
                 </row>
 
                 <row>
-                  <entry>26.003.00.01.01.bom</entry>
+                  <entry>26.003.00.01.01.pcb.csv</entry>
 
                   <entry>Main pcb layout BOM.</entry>
+                </row>
+
+                <row>
+                  <entry>26.006.00.01.01.pcb.csv</entry>
+
+                  <entry>31.5 Hz + 63 Hz Filter module pcb layout (PTH)
+                  BOM.</entry>
+                </row>
+
+                <row>
+                  <entry>26.006.01.01.01.pcb.csv</entry>
+
+                  <entry>31.5 Hz + 63 Hz Filter module pcb layout (SMT)
+                  BOM.</entry>
+                </row>
+
+                <row>
+                  <entry>26.007.01.01.01.pcb.csv</entry>
+
+                  <entry>125 Hz + 250 Hz Filter module pcb layout (SMT)
+                  BOM.</entry>
                 </row>
               </tbody>
             </tgroup>
@@ -1530,6 +1592,27 @@
                   <entry>26.003.00.01.01.xy</entry>
 
                   <entry>Main pcb layout.</entry>
+                </row>
+
+                <row>
+                  <entry>26.006.00.01.01.xy</entry>
+
+                  <entry>31.5 Hz + 63 Hz Filter module pcb layout
+                  (PTH).</entry>
+                </row>
+
+                <row>
+                  <entry>26.006.01.01.01.xy</entry>
+
+                  <entry>31.5 Hz + 63 Hz Filter module pcb layout
+                  (SMT).</entry>
+                </row>
+
+                <row>
+                  <entry>26.007.01.01.01.xy</entry>
+
+                  <entry>125 Hz + 250 Hz Filter module pcb layout
+                  (SMT).</entry>
                 </row>
               </tbody>
             </tgroup>
