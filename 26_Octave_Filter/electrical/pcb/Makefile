@@ -12,6 +12,7 @@ notarget:
 	@echo ""
 	@echo "${MAKE} bom            Creates a bom"
 	@echo "${MAKE} gerber         Creates Gerber files"
+	@echo "${MAKE} eyecandy       Creates eyecandy files"
 
 bom: $(LAYOUTS)
 	for S in $(LAYOUTS); \
@@ -28,3 +29,10 @@ gerber: $(LAYOUTS)
 	done;
 	mv -u *.gbr fab/
 	mv -u *.cnc fab/
+
+eyecandy: $(LAYOUTS)
+	for S in $(LAYOUTS); \
+	do \
+	pcb -x png --photo-mode --as-shown --only-visible --dpi 300 --outfile $$S.png $$S; \
+	done;
+	mv -u *.png eyecandy/
