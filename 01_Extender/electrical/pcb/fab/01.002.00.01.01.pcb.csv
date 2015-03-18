@@ -1,0 +1,12 @@
+# $Id$
+# PcbBOM Version 1.0
+# Date: Wed Mar 18 06:50:45 2015 UTC
+# Author: Bert Timmerman
+# Title: 31_front_pcb.pcb - PCB BOM
+# Quantity, Description, Value, RefDes
+# --------------------------------------------
+1,"CON_TP_Keystone_5000","Keystone 5000",TP102 
+1,"01_front_pcb_assembly","01_front_pcb_assembly",U101 
+1,"____MAX-XY","MAX-XY",(unknown) 
+1,"____MIN-XY","MIN-XY",(unknown) 
+1,"CON_DIN41617-31N__Assmann_A-31-L2","(unknown)",K102 
