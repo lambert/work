@@ -33,6 +33,7 @@ gerber: $(LAYOUTS)
 eyecandy: $(LAYOUTS)
 	for S in $(LAYOUTS); \
 	do \
-	pcb -x png --photo-mode --as-shown --only-visible --dpi 300 --outfile $$S.png $$S; \
+	pcb -x png --photo-mode --as-shown --only-visible --dpi 300 --outfile $$S.top.png $$S; \
+	pcb -x png --photo-mode --as-shown --photo-flip-x --only-visible --dpi 300 --outfile $$S.bottom.png $$S; \
 	done;
 	mv -u *.png eyecandy/
