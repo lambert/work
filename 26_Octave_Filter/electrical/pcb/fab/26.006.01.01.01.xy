@@ -1,0 +1,66 @@
+# $Id$
+# PcbXY Version 1.0
+# Date: Sat Mar 21 19:34:51 2015 UTC
+# Author: Bert Timmerman
+# Title: 26.006.01.01.01 - PCB X-Y
+# RefDes, Description, Value, X, Y, rotation, top/bottom
+# X,Y in mm.  rotation in degrees.
+# --------------------------------------------
+U253,"SOIC127P600X155-8N____.fp","CA3140M",59.69,15.24,0,top
+TP251,"CON-TP_Keystone_5000_compact_red","Keystone 5000 compact red",26.04,27.30,0,bottom
+TP202,"CON-TP_Keystone_5001_compact_black","Keystone 5001 compact black",34.29,4.45,0,bottom
+U252,"SOIC127P600X155-8N____.fp","CA3140M",49.53,15.24,0,top
+R204,"TRIM_Panasonic_EVM1D__.fp","5k",3.81,25.45,0,top
+R211,"TRIM_Panasonic_EVM1D__.fp","10k",29.84,25.45,0,top
+D201,"DIOMELF3216X16N____.fp","LL4148",15.24,6.98,90,top
+D202,"DIOMELF3216X16N____.fp","LL4148",17.78,6.98,270,top
+C259,"CAPC3216N____.fp","100nF",59.05,23.50,90,bottom
+R202,"RESC3216N____.fp","2k2",3.17,8.89,270,top
+C204,"CAPC3216N____.fp","100nF",8.89,6.98,270,bottom
+C206,"CAPC3216N____.fp","100nF",18.41,6.98,90,bottom
+R260,"RESC3216N____.fp","1M",59.05,20.95,180,top
+C205,"CAPC3216N____.fp","100nF",6.35,23.50,90,bottom
+D204,"DIOMELF3216X16N____.fp","LL4148",30.48,6.98,270,top
+C201,"CAPC3216N____.fp","220nF",3.17,19.68,270,top
+R209,"RESC3216N____.fp","1k",26.04,7.62,270,top
+R203,"RESC3216N____.fp","2k2",7.62,8.25,0,top
+R205,"RESC3216N____.fp","120k",11.43,18.41,270,top
+R206,"RESC3216N____.fp","22k",11.43,12.70,270,top
+R207,"RESC3216N____.fp","10k",10.79,23.50,0,top
+C207,"CAPC3216N____.fp","100nF",15.88,23.50,90,bottom
+R208,"RESC3216N____.fp","15k",21.59,15.24,270,top
+D203,"DIOMELF3216X16N____.fp","LL4148",31.11,13.97,270,top
+P201,"CON-SIL-254P-8N____.fp","unknown",10.16,1.27,0,top
+C252,"CAPC3216N____.fp","220nF",36.20,14.61,90,top
+R201,"RESC3216N____.fp","12k",23.50,3.17,270,top
+TP201,"CON-TP_Keystone_5000_compact_red","Keystone 5000 compact red",59.05,27.30,0,bottom
+C258,"CAPC3216N____.fp","100nF",61.59,6.98,270,bottom
+U201,"SOIC127P600X155-8N____.fp","CA3140M",6.98,15.24,0,top
+C253,"CAPAE400X530N____.fp","1uF/50V",53.98,24.13,270,top
+R254,"TRIM_Panasonic_EVM1D__.fp","5k",36.83,25.45,0,top
+U251,"SOIC127P600X155-8N____.fp","CA3140M",40.01,15.24,0,top
+R261,"TRIM_Panasonic_EVM1D__.fp","10k",62.87,25.45,0,top
+D251,"DIOMELF3216X16N____.fp","LL4148",48.26,6.98,90,top
+D252,"DIOMELF3216X16N____.fp","LL4148",50.80,6.98,270,top
+R210,"RESC3216N____.fp","1M",26.04,20.95,180,top
+R256,"RESC3216N____.fp","22k",44.45,12.70,270,top
+C254,"CAPC3216N____.fp","100nF",41.91,6.98,270,bottom
+C256,"CAPC3216N____.fp","100nF",51.44,6.98,90,bottom
+C202,"CAPC3216N____.fp","220nF",3.17,14.61,90,top
+C255,"CAPC3216N____.fp","100nF",39.37,23.50,90,bottom
+D254,"DIOMELF3216X16N____.fp","LL4148",63.50,6.98,270,top
+C251,"CAPC3216N____.fp","220nF",36.20,19.68,270,top
+R259,"RESC3216N____.fp","1k",59.05,7.62,270,top
+R257,"RESC3216N____.fp","10k",43.81,23.50,0,top
+R255,"RESC3216N____.fp","120k",44.45,18.41,270,top
+U202,"SOIC127P600X155-8N____.fp","CA3140M",16.51,15.24,0,top
+R252,"RESC3216N____.fp","2k2",36.20,8.89,270,top
+R251,"RESC3216N____.fp","12k",56.52,3.17,270,top
+C257,"CAPC3216N____.fp","100nF",48.89,23.50,90,bottom
+R253,"RESC3216N____.fp","2k2",40.64,8.25,0,top
+D253,"DIOMELF3216X16N____.fp","LL4148",64.14,13.97,270,top
+C203,"CAPAE400X530N____.fp","1uF/50V",20.95,24.13,270,top
+C208,"CAPC3216N____.fp","100nF",28.57,6.98,270,bottom
+R258,"RESC3216N____.fp","15k",54.61,15.24,270,top
+U203,"SOIC127P600X155-8N____.fp","CA3140M",26.67,15.24,0,top
+C209,"CAPC3216N____.fp","100nF",26.04,23.50,90,bottom

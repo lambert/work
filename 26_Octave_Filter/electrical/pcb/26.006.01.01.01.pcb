@@ -1,15 +1,15 @@
-# release: pcb 20081128
-# date:    Wed Nov 11 08:06:42 2009
-# user:    bert (L.J.H. Timmerman)
-# host:    steiger.localdomain
+# release: pcb 20100929
+# date:    Sat Mar 21 20:24:14 2015
+# user:    bert (Bert Timmerman)
+# host:    draaikolk
 
-# To read pcb files, the pcb version (or the cvs source date) must be >= the file version
-FileVersion[20070407]
+# To read pcb files, the pcb version (or the git source date) must be >= the file version
+FileVersion[20100606]
 
-PCB["36.006.01.01.01" 260000 115000]
+PCB["26.006.01.01.01" 260000 115000]
 
 Grid[2500.000000 0 0 1]
-Cursor[0 115000 6.000000]
+Cursor[0 0 6.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[1000 1000 1000 1000 1500 1000]
@@ -830,7 +830,7 @@ Via[140000 12500 4000 2000 0 2000 "" "thermal(1X)"]
 Via[252500 27500 4000 2000 0 2000 "" "thermal(1X)"]
 Via[225000 12500 4000 2000 0 2000 "" "thermal(1X)"]
 
-Element["onsolder,lock" "CAPC3216N____.fp" "C209" "100nF" 102500 22500 -10000 -7500 1 100 "auto"]
+Element["onsolder,lock" "CAPC3216N____.fp" "C209" "100nF" 102500 22500 -5500 6500 3 100 "auto"]
 (
 	Pad[-984 -5905 984 -5905 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[-984 5905 984 5905 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -878,7 +878,7 @@ Element["lock" "RESC3216N____.fp" "R258" "15k" 215000 55000 -2500 25000 1 100 ""
 
 	)
 
-Element["onsolder,lock" "CAPC3216N____.fp" "C208" "100nF" 112500 87500 -10000 -7500 1 100 "auto"]
+Element["onsolder,lock" "CAPC3216N____.fp" "C208" "100nF" 112500 87500 -5500 6500 3 100 "auto"]
 (
 	Pad[-984 5905 984 5905 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[-984 -5905 984 -5905 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -939,7 +939,7 @@ Element["lock" "RESC3216N____.fp" "R253" "2k2" 160000 82500 -6500 5000 0 100 ""]
 
 	)
 
-Element["onsolder,lock" "CAPC3216N____.fp" "C257" "100nF" 192500 22500 -10000 -7500 1 100 "auto"]
+Element["onsolder,lock" "CAPC3216N____.fp" "C257" "100nF" 192500 22500 -5500 5500 3 100 "auto"]
 (
 	Pad[-984 -5905 984 -5905 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[-984 5905 984 5905 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -1066,7 +1066,7 @@ Element["lock" "DIOMELF3216X16N____.fp" "D254" "LL4148" 250000 87500 -10500 8500
 
 	)
 
-Element["onsolder,lock" "CAPC3216N____.fp" "C255" "100nF" 155000 22500 -10000 -7500 1 100 "auto"]
+Element["onsolder,lock" "CAPC3216N____.fp" "C255" "100nF" 155000 22500 -5000 5500 3 100 "auto"]
 (
 	Pad[-984 -5905 984 -5905 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[-984 5905 984 5905 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -1092,7 +1092,7 @@ Element["lock" "CAPC3216N____.fp" "C202" "220nF" 12500 57500 -10000 7500 1 100 "
 
 	)
 
-Element["onsolder,lock" "CAPC3216N____.fp" "C256" "100nF" 202500 87500 -10000 -7500 1 100 "auto"]
+Element["onsolder,lock" "CAPC3216N____.fp" "C256" "100nF" 202500 87500 -5500 6500 3 100 "auto"]
 (
 	Pad[-984 -5905 984 -5905 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[-984 5905 984 5905 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -1105,7 +1105,7 @@ Element["onsolder,lock" "CAPC3216N____.fp" "C256" "100nF" 202500 87500 -10000 -7
 
 	)
 
-Element["onsolder,lock" "CAPC3216N____.fp" "C254" "100nF" 165000 87500 -10000 -7500 1 100 "auto"]
+Element["onsolder,lock" "CAPC3216N____.fp" "C254" "100nF" 165000 87500 -5000 6500 3 100 "auto"]
 (
 	Pad[-984 5905 984 5905 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[-984 -5905 984 -5905 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -1271,7 +1271,7 @@ Element["lock" "SOIC127P600X155-8N____.fp" "U201" "CA3140M" 27500 55000 -8500 -2
 
 	)
 
-Element["onsolder,lock" "CAPC3216N____.fp" "C258" "100nF" 242500 87500 -10000 -7500 1 100 "auto"]
+Element["onsolder,lock" "CAPC3216N____.fp" "C258" "100nF" 242500 87500 -5000 6500 3 100 "auto"]
 (
 	Pad[-984 5905 984 5905 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[-984 -5905 984 -5905 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -1284,7 +1284,7 @@ Element["onsolder,lock" "CAPC3216N____.fp" "C258" "100nF" 242500 87500 -10000 -7
 
 	)
 
-Element["onsolder" "CON-TP_Keystone_5000_compact_red" "TP2" "Keystone 5000 compact red" 232500 7500 17500 -5000 2 100 "auto"]
+Element["onsolder" "CON-TP_Keystone_5000_compact_red" "TP201" "Keystone 5000 compact red" 232500 7500 22500 -4500 2 100 "auto"]
 (
 	Pin[0 0 6500 2000 8500 4600 "" "1" ""]
 	ElementArc [0 0 5000 5000 0 360 1000]
@@ -1317,9 +1317,9 @@ Element["lock" "CAPC3216N____.fp" "C252" "220nF" 142500 57500 -10000 7500 1 100 
 
 	)
 
-Element["lock" "CON-SIL-254P-8N____.fp" "A201" "unknown" 5000 110000 -2500 -12500 0 100 ""]
+Element["lock" "CON-SIL-254P-8N____.fp" "P201" "unknown" 5000 110000 -2500 -12500 0 100 ""]
 (
-	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2"]
+	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,lock,edge2"]
 	Pin[10000 0 6000 3000 6600 3800 "2" "2" "lock,edge2"]
 	Pin[20000 0 6000 3000 6600 3800 "3" "3" "lock,edge2"]
 	Pin[30000 0 6000 3000 6600 3800 "4" "4" "lock,edge2,thermal(1X)"]
@@ -1362,7 +1362,7 @@ Element["lock" "RESC3216N____.fp" "R208" "15k" 85000 55000 -2500 25000 1 100 ""]
 
 	)
 
-Element["onsolder,lock" "CAPC3216N____.fp" "C207" "100nF" 62500 22500 -10000 -7500 1 100 "auto"]
+Element["onsolder,lock" "CAPC3216N____.fp" "C207" "100nF" 62500 22500 -5500 5500 3 100 "auto"]
 (
 	Pad[-984 -5905 984 -5905 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[-984 5905 984 5905 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -1467,7 +1467,7 @@ Element["lock" "DIOMELF3216X16N____.fp" "D204" "LL4148" 120000 87500 -10500 8500
 
 	)
 
-Element["onsolder,lock" "CAPC3216N____.fp" "C205" "100nF" 25000 22500 -10000 -7500 1 100 "auto"]
+Element["onsolder,lock" "CAPC3216N____.fp" "C205" "100nF" 25000 22500 -5000 5500 3 100 "auto"]
 (
 	Pad[-984 -5905 984 -5905 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[-984 5905 984 5905 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -1493,7 +1493,7 @@ Element["lock" "RESC3216N____.fp" "R260" "1M" 232500 32500 10000 -5000 0 100 ""]
 
 	)
 
-Element["onsolder,lock" "CAPC3216N____.fp" "C206" "100nF" 72500 87500 -10000 -7500 1 100 "auto"]
+Element["onsolder,lock" "CAPC3216N____.fp" "C206" "100nF" 72500 87500 -5500 6500 3 100 "auto"]
 (
 	Pad[-984 -5905 984 -5905 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[-984 5905 984 5905 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -1506,7 +1506,7 @@ Element["onsolder,lock" "CAPC3216N____.fp" "C206" "100nF" 72500 87500 -10000 -75
 
 	)
 
-Element["onsolder,lock" "CAPC3216N____.fp" "C204" "100nF" 35000 87500 -10000 -7500 1 100 "auto"]
+Element["onsolder,lock" "CAPC3216N____.fp" "C204" "100nF" 35000 87500 -5000 6500 3 100 "auto"]
 (
 	Pad[-984 5905 984 5905 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[-984 -5905 984 -5905 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -1532,7 +1532,7 @@ Element["lock" "RESC3216N____.fp" "R202" "2k2" 12500 80000 -10000 7500 1 100 ""]
 
 	)
 
-Element["onsolder,lock" "CAPC3216N____.fp" "C259" "100nF" 232500 22500 -10000 -7500 1 100 "auto"]
+Element["onsolder,lock" "CAPC3216N____.fp" "C259" "100nF" 232500 22500 -5500 5500 3 100 "auto"]
 (
 	Pad[-984 -5905 984 -5905 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[-984 5905 984 5905 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -1629,14 +1629,14 @@ Element["lock" "SOIC127P600X155-8N____.fp" "U252" "CA3140M" 195000 55000 -8500 -
 
 	)
 
-Element["onsolder" "CON-TP_Keystone_5000_compact_red" "GND" "Keystone 5000 compact red" 135000 97500 17500 -2500 2 100 "auto"]
+Element["onsolder" "CON-TP_Keystone_5001_compact_black" "TP202" "Keystone 5001 compact black" 135000 97500 24000 -1500 2 100 "auto"]
 (
 	Pin[0 0 6500 2000 8500 4600 "" "1" "thermal(1X)"]
 	ElementArc [0 0 5000 5000 0 360 1000]
 
 	)
 
-Element["onsolder" "CON-TP_Keystone_5000_compact_red" "TP1" "Keystone 5000 compact red" 102500 7500 17500 -5000 2 100 "auto"]
+Element["onsolder" "CON-TP_Keystone_5000_compact_red" "TP251" "Keystone 5000 compact red" 102500 7500 23500 -4500 2 100 "auto"]
 (
 	Pin[0 0 6500 2000 8500 4600 "" "1" ""]
 	ElementArc [0 0 5000 5000 0 360 1000]
@@ -1928,7 +1928,7 @@ Layer(2 "solder")
 	Line[70000 55000 67500 52500 1000 2000 "clearline"]
 	Line[187500 105000 250000 105000 1000 2000 "clearline"]
 	Line[55000 110000 55000 110000 1000 2000 "clearline"]
-	Line[5000 110000 5000 25000 1000 2000 "clearline,lock"]
+	Line[5000 110000 5000 25000 1000 2000 "clearline"]
 	Line[5000 25000 22500 7500 1000 2000 "clearline"]
 	Line[22500 7500 102500 7500 1000 2000 "clearline,rubberend"]
 	Line[165000 82500 165000 75000 1000 2000 "clearline"]
@@ -2000,10 +2000,11 @@ Layer(6 "unused")
 	Line[92500 10000 92500 5000 1000 1000 ""]
 	Line[92500 5000 97500 7500 1000 1000 ""]
 	Text[257500 40000 2 120 "Dual Bandpass Filter Unit" "auto"]
-	Text[257500 57500 2 120 "(C) 2009 Bert Timmerman" "auto"]
-	Text[85000 2500 2 120 "OUT1 = 31.5 Hz" "auto"]
-	Text[215000 2500 2 120 "OUT2 = 63 Hz" "auto"]
+	Text[211000 105000 2 120 "(C) 2015 Bert Timmerman" "auto"]
+	Text[85000 2500 2 120 "OUT_31Hz5" "auto"]
+	Text[215000 2500 2 120 "OUT_63Hz" "auto"]
 	Text[255000 105000 2 120 "26.006.01.01" "auto"]
+	Text[145000 85000 2 100 "GND" "clearline,auto"]
 )
 Layer(7 "unused")
 (
