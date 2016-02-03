@@ -845,7 +845,7 @@ N 7900 9700 7900 11400 4
 C 100 100 0 0 0 A1-sheet.sym
 {
 T 30200 500 5 10 1 1 0 0 1
-revision=20130310
+revision=20150514
 T 30200 200 5 10 1 1 0 0 1
 author=Bert Timmerman
 T 26300 200 5 10 1 1 0 0 1
@@ -1165,7 +1165,7 @@ footprint=CON-SIL-254P-8N____.fp
 T 1600 19500 5 10 0 1 0 6 1
 device=CONNECTOR
 T 1500 19200 5 10 1 1 0 6 1
-refdes=A201
+refdes=P201
 T 1800 15700 5 10 0 1 0 0 1
 vendor=Conrad
 T 1800 15700 5 10 0 1 0 0 1

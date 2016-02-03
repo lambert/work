@@ -12,7 +12,7 @@ page=01
 T 11500 600 5 10 1 1 0 0 1
 pages=01
 T 13900 900 5 10 1 1 0 0 1
-revision=20130310
+revision=20150514
 T 13900 600 5 10 1 1 0 0 1
 author=Bert Timmerman
 T 10000 1400 5 10 1 1 0 0 1
@@ -163,4 +163,17 @@ T 3400 8000 15 10 1 1 0 0 1
 description=Octave Filter 63 Hz module BPF (for simulation) | schematic
 T 600 8000 15 10 1 1 0 0 1
 source=26.006.00.01.53.sch
+}
+C 9400 3100 0 0 0 rev_entry.sym
+{
+T 9500 4100 15 10 0 0 0 0 1
+symversion=20120310
+T 9500 3300 15 10 1 1 0 1 1
+revision=02
+T 10100 3300 15 10 1 1 0 1 1
+date=20150514
+T 11300 3300 15 10 1 1 0 1 1
+author=BTI
+T 12300 3300 15 10 1 1 0 1 1
+description=MODIFIED SCHEMATICS.
 }
