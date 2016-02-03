@@ -773,6 +773,28 @@
               </tbody>
             </tgroup>
           </table></para>
+
+        <figure>
+          <title>Front pcb layout.</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="../electrical/pcb/eyecandy/01.002.00.01.01.pcb.top.png"
+                         width="200"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <figure>
+          <title>Main pcb layout.</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="../electrical/pcb/eyecandy/01.003.00.01.01.pcb.top.png"
+                         width="600"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
       </section>
     </section>
 
