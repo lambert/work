@@ -1,0 +1,21 @@
+# $Id$
+# PcbBOM Version 1.0
+# Date: Wed Feb  3 23:32:12 2016 UTC
+# Author: Bert Timmerman
+# Title: (unknown) - PCB BOM
+# Quantity, Description, Value, RefDes
+# --------------------------------------------
+1,"DIO1016-425X185___DO35_.fp","1N914",D2 
+1,"TRIM_Piher_PT-10LV_PT-10_.fp","20k",R2 
+1,"DIO1016-425X185___DO35_.fp","4V7/0.5W",D1 
+1,"CAPPR500-1000X1300____.fp","1uF/16V",C1 
+1,"SW_Apem_5646M__.fp","unknown",S1 
+2,"RES1270-635X229____0.6W.fp","22k",R1 R5 
+1,"RES1270-635X229____0.6W.fp","1k8",R3 
+2,"RES1270-635X229____0.6W.fp","10k",R4 R6 
+1,"DIP08300____.fp","LM358",U1 
+1,"RES1270-635X229____0.6W.fp","1k",R7 
+1,"RES1270-635X229____0.6W.fp","1M",R8 
+2,"CON-TERM-508P-2C-1R-2N_Weco_940-DS__.fp","unknown",K2 K1 
+1,"TO220-3N____standing.fp","MTP3055V",Q2 
+1,"TO92-EBC-3L____.fp","BC548",Q1 

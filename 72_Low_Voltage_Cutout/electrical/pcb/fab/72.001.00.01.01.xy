@@ -1,0 +1,25 @@
+# $Id$
+# PcbXY Version 1.0
+# Date: Wed Feb  3 23:32:12 2016 UTC
+# Author: Bert Timmerman
+# Title: (unknown) - PCB X-Y
+# RefDes, Description, Value, X, Y, rotation, top/bottom
+# X,Y in mm.  rotation in degrees.
+# --------------------------------------------
+D2,"DIO1016-425X185___DO35_.fp","1N914",22.86,45.72,0,top
+R2,"TRIM_Piher_PT-10LV_PT-10_.fp","20k",10.16,36.83,0,top
+D1,"DIO1016-425X185___DO35_.fp","4V7/0.5W",2.54,43.18,90,top
+C1,"CAPPR500-1000X1300____.fp","1uF/16V",10.12,53.34,0,top
+S1,"SW_Apem_5646M__.fp","unknown",26.67,22.86,180,top
+R1,"RES1270-635X229____0.6W.fp","22k",17.78,35.56,270,top
+R3,"RES1270-635X229____0.6W.fp","1k8",33.02,35.56,270,top
+R5,"RES1270-635X229____0.6W.fp","22k",22.86,35.56,270,top
+R4,"RES1270-635X229____0.6W.fp","10k",27.94,35.56,270,top
+U1,"DIP08300____.fp","LM358",44.45,36.83,90,top
+R6,"RES1270-635X229____0.6W.fp","10k",40.64,55.88,0,top
+R7,"RES1270-635X229____0.6W.fp","1k",40.64,50.80,0,top
+R8,"RES1270-635X229____0.6W.fp","1M",40.64,45.72,0,top
+K2,"CON-TERM-508P-2C-1R-2N_Weco_940-DS__.fp","unknown",40.64,22.86,90,top
+K1,"CON-TERM-508P-2C-1R-2N_Weco_940-DS__.fp","unknown",5.08,22.86,270,top
+Q2,"TO220-3N____standing.fp","MTP3055V",25.40,55.88,0,top
+Q1,"TO92-EBC-3L____.fp","BC548",15.24,21.59,270,top
