@@ -1,0 +1,12 @@
+"Partlist.",,,,,
+,,,,,
+"Part:","01.002.00.01.01_front_pcb_assembly",,,,
+"Drawn:","bert",,,,
+"Date:",04/02/2016,,,,
+"Revision:","00",,,,
+,,,,,
+"Identification",,,,,
+"Part no.","Amount","Description","Value","Vendor","Vendor no. / Standard"
+1,1,"01 front pcb",,,
+101,2,"Cilinder head screw","M3x12",,"ISO 1580"
+102,2,"Hexagon nut","M3",,"ISO 4032"

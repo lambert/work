@@ -1,0 +1,18 @@
+"Partlist.",,,,,
+,,,,,
+"Part:","01.000.00.01.01_assembly",,,,
+"Drawn:","bert",,,,
+"Date:",04/02/2016,,,,
+,,,,,
+"Identification",,,,,
+"Part no.","Amount","Description","Value","Vendor","Vendor no. / Standard"
+0,1,"01 assembly",,,
+1,0,,,,
+2,1,"01 front pcb assembly",,,
+3,1,"01 main pcb assembly",,,
+4,1,"01 shielding pcb",,,
+5,2,"01 side panel",,,
+101,4,"Cilinder head screw","M3x8",,"ISO 1580"
+102,2,"Cilinder head screw","M3x12",,"ISO 1580"
+103,6,"Spacer","5x3.5x2",,
+104,8,"Hexagon nut","M3",,"ISO 4032"
