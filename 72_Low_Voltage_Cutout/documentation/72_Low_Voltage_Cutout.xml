@@ -24,9 +24,19 @@
     <section>
       <title>Description.</title>
 
-      <para>This simple circuit protects an SLA battery from over-discharge by
-      disconnecting the load when the terminal voltage drops below a preset
-      level. In operation, a sample of the battery voltage is derived from the
+      <para><figure>
+          <title>Figure 01.</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="Fig.01.png" width="400"/>
+            </imageobject>
+          </mediaobject>
+        </figure>This simple circuit protects an SLA battery from
+      over-discharge by disconnecting the load when the terminal voltage drops
+      below a preset level.</para>
+
+      <para>In operation, a sample of the battery voltage is derived from the
       22kΩ resistor and 20kΩ trimpot divider.</para>
 
       <para>This is applied to the non-inverting input (pin 3) of IC1, where
