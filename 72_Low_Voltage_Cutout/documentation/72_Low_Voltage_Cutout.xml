@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+"http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<book>
+  <bookinfo>
+    <title>[72] Low Voltage Cutout.</title>
+
+    <author>
+      <firstname>Tim</firstname>
+
+      <surname>Nuske</surname>
+
+      <affiliation>
+        <orgname>Silicon Chip Electronics</orgname>
+      </affiliation>
+    </author>
+
+    <pubdate>20160203</pubdate>
+  </bookinfo>
+
+  <chapter>
+    <title>Specification.</title>
+
+    <section>
+      <title>Description.</title>
+
+      <para>This simple circuit protects an SLA battery from over-discharge by
+      disconnecting the load when the terminal voltage drops below a preset
+      level. In operation, a sample of the battery voltage is derived from the
+      22kΩ resistor and 20kΩ trimpot divider.</para>
+
+      <para>This is applied to the non-inverting input (pin 3) of IC1, where
+      it is compared with a reference voltage on the inverting input (pin
+      2).</para>
+
+      <para>When the sampled battery voltage falls below the reference
+      voltage, IC1’s output (pin 1) swings towards ground, switching Mosfet Q2
+      off and disconnecting the load from the battery.</para>
+
+      <para>The reference voltage is derived from a 4.7V zener diode (ZD1),
+      which is connected to ground via the collector-emitter circuit of Q1
+      (ie, when Q1 is on).</para>
+
+      <para>However, when the op amp’s output is driven low, Q1 is switched
+      off, causing the non-inverting input to rise towards the full battery
+      voltage.</para>
+
+      <para>This greatly reinforces the switching action, latching the circuit
+      in the "off" state until the battery is recharged and the reset switch
+      (S1) pressed.</para>
+
+      <para>The Mosfet used for Q2 should be selected to suit the intended
+      application.</para>
+
+      <para>The circuit could also drive a relay simply by connecting the coil
+      across the "load" terminals.</para>
+
+      <para>As is usual practice, a diode should be connected across the relay
+      coil to limit back-EMF spikes.</para>
+    </section>
+
+    <section>
+      <title>Functions.</title>
+
+      <table>
+        <title>Functions.</title>
+
+        <tgroup cols="2">
+          <tbody>
+            <row>
+              <entry>ID</entry>
+
+              <entry>Description</entry>
+            </row>
+
+            <row>
+              <entry>001</entry>
+
+              <entry>.</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+
+    <section>
+      <title>Modes of operation.</title>
+
+      <para><table>
+          <title>Modes of operation.</title>
+
+          <tgroup cols="2">
+            <tbody>
+              <row>
+                <entry>ID</entry>
+
+                <entry>Description</entry>
+              </row>
+
+              <row>
+                <entry>001</entry>
+
+                <entry>Manual operation by switching ON/OFF.</entry>
+              </row>
+
+              <row>
+                <entry>002</entry>
+
+                <entry>.</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table></para>
+    </section>
+
+    <section>
+      <title>Inputs.</title>
+
+      <para><table>
+          <title>Inputs.</title>
+
+          <tgroup cols="3">
+            <tbody>
+              <row>
+                <entry>ID</entry>
+
+                <entry>Description</entry>
+
+                <entry>Location</entry>
+              </row>
+
+              <row>
+                <entry>.</entry>
+
+                <entry>.</entry>
+
+                <entry>main pcb.</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table></para>
+    </section>
+
+    <section>
+      <title>Controls.</title>
+
+      <para><table>
+          <title>Controls.</title>
+
+          <tgroup cols="3">
+            <tbody>
+              <row>
+                <entry>ID</entry>
+
+                <entry>Description</entry>
+
+                <entry>Location</entry>
+              </row>
+
+              <row>
+                <entry>.</entry>
+
+                <entry>.</entry>
+
+                <entry>main pcb.</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table></para>
+    </section>
+
+    <section>
+      <title>Outputs.</title>
+
+      <para><table>
+          <title>Outputs.</title>
+
+          <tgroup cols="3">
+            <tbody>
+              <row>
+                <entry>ID</entry>
+
+                <entry>Description</entry>
+
+                <entry>Location</entry>
+              </row>
+
+              <row>
+                <entry>.</entry>
+
+                <entry>.</entry>
+
+                <entry>main pcb.</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table></para>
+    </section>
+
+    <section>
+      <title>Indicators.</title>
+
+      <para><table>
+          <title>Indicators.</title>
+
+          <tgroup cols="3">
+            <tbody>
+              <row>
+                <entry>ID</entry>
+
+                <entry>Description</entry>
+
+                <entry>Location</entry>
+              </row>
+
+              <row>
+                <entry>.</entry>
+
+                <entry>.</entry>
+
+                <entry>main pcb.</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table></para>
+    </section>
+
+    <section>
+      <title>Power supply.</title>
+
+      <para>Not applicable.</para>
+    </section>
+
+    <section>
+      <title>Protection, fail-safes and replaceble parts.</title>
+
+      <para><table>
+          <title>Protection, fail-safes and replaceble parts.</title>
+
+          <tgroup cols="3">
+            <tbody>
+              <row>
+                <entry>ID</entry>
+
+                <entry>Description</entry>
+
+                <entry>Location</entry>
+              </row>
+
+              <row>
+                <entry>.</entry>
+
+                <entry>.</entry>
+
+                <entry>.</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table></para>
+    </section>
+
+    <section>
+      <title>Connectors.</title>
+
+      <para><table>
+          <title>Connectors.</title>
+
+          <tgroup cols="3">
+            <tbody>
+              <row>
+                <entry>ID</entry>
+
+                <entry>Description</entry>
+
+                <entry>Location</entry>
+              </row>
+
+              <row>
+                <entry>.</entry>
+
+                <entry>.</entry>
+
+                <entry>main pcb.</entry>
+              </row>
+
+              <row>
+                <entry>TP101</entry>
+
+                <entry>Test point for GND.</entry>
+
+                <entry>main pcb.</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table></para>
+    </section>
+
+    <section>
+      <title>Physical dimensions and form factors.</title>
+
+      <para><table>
+          <title>Physical dimensions and form factors.</title>
+
+          <tgroup cols="2">
+            <tbody>
+              <row>
+                <entry>ID</entry>
+
+                <entry>Description</entry>
+              </row>
+
+              <row>
+                <entry>Main pcb form factor</entry>
+
+                <entry>Eurocard 3 HE: 160 mm x 100 mm.</entry>
+              </row>
+
+              <row>
+                <entry>Front pcb form factor</entry>
+
+                <entry>Eurocard 3 HE x 10 TE.</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table></para>
+    </section>
+  </chapter>
+
+  <chapter>
+    <title>Fabrication.</title>
+
+    <section>
+      <title>Schematic entry.</title>
+
+      <para><table>
+          <title>Schematics.</title>
+
+          <tgroup cols="2">
+            <tbody>
+              <row>
+                <entry>ID</entry>
+
+                <entry>Description</entry>
+              </row>
+
+              <row>
+                <entry>72.000.00.01.01</entry>
+
+                <entry>Front page (cover sheet).</entry>
+              </row>
+
+              <row>
+                <entry>72.001.00.01.01</entry>
+
+                <entry>Top level schematic.</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table></para>
+    </section>
+
+    <section>
+      <title>Netlist.</title>
+
+      <section>
+        <title>Design Rule Check.</title>
+
+        <para><table>
+            <title>Schematics.</title>
+
+            <tgroup cols="2">
+              <tbody>
+                <row>
+                  <entry>ID</entry>
+
+                  <entry>Description</entry>
+                </row>
+
+                <row>
+                  <entry>72.001.00.01.01</entry>
+
+                  <entry>Top level schematic DRC report.</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table></para>
+      </section>
+
+      <section>
+        <title>Connectivity for pcb layout.</title>
+
+        <para><table>
+            <title>Netlist and pin renaming.</title>
+
+            <tgroup cols="2">
+              <tbody>
+                <row>
+                  <entry>ID</entry>
+
+                  <entry>Description</entry>
+                </row>
+
+                <row>
+                  <entry>72.001.00.01.01</entry>
+
+                  <entry>Main pcb layout netlist (net).</entry>
+                </row>
+
+                <row>
+                  <entry>72.001.00.01.01</entry>
+
+                  <entry>Main pcb layout pin renaming script (pins).</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table></para>
+      </section>
+
+      <section>
+        <title>Bill Of Materials.</title>
+
+        <para><table>
+            <title>Bill Of Materials.</title>
+
+            <tgroup cols="2">
+              <tbody>
+                <row>
+                  <entry>ID</entry>
+
+                  <entry>Description</entry>
+                </row>
+
+                <row>
+                  <entry>72.001.00.01.01</entry>
+
+                  <entry>Top level schematic BOM (csv).</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table></para>
+      </section>
+    </section>
+
+    <section>
+      <title>Simulation.</title>
+
+      <para>Not applicable.</para>
+    </section>
+
+    <section>
+      <title>PCB layout.</title>
+
+      <para><table>
+          <title>Project files.</title>
+
+          <tgroup cols="2">
+            <tbody>
+              <row>
+                <entry>ID</entry>
+
+                <entry>Description</entry>
+              </row>
+
+              <row>
+                <entry>72.001.00.01.01</entry>
+
+                <entry>Main pcb layout (gsch2pcb).</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table><table>
+          <title>Printed circuit boards.</title>
+
+          <tgroup cols="2">
+            <tbody>
+              <row>
+                <entry>ID</entry>
+
+                <entry>Description</entry>
+              </row>
+
+              <row>
+                <entry>72.001.00.01.01</entry>
+
+                <entry>Main pcb layout (pcb).</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table></para>
+
+      <section>
+        <title>Gerber files.</title>
+
+        <para><table>
+            <title>Gerber files.</title>
+
+            <tgroup cols="2">
+              <tbody>
+                <row>
+                  <entry>ID</entry>
+
+                  <entry>Description</entry>
+                </row>
+
+                <row>
+                  <entry>72.001.00.01.01.back</entry>
+
+                  <entry>Main pcb layout back copper (gbr).</entry>
+                </row>
+
+                <row>
+                  <entry>72.001.00.01.01.backmask</entry>
+
+                  <entry>Main pcb layout back soldermask (gbr).</entry>
+                </row>
+
+                <row>
+                  <entry>72.001.00.01.01.fab</entry>
+
+                  <entry>Main pcb layout fabrication drawing (gbr).</entry>
+                </row>
+
+                <row>
+                  <entry>72.001.00.01.01.front</entry>
+
+                  <entry>Main pcb layout front copper (gbr).</entry>
+                </row>
+
+                <row>
+                  <entry>72.001.00.01.01.frontsilk</entry>
+
+                  <entry>Main pcb layout front silkscreen (gbr).</entry>
+                </row>
+
+                <row>
+                  <entry>72.001.00.01.01.outline</entry>
+
+                  <entry>Main pcb layout board outline (gbr).</entry>
+                </row>
+
+                <row>
+                  <entry>72.001.00.01.01.plated-drill</entry>
+
+                  <entry>Main pcb layout plated throuh holes (cnc).</entry>
+                </row>
+
+                <row>
+                  <entry>72.001.00.01.01.unplated-drill</entry>
+
+                  <entry>Main pcb layout non plated holes (cnc).</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table></para>
+      </section>
+
+      <section>
+        <title>Pick-and-Place.</title>
+
+        <para><table>
+            <title>Pick-and-Place.</title>
+
+            <tgroup cols="2">
+              <tbody>
+                <row>
+                  <entry>ID</entry>
+
+                  <entry>Description</entry>
+                </row>
+
+                <row>
+                  <entry>72.001.00.01.01</entry>
+
+                  <entry>Main pcb layout (xy).</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table></para>
+      </section>
+
+      <section>
+        <title>Eye-candy.</title>
+
+        <para><table>
+            <title>Pictures.</title>
+
+            <tgroup cols="2">
+              <tbody>
+                <row>
+                  <entry>ID</entry>
+
+                  <entry>Description</entry>
+                </row>
+
+                <row>
+                  <entry>72.001.00.01.01</entry>
+
+                  <entry>Main pcb layout 300 DPI rendered (png).</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table></para>
+      </section>
+    </section>
+
+    <section>
+      <title>Board manufacturing.</title>
+
+      <para/>
+
+      <section>
+        <title>Quotations.</title>
+
+        <para/>
+      </section>
+
+      <section>
+        <title>Order.</title>
+
+        <para/>
+      </section>
+    </section>
+
+    <section>
+      <title>Board assembly.</title>
+
+      <para/>
+    </section>
+  </chapter>
+
+  <chapter>
+    <title>Testing.</title>
+
+    <para/>
+  </chapter>
+</book>
