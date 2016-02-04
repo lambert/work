@@ -4,7 +4,7 @@ C 500 500 0 0 0 A1-sheet.sym
 T 30700 600 5 10 1 1 0 0 1
 author=Bert Timmerman
 T 30700 900 5 10 1 1 0 0 1
-revision=20160203
+revision=20160204
 T 26700 600 5 10 1 1 0 0 1
 page=1
 T 28200 600 5 10 1 1 0 0 1
@@ -247,4 +247,41 @@ T 16200 12200 5 10 0 0 0 6 1
 footprint=TO92-EBC-3L____.fp
 T 16200 12000 5 10 0 0 0 6 1
 symversion=20131217
+}
+B 26200 2400 4200 3400 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+C 26000 5300 1 0 0 MTG_hole.sym
+{
+T 26310 5950 5 10 0 0 0 0 1
+device=MTG
+T 26800 5400 5 10 1 1 0 0 1
+refdes=1
+T 26300 6400 5 10 0 0 0 0 1
+footprint=MTG____.fp
+}
+C 29600 5300 1 0 0 MTG_hole.sym
+{
+T 29910 5950 5 10 0 0 0 0 1
+device=MTG
+T 29800 5400 5 10 1 1 0 6 1
+refdes=2
+T 29900 6400 5 10 0 0 0 0 1
+footprint=MTG____.fp
+}
+C 26000 2500 1 0 0 MTG_hole.sym
+{
+T 26310 3150 5 10 0 0 0 0 1
+device=MTG
+T 26800 2600 5 10 1 1 0 0 1
+refdes=4
+T 26300 3600 5 10 0 0 0 0 1
+footprint=MTG____.fp
+}
+C 29600 2500 1 0 0 MTG_hole.sym
+{
+T 29910 3150 5 10 0 0 0 0 1
+device=MTG
+T 29800 2600 5 10 1 1 0 6 1
+refdes=3
+T 29900 3600 5 10 0 0 0 0 1
+footprint=MTG____.fp
 }
