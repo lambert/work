@@ -3,33 +3,33 @@ MyElectronics/work directory backup/repository
 [00] System cabinet for 19" racks.
 
 [10] 19" rack for measurements.
-- [11] Power Supply Unit.
-- [12] LED meter.
-- [13] Digital meter.
+[11] Power Supply Unit.
+[12] LED meter.
+[13] Digital meter.
 
 [20] 19" rack.
-- [21] Power Supply Unit.
-- [22] .
-- [23] .
-- [24] .
-- [25] .
-- [26] Octave Filter.
+[21] Power Supply Unit.
+[22] .
+[23] .
+[24] .
+[25] .
+[26] Octave Filter.
 
 [30] 19" rack for generators.
-- [31] Power Supply Unit.
-- [32] Noise Generator.
-- [33] Pulse Generator.
-- [34] Burst Generator.
+[31] Power Supply Unit.
+[32] Noise Generator.
+[33] Pulse Generator.
+[34] Burst Generator.
 
 [40] 19" rack for generators.
-- [41] Power Supply Unit.
-- [42] .
-- [43] Pre Amplifier.
-- [44] Amplifier.
+[41] Power Supply Unit.
+[42] .
+[43] Pre Amplifier.
+[44] Amplifier.
 
 [50] 19"rack for VLF Oscilloscope.
-- [51] Power Supply Unit.
-- [52] Input Channel X.
-- [53] Input Channel Y.
-- [54] Control Unit.
-- [55] Output.
+[51] Power Supply Unit.
+[52] Input Channel X.
+[53] Input Channel Y.
+[54] Control Unit.
+[55] Output.
