@@ -1,6 +1,6 @@
 PROJNAME = 26_OCTAVE_FILTER
 
-SHEETS = \
+DESIGN = \
 	26.000.00.00.01.sch \
 	26.000.00.01.01.sch \
 	26.000.00.01.02.sch \
@@ -8,16 +8,25 @@ SHEETS = \
 	26.000.00.01.04.sch \
 	26.000.00.01.05.sch \
 	26.000.00.01.06.sch \
-	26.000.00.01.07.sch \
+	26.000.00.01.07.sch
+
+DFS = \
+	26.006.00.01.51.sch \
+	26.006.00.01.52.sch \
+	26.006.00.01.53.sch
+
+DFM = \
 	26.002.00.01.01.sch \
 	26.003.00.01.01.sch \
 	26.006.00.01.01.sch \
-	26.006.00.01.51.sch \
-	26.006.00.01.52.sch \
-	26.006.00.01.53.sch \
 	26.006.01.01.01.sch \
 	26.007.01.01.01.sch \
 	26.008.01.01.01.sch
+
+ALL_SCHEMATICS = \
+	$(DESIGN) \
+	$(DFS) \
+	$(DFM)
 
 notarget:
 	@echo "Targets:"
@@ -26,62 +35,74 @@ notarget:
 	@echo "${MAKE} attrib         Opens the attribute editor"
 	@echo "${MAKE} renum          Numbers reference designators"
 	@echo "${MAKE} update         Runs gschupdate against the schematic(s)"
-	@echo "${MAKE} bom            Creates a bom, 1 line per refdes"
-	@echo "${MAKE} bom2           Creates a bom, 1 line per component type"
+	@echo "${MAKE} bom            Creates a project BOM, 1 line per refdes"
+	@echo "${MAKE} bom2           Creates a project BOM, 1 line per component type"
+	@echo "${MAKE} dfm_bom        Creates a BOM, 1 line per refdes and 1 file per board"
 	@echo "${MAKE} drc            Runs a DRC against the schematic(s)"
 	@echo "${MAKE} netlist        Generates a gEDA netlist"
 	@echo "${MAKE} pcb            Generates/updates the PCB file (options set in .proj file)"
-	@echo "${MAKE} net-tango      Generates a tango netlist"
-	@echo "${MAKE} printpdf       Creates a PDF of the schematic(s)"
+	@echo "${MAKE} printpdf       Creates a PDF of all the schematic ALL_SCHEMATICS"
 
-open: $(SHEETS)
-	gschem $(SHEETS)
+open: $(ALL_SCHEMATICS)
+	gschem $(ALL_SCHEMATICS)
 
-attrib: $(SHEETS)
-	gattrib $(SHEETS)
+attrib: $(ALL_SCHEMATICS)
+	gattrib $(ALL_SCHEMATICS)
 
-renum: $(SHEETS)
-	refdes_renum $(SHEETS)
+renum: $(ALL_SCHEMATICS)
+	refdes_renum $(ALL_SCHEMATICS)
 
-update: $(SHEETS)
-	gschupdate $(SHEETS)
+update: $(ALL_SCHEMATICS)
+	gschupdate $(ALL_SCHEMATICS)
 
-bom: $(SHEETS) attribs
-	gnetlist -g bom -o BOM/$(PROJNAME)_bom.csv $(SHEETS);
+bom: $(DFM) attribs
+	gnetlist -g bom -o BOM/$(PROJNAME)_bom.csv $(ALL_SCHEMATICS);
 
-bom2: $(SHEETS) attribs
-	gnetlist -g bom2 -o BOM/$(PROJNAME)_bom2.csv $(SHEETS)
-
-drc: $(SHEETS) attribs
-	for S in $(SHEETS); \
+dfm_bom: $(DFM) attribs
+	for D in $(DFM); \
 	do \
-	gnetlist -g drc2 -o DRC/$$S.drc $$S; \
+	gnetlist -g bom -o BOM/$$D.csv $$D; \
 	done;
 
-netlist: $(SHEETS)
-	gnetlist -g geda -o $(PROJNAME)_geda.net $(SHEETS)
+bom2: $(DFM) attribs
+	gnetlist -g bom2 -o BOM/$(PROJNAME)_bom2.csv $(ALL_SCHEMATICS)
 
-pcb: $(SHEETS)
-	gsch2pcb -v $(PROJNAME).proj
+drc: $(ALL_SCHEMATICS) attribs
+	for S in $(ALL_SCHEMATICS); \
+	do \
+	gnetlist -g drc2 -o DRC/$$S.txt $$S; \
+	done;
 
-net-tango: $(SHEETS)
-	gnetlist -g tango -o $(PROJNAME)_tango.net $(SHEETS)
+netlist: $(ALL_SCHEMATICS)
+	for S in $(ALL_SCHEMATICS); \
+	do \
+	gnetlist -g geda -o geda_netlist/$$S.net $$S; \
+	done;
+
+pcb: $(DFM)
+	for D in $(DFM); \
+	do \
+	gnetlist -g PCB -o pcb_netlist/$$D.net $$D; \
+	gnetlist -g pcbpins -o pcb_netlist/$$D.pins $$D; \
+	done;
 
 printpdf: $(PROJNAME).ps
 	ps2pdf -dOptimize=true -dUseFlateCompression=true -sPAPERSIZE=a4 $< $(PROJNAME)-schematics.pdf
 	mv $(PROJNAME)-schematics.pdf ../../documentation
-	rm -f $(PROJNAME).ps
+	mv $(PROJNAME).ps plotfiles
 
 $(PROJNAME).ps: printps
 
-printps: $(SHEETS)
+printps: $(ALL_SCHEMATICS)
 	rm -f ONEPAGE.ps
 	rm -f $(PROJNAME).ps
-	for S in $(SHEETS); \
+	for S in $(ALL_SCHEMATICS); \
 	do \
 	gschem -q -o ONEPAGE.ps -s/usr/share/gEDA/scheme/print.scm $$S; \
 	cat ONEPAGE.ps; done > $(PROJNAME).ps
 	rm -f ONEPAGE.ps
 
 .DEFAULT_GOAL := printpdf
+
+all: drc dfm_bom printpdf
 
