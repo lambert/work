@@ -1,0 +1,17 @@
+refdes	footprint	value	mfr	mfr_PN	vendor	vendor_PN	price	documentation	source	comment	
+p3	PIN165X102____.fp	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	
+p4	PIN165X102____.fp	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	
+p1	PIN165X102____.fp	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	
+p2	PIN165X102____.fp	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	
+B	MTG370____.fp	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	
+A	MTG370____.fp	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	
+S102	SW_Apem_5547A__.fp	Apem 5547A	Apem	5547A	Conrad	700391	5.03	unknown	unknown	unknown	
+S101	SW_Apem_5546A__.fp	Apem 5546A	Apem	5546A	Conrad	700378	4.46	unknown	unknown	unknown	
+P102	CON-SIL-254P-31N____.fp	unknown	Fisher	PFH 173638000	Conrad	735000	4.13	unknown	unknown	unknown	
+J107	CON-HDR-254P-10C-2R-20N_TE_5103309-5__.fp	unknown	TE	5103309-5	Conrad	1461046	2.22	unknown	unknown	unknown	
+R107	RES1780-1000X390____2W	150 / 2W	Vishay	PR02-150R	Radiocentrum	600388	unknown	unknown	unknown	unknown	
+D104	LED254-500_Temic_TLLG5400__green.fp	GREEN	Kingbright	L-7113IT	Conrad	180148	0.21	unknown	unknown	unknown	
+R111	RES1270-635X229____0.6W.fp	680	Uni-ohm	CFR0W2J0681	Conrad	405230	0.06	unknown	unknown	unknown	
+J106	CON-BNC__UG290__flange-modded.fp	UG290U	unknown	unknown	Conrad	740837	1.99	unknown	unknown	unknown	
+R101	POT-3N_Weltron_WP20CS-08-60F1-100K-20%-LIN__	100k lin	Weltron	WP20CS-08-60F1-100K-20%-LIN	Conrad	440919	1.78	unknown	unknown	unknown	
+C101	CAPR508____.fp	680nF / 50V	Kemet	C330C684M5U5TA	Conrad	1420293	1.10	unknown	unknown	unknown	

@@ -1,0 +1,56 @@
+refdes	footprint	value	mfr	mfr_PN	vendor	vendor_PN	price	documentation	source	comment	
+P201	CON-SIL-254P-8N____.fp	unknown	unknown	unknown	Conrad	14033334	0.19	unknown	unknown	unknown	
+C255	CAPA508____.fp	100nF	unknown	unknown	Conrad	531855	0.10	unknown	unknown	50 VDC X7R	
+C254	CAPA508____.fp	100nF	unknown	unknown	Conrad	531855	0.10	unknown	unknown	50 VDC X7R	
+C257	CAPA508____.fp	100nF	unknown	unknown	Conrad	531855	0.10	unknown	unknown	50 VDC X7R	
+C256	CAPA508____.fp	100nF	unknown	unknown	Conrad	531855	0.10	unknown	unknown	50 VDC X7R	
+C259	CAPA508____.fp	100nF	unknown	unknown	Conrad	531855	0.10	unknown	unknown	50 VDC X7R	
+C258	CAPA508____.fp	100nF	unknown	unknown	Conrad	531855	0.10	unknown	unknown	50 VDC X7R	
+C208	CAPA508____.fp	100nF	unknown	unknown	Conrad	531855	0.10	unknown	unknown	50 VDC X7R	
+C209	CAPA508____.fp	100nF	unknown	unknown	Conrad	531855	0.10	unknown	unknown	50 VDC X7R	
+C207	CAPA508____.fp	100nF	unknown	unknown	Conrad	531855	0.10	unknown	unknown	50 VDC X7R	
+C206	CAPA508____.fp	100nF	unknown	unknown	Conrad	531855	0.10	unknown	unknown	50 VDC X7R	
+C204	CAPA508____.fp	100nF	unknown	unknown	Conrad	531855	0.10	unknown	unknown	50 VDC X7R	
+C205	CAPA508____.fp	100nF	unknown	unknown	Conrad	531855	0.10	unknown	unknown	50 VDC X7R	
+U253	DIPS08300____.fp	CA3140E	unknown	unknown	Conrad	174785	2.39	unknown	unknown	including socket	
+U252	DIPS08300____.fp	CA3140E	unknown	unknown	Conrad	174785	2.39	unknown	unknown	including socket	
+U251	DIPS08300____.fp	CA3140E	unknown	unknown	Conrad	174785	2.39	unknown	unknown	including socket	
+U203	DIPS08300____.fp	CA3140E	unknown	unknown	Conrad	174785	2.39	unknown	unknown	including socket	
+U202	DIPS08300____.fp	CA3140E	unknown	unknown	Conrad	174785	2.39	unknown	unknown	including socket	
+U201	DIPS08300____.fp	CA3140E	unknown	unknown	Conrad	174785	2.39	unknown	unknown	including socket	
+R254	TRIM_Piher_PT-15LH01__.fp	5k	unknown	unknown	Conrad	431222	0.58	unknown	unknown	unknown	
+R253	RES1016-635X229____0.6W.fp	2k2	unknown	unknown	Conrad	418293	0.05	unknown	unknown	unknown	
+R255	RES1016-635X229____0.6W.fp	120k	unknown	unknown	Conrad	418501	0.10	unknown	unknown	unknown	
+R256	RES1016-635X229____0.6W.fp	39k	unknown	unknown	Conrad	418447	0.10	unknown	unknown	unknown	
+C252	CAPR750-320X610X900____.fp	100nF	unknown	unknown	Conrad	500871	0.15	unknown	unknown	MKT 63 VAC 10%	
+C251	CAPR750-320X610X900____.fp	100nF	unknown	unknown	Conrad	500871	0.15	unknown	unknown	MKT 63 VAC 10%	
+R252	RES1016-635X229____0.6W.fp	3k9	unknown	unknown	Conrad	418323	0.10	unknown	unknown	unknown	
+R251	RES1016-635X229____0.6W.fp	12k	unknown	unknown	Conrad	1417580	0.10	unknown	unknown	unknown	
+C203	CAPPR200-500X1100____.fp	1uF	unknown	unknown	Conrad	445639	0.05	unknown	unknown	160 VDC	
+C253	CAPPR200-500X1100____.fp	1uF	unknown	unknown	Conrad	445639	0.05	unknown	unknown	160 VDC	
+R261	TRIM_Piher_PT-15LH01__.fp	10k	unknown	unknown	Conrad	431230	0.58	unknown	unknown	unknown	
+R260	RES1016-635X229____0.6W.fp	1M	unknown	unknown	Conrad	418617	0.05	unknown	unknown	unknown	
+D253	DIO1016-425X185_Diotec_1N4148_DO35_C1A2.fp	1N4148	unknown	unknown	Conrad	162280	0.05	unknown	unknown	75V 150mA SOD-27	
+D254	DIO1016-425X185_Diotec_1N4148_DO35_C1A2.fp	1N4148	unknown	unknown	Conrad	162280	0.05	unknown	unknown	75V 150mA SOD-27	
+R258	RES1016-635X229____0.6W.fp	15k	unknown	unknown	Conrad	418390	0.10	unknown	unknown	unknown	
+R259	RES1016-635X229____0.6W.fp	1k	unknown	unknown	Conrad	418250	0.05	unknown	unknown	unknown	
+D252	DIO1016-425X185_Diotec_1N4148_DO35_C1A2.fp	1N4148	unknown	unknown	Conrad	162280	0.15	unknown	unknown	75V 150mA SOD-27	
+D251	DIO1016-425X185_Diotec_1N4148_DO35_C1A2.fp	1N4148	unknown	unknown	Conrad	162280	0.15	unknown	unknown	75V 150mA SOD-27	
+R257	RES1016-635X229____0.6W.fp	10k	unknown	unknown	Conrad	418374	0.05	unknown	unknown	unknown	
+R211	TRIM_Piher_PT-15LH01__.fp	10k	unknown	unknown	Conrad	431230	0.58	unknown	unknown	unknown	
+R210	RES1016-635X229____0.6W.fp	1M	unknown	unknown	Conrad	418617	0.05	unknown	unknown	unknown	
+D203	DIO1016-425X185_Diotec_1N4148_DO35_C1A2.fp	1N4148	unknown	unknown	Conrad	162280	0.05	unknown	unknown	75V 150mA SOD-27	
+D204	DIO1016-425X185_Diotec_1N4148_DO35_C1A2.fp	1N4148	unknown	unknown	Conrad	162280	0.05	unknown	unknown	75V 150mA SOD-27	
+R208	RES1016-635X229____0.6W.fp	15k	unknown	unknown	Conrad	418390	0.10	unknown	unknown	unknown	
+R209	RES1016-635X229____0.6W.fp	1k	unknown	unknown	Conrad	418250	0.05	unknown	unknown	unknown	
+D202	DIO1016-425X185_Diotec_1N4148_DO35_C1A2.fp	1N4148	unknown	unknown	Conrad	162280	0.15	unknown	unknown	75V 150mA SOD-27	
+D201	DIO1016-425X185_Diotec_1N4148_DO35_C1A2.fp	1N4148	unknown	unknown	Conrad	162280	0.15	unknown	unknown	75V 150mA SOD-27	
+R207	RES1016-635X229____0.6W.fp	10k	unknown	unknown	Conrad	418374	0.05	unknown	unknown	unknown	
+R204	TRIM_Piher_PT-15LH01__.fp	5k	unknown	unknown	Conrad	431222	0.58	unknown	unknown	unknown	
+R203	RES1016-635X229____0.6W.fp	2k2	unknown	unknown	Conrad	418293	0.05	unknown	unknown	unknown	
+R205	RES1016-635X229____0.6W.fp	120k	unknown	unknown	Conrad	418501	0.10	unknown	unknown	unknown	
+R206	RES1016-635X229____0.6W.fp	22k	unknown	unknown	Conrad	418412	0.05	unknown	unknown	unknown	
+C202	CAPR750-490X750X900____.fp	220nF	unknown	unknown	Conrad	500895	0.21	unknown	unknown	MKT 100 VAC 10%	
+C201	CAPR750-490X750X900____.fp	220nF	unknown	unknown	Conrad	500895	0.21	unknown	unknown	MKT 100 VAC 10%	
+R202	RES1016-635X229____0.6W.fp	2k2	unknown	unknown	Conrad	418293	0.05	unknown	unknown	unknown	
+R201	RES1016-635X229____0.6W.fp	12k	unknown	unknown	Conrad	418382	0.10	unknown	unknown	unknown	
