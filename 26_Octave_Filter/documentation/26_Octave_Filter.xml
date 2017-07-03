@@ -15,7 +15,7 @@
       </affiliation>
     </author>
 
-    <pubdate>20150318</pubdate>
+    <pubdate>20170606</pubdate>
   </bookinfo>
 
   <chapter>
@@ -24,8 +24,8 @@
     <section>
       <title>Description.</title>
 
-      <para>The octave filter is to separate a pre-amplified signal into 10
-      frequency bands.</para>
+      <para>The octave filter is to separate a pre-amplified audio signal into
+      10 frequency bands.</para>
 
       <para>This is done by using band pass filter and detector
       modules.</para>
@@ -538,138 +538,97 @@
   </chapter>
 
   <chapter>
-    <title>Fabrication.</title>
+    <title>Basic Design.</title>
 
     <section>
       <title>Schematic entry.</title>
 
-      <para><table>
-          <title>Schematics.</title>
+      <section>
+        <title>Schematic files.</title>
 
-          <tgroup cols="2">
-            <tbody>
-              <row>
-                <entry>ID</entry>
+        <para><table>
+            <title>Schematic files.</title>
 
-                <entry>Description</entry>
-              </row>
+            <tgroup cols="2">
+              <tbody>
+                <row>
+                  <entry>ID</entry>
 
-              <row>
-                <entry>26.000.00.00.01.sch</entry>
+                  <entry>Description</entry>
+                </row>
 
-                <entry>Octave Filter | front page (cover sheet).</entry>
-              </row>
+                <row>
+                  <entry><ulink
+                  url="26_OCTAVE_FILTER-schematics.pdf">26_OCTAVE_FILTER-schematics.pdf</ulink></entry>
 
-              <row>
-                <entry>26.000.00.01.01.sch</entry>
+                  <entry>Octave Filter | portable document file (all
+                  sheets).</entry>
+                </row>
 
-                <entry>Octave Filter | block diagram.</entry>
-              </row>
+                <row>
+                  <entry><ulink
+                  url="../electrical/gschem/26.000.00.00.01.sch">26.000.00.00.01.sch</ulink></entry>
 
-              <row>
-                <entry>26.000.00.01.02.sch</entry>
+                  <entry>Octave Filter | front page (cover sheet).</entry>
+                </row>
 
-                <entry>Octave Filter | schematic.</entry>
-              </row>
+                <row>
+                  <entry><ulink
+                  url="../electrical/gschem/26.000.00.01.01.sch">26.000.00.01.01.sch</ulink></entry>
 
-              <row>
-                <entry>26.000.00.01.03.sch</entry>
+                  <entry>Octave Filter | block diagram.</entry>
+                </row>
 
-                <entry>Octave Filter 31.5 Hz and 63 Hz module |
-                schematic.</entry>
-              </row>
+                <row>
+                  <entry><ulink
+                  url="../electrical/gschem/26.000.00.01.02.sch">26.000.00.01.02.sch</ulink></entry>
 
-              <row>
-                <entry>26.000.00.01.04.sch</entry>
+                  <entry>Octave Filter | schematic.</entry>
+                </row>
 
-                <entry>Octave Filter 125 Hz and 250 Hz module |
-                schematic.</entry>
-              </row>
+                <row>
+                  <entry><ulink
+                  url="../electrical/gschem/26.000.00.01.03.sch">26.000.00.01.03.sch</ulink></entry>
 
-              <row>
-                <entry>26.000.00.01.05.sch</entry>
+                  <entry>Octave Filter 31.5 Hz and 63 Hz module |
+                  schematic.</entry>
+                </row>
 
-                <entry>Octave Filter 500 Hz and 1 kHz module |
-                schematic.</entry>
-              </row>
+                <row>
+                  <entry><ulink
+                  url="../electrical/gschem/26.000.00.01.04.sch">26.000.00.01.04.sch</ulink></entry>
 
-              <row>
-                <entry>26.000.00.01.06.sch</entry>
+                  <entry>Octave Filter 125 Hz and 250 Hz module |
+                  schematic.</entry>
+                </row>
 
-                <entry>Octave Filter 2 kHz and 4 kHz module |
-                schematic.</entry>
-              </row>
+                <row>
+                  <entry><ulink
+                  url="../electrical/gschem/26.000.00.01.05.sch">26.000.00.01.05.sch</ulink></entry>
 
-              <row>
-                <entry>26.000.00.01.07.sch</entry>
+                  <entry>Octave Filter 500 Hz and 1 kHz module |
+                  schematic.</entry>
+                </row>
 
-                <entry>Octave Filter 8 kHz and 16 kHz module |
-                schematic.</entry>
-              </row>
+                <row>
+                  <entry><ulink
+                  url="../electrical/gschem/26.000.00.01.06.sch">26.000.00.01.06.sch</ulink></entry>
 
-              <row>
-                <entry>26.002.00.01.01.sch</entry>
+                  <entry>Octave Filter 2 kHz and 4 kHz module |
+                  schematic.</entry>
+                </row>
 
-                <entry>Octave Filter front pcb (DFM) | schematic.</entry>
-              </row>
+                <row>
+                  <entry><ulink
+                  url="../electrical/gschem/26.000.00.01.07.sch">26.000.00.01.07.sch</ulink></entry>
 
-              <row>
-                <entry>26.003.00.01.01.sch</entry>
-
-                <entry>Octave Filter main pcb (DFM) | schematic.</entry>
-              </row>
-
-              <row>
-                <entry>26.006.00.01.01.sch</entry>
-
-                <entry>Octave Filter 31.5 Hz and 63 Hz module (DFM - PTH) |
-                schematic.</entry>
-              </row>
-
-              <row>
-                <entry>26.006.00.01.51.sch</entry>
-
-                <entry>Octave Filter 31.5 Hz module (for simulation) |
-                schematic.</entry>
-              </row>
-
-              <row>
-                <entry>26.006.00.01.52.sch</entry>
-
-                <entry>Octave Filter 63 Hz module (for simulation) |
-                schematic.</entry>
-              </row>
-
-              <row>
-                <entry>26.006.00.01.53.sch</entry>
-
-                <entry>Octave Filter 63 Hz module BPF (for simulation) |
-                schematic.</entry>
-              </row>
-
-              <row>
-                <entry>26.006.01.01.01.sch</entry>
-
-                <entry>Octave Filter 31.5 Hz and 63 Hz module (DFM - PTH+SMT)
-                | schematic.</entry>
-              </row>
-
-              <row>
-                <entry>26.007.01.01.01.sch</entry>
-
-                <entry>Octave Filter 125 Hz and 250 Hz module (DFM - PTH+SMT)
-                | schematic.</entry>
-              </row>
-
-              <row>
-                <entry>26.008.01.01.01.sch</entry>
-
-                <entry>Octave Filter 500 Hz and 1 kHz module (DFM - PTH+SMT) |
-                schematic.</entry>
-              </row>
-            </tbody>
-          </tgroup>
-        </table></para>
+                  <entry>Octave Filter 8 kHz and 16 kHz module |
+                  schematic.</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table></para>
+      </section>
 
       <section>
         <title>Design Rule Check.</title>
@@ -686,117 +645,64 @@
                 </row>
 
                 <row>
-                  <entry>26.000.00.00.01.sch.drc</entry>
+                  <entry><ulink
+                  url="../electrical/gschem/DRC/26.000.00.00.01.sch.txt">26.000.00.00.01.sch.txt</ulink></entry>
 
                   <entry>Octave Filter | front page (cover sheet).</entry>
                 </row>
 
                 <row>
-                  <entry>26.000.00.01.01.sch.drc</entry>
+                  <entry><ulink
+                  url="../electrical/gschem/DRC/26.000.00.01.01.sch.txt">26.000.00.01.01.sch.txt</ulink></entry>
 
                   <entry>Octave Filter | block diagram.</entry>
                 </row>
 
                 <row>
-                  <entry>26.000.00.01.02.sch.drc</entry>
+                  <entry><ulink
+                  url="../electrical/gschem/DRC/26.000.00.01.02.sch.txt">26.000.00.01.02.sch.txt</ulink></entry>
 
                   <entry>Octave Filter | schematic.</entry>
                 </row>
 
                 <row>
-                  <entry>26.000.00.01.03.sch.drc</entry>
+                  <entry><ulink
+                  url="../electrical/gschem/DRC/26.000.00.01.03.sch.txt">26.000.00.01.03.sch.txt</ulink></entry>
 
                   <entry>Octave Filter 31.5 Hz and 63 Hz module |
                   schematic.</entry>
                 </row>
 
                 <row>
-                  <entry>26.000.00.01.04.sch.drc</entry>
+                  <entry><ulink
+                  url="../electrical/gschem/DRC/26.000.00.01.04.sch.txt">26.000.00.01.04.sch.txt</ulink></entry>
 
                   <entry>Octave Filter 125 Hz and 250 Hz module |
                   schematic.</entry>
                 </row>
 
                 <row>
-                  <entry>26.000.00.01.05.sch.drc</entry>
+                  <entry><ulink
+                  url="../electrical/gschem/DRC/26.000.00.01.05.sch.txt">26.000.00.01.05.sch.txt</ulink></entry>
 
                   <entry>Octave Filter 500 Hz and 1 kHz module |
                   schematic.</entry>
                 </row>
 
                 <row>
-                  <entry>26.000.00.01.06.sch.drc</entry>
+                  <entry><ulink
+                  url="../electrical/gschem/DRC/26.000.00.01.06.sch.txt">26.000.00.01.06.sch.txt</ulink></entry>
 
                   <entry>Octave Filter 2 kHz and 4 kHz module |
                   schematic.</entry>
                 </row>
 
                 <row>
-                  <entry>26.000.00.01.07.sch.drc</entry>
+                  <entry><ulink
+                  url="../electrical/gschem/DRC/26.000.00.01.07.sch.txt">26.000.00.01.07.sch.txt</ulink></entry>
 
                   <entry>Octave Filter 8 kHz and 16 kHz module |
                   schematic.</entry>
-                </row>
-
-                <row>
-                  <entry>26.002.00.01.01.sch.drc</entry>
-
-                  <entry>Octave Filter front pcb (DFM) | schematic.</entry>
-                </row>
-
-                <row>
-                  <entry>26.003.00.01.01.sch.drc</entry>
-
-                  <entry>Octave Filter main pcb (DFM) | schematic.</entry>
-                </row>
-
-                <row>
-                  <entry>26.006.00.01.01.sch.drc</entry>
-
-                  <entry>Octave Filter 31.5 Hz and 63 Hz module (DFM - PTH) |
-                  schematic.</entry>
-                </row>
-
-                <row>
-                  <entry>26.006.00.01.51.sch.drc</entry>
-
-                  <entry>Octave Filter 31.5 Hz module (for simulation) |
-                  schematic.</entry>
-                </row>
-
-                <row>
-                  <entry>26.006.00.01.52.sch.drc</entry>
-
-                  <entry>Octave Filter 63 Hz module (for simulation) |
-                  schematic.</entry>
-                </row>
-
-                <row>
-                  <entry>26.006.00.01.53.sch.drc</entry>
-
-                  <entry>Octave Filter 63 Hz module BPF (for simulation) |
-                  schematic.</entry>
-                </row>
-
-                <row>
-                  <entry>26.006.01.01.01.sch.drc</entry>
-
-                  <entry>Octave Filter 31.5 Hz and 63 Hz module (DFM -
-                  PTH+SMT) | schematic.</entry>
-                </row>
-
-                <row>
-                  <entry>26.007.01.01.01.sch.drc</entry>
-
-                  <entry>Octave Filter 125 Hz and 250 Hz module (DFM -
-                  PTH+SMT) | schematic.</entry>
-                </row>
-
-                <row>
-                  <entry>26.008.01.01.01.sch.drc</entry>
-
-                  <entry>Octave Filter 500 Hz and 1 kHz module (DFM - PTH+SMT)
-                  | schematic.</entry>
                 </row>
               </tbody>
             </tgroup>
@@ -805,38 +711,202 @@
     </section>
 
     <section>
-      <title>Simulation.</title>
+      <title>Calculations.</title>
 
-      <para>.</para>
+      <para><table>
+          <title>Calculation files.</title>
+
+          <tgroup cols="2">
+            <tbody>
+              <row>
+                <entry>ID</entry>
+
+                <entry>Description</entry>
+              </row>
+
+              <row>
+                <entry><ulink
+                url="../electrical/calculations/LED Series Resistor Calculation.pdf">LED
+                Series Resistor Calculation.pdf</ulink></entry>
+
+                <entry>.</entry>
+              </row>
+
+              <row>
+                <entry><ulink
+                url="../electrical/gschem/26.006.00.01.52.sch">.</ulink></entry>
+
+                <entry>.</entry>
+              </row>
+
+              <row>
+                <entry><ulink
+                url="../electrical/gschem/26.006.00.01.53.sch">.</ulink></entry>
+
+                <entry>.</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table></para>
+    </section>
+
+    <section>
+      <title>Simulations.</title>
 
       <section>
         <title>gnucap simulations.</title>
 
-        <para><table>
-            <title>gnucap files.</title>
+        <section>
+          <title>Schematic entry.</title>
 
-            <tgroup cols="2">
-              <tbody>
-                <row>
-                  <entry>ID</entry>
+          <section>
+            <title>Schematic files.</title>
 
-                  <entry>Description</entry>
-                </row>
+            <para><table>
+                <title>Schematic files.</title>
 
-                <row>
-                  <entry>26.006.00.01.51.ckt</entry>
+                <tgroup cols="2">
+                  <tbody>
+                    <row>
+                      <entry>ID</entry>
 
-                  <entry>31.5 Hz module circuit.</entry>
-                </row>
+                      <entry>Description</entry>
+                    </row>
 
-                <row>
-                  <entry>26.006.00.01.51.gnuplot</entry>
+                    <row>
+                      <entry><ulink
+                      url="../electrical/gschem/26.006.00.01.51.sch">26.006.00.01.51.sch</ulink></entry>
 
-                  <entry>31.5 Hz module circuit.</entry>
-                </row>
-              </tbody>
-            </tgroup>
-          </table></para>
+                      <entry>Octave Filter 31.5 Hz module (for simulation) |
+                      schematic.</entry>
+                    </row>
+
+                    <row>
+                      <entry><ulink
+                      url="../electrical/gschem/26.006.00.01.52.sch">26.006.00.01.52.sch</ulink></entry>
+
+                      <entry>Octave Filter 63 Hz module (for simulation) |
+                      schematic.</entry>
+                    </row>
+
+                    <row>
+                      <entry><ulink
+                      url="../electrical/gschem/26.006.00.01.53.sch">26.006.00.01.53.sch</ulink></entry>
+
+                      <entry>Octave Filter 63 Hz module BPF (for simulation) |
+                      schematic.</entry>
+                    </row>
+                  </tbody>
+                </tgroup>
+              </table></para>
+          </section>
+
+          <section>
+            <title>Design Rule Check.</title>
+
+            <para><table>
+                <title>Schematics DRC reports.</title>
+
+                <tgroup cols="2">
+                  <tbody>
+                    <row>
+                      <entry>ID</entry>
+
+                      <entry>Description</entry>
+                    </row>
+
+                    <row>
+                      <entry><ulink
+                      url="../electrical/gschem/DRC/26.006.00.01.51.sch.txt">26.006.00.01.51.sch.txt</ulink></entry>
+
+                      <entry>Octave Filter 31.5 Hz module (for simulation) |
+                      schematic.</entry>
+                    </row>
+
+                    <row>
+                      <entry><ulink
+                      url="../electrical/gschem/DRC/26.006.00.01.52.sch.txt">26.006.00.01.52.sch.txt</ulink></entry>
+
+                      <entry>Octave Filter 63 Hz module (for simulation) |
+                      schematic.</entry>
+                    </row>
+
+                    <row>
+                      <entry><ulink
+                      url="../electrical/gschem/DRC/26.006.00.01.53.sch.txt">26.006.00.01.53.sch.txt</ulink></entry>
+
+                      <entry>Octave Filter 63 Hz module BPF (for simulation) |
+                      schematic.</entry>
+                    </row>
+                  </tbody>
+                </tgroup>
+              </table></para>
+          </section>
+        </section>
+
+        <section>
+          <title>Input files.</title>
+
+          <para><table>
+              <title>gnucap input files.</title>
+
+              <tgroup cols="2">
+                <tbody>
+                  <row>
+                    <entry>ID</entry>
+
+                    <entry>Description</entry>
+                  </row>
+
+                  <row>
+                    <entry><ulink
+                    url="../electrical/gnucap/26.006.00.01.51.ckt">26.006.00.01.51.ckt</ulink></entry>
+
+                    <entry>31.5 Hz module circuit.</entry>
+                  </row>
+
+                  <row>
+                    <entry><ulink
+                    url="../electrical/gnucap/26.006.00.01.51.gnuplot">26.006.00.01.51.gnuplot</ulink></entry>
+
+                    <entry>31.5 Hz module circuit.</entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table></para>
+        </section>
+
+        <section>
+          <title>Output files.</title>
+
+          <para><table>
+              <title>gnucap output files.</title>
+
+              <tgroup cols="2">
+                <tbody>
+                  <row>
+                    <entry>ID</entry>
+
+                    <entry>Description</entry>
+                  </row>
+
+                  <row>
+                    <entry><ulink
+                    url="../electrical/gnucap/26.006.00.01.51.ckt">26.006.00.01.51.?</ulink></entry>
+
+                    <entry>31.5 Hz module circuit.</entry>
+                  </row>
+
+                  <row>
+                    <entry><ulink
+                    url="../electrical/gnucap/26.006.00.01.51.gnuplot">26.006.00.01.51.??</ulink></entry>
+
+                    <entry>31.5 Hz module circuit.</entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table></para>
+        </section>
       </section>
 
       <section>
@@ -854,7 +924,8 @@
                 </row>
 
                 <row>
-                  <entry>26.006.00.01.60.circuit</entry>
+                  <entry><ulink
+                  url="../electrical/ktechlab/26.006.00.01.61.circuit">26.006.00.01.61.circuit</ulink></entry>
 
                   <entry>31.5 Hz module.</entry>
                 </row>
@@ -862,12 +933,45 @@
             </tgroup>
           </table></para>
       </section>
+    </section>
+
+    <section>
+      <title>Breadboard prototyping.</title>
+
+      <para><table>
+          <title>Fritzing files.</title>
+
+          <tgroup cols="2">
+            <tbody>
+              <row>
+                <entry>ID</entry>
+
+                <entry>Description</entry>
+              </row>
+
+              <row>
+                <entry><ulink
+                url="../electrical/fritzing/26.006.00.01.50.fz">26.006.00.01.50.fz</ulink></entry>
+
+                <entry>31.5 Hz module.</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table></para>
+    </section>
+  </chapter>
+
+  <chapter>
+    <title>Design For Manufacturing.</title>
+
+    <section>
+      <title>Schematic entry.</title>
 
       <section>
-        <title>Breadboard prototyping.</title>
+        <title>Schematic files.</title>
 
         <para><table>
-            <title>Fritzing files.</title>
+            <title>Schematic files.</title>
 
             <tgroup cols="2">
               <tbody>
@@ -878,9 +982,161 @@
                 </row>
 
                 <row>
-                  <entry>26.006.00.01.50.fz</entry>
+                  <entry><ulink
+                  url="../electrical/gschem/26.002.00.01.01.sch">26.002.00.01.01.sch</ulink></entry>
 
-                  <entry>31.5 Hz module.</entry>
+                  <entry>Octave Filter front pcb (DFM) | schematic.</entry>
+                </row>
+
+                <row>
+                  <entry><ulink
+                  url="../electrical/gschem/26.003.00.01.01.sch">26.003.00.01.01.sch</ulink></entry>
+
+                  <entry>Octave Filter main pcb (DFM) | schematic.</entry>
+                </row>
+
+                <row>
+                  <entry><ulink
+                  url="../electrical/gschem/26.006.00.01.01.sch">26.006.00.01.01.sch</ulink></entry>
+
+                  <entry>Octave Filter 31.5 Hz and 63 Hz module (DFM - PTH) |
+                  schematic.</entry>
+                </row>
+
+                <row>
+                  <entry><ulink
+                  url="../electrical/gschem/26.006.00.01.51.sch">26.006.00.01.51.sch</ulink></entry>
+
+                  <entry>Octave Filter 31.5 Hz module (for simulation) |
+                  schematic.</entry>
+                </row>
+
+                <row>
+                  <entry><ulink
+                  url="../electrical/gschem/26.006.00.01.52.sch">26.006.00.01.52.sch</ulink></entry>
+
+                  <entry>Octave Filter 63 Hz module (for simulation) |
+                  schematic.</entry>
+                </row>
+
+                <row>
+                  <entry><ulink
+                  url="../electrical/gschem/26.006.00.01.53.sch">26.006.00.01.53.sch</ulink></entry>
+
+                  <entry>Octave Filter 63 Hz module BPF (for simulation) |
+                  schematic.</entry>
+                </row>
+
+                <row>
+                  <entry><ulink
+                  url="../electrical/gschem/26.006.01.01.01.sch">26.006.01.01.01.sch</ulink></entry>
+
+                  <entry>Octave Filter 31.5 Hz and 63 Hz module (DFM -
+                  PTH+SMT) | schematic.</entry>
+                </row>
+
+                <row>
+                  <entry><ulink
+                  url="../electrical/gschem/26.007.01.01.01.sch">26.007.01.01.01.sch</ulink></entry>
+
+                  <entry>Octave Filter 125 Hz and 250 Hz module (DFM -
+                  PTH+SMT) | schematic.</entry>
+                </row>
+
+                <row>
+                  <entry><ulink
+                  url="../electrical/gschem/26.008.01.01.01.sch">26.008.01.01.01.sch</ulink></entry>
+
+                  <entry>Octave Filter 500 Hz and 1 kHz module (DFM - PTH+SMT)
+                  | schematic.</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table></para>
+      </section>
+
+      <section>
+        <title>Design Rule Check.</title>
+
+        <para><table>
+            <title>Schematics DRC reports.</title>
+
+            <tgroup cols="2">
+              <tbody>
+                <row>
+                  <entry>ID</entry>
+
+                  <entry>Description</entry>
+                </row>
+
+                <row>
+                  <entry><ulink
+                  url="../electrical/gschem/DRC/26.002.00.01.01.sch.txt">26.002.00.01.01.sch.txt</ulink></entry>
+
+                  <entry>Octave Filter front pcb (DFM) | schematic.</entry>
+                </row>
+
+                <row>
+                  <entry><ulink
+                  url="../electrical/gschem/DRC/26.003.00.01.01.sch.txt">26.003.00.01.01.sch.txt</ulink></entry>
+
+                  <entry>Octave Filter main pcb (DFM) | schematic.</entry>
+                </row>
+
+                <row>
+                  <entry><ulink
+                  url="../electrical/gschem/DRC/26.006.00.01.01.sch.txt">26.006.00.01.01.sch.txt</ulink></entry>
+
+                  <entry>Octave Filter 31.5 Hz and 63 Hz module (DFM - PTH) |
+                  schematic.</entry>
+                </row>
+
+                <row>
+                  <entry><ulink
+                  url="../electrical/gschem/DRC/26.006.00.01.51.sch.txt">26.006.00.01.51.sch.txt</ulink></entry>
+
+                  <entry>Octave Filter 31.5 Hz module (for simulation) |
+                  schematic.</entry>
+                </row>
+
+                <row>
+                  <entry><ulink
+                  url="../electrical/gschem/DRC/26.006.00.01.52.sch.txt">26.006.00.01.52.sch.txt</ulink></entry>
+
+                  <entry>Octave Filter 63 Hz module (for simulation) |
+                  schematic.</entry>
+                </row>
+
+                <row>
+                  <entry><ulink
+                  url="../electrical/gschem/DRC/26.006.00.01.53.sch.txt">26.006.00.01.53.sch.txt</ulink></entry>
+
+                  <entry>Octave Filter 63 Hz module BPF (for simulation) |
+                  schematic.</entry>
+                </row>
+
+                <row>
+                  <entry><ulink
+                  url="../electrical/gschem/DRC/26.006.01.01.01.sch.txt">26.006.01.01.01.sch.txt</ulink></entry>
+
+                  <entry>Octave Filter 31.5 Hz and 63 Hz module (DFM -
+                  PTH+SMT) | schematic.</entry>
+                </row>
+
+                <row>
+                  <entry><ulink
+                  url="../electrical/gschem/DRC/26.007.01.01.01.sch.txt">26.007.01.01.01.sch.txt</ulink></entry>
+
+                  <entry>Octave Filter 125 Hz and 250 Hz module (DFM -
+                  PTH+SMT) | schematic.</entry>
+                </row>
+
+                <row>
+                  <entry><ulink
+                  url="../electrical/gschem/DRC/26.008.01.01.01.sch.txt">26.008.01.01.01.sch.txt</ulink></entry>
+
+                  <entry>Octave Filter 500 Hz and 1 kHz module (DFM - PTH+SMT)
+                  | schematic.</entry>
                 </row>
               </tbody>
             </tgroup>
@@ -892,58 +1148,10 @@
       <title>Netlists.</title>
 
       <section>
-        <title>gsch2pcb project files.</title>
+        <title>Connectivity for the pcb layout editor.</title>
 
         <para><table>
-            <title>Project files.</title>
-
-            <tgroup cols="2">
-              <tbody>
-                <row>
-                  <entry>ID</entry>
-
-                  <entry>Description</entry>
-                </row>
-
-                <row>
-                  <entry>26.002.00.01.01.gsch2pcb</entry>
-
-                  <entry>Front pcb layout.</entry>
-                </row>
-
-                <row>
-                  <entry>26.003.00.01.01.gsch2pcb</entry>
-
-                  <entry>Main pcb layout.</entry>
-                </row>
-
-                <row>
-                  <entry>26.006.00.01.01.gsch2pcb</entry>
-
-                  <entry>31.5 Hz + 63 Hz Filter module pcb layout PTH.</entry>
-                </row>
-
-                <row>
-                  <entry>26.006.01.01.01.gsch2pcb</entry>
-
-                  <entry>31.5 Hz + 63 Hz Filter module pcb layout SMT.</entry>
-                </row>
-
-                <row>
-                  <entry>26.007.01.01.01.gsch2pcb</entry>
-
-                  <entry>125 Hz + 250 Hz Filter module pcb layout SMT.</entry>
-                </row>
-              </tbody>
-            </tgroup>
-          </table></para>
-      </section>
-
-      <section>
-        <title>Connectivity for pcb layout.</title>
-
-        <para><table>
-            <title>Netlist and pin renaming.</title>
+            <title>Netlists.</title>
 
             <tgroup cols="2">
               <tbody>
@@ -960,15 +1168,33 @@
                 </row>
 
                 <row>
-                  <entry>26.002.00.01.01.pins</entry>
-
-                  <entry>Front pcb layout netlist pin renaming script.</entry>
-                </row>
-
-                <row>
                   <entry>26.003.00.01.01.net</entry>
 
                   <entry>Main pcb layout netlist.</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table></para>
+      </section>
+
+      <section>
+        <title>Pin renaming for the pcb layout editor.</title>
+
+        <para><table>
+            <title>Pin renaming scripts.</title>
+
+            <tgroup cols="2">
+              <tbody>
+                <row>
+                  <entry>ID</entry>
+
+                  <entry>Description</entry>
+                </row>
+
+                <row>
+                  <entry>26.002.00.01.01.pins</entry>
+
+                  <entry>Front pcb layout netlist pin renaming script.</entry>
                 </row>
 
                 <row>
@@ -1019,57 +1245,13 @@
     </section>
 
     <section>
-      <title>PCB layouts.</title>
-
-      <para><table>
-          <title>Printed circuit boards.</title>
-
-          <tgroup cols="2">
-            <tbody>
-              <row>
-                <entry>ID</entry>
-
-                <entry>Description</entry>
-              </row>
-
-              <row>
-                <entry>26.002.00.01.01.pcb</entry>
-
-                <entry>Front pcb layout.</entry>
-              </row>
-
-              <row>
-                <entry>26.003.00.01.01.pcb</entry>
-
-                <entry>Main pcb layout.</entry>
-              </row>
-
-              <row>
-                <entry>26.006.00.01.01.pcb</entry>
-
-                <entry>31.5 Hz + 63 Hz Filter module pcb layout PTH.</entry>
-              </row>
-
-              <row>
-                <entry>26.006.01.01.01.pcb</entry>
-
-                <entry>31.5 Hz + 63 Hz Filter module pcb layout SMT.</entry>
-              </row>
-
-              <row>
-                <entry>26.007.01.01.01.pcb</entry>
-
-                <entry>125 Hz + 250 Hz Filter module pcb layout SMT.</entry>
-              </row>
-            </tbody>
-          </tgroup>
-        </table></para>
+      <title>Printed Circuit Board design.</title>
 
       <section>
-        <title>Eye-candy.</title>
+        <title>Layout files.</title>
 
         <para><table>
-            <title>Pictures.</title>
+            <title>Layout files.</title>
 
             <tgroup cols="2">
               <tbody>
@@ -1080,71 +1262,66 @@
                 </row>
 
                 <row>
-                  <entry>26.002.00.01.01.pcb.bottom.png</entry>
+                  <entry><ulink
+                  url="../electrical/pcb/26.002.00.01.01.pcb">26.001.00.01.01.pcb</ulink></entry>
 
-                  <entry>Front pcb layout 300 DPI rendered (bottom
-                  view).</entry>
+                  <entry>Front panel layout.</entry>
                 </row>
 
                 <row>
-                  <entry>26.002.00.01.01.pcb.top.png</entry>
+                  <entry><ulink
+                  url="../electrical/pcb/26.002.00.01.01.pcb">26.002.00.01.01.pcb</ulink></entry>
 
-                  <entry>Front pcb layout 300 DPI rendered (top view).</entry>
+                  <entry>Front pcb layout.</entry>
                 </row>
 
                 <row>
-                  <entry>26.002.00.01.01.pcb.bottom.png</entry>
+                  <entry><ulink
+                  url="../electrical/pcb/26.003.00.01.01.pcb">26.003.00.01.01.pcb</ulink></entry>
 
-                  <entry>Main pcb layout 300 DPI rendered (bottom
-                  view).</entry>
+                  <entry>Main pcb layout.</entry>
                 </row>
 
                 <row>
-                  <entry>26.002.00.01.01.pcb.top.png</entry>
+                  <entry><ulink
+                  url="../electrical/pcb/26.006.00.01.01.pcb">26.006.00.01.01.pcb</ulink></entry>
 
-                  <entry>Main pcb layout 300 DPI rendered (top view).</entry>
+                  <entry>31.5 Hz + 63 Hz Filter module pcb layout PTH.</entry>
                 </row>
 
                 <row>
-                  <entry>26.006.00.01.01.bottom.png</entry>
+                  <entry><ulink
+                  url="../electrical/pcb/26.006.01.01.01.pcb">26.006.01.01.01.pcb</ulink></entry>
 
-                  <entry>31.5 Hz and 63 Hz module pcb layout 300 DPI rendered
-                  (bottom view).</entry>
+                  <entry>31.5 Hz + 63 Hz Filter module pcb layout SMT.</entry>
                 </row>
 
                 <row>
-                  <entry>26.006.00.01.01.top.png</entry>
+                  <entry><ulink
+                  url="../electrical/pcb/26.007.01.01.01.pcb">26.007.01.01.01.pcb</ulink></entry>
 
-                  <entry>31.5 Hz and 63 Hz module pcb layout 300 DPI rendered
-                  (top view).</entry>
+                  <entry>125 Hz + 250 Hz Filter module pcb layout SMT.</entry>
                 </row>
 
                 <row>
-                  <entry>26.006.01.01.01.bottom.png</entry>
+                  <entry><ulink
+                  url="../electrical/pcb/26.008.01.01.01.pcb">26.008.01.01.01.pcb</ulink></entry>
 
-                  <entry>31.5 Hz and 63 Hz module pcb layout 300 DPI rendered
-                  (bottom view).</entry>
+                  <entry>500 Hz + 1 kHz Filter module pcb layout SMT.</entry>
                 </row>
 
                 <row>
-                  <entry>26.006.01.01.01.top.png</entry>
+                  <entry><ulink
+                  url="../electrical/pcb/26.009.01.01.01.pcb">26.009.01.01.01.pcb</ulink></entry>
 
-                  <entry>31.5 Hz and 63 Hz module pcb layout 300 DPI rendered
-                  (top view).</entry>
+                  <entry>2 kHz + 4 kHz Filter module pcb layout SMT.</entry>
                 </row>
 
                 <row>
-                  <entry>26.007.01.01.01.bottom.png</entry>
+                  <entry><ulink
+                  url="../electrical/pcb/26.010.01.01.01.pcb">26.010.01.01.01.pcb</ulink></entry>
 
-                  <entry>125 Hz and 250 Hz module pcb layout 300 DPI rendered
-                  (bottom view).</entry>
-                </row>
-
-                <row>
-                  <entry>26.007.01.01.01.top.png</entry>
-
-                  <entry>125 Hz and 250 Hz module pcb layout 300 DPI rendered
-                  (top view).</entry>
+                  <entry>8 kHz + 16 kHz Filter module pcb layout SMT.</entry>
                 </row>
               </tbody>
             </tgroup>
@@ -1152,10 +1329,128 @@
       </section>
 
       <section>
+        <title>Visual Testing files.</title>
+
+        <para><table>
+            <title>Visual Testing files.</title>
+
+            <tgroup cols="2">
+              <tbody>
+                <row>
+                  <entry>ID</entry>
+
+                  <entry>Description</entry>
+                </row>
+
+                <row>
+                  <entry><ulink
+                  url="../electrical/pcb/eyecandy/26.001.00.01.01.pcb.top.png">26.001.00.01.01.pcb.top.png</ulink></entry>
+
+                  <entry>Front panel layout 600 DPI rendered (top
+                  view).</entry>
+                </row>
+
+                <row>
+                  <entry><ulink
+                  url="../electrical/pcb/eyecandy/26.001.00.01.01.pcb.bottom.png">26.001.00.01.01.pcb.bottom.png</ulink></entry>
+
+                  <entry>Front panel layout 600 DPI rendered (bottom
+                  view).</entry>
+                </row>
+
+                <row>
+                  <entry><ulink
+                  url="../electrical/pcb/eyecandy/26.002.00.01.01.pcb.top.png">26.002.00.01.01.pcb.top.png</ulink></entry>
+
+                  <entry>Front pcb layout 600 DPI rendered (top view).</entry>
+                </row>
+
+                <row>
+                  <entry><ulink
+                  url="../electrical/pcb/eyecandy/26.002.00.01.01.pcb.bottom.png">26.002.00.01.01.pcb.bottom.png</ulink></entry>
+
+                  <entry>Front pcb layout 600 DPI rendered (bottom
+                  view).</entry>
+                </row>
+
+                <row>
+                  <entry><ulink
+                  url="../electrical/pcb/eyecandy/26.003.00.01.01.pcb.top.png">26.003.00.01.01.pcb.top.png</ulink></entry>
+
+                  <entry>Main pcb layout 600 DPI rendered (top view).</entry>
+                </row>
+
+                <row>
+                  <entry><ulink
+                  url="../electrical/pcb/eyecandy/26.003.00.01.01.pcb.bottom.png">26.003.00.01.01.pcb.bottom.png</ulink></entry>
+
+                  <entry>Main pcb layout 600 DPI rendered (bottom
+                  view).</entry>
+                </row>
+
+                <row>
+                  <entry><ulink
+                  url="../electrical/pcb/eyecandy/26.006.00.01.01.pcb.top.png">26.006.00.01.01.top.png</ulink></entry>
+
+                  <entry>31.5 Hz and 63 Hz module pcb layout 600 DPI rendered
+                  (top view).</entry>
+                </row>
+
+                <row>
+                  <entry><ulink
+                  url="../electrical/pcb/eyecandy/26.006.00.01.01.pcb.bottom.png">26.006.00.01.01.bottom.png</ulink></entry>
+
+                  <entry>31.5 Hz and 63 Hz module pcb layout 600 DPI rendered
+                  (bottom view).</entry>
+                </row>
+
+                <row>
+                  <entry><ulink
+                  url="../electrical/pcb/eyecandy/26.006.01.01.01.pcb.top.png">26.006.01.01.01.top.png</ulink></entry>
+
+                  <entry>31.5 Hz and 63 Hz module pcb layout 600 DPI rendered
+                  (top view).</entry>
+                </row>
+
+                <row>
+                  <entry><ulink
+                  url="../electrical/pcb/eyecandy/26.006.01.01.01.pcb.bottom.png">26.006.01.01.01.bottom.png</ulink></entry>
+
+                  <entry>31.5 Hz and 63 Hz module pcb layout 600 DPI rendered
+                  (bottom view).</entry>
+                </row>
+
+                <row>
+                  <entry><ulink
+                  url="../electrical/pcb/eyecandy/26.007.01.01.01.pcb.top.png">26.007.01.01.01.top.png</ulink></entry>
+
+                  <entry>125 Hz and 250 Hz module pcb layout 600 DPI rendered
+                  (top view).</entry>
+                </row>
+
+                <row>
+                  <entry><ulink
+                  url="../electrical/pcb/eyecandy/26.007.01.01.01.pcb.bottom.png">26.007.01.01.01.bottom.png</ulink></entry>
+
+                  <entry>125 Hz and 250 Hz module pcb layout 600 DPI rendered
+                  (bottom view).</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table></para>
+      </section>
+
+      <section>
+        <title>Design Rules Check.</title>
+
+        <para>&lt;reports go here&gt;</para>
+      </section>
+
+      <section>
         <title>Gerber files.</title>
 
         <para><table>
-            <title>Front pcb layout (PTH).</title>
+            <title>Gerber viewer project files.</title>
 
             <tgroup cols="2">
               <tbody>
@@ -1166,329 +1461,45 @@
                 </row>
 
                 <row>
-                  <entry>26.002.00.01.01.gvp</entry>
+                  <entry><ulink
+                  url="../electrical/pcb/fab/26.001.00.01.01.gvp">26.001.00.01.01.gvp</ulink></entry>
 
-                  <entry>Gerber viewer project file.</entry>
+                  <entry>Front panel layout.</entry>
                 </row>
 
                 <row>
-                  <entry>26.002.00.01.01.back.gbr</entry>
+                  <entry><ulink
+                  url="../electrical/pcb/fab/26.002.00.01.01.gvp">26.002.00.01.01.gvp</ulink></entry>
 
-                  <entry>Back copper.</entry>
+                  <entry>Front pcb layout.</entry>
                 </row>
 
                 <row>
-                  <entry>26.002.00.01.01.backmask.gbr</entry>
+                  <entry><ulink
+                  url="../electrical/pcb/fab/26.003.00.01.01.gvp">26.003.00.01.01.gvp</ulink></entry>
 
-                  <entry>Back soldermask.</entry>
+                  <entry>Main pcb layout.</entry>
                 </row>
 
                 <row>
-                  <entry>26.002.00.01.01.fab.gbr</entry>
+                  <entry><ulink
+                  url="../electrical/pcb/fab/26.006.00.01.01.gvp">26.006.00.01.01.gvp</ulink></entry>
 
-                  <entry>Fabrication drawing.</entry>
+                  <entry>31.5 Hz and 63 Hz module pcb layout.</entry>
                 </row>
 
                 <row>
-                  <entry>26.002.00.01.01.front.gbr</entry>
+                  <entry><ulink
+                  url="../electrical/pcb/fab/26.006.01.01.01.gvp">26.006.01.01.01.gvp</ulink></entry>
 
-                  <entry>Front copper.</entry>
+                  <entry>31.5 Hz and 63 Hz module pcb layout.</entry>
                 </row>
 
                 <row>
-                  <entry>26.002.00.01.01.frontsilk.gbr</entry>
+                  <entry><ulink
+                  url="../electrical/pcb/fab/26.007.01.01.01.gvp">26.007.01.01.01.gvp</ulink></entry>
 
-                  <entry>Front silkscreen.</entry>
-                </row>
-
-                <row>
-                  <entry>26.002.00.01.01.outline.gbr</entry>
-
-                  <entry>Board outline.</entry>
-                </row>
-
-                <row>
-                  <entry>26.002.00.01.01.plated-drill.cnc</entry>
-
-                  <entry>Plated throuh holes.</entry>
-                </row>
-
-                <row>
-                  <entry>26.002.00.01.01.unplated-drill.cnc</entry>
-
-                  <entry>Non plated holes.</entry>
-                </row>
-              </tbody>
-            </tgroup>
-          </table></para>
-
-        <para><table>
-            <title>Main pcb layout (PTH).</title>
-
-            <tgroup cols="2">
-              <tbody>
-                <row>
-                  <entry>ID</entry>
-
-                  <entry>Description</entry>
-                </row>
-
-                <row>
-                  <entry>26.003.00.01.01.gvp</entry>
-
-                  <entry>Gerber viewer project file.</entry>
-                </row>
-
-                <row>
-                  <entry>26.003.00.01.01.back.gbr</entry>
-
-                  <entry>Back copper.</entry>
-                </row>
-
-                <row>
-                  <entry>26.003.00.01.01.backmask.gbr</entry>
-
-                  <entry>Back soldermask.</entry>
-                </row>
-
-                <row>
-                  <entry>26.003.00.01.01.fab.gbr</entry>
-
-                  <entry>Fabrication drawing.</entry>
-                </row>
-
-                <row>
-                  <entry>26.003.00.01.01.front.gbr</entry>
-
-                  <entry>Front copper.</entry>
-                </row>
-
-                <row>
-                  <entry>26.003.00.01.01.frontsilk.gbr</entry>
-
-                  <entry>Front silkscreen.</entry>
-                </row>
-
-                <row>
-                  <entry>26.003.00.01.01.outline.gbr</entry>
-
-                  <entry>Board outline.</entry>
-                </row>
-
-                <row>
-                  <entry>26.003.00.01.01.plated-drill.cnc</entry>
-
-                  <entry>Plated throuh holes.</entry>
-                </row>
-
-                <row>
-                  <entry>26.003.00.01.01.unplated-drill.cnc</entry>
-
-                  <entry>Non plated holes.</entry>
-                </row>
-              </tbody>
-            </tgroup>
-          </table></para>
-
-        <para><table>
-            <title>31.5 Hz and 63 Hz module pcb layout (PTH).</title>
-
-            <tgroup cols="2">
-              <tbody>
-                <row>
-                  <entry>ID</entry>
-
-                  <entry>Description</entry>
-                </row>
-
-                <row>
-                  <entry>26.006.00.01.01.gvp</entry>
-
-                  <entry>Gerber viewer project file.</entry>
-                </row>
-
-                <row>
-                  <entry>26.006.00.01.01.back.gbr</entry>
-
-                  <entry>Back copper.</entry>
-                </row>
-
-                <row>
-                  <entry>26.006.00.01.01.backmask.gbr</entry>
-
-                  <entry>Back soldermask.</entry>
-                </row>
-
-                <row>
-                  <entry>26.006.00.01.01.fab.gbr</entry>
-
-                  <entry>Fabrication drawing.</entry>
-                </row>
-
-                <row>
-                  <entry>26.006.00.01.01.front.gbr</entry>
-
-                  <entry>Front copper.</entry>
-                </row>
-
-                <row>
-                  <entry>26.006.00.01.01.frontsilk.gbr</entry>
-
-                  <entry>Front silkscreen.</entry>
-                </row>
-
-                <row>
-                  <entry>26.006.00.01.01.outline.gbr</entry>
-
-                  <entry>Board outline.</entry>
-                </row>
-
-                <row>
-                  <entry>26.006.00.01.01.plated-drill.cnc</entry>
-
-                  <entry>Plated throuh holes.</entry>
-                </row>
-
-                <row>
-                  <entry>26.006.00.01.01.unplated-drill.cnc</entry>
-
-                  <entry>Non plated holes.</entry>
-                </row>
-              </tbody>
-            </tgroup>
-          </table></para>
-
-        <para><table>
-            <title>31.5 Hz and 63 Hz module pcb layout (PTH+SMT).</title>
-
-            <tgroup cols="2">
-              <tbody>
-                <row>
-                  <entry>ID</entry>
-
-                  <entry>Description</entry>
-                </row>
-
-                <row>
-                  <entry>26.006.01.01.01.gvp</entry>
-
-                  <entry>Gerber viewer project file.</entry>
-                </row>
-
-                <row>
-                  <entry>26.006.01.01.01.back.gbr</entry>
-
-                  <entry>Back copper.</entry>
-                </row>
-
-                <row>
-                  <entry>26.006.01.01.01.backmask.gbr</entry>
-
-                  <entry>Back soldermask.</entry>
-                </row>
-
-                <row>
-                  <entry>26.006.01.01.01.fab.gbr</entry>
-
-                  <entry>Fabrication drawing.</entry>
-                </row>
-
-                <row>
-                  <entry>26.006.01.01.01.front.gbr</entry>
-
-                  <entry>Front copper.</entry>
-                </row>
-
-                <row>
-                  <entry>26.006.01.01.01.frontsilk.gbr</entry>
-
-                  <entry>Front silkscreen.</entry>
-                </row>
-
-                <row>
-                  <entry>26.006.01.01.01.outline.gbr</entry>
-
-                  <entry>Board outline.</entry>
-                </row>
-
-                <row>
-                  <entry>26.006.01.01.01.plated-drill.cnc</entry>
-
-                  <entry>Plated throuh holes.</entry>
-                </row>
-
-                <row>
-                  <entry>26.006.01.01.01.unplated-drill.cnc</entry>
-
-                  <entry>Non plated holes.</entry>
-                </row>
-              </tbody>
-            </tgroup>
-          </table></para>
-
-        <para><table>
-            <title>125 Hz and 250 Hz module pcb layout (SMT).</title>
-
-            <tgroup cols="2">
-              <tbody>
-                <row>
-                  <entry>ID</entry>
-
-                  <entry>Description</entry>
-                </row>
-
-                <row>
-                  <entry>26.007.01.01.01.gvp</entry>
-
-                  <entry>Gerber viewer project file.</entry>
-                </row>
-
-                <row>
-                  <entry>26.007.01.01.01.back.gbr</entry>
-
-                  <entry>Back copper.</entry>
-                </row>
-
-                <row>
-                  <entry>26.007.01.01.01.backmask.gbr</entry>
-
-                  <entry>Back soldermask.</entry>
-                </row>
-
-                <row>
-                  <entry>26.007.01.01.01.fab.gbr</entry>
-
-                  <entry>Fabrication drawing.</entry>
-                </row>
-
-                <row>
-                  <entry>26.007.01.01.01.front.gbr</entry>
-
-                  <entry>Front copper.</entry>
-                </row>
-
-                <row>
-                  <entry>26.007.01.01.01.frontsilk.gbr</entry>
-
-                  <entry>Front silkscreen.</entry>
-                </row>
-
-                <row>
-                  <entry>26.007.01.01.01.outline.gbr</entry>
-
-                  <entry>Board outline.</entry>
-                </row>
-
-                <row>
-                  <entry>26.007.01.01.01.plated-drill.cnc</entry>
-
-                  <entry>Plated throuh holes.</entry>
-                </row>
-
-                <row>
-                  <entry>26.007.01.01.01.unplated-drill.cnc</entry>
-
-                  <entry>Non plated holes.</entry>
+                  <entry>125 Hz and 250 Hz module pcb layout.</entry>
                 </row>
               </tbody>
             </tgroup>
@@ -1545,31 +1556,9 @@
             </tgroup>
           </table></para>
       </section>
-    </section>
-
-    <section>
-      <title>Board manufacturing.</title>
 
       <section>
-        <title>Quotations.</title>
-
-        <para>.</para>
-      </section>
-
-      <section>
-        <title>Orders.</title>
-
-        <para>.</para>
-      </section>
-    </section>
-
-    <section>
-      <title>Board assembly.</title>
-
-      <para>.</para>
-
-      <section>
-        <title>Pick-and-Place.</title>
+        <title>Pick-and-Place files.</title>
 
         <para><table>
             <title>Pick-and-Place.</title>
@@ -1618,11 +1607,110 @@
             </tgroup>
           </table></para>
       </section>
+
+      <section>
+        <title>IPC-D-356 netlist files.</title>
+
+        <para><table>
+            <title>IPC-D-356 netlist files.</title>
+
+            <tgroup cols="2">
+              <tbody>
+                <row>
+                  <entry>ID</entry>
+
+                  <entry>Description</entry>
+                </row>
+
+                <row>
+                  <entry>26.002.00.01.01.net</entry>
+
+                  <entry>Front pcb layout.</entry>
+                </row>
+
+                <row>
+                  <entry>26.003.00.01.01.net</entry>
+
+                  <entry>Main pcb layout.</entry>
+                </row>
+
+                <row>
+                  <entry>26.006.00.01.01.net</entry>
+
+                  <entry>31.5 Hz + 63 Hz Filter module pcb layout
+                  (PTH).</entry>
+                </row>
+
+                <row>
+                  <entry>26.006.01.01.01.net</entry>
+
+                  <entry>31.5 Hz + 63 Hz Filter module pcb layout
+                  (SMT).</entry>
+                </row>
+
+                <row>
+                  <entry>26.007.01.01.01.net</entry>
+
+                  <entry>125 Hz + 250 Hz Filter module pcb layout
+                  (SMT).</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table></para>
+      </section>
     </section>
   </chapter>
 
   <chapter>
-    <title>Testing.</title>
+    <title>Manufacturing.</title>
+
+    <section>
+      <title>Printed Circuit Board.</title>
+
+      <section>
+        <title>Quotations.</title>
+
+        <para>.</para>
+      </section>
+
+      <section>
+        <title>Purchase Orders.</title>
+
+        <para>.</para>
+      </section>
+
+      <section>
+        <title>QA/QC Testing.</title>
+
+        <para>.</para>
+      </section>
+    </section>
+
+    <section>
+      <title>Printed Circuit Assembly.</title>
+
+      <section>
+        <title>Quotations.</title>
+
+        <para>.</para>
+      </section>
+
+      <section>
+        <title>Purchase Orders.</title>
+
+        <para>.</para>
+      </section>
+
+      <section>
+        <title>QA/QC Testing.</title>
+
+        <para>.</para>
+      </section>
+    </section>
+  </chapter>
+
+  <chapter>
+    <title>Testing and Test Records.</title>
 
     <para>.</para>
   </chapter>
